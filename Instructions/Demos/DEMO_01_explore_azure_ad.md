@@ -1,12 +1,17 @@
 ---
 Demo:
-    title: 'Benutzereinstellungen von Azure Active Directory'
-    module: 'Modul 2, Lektion 1: Beschreiben der Funktionen von Identitäts- und Zugriffsverwaltungslösungen von Microsoft: Erkunden der Dienste und Identitätstypen von Azure AD'
+  title: Benutzereinstellungen von Azure Active Directory
+  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
+ms.openlocfilehash: 755c16992ea1b9a626850507dbebf270dbe7c0de
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893943"
 ---
+# <a name="demo-azure-active-directory-user-settings"></a>Demo: Benutzereinstellungen von Azure Active Directory
 
-# Demo: Benutzereinstellungen von Azure Active Directory
-
-### Demoszenario
+### <a name="demo-scenario"></a>Demoszenario
 
 In dieser Demo greifen Sie auf Azure Active Directory zu und gehen die verschiedenen Einstellungen für einen bestehenden Benutzer durch.
 
@@ -36,10 +41,10 @@ In dieser Demo greifen Sie auf Azure Active Directory zu und gehen die verschied
 
 1. Wählen Sie im linken Navigationsbereich **Anmeldungen** aus.  Hier können Sie Anmeldeaktivitäten dieses Benutzers sehen.  Bei dieser Benutzerin wird möglicherweise nichts angezeigt, da sie sich noch nicht angemeldet hat.
 
-1. Wählen Sie oben rechts auf der Seite das **X** aus. Daraufhin wird wieder die Benutzerliste angezeigt.  Bevor Sie die Benutzerliste schließen, können Sie hervorheben, dass oben auf der Seite MFA angezeigt wird.  Wählen Sie **Mehrstufige Authentifizierung** aus.  Dadurch wird ein neues Browserfenster geöffnet.  Hier können Sie MFA für mehrere Benutzer auswählen.  Dies ist eine Möglichkeit, MFA für Benutzer zu aktivieren.  Im Zusammenhang mit dem bedingten Zugriff, der eine detailliertere Steuerung von MFA erlaubt, werden wir noch näher auf MFA eingehen.  Schließen Sie die Browserregisterkarte für die mehrstufige Authentifizierung.
+1. Wählen Sie oben rechts auf der Seite das **X** aus. Daraufhin wird wieder die Benutzerliste angezeigt.  Bevor Sie die Benutzerliste schließen, können Sie hervorheben, dass oben auf der Seite MFA angezeigt wird.  Wählen Sie **Multi-Factor Authentication** aus.  Dadurch wird ein neues Browserfenster geöffnet.  Hier können Sie MFA für mehrere Benutzer auswählen.  Dies ist eine Möglichkeit, MFA für Benutzer zu aktivieren.  Im Zusammenhang mit dem bedingten Zugriff, der eine detailliertere Steuerung von MFA erlaubt, werden wir noch näher auf MFA eingehen.  Schließen Sie die Browserregisterkarte für die mehrstufige Authentifizierung.
 
 1. Wählen Sie oben rechts auf der Seite das **X** aus. Daraufhin wird wieder die Hauptseite für den Contoso-Mandanten angezeigt.
 
-### Überprüfung
+### <a name="review"></a>Überprüfung
 
 In dieser Demo sind Sie die Einstellungen eines bestehenden Benutzers durchgegangen. Dazu zählen Gruppen, denen der Benutzer zugewiesen werden kann, die Verfügbarkeit von Rollen und die Zuweisung von Benutzerlizenzen.
