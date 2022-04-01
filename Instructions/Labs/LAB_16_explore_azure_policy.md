@@ -1,37 +1,41 @@
 ---
 lab:
-    title: 'Erkunden von Azure Policy'
-    module: 'Modul 4, Lektion 5: Beschreiben der Funktionen der Microsoft-Compliancelösungen: Beschreiben von Azure Policy'
+  title: Umgehen mit Azure Policy
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: b202e4b7dadc2fdadec4ac2df7aa6bcee7400b6b
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893935"
 ---
+# <a name="lab-explore-azure-policy"></a>Lab: Umgehen mit Azure Policy
+
+## <a name="lab-scenario"></a>Labszenario
+Azure Policy hilft bei der Durchsetzung von Organisationsstandards und bei der Bewertung der Compliance nach Bedarf. Azure Policy wertet Ressourcen in Azure aus, indem die Eigenschaften dieser Ressourcen mit Geschäftsregeln verglichen werden. In diesem Lab erkunden Sie zunächst die Landing Page von Azure Policy. Nach der anfänglichen Erkundung der Azure Policy-Seite erstellen Sie eine Richtlinie und erfahren, wie sich diese Richtlinie auswirkt.
 
 
-# Lab: Erkunden von Azure Policy
+**Geschätzte Dauer**: 20 bis 25 Minuten
 
-## Labszenario
-Azure Policy unterstützt das Erzwingen von Organisationsstandards und die Bewertung von Compliance im richtigen Maßstab. Azure Policy wertet Ressourcen in Azure aus, indem die Eigenschaften dieser Ressourcen mit Geschäftsregeln verglichen werden. In diesem Lab erkunden Sie zunächst die Landing Page von Azure Policy. Nach der anfänglichen Erkundung der Azure Policy-Seite erstellen Sie eine Richtlinie und erfahren, wie sich diese Richtlinie auswirkt.
-
-
-**Geschätzte Dauer**: 20–25 Minuten
-
-#### Aufgabe 1: Erkunden Sie kurz die Azure Policy-Seite.
+#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>Aufgabe 1: Erkunden Sie kurz die Azure Policy-Seite.
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **portal.microsoft.com** in die Adressleiste ein.
 
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
     
-    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden** aus.
+    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
 1. Sie befinden sich nun im Azure-Portal.  Geben Sie in das Suchfeld, das sich auf dem blauen Balken oben auf der Seite neben dem Text „Microsoft Azure“ befindet, den Text **Richtlinie** ein, und wählen Sie dann **Richtlinie** aus den Suchergebnissen aus. Dadurch wird die Azure Policy-Homepage geöffnet, die eine Dashboard-Ansicht bereitstellt.  Der Geltungsbereich, für den Informationen angezeigt werden, richtet sich nach dem im Rahmen dieses Labs verwendeten Azure Pass.   Beachten Sie die im Dashboard verfügbaren Informationen.
 
-1. Dort gibt es ein Element mit dem Namen „ASC-Standard“ (ASC bezieht sich auf Azure Security Center, das jetzt als Microsoft Defender for Cloud bezeichnet wird), dessen Bereich „Azure Pass-Förderung“ ist.   Wählen Sie **ASC-Standard** aus.
+1. Es gibt ein Element namens „ASC-Standard“ (ASC bezieht sich auf Azure Security Center das jetzt Microsoft Defender für Cloud genannt wird), dessen Gültigkeitsbereich Azure Pass – Sponsorship ist.   Wählen Sie **ASC-Standard** aus.
 
-1. Oben auf der Seite unter „Essentials“ werden der Name, die Beschreibung und andere wesentliche Informationen angezeigt.  Lesen Sie die Beschreibung (bewegen Sie den Mauszeiger über die Beschreibung). HINWEIS: Das Beschreibungsfeld verweist auf Azure Security Center, das in Microsoft Defender for Cloud umbenannt wurde.
+1. Oben auf der Seite unter „Essentials“ werden der Name, die Beschreibung und andere wesentliche Informationen angezeigt.  Lesen Sie die Beschreibung (bewegen Sie den Mauszeiger über die Beschreibung). HINWEIS: Das Beschreibungsfeld verweist auf Azure Security Center, das in Microsoft Defender für Cloud umbenannt wurde.
 
 1. Beachten Sie, dass die im Dashboard bereitgestellten Informationen entsprechend dem ausgewählten Element – der Initiativendefinition von „ASC-Standard“ – aktualisiert werden.  Wie Sie bereits erfahren haben, ist eine Initiativendefinition eine Sammlung von Richtliniendefinitionen, die auf das Erreichen eines einzigen übergeordneten Ziels ausgerichtet sind. Informationen können nach Gruppe, Richtlinien, nicht konformen Ressourcen oder Ereignissen angezeigt werden.
 
-1. Wählen Sie das **X** rechts oben auf der Seite aus, um die ASC-Seite zu verlassen und zur Startseite für Richtlinien zurückzukehren.
+1. Schließen Sie die ASC-Seite, und kehren Sie zur Startseite der Richtlinie zurück, indem Sie oben rechts im Fenster **X** auswählen.
 
 1. Wählen Sie im linken Navigationsbereich **Erste Schritte** aus.  Hier können Sie die verschiedenen Optionen anzeigen, einschließlich der Option zum Durchsuchen integrierter Richtlinien und zum Zuweisen von Richtlinien im großen Stil. Außerdem können Sie benutzerdefinierte Richtliniendefinitionen für Ihre Umgebung erstellen, Richtlinienzuweisungen empfehlen und vieles mehr.
 
@@ -49,7 +53,7 @@ Azure Policy unterstützt das Erzwingen von Organisationsstandards und die Bewer
 
 1. Lassen Sie diese Browserregisterkarte („Richtlinie – Microsoft Azure“) für die nächste Aufgabe geöffnet.
 
-#### Aufgabe 2:  In dieser Aufgabe erstellen Sie eine einfache Richtlinienzuweisung, um eine Markierung für Ressourcengruppen zu erfordern.
+#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>Aufgabe 2:  In dieser Aufgabe erstellen Sie eine einfache Richtlinienzuweisung, um eine Markierung für Ressourcengruppen zu erfordern.
 
 1. Öffnen Sie die Browserregisterkarte „Richtlinie – Microsoft Azure“.
 
@@ -75,7 +79,7 @@ Azure Policy unterstützt das Erzwingen von Organisationsstandards und die Bewer
 
 1. Sie befinden sich nun auf der Homepage der Azure-Dienste.  Lassen Sie diese Seite geöffnet. Sie benötigen sie für die nächste Aufgabe.
 
-#### Aufgabe 3:  In dieser Aufgabe sehen Sie die Auswirkung der Azure-Richtlinienzuweisung. Dazu erstellen Sie eine Ressourcengruppe in Azure, die kein Tag enthält. Anschließend aktualisieren Sie die Ressourcengruppe so, dass sie ein Tag enthält.  Hinweis: Es kann bis zu 30 Minuten dauern, bis die in der vorherigen Aufgabe erstellte Richtlinie wirksam wird. In der Regel geht dies aber schneller.
+#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>Aufgabe 3:  In dieser Aufgabe sehen Sie die Auswirkung der Azure-Richtlinienzuweisung. Dazu erstellen Sie eine Ressourcengruppe in Azure, die kein Tag enthält. Anschließend aktualisieren Sie die Ressourcengruppe so, dass sie ein Tag enthält.  Hinweis: Es kann bis zu 30 Minuten dauern, bis die in der vorherigen Aufgabe erstellte Richtlinie wirksam wird. In der Regel geht dies aber schneller.
 
 1. Öffnen Sie die Browserregisterkarte „Home – Microsoft Azure“.
 
@@ -87,7 +91,7 @@ Azure Policy unterstützt das Erzwingen von Organisationsstandards und die Bewer
 
 1. Geben Sie in das Feld „Ressourcengruppe“ den Text **SC900-Labs** ein.
 
-1. Übernehmen Sie den Standardwert der Einstellung „Region“, und wählen Sie dann **Weiter: Tags** aus.
+1. Übernehmen Sie den Standardwert der Einstellung „Region“, und klicken Sie auf **Weiter: Tags**.
 
 1. Lassen Sie die Felder „Tagname“ und „Wert“ leer.  TRAGEN SIE NICHTS EIN, und wählen Sie dann **Überprüfen + erstellen** aus.
 
@@ -99,7 +103,7 @@ Azure Policy unterstützt das Erzwingen von Organisationsstandards und die Bewer
 
 1. Wählen Sie im Fenster „Ressourcengruppe erstellen“ die Option **< Vorherige** aus.
 
-1. Sie sind zurück auf der Seite mit den Tags für „Ressourcengruppe erstellen“.  Geben Sie in das Feld „Name“ den Text „Umgebung“ und in das Feld „Wert“ den Text **SC900-Labs** ein. Wählen Sie anschließend **Weiter: Bewerten + erstellen >** aus.
+1. Sie sind zurück auf der Seite mit den Tags für „Ressourcengruppe erstellen“.  Geben Sie in das Feld „Name“ den Text „Umgebung“ und in das Feld „Wert“ den Text **SC900-Labs** ein. Wählen Sie anschließend **Weiter: Überprüfen + erstellen >** aus.
 
 1. Überprüfen Sie das Tag, und wählen Sie **Erstellen** aus.
 
@@ -110,9 +114,9 @@ Azure Policy unterstützt das Erzwingen von Organisationsstandards und die Bewer
     
     1. Wählen Sie unter „Azure-Dienste“ die Option „Azure Policy“ aus.
     1. In der Mitte der Seite wird eine Liste der Azure-Richtlinien-/-Initiativenzuweisungen angezeigt.  Wählen Sie die Auslassungspunkte für die Richtlinienzuweisung „Tag für Ressourcengruppen erforderlich“ und dann „Zuweisung löschen“ aus.
-    1. Sie werden aufgefordert zu bestätigen, dass die Zuweisung gelöscht werden soll.  Wählen Sie „Ja“ aus.
+    1. Sie werden aufgefordert zu bestätigen, dass die Zuweisung gelöscht werden soll.  Wählen Sie Ja aus.
 
 
-#### Überprüfung
+#### <a name="review"></a>Überprüfung
 
 In diesem Lab haben Sie die Landing Page von Azure Policy kennengelernt. Nach der anfänglichen Erkundung der Azure Policy-Seite haben Sie den Prozess der Erstellung einer Richtlinie durchlaufen und konnten die Auswirkung dieser Richtlinie beobachten.

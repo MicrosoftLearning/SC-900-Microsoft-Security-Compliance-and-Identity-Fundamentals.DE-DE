@@ -1,12 +1,17 @@
 ---
 lab:
-    title: 'Erkunden von Azure Active Directory'
-    module: 'Modul 2, Lektion 1: Beschreiben der Funktionen von Identitäts- und Zugriffsverwaltungslösungen von Microsoft: Erkunden der Dienste und Identitätstypen von Azure AD'
+  title: Erkunden von Azure Active Directory
+  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
+ms.openlocfilehash: 075b7123b5d7e17b7e30dfcacf9f90ef97a67f83
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894022"
 ---
+# <a name="lab-explore-azure-active-directory"></a>Lab: Erkunden von Azure Active Directory
 
-# Lab: Erkunden von Azure Active Directory
-
-## Labszenario
+## <a name="lab-scenario"></a>Labszenario
 
 In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Sie einen Benutzer, konfigurieren die verschiedenen Einstellungen und fügen dabei auch Lizenzen hinzu.  
 
@@ -14,7 +19,7 @@ In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Si
 
 **Geschätzte Dauer**: 10–15 Minuten
 
-#### Aufgabe 1:  Als Abonnent von Microsoft 365 verwenden Sie Azure AD bereits.  Bei dieser Aufgabe durchlaufen Sie den schrittweisen Prozess zum Zugreifen auf Azure AD über das Microsoft 365-Verwaltungsportal und das Azure-Portal.
+#### <a name="task-1--as-a-subscriber-to-microsoft-365-you-are-already-using-azure-ad--in-this-task-you-will-walk-through-accessing-azure-ad-through-the-microsoft-365-admin-portal-and-through-the-azure-portal"></a>Aufgabe 1:  Als Abonnent von Microsoft 365 verwenden Sie Azure AD bereits.  Bei dieser Aufgabe durchlaufen Sie den schrittweisen Prozess zum Zugreifen auf Azure AD über das Microsoft 365-Verwaltungsportal und das Azure-Portal.
 
 1. Öffnen Sie Microsoft Edge.
 
@@ -22,7 +27,7 @@ In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Si
 
 3. Melden Sie sich mit Ihren Administratoranmeldeinformationen an. 
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
-    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden** aus.
+    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
 4. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
@@ -31,7 +36,7 @@ In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Si
 
 6. Wählen Sie im linken Navigationsbereich unter „Favoriten“ die Option **Azure Active Directory** aus.  Im Hauptfenster wird ein weiterer Navigationsbereich angezeigt. In diesem werden alle in Azure AD verfügbaren Dienste aufgelistet. Rechts finden Sie Informationen zum Mandanten „Contoso“ und Links zu erstellbaren Identitätstypen sowie zu ausgewählten Diensten.  
 
-7. Öffnen Sie nun ein neues Browserfenster, und geben Sie **portal.azure.com** in die Adressleiste ein.  Da Sie sich bereits als „admin@WWLxZZZZZZ.onmicrosoft.com“ angemeldet und ursprünglich dieselben Anmeldeinformationen verwendet haben, um Ihren Azure Pass einzulösen, sollten Sie beim Zugriff auf das Azure-Portal als Administrator angemeldet sein.  Sie können dies überprüfen, indem Sie sich die in der oberen rechten der Seite angegebene E-Mail-Adresse ansehen und den Mauszeiger über das Benutzersymbol bewegen.
+7. Öffnen Sie nun ein neues Browserfenster, und geben Sie **portal.azure.com** in die Adressleiste ein.  Da Sie sich bereits als admin@WWLxZZZZZZ.onmicrosoft.com angemeldet und ursprünglich dieselben Anmeldeinformationen verwendet haben, um Ihren Azure Pass einzulösen, sollten Sie beim Zugriff auf das Azure-Portal als Administrator angemeldet sein.  Sie können dies überprüfen, indem Sie sich die in der oberen rechten der Seite angegebene E-Mail-Adresse ansehen und den Mauszeiger über das Benutzersymbol bewegen.
 
 8. Auf der Landing Page des Azure-Portals werden Azure-Dienste angezeigt, darunter Azure Active Directory, VMs, Speicherkonten, Datenbanken und vieles mehr.  Wählen Sie **Azure Active Directory** aus.  
 
@@ -40,7 +45,7 @@ In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Si
 10. Lassen Sie diese Browserseite für die nächste Aufgabe geöffnet.
 
 
-#### Aufgabe 2:  Bei dieser Aufgabe erfahren Sie, wie Sie in Azure Active Directory einen neuen Benutzer erstellen. Außerdem erkunden Sie einige der Dienste, die auf Benutzerebene verwaltet werden können.
+#### <a name="task-2--in-this-task-youll-learn-how-to-create-a-new-user-in-azure-active-directory-and-explore-some-of-services-that-can-be-managed-at-the-user-level"></a>Aufgabe 2:  Bei dieser Aufgabe erfahren Sie, wie Sie in Azure Active Directory einen neuen Benutzer erstellen. Außerdem erkunden Sie einige der Dienste, die auf Benutzerebene verwaltet werden können.
 
 1. Navigieren Sie zu der in Ihrem Browser geöffneten Registerkarte „Contoso – Microsoft Azure“. Falls Sie die Registerkarte geschlossen haben, öffnen Sie eine Browserseite. Geben Sie „portal.azure.com“ in die Adressleiste ein, und wählen Sie „Azure Active Directory“ aus.  Sie sollten beim Azure-Portal als Administrator angemeldet sein. Falls nicht, melden Sie sich wieder an.
 
@@ -74,7 +79,7 @@ In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Si
 
     3. Wählen Sie neben „Rollen“ **Benutzer** aus. Die Liste der Verzeichnisrollen wird angezeigt.  Scrollen Sie nach unten, um die verschiedenen integrierten Rollen anzuzeigen, ändern Sie jedoch die Benutzerrolle nicht.  Schließen Sie dieses Fenster. Wählen Sie dazu in der oberen rechten Ecke der Seite das **X** aus.
 
-8. Konfigurieren Sie **Einstellungen**.
+8. Konfigurieren von **Einstellungen**
 
     1. Anmeldung blockieren:  **Nein** (übernehmen Sie die Standardeinstellung).
 
@@ -86,7 +91,7 @@ In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Si
 
 11. Wählen Sie in der Benutzerliste den soeben erstellten Benutzer (**Sara Perez**) aus.  Die Profilseite wird geöffnet.
 
-12. Im linken Navigationsbereich werden die verschiedenen Optionen angezeigt, die für den Benutzer konfiguriert werden können.  Wählen Sie **Gruppen** aus.  Hier werden zusätzliche Informationen über die Gruppe angezeigt.  Überprüfen Sie, ob die Gruppe „Vorgänge“ aufgelistet wird (es kann ein paar Minuten dauern, bis die Gruppenzuweisung angezeigt wird).  Hinweis:  Obwohl wir beim Erstellen des Benutzers lediglich eine Gruppe zugewiesen haben, wird auch die Gruppe „Contoso“ angezeigt.  Dies liegt an einer vorkonfigurierten Richtlinie im Mandanten, die bewirkt, dass neue Benutzer automatisch der Gruppe „Contoso“ zugewiesen werden.
+12. Im linken Navigationsbereich werden die verschiedenen Optionen angezeigt, die für den Benutzer konfiguriert werden können.  Wählen Sie **Gruppen** aus.  Hier werden zusätzliche Informationen über die Gruppe angezeigt.  Überprüfen Sie, ob die Gruppe „Vorgänge“ aufgelistet wird (es kann ein paar Minuten dauern, bis die Gruppenzuweisung angezeigt wird).  Hinweis: Obwohl wir beim Erstellen des Benutzers lediglich eine Gruppe zugewiesen haben, wird auch die Gruppe „Contoso“ angezeigt.  Dies liegt an einer vorkonfigurierten Richtlinie im Mandanten, die bewirkt, dass neue Benutzer automatisch der Gruppe „Contoso“ zugewiesen werden.
 
 13. Wählen Sie im linken Navigationsbereich **Lizenzen** aus.  Beachten Sie, dass für diesen Benutzer keine Lizenzzuweisungen gefunden wurden.  
 
@@ -102,9 +107,9 @@ In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Si
 
 19. Sie haben erfolgreich einen Benutzer in Azure Active Directory erstellt und konfiguriert.
 
-20.	Melden Sie sich von allen Browserregisterkarten ab. Klicken Sie dazu auf das Benutzersymbol neben der E-Mail-Adresse in der oberen rechten Ecke des Bildschirms. Schließen Sie dann alle Browserfenster.
+20. Melden Sie sich von allen Browserregisterkarten ab. Klicken Sie dazu auf das Benutzersymbol neben der E-Mail-Adresse in der oberen rechten Ecke des Bildschirms. Schließen Sie dann alle Browserfenster.
 
-#### Aufgabe 3:  Bei dieser Aufgabe melden Sie sich erstmals als Sara Perez an.
+#### <a name="task-3--in-this-task-you-will-sign-in-as-sara-perez-for-the-first-time"></a>Aufgabe 3:  Bei dieser Aufgabe melden Sie sich erstmals als Sara Perez an.
 
 1. Öffnen Sie Microsoft Edge.
 
@@ -116,7 +121,7 @@ In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Si
 
 5. Nun werden Sie aufgefordert, Ihr Kennwort zu aktualisieren. Geben Sie **Naja8996** in das Feld „Aktuelles Kennwort“ ein.
 
-6. Geben Sie **SC900-Lab** in das Feld „Neues Kennwort“ ein.  Geben Sie „SC900-Lab“ in das Feld „Kennwort bestätigen“ ein, und wählen Sie dann „Anmelden“ aus. Hinweis: Als bewährte Methode sollte ein sichereres Kennwort verwendet werden. Dieses Kennwort wird aus Gründen der Zweckmäßigkeit und nur für dieses Lab gewählt.
+6. Geben Sie **SC900-Lab** in das Feld „Neues Kennwort“ ein.  Geben Sie „SC900-Lab“ in das Feld „Kennwort bestätigen“ ein, und wählen Sie dann „Anmelden“ aus.  Hinweis: Als bewährte Methode sollte ein sichereres Kennwort verwendet werden. Dieses Kennwort wird aus Gründen der Zweckmäßigkeit und nur für dieses Lab gewählt.
 
 7. Sie sollten nun erfolgreich bei Microsoft 365 angemeldet sein.
 
@@ -124,7 +129,7 @@ In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Si
 
 
 
-#### Überprüfung
+#### <a name="review"></a>Überprüfung
 In diesem Lab haben Sie Azure AD erstmals erkundet. Da Abonnenten von Microsoft 365 Azure AD automatisch verwenden, haben Sie festgestellt, dass Sie über das Microsoft 365-Verwaltungsportal oder das Azure-Portal auf Azure AD-Funktionen und -Dienste zugreifen können.  Dabei gelangen Sie an dieselbe Stelle, unabhängig von Ihrem bevorzugten Verfahren.  Außerdem haben Sie den Prozess der Erstellung eines neuen Benutzers durchlaufen und die verschiedenen konfigurierbaren Einstellungen kennengelernt. Dazu zählen Gruppen, denen der Benutzer zugewiesen werden kann, die Verfügbarkeit von Rollen und die Zuweisung von Benutzerlizenzen.
 
 

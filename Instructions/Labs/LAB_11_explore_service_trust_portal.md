@@ -1,25 +1,30 @@
 ---
 lab:
-    title: 'Erkunden des Service Trust Portals'
-    module: 'Modul 4, Lektion 1: Beschreiben der Funktionen der Microsoft-Compliancelösungen: Beschreiben der Microsoft-Complianceverwaltungsfunktionen'
+  title: Explore the Service Trust Portal
+  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
+ms.openlocfilehash: 11c5c8116200c89ae00e9df34f3c7a0d0da1cd54
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893919"
 ---
+# <a name="lab-explore-the-service-trust-portal"></a>Lab: Explore the Service Trust Portal
 
-# Lab: Erkunden des Service Trust Portals
-
-## Labszenario
+## <a name="lab-scenario"></a>Labszenario
 
 In diesem Lab erkunden Sie die im Service Trust Portal verfügbaren Funktionen und Inhalte. Zudem besuchen Sie das Trust Center und navigieren zu den sechs wichtigen Datenschutzprinzipien.
 
 **Geschätzte Dauer**: 10–15 Minuten
 
 
-#### Aufgabe 1: In dieser Aufgabe erkunden Sie das Service Trust Portal und die verschiedenen verfügbaren Inhaltstypen. Außerdem erfahren Sie, wie Sie auf Berichte zugreifen und Berichte in der Bibliothek speichern können. 
+#### <a name="task-1-in-this-task-you-will-explore-the-service-trust-portal-and-the-different-types-of-content-available-you-will-learn-how-to-access-reports-and-how-to-save-reports-to-your-library"></a>Aufgabe 1: In dieser Aufgabe erkunden Sie das Service Trust Portal und die verschiedenen verfügbaren Inhaltstypen. Außerdem erfahren Sie, wie Sie auf Berichte zugreifen und Berichte in der Bibliothek speichern können. 
 
 1. Öffnen Sie Microsoft Edge.
 
-1. Geben Sie **https://aka.ms/STP** in die Adressleiste ein.  Dadurch gelangen Sie zur Landing Page des Service Trust Portals. Das Service Trust Portal enthält Details zur Implementierung von Steuerungen und Prozessen von Microsoft, die unsere Clouddienste und die darin enthaltenen Kundendaten schützen. 
+1. Geben Sie in der Adressleiste **https://aka.ms/STP** ein.  Dadurch gelangen Sie zur Landing Page des Service Trust Portals. Das Service Trust Portal enthält Details zur Implementierung von Steuerungen und Prozessen von Microsoft, die unsere Clouddienste und die darin enthaltenen Kundendaten schützen. 
 
-1. Auf einige der Ressourcen im Service Trust Portal können Sie nur zugreifen, wenn Sie sich als authentifizierter Benutzer mit Ihrem Konto für Microsoft Cloud Services anmelden und die Microsoft-Geheimhaltungsvereinbarung für Compliancematerialien lesen und akzeptieren. Oben rechts auf der Landing Page des Service Trust Portals befindet sich die Option zum **Anmelden**. Melden Sie sich mit Ihren Administratoranmeldeinformationen an, und wählen Sie bei entsprechender Aufforderung **Ich stimme zu** aus, um die Microsoft-Geheimhaltungsvereinbarung für Compliancematerialien zu akzeptieren.
+1. Auf einige der Ressourcen im Service Trust Portal können Sie nur zugreifen, wenn Sie sich als authentifizierter Benutzer mit Ihrem Konto für Microsoft Cloud Services anmelden und die Microsoft-Geheimhaltungsvereinbarung für Compliancematerialien lesen und akzeptieren. In der oberen rechten Ecke der Landing Page für das Service Trust Portal wird die Option „Anmelden“ angezeigt.  **Melden** Sie sich mit Ihren Administratoranmeldeinformationen an, und wählen Sie **Zustimmen** aus, wenn Sie dazu aufgefordert werden, um die Geheimhaltungsvereinbarung für Compliancematerialien von Microsoft zu akzeptieren.
 
 1. Scrollen Sie auf der Seite nach unten, und beachten Sie die Links zu Überwachungsberichten, Dokumenten und Ressourcen und mehr.  Wählen Sie **Alle Überwachungsberichte anzeigen** aus.
 
@@ -41,7 +46,7 @@ In diesem Lab erkunden Sie die im Service Trust Portal verfügbaren Funktionen u
 
 1. Sie können aus verschiedenen Kategorien wählen,  darunter „GRC Assessment-Berichte“, „Compliance-Leitfäden“ und mehr.  Wie in der vorherigen Aufgabe können Sie die Liste der angezeigten Dokumente filtern. Außerdem können Sie Dokumente auswählen, um sie herunterzuladen oder in der Bibliothek zu speichern.
 
-#### Aufgabe 2: In dieser Aufgabe besuchen Sie das Trust Center und navigieren zu den sechs wichtigsten Datenschutzprinzipien von Microsoft.
+#### <a name="task-2-in-this-task-you-will-visit-the-trust-center-and-navigate-to-microsofts-six-key-privacy-principles"></a>Aufgabe 2: In dieser Aufgabe besuchen Sie das Trust Center und navigieren zu den sechs wichtigsten Datenschutzprinzipien von Microsoft.
 
 1. Wählen Sie oben auf der Seite des Service Trust Portals die Option **Trust Center** und dann **Start** aus. Dadurch wird eine neue Browserregisterkarte geöffnet, über die Sie zum Trust Center gelangen, wo Sie weitere Informationen über Sicherheit, Compliance und Datenschutz in der Microsoft-Cloud finden.
 
@@ -55,6 +60,6 @@ In diesem Lab erkunden Sie die im Service Trust Portal verfügbaren Funktionen u
 
 1. Schließen Sie die Browserfenster, um das Service Trust Portal und das Trust Center zu beenden.
 
-#### Überprüfung
+#### <a name="review"></a>Überprüfung
 
 In diesem Lab haben Sie einige der im Service Trust Portal verfügbaren Optionen erkundet. Außerdem haben Sie erfahren, wie Sie auf Berichte zugreifen und „Meine Bibliothek“ verwenden können, um Dokumente für die künftige Überprüfung zu speichern.  Zusätzlich haben Sie das Trust Center besucht, um auf die Datenschutzprinzipien von Microsoft zuzugreifen und sie zu lesen.

@@ -1,23 +1,27 @@
 ---
 Demo:
-    title: 'Vertraulichkeitsbezeichnungen in Microsoft 365'
-    module: 'Modul 4, Lektion 2: Beschreiben der Funktionen der Microsoft-Compliancelösungen: Beschreiben der Funktionen für Informationsschutz und Governance in Microsoft 365'
+  title: Vertraulichkeitsbezeichnungen in Microsoft 365
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: 00da5f8577c31a02d1afb9afcfe8e84e89c07fa9
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894071"
 ---
+# <a name="demo-sensitivity-labels-in-microsoft-365"></a>Demo: Vertraulichkeitsbezeichnungen in Microsoft 365
 
-
-# Demo: Vertraulichkeitsbezeichnungen in Microsoft 365
-
-### Demoszenario
+### <a name="demo-scenario"></a>Demoszenario
 In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie gehen die Einstellungen für vorhandene, bereits erstellte Vertraulichkeitsbezeichnungen und für die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung durch.   Anschließend erfahren Sie, wie eine Bezeichnung angewendet wird, und welche Auswirkung diese Bezeichnung aus Perspektive eines Benutzers hat.
 
 
-#### Teil 1 der Demo: In dieser Demo zeigen Sie die Einstellungen für eine vorhandene Vertraulichkeitsbezeichnung und die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung.
+#### <a name="demo-part-1-in-this-demo-you-show-the-settings-for-an-existing-sensitivity-label-and-the-corresponding-policy-to-publish-the-label"></a>Teil 1 der Demo: In dieser Demo zeigen Sie die Einstellungen für eine vorhandene Vertraulichkeitsbezeichnung und die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung.
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.
 
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
-    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden** aus.
+    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten. Dadurch gelangen Sie zur Seite „Microsoft 365 Admin Center“.
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
@@ -38,7 +42,7 @@ In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie
 
     1. Beachten Sie den Bereich für diese Bezeichnung.  Der Bereich ist auf Dateien und E-Mails festgelegt, wofür Sie die Verschlüsselungs- und Inhaltsmarkierungseinstellungen konfigurieren können, um mit einer Bezeichnung versehene E-Mails und Office-Dateien zu schützen.  Nehmen Sie keine Änderungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
 
-    1. Für den ausgewählten Bereich für Dateien und E-Mails können Sie den Inhalt so konfigurieren, dass er verschlüsselt bzw. markiert wird.  Beachten sie, wie die Schutzeinstellungen für Dateien und E-Mails für die Verschlüsselung und Markierung des Inhalts der Dateien festgelegt sind.  Überprüfen Sie die jeweilige Definition.  Nehmen Sie keine Änderungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
+    1. Für den ausgewählten Bereich für Dateien und E-Mails können Sie den Inhalt so konfigurieren, dass er verschlüsselt bzw. markiert wird.  Beachten Sie, wie die Schutzeinstellungen für Dateien und E-Mails für die Verschlüsselung und Markierung des Inhalts der Dateien festgelegt sind.  Überprüfen Sie die jeweilige Definition.  Nehmen Sie keine Änderungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
 
     1. Im Fenster „Verschlüsselung“ wird die Konfiguration für die Verschlüsselungseinstellungen angezeigt.  Nehmen Sie keine Änderungen vor.  Überprüfen Sie das Informationsfeld unter „Verschlüsselungseinstellungen konfigurieren“, und überprüfen Sie die konfigurierten Einstellungen. Beachten Sie, dass der Benutzerzugriff auf den Inhalt auf „Läuft nie ab“ festgelegt ist.  Sie können auch bestimmten Benutzern und Gruppen Berechtigungen zuweisen, damit nur diese mit Inhalt interagieren können, auf den diese Bezeichnung angewendet ist.  Der Mandant wird unter „Benutzer und Gruppen“ definiert. Entsprechend können alle Benutzer in Ihrem Mandanten Inhalt mit dieser Bezeichnung anzeigen.  Die Finanzabteilung ist ebenfalls aufgelistet und verfügt über Mitautorberechtigungen.  Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
 
@@ -71,7 +75,7 @@ In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
 
-#### Teil 2 der Demo:  In diesem Schritt zeigen Sie den Prozess der Anwendung einer Bezeichnung aus Perspektive des Benutzers (in diesem Fall ist der Benutzer der Administrator) und sehen die durch die Bezeichnung generierte Inhaltsmarkierung an.
+#### <a name="demo-part-2--in-this-step-you-will-show-the-process-of-applying-a-label-from-the-perspective-of-the-user-in-this-case-the-user-is-the-admin-and-view-the-content-marking-that-is-generated-by-the-label"></a>Teil 2 der Demo:  In diesem Schritt zeigen Sie den Prozess der Anwendung einer Bezeichnung aus Perspektive des Benutzers (in diesem Fall ist der Benutzer der Administrator) und sehen die durch die Bezeichnung generierte Inhaltsmarkierung an.
 
 1. Wählen Sie auf der Startseite von Microsoft 365 Compliance Center das **App-Startfeld-Symbol** aus, das sich neben dem Text „Contoso Electronics“ befindet. **Klicken Sie mit der rechten Maustaste auf das Word-Symbol**, und wählen Sie **In neuer Registerkarte öffnen** aus.  
 
@@ -85,7 +89,7 @@ In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie
 
 1. Schließen Sie die in Ihrem Browser geöffneten Microsoft Word-Registerkarten, um Word zu schließen.
 
-#### Teil 3 der Demo (optional): Zusätzlich zur Inhaltsmarkierung wurde die Bezeichnungsschutzeinstellung für die Verschlüsselung festgelegt. Entsprechend den für diese Bezeichnung konfigurierten Berechtigungen können Mitglieder der Finanzgruppe Dokumente, auf die diese Bezeichnung angewendet ist, gemeinsam erstellen, und Benutzer im Contoso-Mandanten können sie (oder Dokumente/E-Mails, auf welche die Bezeichnung angewendet ist) anzeigen.  In diesem Abschnitt senden Sie dieses Dokument an eine E-Mail-Adresse, auf die Sie zugreifen können (d. h. eine persönliche E-Mail-Adresse oder Ihre Microsoft-E-Mail-Adresse), die jedoch NICHT Bestandteil der Domäne „WWLxZZZZ.OnMicrosoft.com“ ist. Anschließend erfahren Sie, was passiert, wenn Sie versuchen, die Anlage zu öffnen.  
+#### <a name="demo-part-3-optional-in-addition-to-content-marking-the-label-protection-setting-was-set-for-encryption-per-the-permissions-that-were-configured-with-this-label-members-of-the-finance-group-can-co-author-documents-with-this-label-applied-and-users-in-the-contoso-tenant-can-view-or-any-documentemail-with-the-label-applied--in-this-section-you-will-send-this-document-to-an-email-address-to-which-you-have-access-ie-a-personal-email-address-or-your-microsoft-email-and-that-is-not-part-of-the-wwlxzzzzonmicrosoftcom-domain-and-see-what-happens-when-you-try-to-open-the-attachment"></a>Teil 3 der Demo (optional): Zusätzlich zur Inhaltsmarkierung wurde die Bezeichnungsschutzeinstellung für die Verschlüsselung festgelegt. Entsprechend den für diese Bezeichnung konfigurierten Berechtigungen können Mitglieder der Finanzgruppe Dokumente, auf die diese Bezeichnung angewendet ist, gemeinsam erstellen, und Benutzer im Contoso-Mandanten können sie (oder Dokumente/E-Mails, auf welche die Bezeichnung angewendet ist) anzeigen.  In diesem Abschnitt senden Sie dieses Dokument an eine E-Mail-Adresse, auf die Sie zugreifen können (d. h. eine persönliche E-Mail-Adresse oder Ihre Microsoft-E-Mail-Adresse), die jedoch NICHT Bestandteil der Domäne „WWLxZZZZ.OnMicrosoft.com“ ist. Anschließend erfahren Sie, was passiert, wenn Sie versuchen, die Anlage zu öffnen.  
 
 1. Wählen Sie auf der Startseite von Microsoft 365 Compliance Center das **App-Startfeld-Symbol** aus, das sich neben dem Text „Contoso Electronics“ befindet. **Klicken Sie mit der rechten Maustaste auf das Outlook-Symbol**, und wählen Sie **In neuer Registerkarte öffnen** aus.
 
@@ -102,5 +106,5 @@ In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie
 1. Schließen Sie die geöffneten Browserregisterkarten.
 
 
-#### Überprüfung
+#### <a name="review"></a>Überprüfung
 In dieser Demo haben Sie Vertraulichkeitsbezeichnungen gezeigt.  Sie haben die Einstellungen für vorhandene, bereits erstellte Vertraulichkeitsbezeichnungen und die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung gezeigt. Anschließend haben Sie gezeigt, wie eine Bezeichnung angewendet wird und welche Auswirkung diese Bezeichnung aus Perspektive eines Benutzers hat.

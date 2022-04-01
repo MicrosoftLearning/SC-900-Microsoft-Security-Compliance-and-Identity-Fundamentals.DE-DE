@@ -1,24 +1,28 @@
 ---
 lab:
-    title: 'Erkunden der Zugriffsverwaltung in Azure AD mit bedingtem Zugriff'
-    module: 'Modul 2, Lektion 3: Beschreiben der Funktionen von Identitäts- und Zugriffsverwaltungslösungen von Microsoft: Erkunden der Zugriffsverwaltungsfunktionen von Azure AD'
+  title: Erkunden der Zugriffsverwaltung in Azure AD mit bedingtem Zugriff
+  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
+ms.openlocfilehash: 14cd1839bb4f8b883592cc000e4bded63b8e1002
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894006"
 ---
+# <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Lab: Erkunden der Zugriffsverwaltung in Azure AD mit bedingtem Zugriff
 
-
-# Lab: Erkunden der Zugriffsverwaltung in Azure AD mit bedingtem Zugriff
-
-## Labszenario
+## <a name="lab-scenario"></a>Labszenario
 In diesem Lab erkunden Sie die MFA beim bedingten Zugriff aus Perspektive eines Administrators und eines Benutzers.  Als Administrator erstellen Sie eine Richtlinie, die den Benutzer beim Zugriff auf eine cloudbasierte Microsoft Azure-Verwaltungsanwendung zwingt, die mehrstufige Authentifizierung zu durchlaufen.  Aus Benutzerperspektive sehen Sie, wie sich die Richtlinie für bedingten Zugriff auswirkt, einschließlich des Prozesses zum Registrieren für die MFA.
 
 **Geschätzte Dauer**: 10–15 Minuten
 
-#### Aufgabe 1: Bei dieser Aufgabe setzen Sie als Administrator das Kennwort für den Benutzer Debra Berger zurück.  Dieser Schritt ist erforderlich, damit Sie sich anfangs als der Benutzer in nachfolgenden Aufgaben anmelden können.
+#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-debra-berger--this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>Aufgabe 1: Bei dieser Aufgabe setzen Sie als Administrator das Kennwort für den Benutzer Debra Berger zurück.  Dieser Schritt ist erforderlich, damit Sie sich anfangs als der Benutzer in nachfolgenden Aufgaben anmelden können.
 
 1. Öffnen Sie Microsoft Edge.  Geben Sie **portal.azure.com** in die Adressleiste ein.
 
 2. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
-    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden** aus.
+    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
 3. Wählen Sie **Azure Active Directory** aus.  
@@ -38,7 +42,7 @@ In diesem Lab erkunden Sie die MFA beim bedingten Zugriff aus Perspektive eines 
 10. Lassen Sie dieses Fenster geöffnet.
 
 
-#### Aufgabe 2:  Bei dieser Aufgabe gehen Sie den Prozess zum Erstellen einer Richtlinie für bedingten Zugriff Azure AD durch.
+#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-creating-a-conditional-access-policy-in-azure-ad"></a>Aufgabe 2:  Bei dieser Aufgabe gehen Sie den Prozess zum Erstellen einer Richtlinie für bedingten Zugriff Azure AD durch.
 
 1. Öffnen Sie die Browserregisterkarte mit der Bezeichnung „Contoso – Microsoft Azure“.   Wenn Sie die Browserregisterkarte geschlossen haben, öffnen Sie Microsoft Edge, und geben Sie in die Adressleiste „portal.azure.com“ ein. Melden Sie sich mit Ihren Administratoranmeldeinformationen an, und wählen Sie dann „Azure Active Directory“ aus.  
 
@@ -76,29 +80,29 @@ In diesem Lab erkunden Sie die MFA beim bedingten Zugriff aus Perspektive eines 
 
 18. Melden Sie sich von Azure ab, und schließen Sie die Browserfenster.
 
-#### Aufgabe 3: Bei dieser Aufgabe sehen Sie aus Perspektive des Benutzers Debra Berger, wie sich die Richtlinie für bedingten Zugriff auswirkt. Zunächst melden Sie sich dazu bei einer Anwendung an, die in der Richtlinie für bedingten Zugriff nicht enthalten ist.  Anschließend wiederholen Sie den Prozess für eine Anwendung, die in der Richtlinie für bedingten Zugriff enthalten ist.  Beachten Sie, dass der Benutzer entsprechend der Richtlinie die MFA durchlaufen muss, wenn er auf eine Microsoft Azure-Verwaltungsanwendung zugreift.  Damit der Benutzer die MFA verwenden kann, muss er zunächst die für die MFA zu verwendende Authentifizierungsmethode registrieren, beispielsweise ein an ein Mobilgerät gesendeter Code oder eine Authenticator-Anwendung.
+#### <a name="task-3-in-this-task-you-will-see-the-impact-of-the-conditional-access-policy-from-the-perspective-of-the-user-debra-berger-you-will-start-first-by-signing-in-to-an-application-that-is-not-included-in-the-conditional-access-policy--then-you-will-repeat-the-process-for-an-application-that-is-included-in-the-conditional-access-policy--recall-that-the-policy-requires-the-user-to-go-through-mfa-when-accessing-a-microsoft-azure-management-application--to-use-mfa-the-user-must-first-register-the-authentication-method-that-will-be-used-for-mfa-for-example-a-code-sent-to-a-mobile-device-or-an-authenticator-application"></a>Aufgabe 3: Bei dieser Aufgabe sehen Sie aus Perspektive des Benutzers Debra Berger, wie sich die Richtlinie für bedingten Zugriff auswirkt. Zunächst melden Sie sich dazu bei einer Anwendung an, die in der Richtlinie für bedingten Zugriff nicht enthalten ist.  Anschließend wiederholen Sie den Prozess für eine Anwendung, die in der Richtlinie für bedingten Zugriff enthalten ist.  Beachten Sie, dass der Benutzer entsprechend der Richtlinie die MFA durchlaufen muss, wenn er auf eine Microsoft Azure-Verwaltungsanwendung zugreift.  Damit der Benutzer die MFA verwenden kann, muss er zunächst die für die MFA zu verwendende Authentifizierungsmethode registrieren, beispielsweise ein an ein Mobilgerät gesendeter Code oder eine Authenticator-Anwendung.
 
-1. Öffnen Sie Microsoft Edge.  Geben Sie **https://login.microsoftonline.com/** in die Adressleiste des Browsers ein.
+1. Öffnen Sie Microsoft Edge.  Geben Sie **https://login.microsoftonline.com/** in der Adressleiste des Browsers ein.
 
 1. Melden Sie sich als Debra Berger an.
     1. Geben Sie **DebraB@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
-    1. Geben Sie das in der vorherigen Aufgabe notierte Kennwort ein. Wählen Sie **Anmelden** aus.
+    1. Geben Sie das in der vorherigen Aufgabe notierte Kennwort ein. Wählen Sie **Anmelden**.
     1. Da das Kennwort temporär ist, dass bereitgestellt wurde, als Sie das Kennwort als Administrator zurückgesetzt haben, müssen Sie Ihr Kennwort (kein Bestandteil der MFA) aktualisieren.  Geben Sie das aktuelle Kennwort ein. Geben Sie dann in die Felder „Neues Kennwort“ und „Kennwort bestätigen“ das Kennwort **SC900-Lab** ein.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
 1. Sie sollten erfolgreich bei Ihrem Microsoft 365-Konto angemeldet sein.  Die MFA war für diese Anwendung nicht erforderlich, da sie nicht zur Richtlinie gehört.
 
-1. Nun versuchen Sie, sich bei einer Anwendung anzumelden, welche die Kriterien für die MFA erfüllt.  Öffnen Sie Microsoft Edge, und geben Sie „https://portal.azure.com“ in die Adressleiste ein.
+1. Nun versuchen Sie, sich bei einer Anwendung anzumelden, welche die Kriterien für die MFA erfüllt.  Öffnen Sie Microsoft Edge, und geben Sie in der Adressleiste https://portal.azure.com ein.
 
-1. In einer Warnung wird angezeigt, dass weitere Informationen erforderlich sind.  Klicken Sie dann auf **Weiter**.  Beachten Sie, dass dadurch der MFA-Registrierungsprozess initiiert wird, da Sie hiermit erstmals auf die Cloud-App zugreifen, die in der Richtlinie für bedingten Zugriff identifiziert wurde.  Dieser Registrierungsprozess ist nur einmal erforderlich.   Alternativ zur Registrierung durch den Benutzer kann der Administrator die zu verwendende Authentifizierungsmethode konfigurieren.
+1. In einer Warnung wird angezeigt, dass weitere Informationen erforderlich sind.  Klicken Sie auf **Weiter**.  Beachten Sie, dass dadurch der MFA-Registrierungsprozess initiiert wird, da Sie hiermit erstmals auf die Cloud-App zugreifen, die in der Richtlinie für bedingten Zugriff identifiziert wurde.  Dieser Registrierungsprozess ist nur einmal erforderlich.   Alternativ zur Registrierung durch den Benutzer kann der Administrator die zu verwendende Authentifizierungsmethode konfigurieren.
 
 1. Im Fenster „Schützen Sie Ihr Konto“ können Sie die für die MFA zu verwendende Methode auswählen.  „Microsoft Authenticator“ ist eine Option davon. Der Zweckmäßigkeit halber wählen Sie in dieser Lab-Übung eine andere Methode aus.  Wählen Sie **Ich möchte eine andere Methode einrichten** aus.  Wählen Sie im Popupfenster „Andere Methode auswählen“ den **Dropdownpfeil** aus. Wählen Sie **Telefon** und dann **Bestätigen** aus.
 
-1. Stellen Sie im Fenster, das geöffnet wird, sicher, dass Ihr Land ausgewählt ist. Geben Sie dann die gewünschte Mobiltelefonnummer ein, und stellen Sie sicher, dass **Code per SMS an mich senden** ausgewählt ist. Klicken Sie dann auf **Weiter**.  Auf dem Bildschirm wird „Die SMS wurde verifiziert. Ihr Telefon wurde erfolgreich registriert“ angezeigt.  Wählen Sie **Weiter** und dann **Fertig** aus.  Dadurch wird der einmalige Registrierungsprozess abgeschlossen.
+1. Stellen Sie im Fenster, das geöffnet wird, sicher, dass Ihr Land ausgewählt ist. Geben Sie dann die gewünschte Mobiltelefonnummer ein, und stellen Sie sicher, dass **Code per SMS an mich senden** ausgewählt ist. Klicken Sie dann auf **Weiter**.  Auf dem Bildschirm wird „Die SMS wurde verifiziert. Ihr Telefon wurde erfolgreich registriert“ angezeigt.  Klicken Sie auf **Weiter**. Klicken Sie danach auf **Fertig**.  Dadurch wird der einmalige Registrierungsprozess abgeschlossen.
 
 1. Wahrscheinlich wird in einer Meldung angezeigt, dass bei Ihrer Anmeldung eine Zeitüberschreitung aufgetreten ist.  Geben Sie einfach das Kennwort **SC900-Lab** ein, und wählen Sie **Anmelden** aus.
 
-1. Es wird ein Fenster angezeigt, in dem Sie aufgefordert werden, den an Ihr Telefon gesendeten Code einzugeben.  Geben Sie den Code ein, und wählen Sie **Weiter** aus.  Diese Erfahrung machen Sie entsprechend der MFA-Richtlinie als der Benutzer Gerhart jedes Mal, wenn Sie auf eine Cloudanwendung für die Microsoft Azure-Verwaltung zugreifen, wie etwa auf das Azure-Portal.
+1. Es wird ein Fenster angezeigt, in dem Sie aufgefordert werden, den an Ihr Telefon gesendeten Code einzugeben.  Geben Sie den Code ein, und wählen Sie **Next** (Weiter) aus.  Diese Erfahrung machen Sie entsprechend der MFA-Richtlinie als der Benutzer Gerhart jedes Mal, wenn Sie auf eine Cloudanwendung für die Microsoft Azure-Verwaltung zugreifen, wie etwa auf das Azure-Portal.
 
 1. Es wird ein Fenster angezeigt, in dem Sie aufgefordert werden, den an Ihr Telefon gesendeten Code einzugeben.  Geben Sie den Code ein, und wählen Sie die Schaltfläche **Bestätigen** aus.  Wählen Sie **Nein** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
@@ -106,5 +110,5 @@ In diesem Lab erkunden Sie die MFA beim bedingten Zugriff aus Perspektive eines 
 
 1. Melden Sie sich ab. Wählen Sie dazu das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann Abmelden aus. Schließen Sie dann alle Browserfenster.
 
-#### Überprüfung
+#### <a name="review"></a>Überprüfung
 In diesem Lab sind Sie den Prozess zum Einrichten einer Richtlinie für bedingten Zugriff durchgegangen, die Benutzer beim Zugriff auf die Cloudanwendung für die Microsoft Azure-Verwaltung zwingt, die MFA zu durchlaufen.  Anschließend sind Sie den Registrierungsprozess für die MFA als ein Benutzer durchgegangen und haben die Auswirkung der Richtlinie für bedingten Zugriff gesehen, die Sie beim Zugriff auf das Azure-Portal zwang, die MFA zu verwenden.

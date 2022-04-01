@@ -1,18 +1,22 @@
 ---
 Demo:
-    title: 'Erkunden des Microsoft 365 Compliance Center und Compliance-Managers'
-    module: 'Modul 4, Lektion 1: Beschreiben der Funktionen der Microsoft-Compliancelösungen: Beschreiben der Microsoft-Complianceverwaltungsfunktionen'
+  title: Erkunden des Microsoft 365 Compliance Center und Compliance-Managers
+  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
+ms.openlocfilehash: 1a1b11d8ff967f2c18af43eb77e1d74add032556
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894078"
 ---
+# <a name="demo-explore-the-microsoft-365-compliance-center--compliance-manager"></a>Demo: Erkunden des Microsoft 365 Compliance Center und Compliance-Managers
 
-
-# Demo: Erkunden des Microsoft 365 Compliance Center und Compliance-Managers
-
-## Demoszenario
+## <a name="demo-scenario"></a>Demoszenario
 In dieser Demo zeigen Sie die Startseite des Microsoft 365 Compliance Center und erfahren, wie Organisationen ihre Compliancesituation mithilfe der Funktionen von Compliance-Manager verbessern können.
 
-## Anleitung
+## <a name="instructions"></a>Anweisungen
 
-#### Teil 1 der Demo: Zeigen Sie die Startseite des Microsoft 365 Compliance Center, und zeigen Sie, wie Sie die Kartenansicht und den Navigationsbereich anpassen können.
+#### <a name="demo-part-1-show-the-microsoft-365-compliance-center-home-page-and-how-to-customize-the-card-view-and-the-navigation-panel"></a>Teil 1 der Demo: Zeigen Sie die Startseite des Microsoft 365 Compliance Center, und zeigen Sie, wie Sie die Kartenansicht und den Navigationsbereich anpassen können.
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein. Sie sollten bereits als Administrator angemeldet sein.  Falls nicht, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
@@ -38,7 +42,7 @@ In dieser Demo zeigen Sie die Startseite des Microsoft 365 Compliance Center und
 
 1. Lassen Sie die Browserregisterkarte geöffnet.
 
-#### Teil 2 der Demo: Mit Compliance-Manager erfahren Sie mehr über die Compliancesituation Ihrer Organisation.
+#### <a name="demo-part-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>Teil 2 der Demo: Mit Compliance-Manager erfahren Sie mehr über die Compliancesituation Ihrer Organisation.
 
 1. Wählen Sie im linken Navigationsbereich des Microsoft 365 Compliance Center **Compliance-Manager** aus.  Alternativ können Sie in der Titelleiste der Compliance-Manager-Karte „Compliance-Manager“ auswählen.
 
@@ -64,5 +68,5 @@ In dieser Demo zeigen Sie die Startseite des Microsoft 365 Compliance Center und
 
 1. Wählen Sie im linken Navigationsbereich die Option **Startseite** aus, um zur Startseite von Microsoft 365 Compliance Center zurückzukehren.  Lassen Sie diese Browserseite für die nachfolgende Demo geöffnet.
 
-#### Überprüfung
+#### <a name="review"></a>Überprüfung
 In dieser Demo haben Sie die Startseite von Microsoft 365 Compliance Center und Möglichkeiten gezeigt, wie Organisationen ihre Compliancesituation mithilfe der Funktionen von Compliance-Manager verbessern können.

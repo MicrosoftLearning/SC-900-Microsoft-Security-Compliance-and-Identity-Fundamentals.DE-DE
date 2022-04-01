@@ -1,16 +1,20 @@
 ---
 Demo:
-    title: 'Microsoft Defender for Cloud Apps'
-    module: 'Modul 3, Lektion 4: Beschreiben der Funktionen der Microsoft-Sicherheitslösungen: Beschreiben des Bedrohungsschutzes mit Microsoft 365 Defender'
+  title: 'Microsoft Defender für Cloud-Apps '
+  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
+ms.openlocfilehash: f653c14f8383ef3c5823d9c4626e7d6c3a693df8
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894094"
 ---
+# <a name="demo-microsoft-defender-for-cloud-apps"></a>Demo: Microsoft Defender für Cloud-Apps
 
+### <a name="demo-scenario"></a>Demoszenario
+In dieser Demo zeigen Sie die Funktionen von Microsoft Defender für Cloud-Apps.  Sie führen den Kursteilnehmer durch die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien.  Hinweis:  Eine Organisation muss über eine Lizenz verfügen, um Microsoft Defender für Cloud-Apps verwenden zu können, wobei es sich um einen benutzerbasierten Abonnementdienst handelt.  
 
-# Demo: Microsoft Defender for Cloud Apps
-
-### Demoszenario
-In dieser Demo zeigen Sie die Funktionen von Microsoft Defender für Cloud-Apps.  Sie führen den Lernenden durch die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien.  Hinweis:  Eine Organisation muss eine Lizenz besitzen, um Microsoft Defender für Cloud-Apps, einen benutzerbasierten Abonnementdienst, zu verwenden.  
-
-#### Teil 1 der Demo: Erkunden Sie Cloud Discovery.
+#### <a name="demo-part-1-explore-cloud-discovery"></a>Teil 1 der Demo: Erkunden Sie Cloud Discovery.
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.  Sie sollten bereits als Administrator angemeldet sein.  Falls nicht, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
@@ -22,7 +26,7 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Defender für Cloud-Apps.
 
 1. Wählen Sie unten im linken Navigationsbereich der Seite „Microsoft 365 Defender“ die Option **Weitere Ressourcen** aus.
 
-1. Wählen Sie auf der Karte **Microsoft Defender für Cloud-Apps** die Option **Öffnen**.  Das Cloud App Security-Dashboard wird auf einer neuen Browserseite geöffnet.  Beachten Sie die verfügbaren Informationskarten.  Es kann sein, dass auf den Karten keine Informationen angezeigt werden, da es sich hierbei um eine vorkonfigurierte Labmandantenumgebung handelt, die nicht aktiv verwendet wurde.  
+1. Wählen Sie auf der Karte **Microsoft Defender für Cloud-Apps** die Option **Öffnen** aus.  Das Cloud App Security-Dashboard wird auf einer neuen Browserseite geöffnet.  Beachten Sie die verfügbaren Informationskarten.  Es kann sein, dass auf den Karten keine Informationen angezeigt werden, da es sich hierbei um eine vorkonfigurierte Labmandantenumgebung handelt, die nicht aktiv verwendet wurde.  
 
 1. Wählen Sie im linken Navigationsbereich **Ermitteln** aus. Wählen Sie dann im Dropdown das Dashboard **Cloud Discovery** aus.  Das Dashboard enthält eine Übersicht der ermittelten Apps, App-Kategorien, Risikostufen und mehr.  
 
@@ -38,7 +42,7 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Defender für Cloud-Apps.
 
 1. Die auf diesen Registerkarten bereitgestellten Informationen basieren auf Momentaufnahmeberichten aus von Ihnen manuell aus Ihren Firewalls und Proxys hochgeladenen Datenverkehrsprotokollen oder aus fortlaufenden Berichten, die alle Protokolle analysieren, die aus Ihrem Netzwerk mithilfe von Cloud App Security weitergeleitet werden.  Wählen Sie in der oberen rechten Ecke der Seite die **Auslassungspunkte** aus, um zu erfahren, wo dies eingerichtet wird.
 
-    1. Wählen Sie die erste Option **Momentaufnahmebericht zu Cloud Discovery erstellen** aus. Hier tragen Sie die erforderlichen Details ein und laden Datenverkehrsprotokolle hoch, um einen Bericht zu generieren und hochzuladen.  Wählen Sie **Abbrechen** aus.  Die für Ihren Labmandanten angezeigten Daten stammen aus einem Momentaufnahmebericht. Sie können diese Informationen in der oberen rechten Ecke des Bildschirms anzeigen.
+    1. Wählen Sie die erste Option **Momentaufnahmebericht zu Cloud Discovery erstellen** aus. Hier tragen Sie die erforderlichen Details ein und laden Datenverkehrsprotokolle hoch, um einen Bericht zu generieren und hochzuladen.  Klicken Sie auf **Abbrechen**.  Die für Ihren Labmandanten angezeigten Daten stammen aus einem Momentaufnahmebericht. Sie können diese Informationen in der oberen rechten Ecke des Bildschirms anzeigen.
 
     1. Wählen Sie zum Anzeigen der Option für fortlaufende Berichte die **Auslassungspunkte** in der oberen rechten Ecke der Seite aus, und wählen Sie im Dropdown den Eintrag **Automatischen Upload konfigurieren** aus.  Es sind keine Datenquellen verbunden. Hier würden Sie jedoch eine Datenquelle hinzufügen. Wählen Sie den Dropdownpfeil **Appliance auswählen** aus, um die Appliancetypen anzuzeigen, die als Datenquelle verbunden werden können.  Wählen Sie **Abbrechen** aus, um den Vorgang zu beenden.
 
@@ -50,9 +54,9 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Defender für Cloud-Apps.
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
-#### Teil 2 der Demo: Finden Sie Möglichkeiten, wie Sie die aufgezeichneten Aktivitäten untersuchen können.
+#### <a name="demo-part-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>Teil 2 der Demo: Finden Sie Möglichkeiten, wie Sie die aufgezeichneten Aktivitäten untersuchen können.
 
-1. Wählen Sie im linken Navigationsbereich unter **Untersuchen** die Option **Aktivitätsprotokoll** aus.  Hier können Sie alle Aktivitäten im Zusammenhang mit Ihren verbundenen Apps anzeigen.   Da der Office 365-Connector bereits verbunden ist, sollten einige Daten angezeigt werden. Nachdem Sie Cloud App Security über den App-Connector mit einer App verbunden haben, scannt Cloud App Security alle erfolgten Aktivitäten (der retroaktive Scanzeitraum unterscheidet sich je nach App) und wird dann konstant mit neuen Aktivitäten aktualisiert.  
+1. Wählen Sie im linken Navigationsbereich unter **Untersuchen** die Option **Aktivitätsprotokoll** aus.  Hier können Sie alle Aktivitäten im Zusammenhang mit Ihren verbundenen Apps anzeigen.   Da der Office 365-Connector bereits verbunden ist, sollten einige Daten angezeigt werden. Nachdem Sie mithilfe des App-Connectors eine Verbindung zwischen Cloud App Security und einer App hergestellt haben, scannt Cloud App Security alle Aktivitäten, die durchgeführt wurden, wobei die rückwirkende Scanzeit je nach App abweicht, und wird anschließend ständig mit neuen Aktivitäten aktualisiert.  
 
 1. Wählen Sie ein Element aus, um detailliertere Informationen anzuzeigen. Beachten Sie oben auf der Seite die Option, eine neue Richtlinie aus der Suche hinzuzufügen oder die Daten für weitere Analysen zu exportieren.  Wählen Sie **+Neue Richtlinie aus Suche** aus.  Beachten Sie, wie Sie eine Richtlinie anhand einer Vorlage erstellen, einen Schweregrad und die Kategorie der Richtlinie auswählen, Filter für die Richtlinie erstellen, Warnungen erstellen und sogar Warnungen an Power Automate senden können.  Wählen Sie **Abbrechen** aus, um das Fenster zur Richtlinienerstellung zu schließen.
 
@@ -63,13 +67,13 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Defender für Cloud-Apps.
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
 
-#### Teil 3 der Demo: In dieser Aufgaben erkunden Sie die Richtlinien und Warnungsseiten in Microsoft Defender für Cloud-Apps.
+#### <a name="demo-part-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>Teil 3 der Demo: In dieser Aufgabe erkunden Sie die Seiten mit den Richtlinien und Warnungen in Microsoft Defender für Cloud-Apps.
 
-1. Wählen Sie im linken Navigationsbereich unter „Steuerung“ die Option **Richtlinien** aus.  Die aufgelisteten Richtlinien umfassen Informationen über die Anzahl der durch die Richtlinie generierten Warnungen, über den Schweregrad usw. Durch die Auswahl eines Zeilenelements werden ausführlichere Informationen über die Richtlinie bereitgestellt. Wählen Sie ein Element aus der Liste aus, beispielsweise **Riskante Anmeldung**.  
+1. Wählen Sie im linken Navigationsbereich unter „Steuerung“ die Option **Richtlinien** aus.  Die aufgelisteten Richtlinien umfassen Informationen zur Anzahl der von der Richtlinie generierten Warnungen, zum Schweregrad usw. Durch Auswahl eines Elements werden ausführlichere Informationen zur Richtlinie angezeigt. Wählen Sie ein Element aus der Liste aus, beispielsweise **Riskante Anmeldung**.  
 
-1. Wählen Sie im linken Navigationsbereich **Warnungen** aus.  Wenn Warnungen aufgelistet werden, wählen Sie ein Element aus der Liste der Warnungen aus. Überprüfen Sie die bereitgestellten Informationen.  Wählen Sie in der oberen rechten Seite des Fensters **Warnung schließen** aus, um die Optionen zum Schließen der Warnung anzuzeigen.  
+1. Wählen Sie im linken Navigationsbereich **Warnungen** aus.  Wenn Warnungen aufgelistet werden, wählen Sie ein Element aus der Liste der Warnungen aus. Gehen Sie die bereitgestellten Informationen durch.  Wählen Sie in der oberen rechten Seite des Fensters **Warnung schließen** aus, um die Optionen zum Schließen der Warnung anzuzeigen.  
 
 1. Schließen Sie das Browserfenster.
 
-#### Überprüfung
-In dieser Demo haben Sie die Funktionen von Microsoft Defender für Cloud-Apps gezeigt.  Sie haben die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien gezeigt.
+#### <a name="review"></a>Überprüfung
+In dieser Demo haben Sie die Funktionen von Microsoft Defender für Cloud-Apps angezeigt.  Sie haben die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien gezeigt.

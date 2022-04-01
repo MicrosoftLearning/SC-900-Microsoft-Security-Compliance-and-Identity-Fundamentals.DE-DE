@@ -1,12 +1,17 @@
 ---
 Demo:
-    title: 'Self-Service-Kennwortzurücksetzung von Azure Active Directory'
-    module: 'Modul 2, Lektion 2: Beschreiben der Funktionen von Identitäts- und Zugriffsverwaltungslösungen von Microsoft: Beschreiben der verschiedenen Authentifizierungsmethoden von Azure AD'
+  title: Self-Service-Kennwortzurücksetzung von Azure Active Directory
+  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
+ms.openlocfilehash: 8b5ab5e9ba2670841d8bcf897cbfb4f6e76c9265
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894150"
 ---
+# <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>Demo: Self-Service-Kennwortzurücksetzung (SSPR) von Azure Active Directory
 
-# Demo: Self-Service-Kennwortzurücksetzung (SSPR) von Azure Active Directory
-
-### Demoszenario
+### <a name="demo-scenario"></a>Demoszenario
 
 In dieser Demo gehen Sie die verschiedenen Einstellungen für die Aktivierung der Self-Service-Kennwortzurücksetzung durch.
 
@@ -17,7 +22,7 @@ In dieser Demo gehen Sie die verschiedenen Einstellungen für die Aktivierung de
 1. Die Registerkarte „Eigenschaften“ ist hervorgehoben.  Beachten Sie im Fenster „Eigenschaften“, dass SSPR für keine, ausgewählte oder alle Benutzer aktiviert werden kann.
     1. Bewegen Sie den Cursor über das Informationssymbol neben dem Text „Self-services password reset enabled“, und erklären Sie, dass die Kennwortzurücksetzung durch Auswahl von „Selected“ auf eine bestimmte Gruppe von Benutzern eingeschränkt werden kann. Weitere Optionen sind „None“ oder „All“.
     1. Bewegen Sie den Cursor über das Informationssymbol neben dem Text „Select Group“, und erklären Sie, dass hier die Gruppe von Benutzern angegeben werden kann, die ihre eigenen Kennwörter zurücksetzen dürfen.   Sie müssen Benutzer in die Gruppe aufnehmen. Es ist nicht möglich, Benutzer einzeln auszuwählen.  Wenn Sie die Gruppe ändern, ersetzt die von Ihnen ausgewählte Gruppe zudem die derzeit aufgelistete Gruppe.  Sie sollten der SSPR-Gruppe Benutzer einfach hinzufügen.
-    1. Beachten Sie das hellblaue Informationsfeld, und weisen Sie Kursteilnehmer darauf hin: Diese Einstellungen gelten nur für Endbenutzer in Ihrer Organisation. Administratoren können die Self-Service-Kennwortzurücksetzung immer durchführen und müssen zum Zurücksetzen ihres Kennworts zwei Authentifizierungsmethoden verwenden.
+    1. Beachten Sie das hellblaue Informationsfeld, und weisen Sie Kursteilnehmer darauf hin: Diese Einstellungen gelten nur für Endbenutzer in Ihrer Organisation. Administratoren können die Self-Service-Kennwortzurücksetzung immer durchführen und müssen zum Zurücksetzen ihres Kennworts zwei Authentifizierungsverfahren verwenden.
 
 1. Wählen Sie im linken Navigationsbereich von „Kennwort zurücksetzen“ die Option Authentifizierungsmethoden aus.
     1. Bewegen Sie den Cursor über das Informationssymbol neben dem Text „Anzahl von Methoden, die zurückgesetzt werden müssen“.  Erklären Sie, dass hiermit die Anzahl der alternativen Methoden der Identifizierung festgelegt wird, über die ein Benutzer in diesem Verzeichnis verfügen muss, um sein Kennwort zurückzusetzen.   Ändern Sie die Einstellung nicht.
@@ -35,7 +40,7 @@ In dieser Demo gehen Sie die verschiedenen Einstellungen für die Aktivierung de
 
 1. Lassen Sie diese Browserseite für die nächste Demo geöffnet.
 
-#### Überprüfung
+#### <a name="review"></a>Überprüfung
 
 In dieser Demo haben Sie die Einstellungen für die Self-Service-Kennwortzurücksetzung gezeigt. 
 

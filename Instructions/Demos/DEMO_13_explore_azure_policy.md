@@ -1,16 +1,20 @@
 ---
 Demo:
-    title: 'Azure Policy'
-    module: 'Modul 4, Lektion 5: Beschreiben der Funktionen der Microsoft-Compliancelösungen: Beschreiben von Azure Policy'
+  title: Azure Policy
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: 898e2d2ae228baf6acbffd7301fcbdf4a6a2dba5
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894070"
 ---
+# <a name="demo-azure-policy"></a>Demo: Azure Policy
 
-
-# Demo: Azure Policy
-
-### Demoszenario
+### <a name="demo-scenario"></a>Demoszenario
 In dieser Demo gehen Sie den Prozess der Einrichtung einer Azure-Richtlinie und die Auswirkungen dieser Richtlinie durch.
 
-#### Teil 1 der Demo: Erstellen einer Richtlinie, um ein Tag für eine Ressourcengruppe zu erfordern (es werden die Schritte zur Erstellung einer Richtlinie aus einer Vorlage gezeigt)
+#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>Teil 1 der Demo: Erstellen einer Richtlinie, um ein Tag für eine Ressourcengruppe zu erfordern (es werden die Schritte zur Erstellung einer Richtlinie aus einer Vorlage gezeigt)
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **portal.microsoft.com** in die Adressleiste ein.  Sie sollten bereits angemeldet sein. Falls nicht, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
@@ -18,7 +22,7 @@ In dieser Demo gehen Sie den Prozess der Einrichtung einer Azure-Richtlinie und 
 
 1. Sie befinden sich nun auf der Seite „Richtlinie“. Beachten Sie die im Dashboard verfügbaren Informationen.
 
-1. Wählen Sie im linken Navigationsbereich unter „Erstellung“ die Option **Zuweisungen** aus.  Sie sehen, dass bereits eine Richtlinienzuweisung vorhanden ist. Wählen Sie **ASC-Standard** aus.  Überprüfen Sie das Beschreibungsfeld. HINWEIS: Das Beschreibungsfeld verweist auf Azure Security Center, das in Microsoft Defender for Cloud umbenannt wurde.  Wählen Sie das **X** rechts oben auf der Seite aus, um zur Seite „Richtlinienzuweisungen“ zurückzukehren.
+1. Wählen Sie im linken Navigationsbereich unter „Erstellung“ die Option **Zuweisungen** aus.  Sie sehen, dass bereits eine Richtlinienzuweisung vorhanden ist. Wählen Sie **ASC-Standard** aus.  Überprüfen Sie das Beschreibungsfeld. HINWEIS: Das Beschreibungsfeld verweist auf Azure Security Center, das in Microsoft Defender für Cloud umbenannt wurde.  Wählen Sie das **X** rechts oben auf der Seite aus, um zur Seite „Richtlinienzuweisungen“ zurückzukehren.
 
 1. Wählen Sie oben auf der Seite **Richtlinie zuweisen** aus
 
@@ -32,7 +36,7 @@ In dieser Demo gehen Sie den Prozess der Einrichtung einer Azure-Richtlinie und 
 
 1. Geben Sie im Feld „Name der Markierung“ den Text **Umgebung** ein (für Ressourcengruppen wird eine Umgebungsmarkierung verlangt), und wählen Sie dann **Weiter** aus.  
 
-1. Lesen Sie auf der Registerkarte „Wartung“ die Beschreibung, aber ändern Sie die Einstellungen nicht. Klicken Sie auf **Weiter**.
+1. Lesen Sie auf der Registerkarte „Wartung“ die Beschreibung, aber ändern Sie die Einstellungen nicht. Wählen Sie **Weiter** aus.
 
 1. Geben Sie in der Meldung über die Nichtkonformität den Text **Umgebungstag erforderlich** ein, und wählen Sie dann **Weiter** aus. Hinweis: Diese Meldung wird als Grund für Nichtkonformität für Ressourcengruppen angezeigt, die vor der Richtlinienzuweisung erstellt wurden und das Umgebungstag nicht aufweisen.  Für nach der Erstellung der Richtlinie erstellte Ressourcengruppen wird das Erstellen der Ressourcengruppen verweigert, sofern kein Umgebungstag vorliegt.
 
@@ -42,7 +46,7 @@ In dieser Demo gehen Sie den Prozess der Einrichtung einer Azure-Richtlinie und 
 
 1. Sie befinden sich nun auf der Homepage der Azure-Dienste.  Lassen Sie diese Seite geöffnet. Sie benötigen sie für die nächste Aufgabe.
 
-#### Teil 2 der Demo:  Zeigen Sie die Auswirkungen der Richtlinie. Erstellen Sie dazu eine Ressourcengruppe ohne Markierung, und fügen Sie dieser dann eine Markierung hinzu.
+#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>Teil 2 der Demo:  Zeigen Sie die Auswirkungen der Richtlinie. Erstellen Sie dazu eine Ressourcengruppe ohne Markierung, und fügen Sie dieser dann eine Markierung hinzu.
 
 1. Wählen Sie oben auf der Seite unterhalb von „Azure-Dienste“ die Option **Ressourcengruppen** aus. Wenn die Option nicht angezeigt wird, geben Sie in die Suchleiste „Ressourcengruppen“ ein, und wählen Sie den Eintrag dann aus.
 
@@ -52,7 +56,7 @@ In dieser Demo gehen Sie den Prozess der Einrichtung einer Azure-Richtlinie und 
 
 1. Geben Sie in das Feld „Ressourcengruppe“ den Text **SC900-Labs** ein.
 
-1. Übernehmen Sie den Standardwert der Einstellung „Region“, und wählen Sie dann **Weiter: Tags** aus.
+1. Übernehmen Sie den Standardwert der Einstellung „Region“, und klicken Sie auf **Weiter: Tags**.
 
 1. Lassen Sie die Felder „Tagname“ und „Wert“ leer.  TRAGEN SIE NICHTS EIN, und wählen Sie dann **Überprüfen + erstellen** aus.
 
@@ -64,12 +68,12 @@ In dieser Demo gehen Sie den Prozess der Einrichtung einer Azure-Richtlinie und 
 
 1. Wählen Sie im Fenster „Ressourcengruppe erstellen“ die Option **< Vorherige** aus.
 
-1. Sie sind zurück auf der Seite mit den Tags für „Ressourcengruppe erstellen“.  Geben Sie in das Feld „Name“ den Text „Umgebung“ und in das Feld „Wert“ den Text **SC900-Labs** ein. Wählen Sie anschließend **Weiter: Bewerten + erstellen >** aus.
+1. Sie sind zurück auf der Seite mit den Tags für „Ressourcengruppe erstellen“.  Geben Sie in das Feld „Name“ den Text „Umgebung“ und in das Feld „Wert“ den Text **SC900-Labs** ein. Wählen Sie anschließend **Weiter: Überprüfen + erstellen >** aus.
 
 1. Überprüfen Sie das Tag, und wählen Sie **Erstellen** aus.
 
 1. Die Ressourcengruppe wird aufgelistet.  Da das Tag in der Ressourcengruppe bereitgestellt wurde, wurde die im Rahmen der Azure-Richtlinie enthaltene Bedingung erfüllt.  Die Ressourcengruppe ist mit der Richtlinie konform.
 
-#### Überprüfung
+#### <a name="review"></a>Überprüfung
 
 In dieser Demo haben Sie den Prozess der Einrichtung einer Azure-Richtlinie und die Auswirkungen dieser Richtlinie gezeigt.

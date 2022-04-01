@@ -1,24 +1,28 @@
 ---
 lab:
-    title: 'Erkunden der Identity Governance in Azure AD mit Privileged Identity Management'
-    module: 'Modul 2, Lektion 4: Beschreiben der Identitätsschutz- und Governancefunktionen von Azure AD: Beschreiben von Azure Identity Protection'
+  title: 'Erkunden der Identity Governance in Azure AD mit Privileged Identity Management '
+  module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
+ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894007"
 ---
+# <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Lab: Erkunden der Identity Governance in Azure AD mit Privileged Identity Management
 
-
-# Lab: Erkunden der Identity Governance in Azure AD mit Privileged Identity Management
-
-## Labszenario
+## <a name="lab-scenario"></a>Labszenario
 In diesem Lab erkunden Sie einige der grundlegenden Funktionen von Privileged Identity Management (PIM). Für PIM ist Azure AD Premium P2 erforderlich.  In diesem Lab konfigurieren Sie als Administrator durch Privileged Identity Management (PIM) einen Ihrer Benutzer, Diego Siciliani, mit einer Azure AD-Benutzeradministratorrolle.   Mit den Benutzeradministratorberechtigungen kann Diego Benutzer und Gruppen erstellen, Lizenzen verwalten und mehr.  Sowohl der Administrator als auch der Benutzer Diego müssen für die Azure AD Premium P2-Lizenzierung konfiguriert werden.
 
-**Geschätzte Dauer**: 30–45 Minuten
+**Geschätzte Dauer**: 30-45 Minuten
 
-#### Aufgabe 1: Bei dieser Aufgabe setzen Sie als Administrator das Kennwort für den Benutzer Diego Siciliani zurück. Dieser Schritt ist erforderlich, damit Sie sich anfangs als der Benutzer in nachfolgenden Aufgaben anmelden können.
+#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-diego-siciliani-this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>Aufgabe 1: Bei dieser Aufgabe setzen Sie als Administrator das Kennwort für den Benutzer Diego Siciliani zurück. Dieser Schritt ist erforderlich, damit Sie sich anfangs als der Benutzer in nachfolgenden Aufgaben anmelden können.
 
 1. Öffnen Sie Microsoft Edge.  Geben Sie **portal.azure.com** in die Adressleiste ein.
 
 2. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
-    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden** aus.
+    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
 3. Wählen Sie **Azure Active Directory** aus.  
@@ -40,7 +44,7 @@ In diesem Lab erkunden Sie einige der grundlegenden Funktionen von Privileged Id
 11. Lassen Sie die Browserseite geöffnet, da Sie sie in den nachfolgenden Aufgaben verwenden werden.
 
 
-#### Aufgabe 2: Bei dieser Aufgabe weisen Sie als Administrator in Privileged Identity Management Diego eine Azure AD-Rolle zu.
+#### <a name="task-2-in-this-task-you-as-the-admin-will-assign-diego-an-azure-ad-role-in-privileged-identity-management"></a>Aufgabe 2: Bei dieser Aufgabe weisen Sie als Administrator in Privileged Identity Management Diego eine Azure AD-Rolle zu.
 
 1. Navigieren Sie zur geöffneten Browserregisterkarte mit der Bezeichnung „Contoso – Microsoft Azure“.   Wenn Sie die Browserregisterkarte geschlossen haben, öffnen Sie Microsoft Edge, und geben Sie in die Adressleiste „portal.azure.com“ ein. Melden Sie sich mit Ihren Administratoranmeldeinformationen an, und wählen Sie dann „Azure Active Directory“ aus.  
 
@@ -76,18 +80,18 @@ In diesem Lab erkunden Sie einige der grundlegenden Funktionen von Privileged Id
 
 17. Wählen Sie oben auf der Seite die Option **Einstellungen** aus.
 
-18. Beachten Sie in „Details zur Rolleneinstellung“ für „Benutzeradministrator“ die unterschiedlichen Optionen.  Beachten Sie, dass die Einstellungen „Begründung für Aktivierung erforderlich“ und „Bei Aktivierung Azure-MFA anfordern“ auf „Ja“ festgelegt sind.  Sie sehen beide bei der nächsten Aufgabe, wenn Diego die Rolle aktiviert.  Beachten Sie außerdem, dass „Genehmigung zum Aktivieren anfordern“ auf „Nein“ festgelegt ist. Belassen Sie alle Einstellungen auf Ihren Standardwerten.  Schließen Sie die Seite. Wählen Sie dazu in der oberen rechten Ecke des Bildschirms das **X** aus.
+18. Beachten Sie in „Details zur Rolleneinstellung“ für „Benutzeradministrator“ die unterschiedlichen Optionen.  Beachten Sie, dass die Einstellungen „Begründung für Aktivierung erforderlich“ und „Bei Aktivierung Azure-MFA anfordern“ auf „Ja“ festgelegt sind.  Sie sehen beide bei der nächsten Aufgabe, wenn Diego die Rolle aktiviert.  Beachten Sie auch, dass „Genehmigung zum Aktivieren erforderlich“ auf „Nein“ festgelegt ist.  Übernehmen Sie für alle anderen Einstellungen die Standardwerte.  Schließen Sie die Seite. Wählen Sie dazu in der oberen rechten Ecke des Bildschirms das **X** aus.
 
 19. Melden Sie sich ab. Wählen Sie dazu das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann **Abmelden** aus. Schließen Sie dann alle Browserfenster.
 
 
-#### Aufgabe 3: Aufgabe 3:  Bei dieser Aufgabe melden Sie sich als Diego Siciliani beim Azure-Portal an, um auf die Privileged Identity Management-Funktion von Azure Active Directory zuzugreifen, um Ihre Zuweisung als Benutzeradministrator zu aktivieren.  Sobald sie aktiviert ist, nehmen Sie einige Konfigurationsänderungen an einem vorhandenen Benutzer vor. Hinweis: Bei dieser Aufgabe benötigen Sie Sofortzugriff auf ein Mobilgerät, das SMS empfangen kann.
+#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Aufgabe 3: Aufgabe 3:  Bei dieser Aufgabe melden Sie sich als Diego Siciliani beim Azure-Portal an, um auf die Privileged Identity Management-Funktion von Azure Active Directory zuzugreifen, um Ihre Zuweisung als Benutzeradministrator zu aktivieren.  Sobald sie aktiviert ist, nehmen Sie einige Konfigurationsänderungen an einem vorhandenen Benutzer vor. Hinweis: Bei dieser Aufgabe benötigen Sie Sofortzugriff auf ein Mobilgerät, das SMS empfangen kann.
 
 1. Öffnen Sie Microsoft Edge.  Geben Sie **portal.azure.com** in die Adressleiste des Browsers ein.
 
 1. Melden Sie sich als Diego Siciliani an.
     1. Geben Sie **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
-    1. Geben Sie das temporäre Kennwort ein, das Sie bei der vorherigen Aufgabe notiert haben, und wählen Sie **Anmelden** aus. Wählen Sie **Anmelden** aus.
+    1. Geben Sie das temporäre Kennwort ein, das Sie bei der vorherigen Aufgabe notiert haben, und wählen Sie **Anmelden** aus.  Wählen Sie **Anmelden**.
     1. Da das von Ihnen eingegebene Kennwort nur ein temporäres Kennwort war, müssen Sie es jetzt aktualisieren. Geben Sie das aktuelle Kennwort ein.  Geben Sie in die Felder „Neues Kennwort“ und „Kennwort bestätigen“ das Kennwort **SC900-Lab** ein.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
@@ -105,12 +109,12 @@ In diesem Lab erkunden Sie einige der grundlegenden Funktionen von Privileged Id
 1. Sie werden aufgefordert, die gewünschte Telefonnummer einzugeben. Stellen Sie sicher, dass das Land für die Landeskennzahl Ihrer Telefonnummer richtig ist.  Geben Sie Ihre Telefonnummer ein. Stellen Sie sicher, dass **Code per SMS an mich senden** ausgewählt ist, und wählen Sie dann **Weiter** aus.
 1. Geben Sie den 6-stelligen Code ein, den Sie auf Ihrem Telefon empfangen haben, und wählen Sie **Weiter** aus. 
 1. Es wird eine Benachrichtigung angezeigt, dass Ihr Telefon erfolgreich registriert wurde. Wählen Sie **Weiter** und dann **Fertig** aus.
-1. Sie werden gefragt, ob Sie angemeldet bleiben möchten. Wählen Sie **Ja** aus.
+1. Sie werden gefragt, ob Sie angemeldet bleiben möchten.  Wählen Sie **Ja** aus.
 1. Das Fenster „Benutzeradministrator aktivieren“ wird angezeigt.  Sie werden aufgefordert, einen Grund für die Aktivierung einzugeben.  Geben Sie in das angezeigte Feld den gewünschten Grund (maximal 500 Zeichen) ein, und wählen Sie dann **Aktivieren** aus.
 1. Sie sehen den Status (drei Fortschrittsphasen), während die Aktivierung verarbeitet wird.
-1. Nach Abschluss der Aktivierung gelangen Sie zur Seite „Meine | Azure AD-Rollen“ zurück. Dort wird in einer Benachrichtigung angegeben, dass Sie soeben eine Rolle aktiviert haben.  Wählen Sie **Klicken Sie hier** aus, um Ihre aktiven Rollen anzuzeigen.  Wenn Sie feststellen, dass sich die Endzeit von der ursprünglich von Ihnen konfigurierten Zeit unterscheidet, wählen Sie oben auf der Seite den Schlüssel zum Aktualisieren (die Aktualisierung kann ein paar Minuten dauern) aus. 
+1. Nach Abschluss der Aktivierung gelangen Sie zur Seite „Meine Azure AD-Rollen“ zurück. Dort wird in einer Benachrichtigung angegeben, dass Sie soeben eine Rolle aktiviert haben.  Wählen Sie **Klicken Sie hier** aus, um Ihre aktiven Rollen anzuzeigen.  Wenn Sie feststellen, dass sich die Endzeit von der ursprünglich von Ihnen konfigurierten Zeit unterscheidet, wählen Sie oben auf der Seite den Schlüssel zum Aktualisieren (die Aktualisierung kann ein paar Minuten dauern) aus. 
 1. Schließen Sie das Fenster. Wählen Sie dazu in der oberen rechten Ecke des Bildschirms das **X** aus.
-1. Schließen Sie das Fenster für den Schnellstart in Privileged Identity Management. | Wählen Sie dazu in der oberen rechten Ecke des Bildschirms das **X** aus.
+1. Schließen Sie das Fenster für den Schnellstart in Privileged Identity Management. Wählen Sie dazu in der oberen rechten Ecke des Bildschirms das **X** aus.
 1. Schließen Sie das Fenster „Identity Governance“. Wählen Sie dazu in der oberen rechten Ecke des Bildschirms das **X** aus.
 1. Sie befinden sich nun wieder auf der Seite mit dem Azure Active Directory von Contoso.  Als Azure AD-Benutzeradministrator können Sie Benutzer und Gruppen erstellen, Lizenzen verwalten und mehr.   Wählen Sie im linken Navigationsbereich **Benutzer** aus.
 1. Wählen Sie in der Benutzerliste den Eintrag **Bianca Pisani** aus.
@@ -122,5 +126,5 @@ In diesem Lab erkunden Sie einige der grundlegenden Funktionen von Privileged Id
 1. Melden Sie sich ab. Wählen Sie dazu das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann **Abmelden** aus. Schließen Sie dann alle Browserfenster.
 1. Die Dauer der Rolle „Benutzeradministrator“ ist auf die konfigurierte Zeit begrenzt.
 
-#### Überprüfung
+#### <a name="review"></a>Überprüfung
 In diesem Lab haben Sie PIM erkundet.  Sie als Administrator haben konfiguriert, dass Diego für einen angegebenen Zeitraum über Benutzeradministratorberechtigungen verfügt.  Anschließend sind Sie als Diego den Prozess der Aktivierung der Benutzeradministratorberechtigungen und der Konfiguration der Benutzereinstellungen durchgegangen.  Beachten Sie, dass für PIM die Azure AD Premium P2-Lizenzierung erforderlich ist.
