@@ -2,12 +2,12 @@
 lab:
   title: 'Erkunden der Identity Governance in Azure AD mit Privileged Identity Management '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894007"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489234"
 ---
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Lab: Erkunden der Identity Governance in Azure AD mit Privileged Identity Management
 
@@ -50,9 +50,9 @@ In diesem Lab erkunden Sie einige der grundlegenden Funktionen von Privileged Id
 
 2. Wählen Sie im linken Navigationsbereich **Identity Governance** aus.
 
-3. Stellen Sie im Hauptfenster sicher, dass **Erste Schritte** unterstrichen ist. Wählen Sie dann im rechten mittleren Bereich des Bildschirms **Rollenzuweisungen verwalten** aus.  Wählen Sie alternativ im linken Navigationsbereich unter „Privileged Identity Management“ die Option **Azure AD-Rollen** aus.
+3. Wählen Sie im linken Navigationsbereich unter „Privileged Identity Management“ die Option **Azure AD-Rollen** aus.
 
-4. Sie befinden sich nun im Fenster für den Schnellstart in Privileged Identity Management.  Wählen Sie **Zugriff verwalten** aus.
+4. Sie befinden sich nun im Fenster für den Schnellstart in Privileged Identity Management.  Wählen Sie **Verwalten** aus.
 
 5. Sie befinden sich nun auf der Seite für die Contoso-Rollen.  Geben Sie oben auf der Seite in die Suchleiste den Text **Benutzer** ein.  Wählen Sie **Benutzeradministrator** aus den Suchergebnissen aus.
 
@@ -85,7 +85,7 @@ In diesem Lab erkunden Sie einige der grundlegenden Funktionen von Privileged Id
 19. Melden Sie sich ab. Wählen Sie dazu das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann **Abmelden** aus. Schließen Sie dann alle Browserfenster.
 
 
-#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Aufgabe 3: Aufgabe 3:  Bei dieser Aufgabe melden Sie sich als Diego Siciliani beim Azure-Portal an, um auf die Privileged Identity Management-Funktion von Azure Active Directory zuzugreifen, um Ihre Zuweisung als Benutzeradministrator zu aktivieren.  Sobald sie aktiviert ist, nehmen Sie einige Konfigurationsänderungen an einem vorhandenen Benutzer vor. Hinweis: Bei dieser Aufgabe benötigen Sie Sofortzugriff auf ein Mobilgerät, das SMS empfangen kann.
+#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Aufgabe 3: Bei dieser Aufgabe melden Sie sich als Diego Siciliani beim Azure-Portal an, um auf die Privileged Identity Management-Funktion von Azure Active Directory zuzugreifen, um Ihre Zuweisung als Benutzeradministrator zu aktivieren.  Sobald sie aktiviert ist, nehmen Sie einige Konfigurationsänderungen an einem vorhandenen Benutzer vor. Hinweis: Bei dieser Aufgabe benötigen Sie Sofortzugriff auf ein Mobilgerät, das SMS empfangen kann.
 
 1. Öffnen Sie Microsoft Edge.  Geben Sie **portal.azure.com** in die Adressleiste des Browsers ein.
 
