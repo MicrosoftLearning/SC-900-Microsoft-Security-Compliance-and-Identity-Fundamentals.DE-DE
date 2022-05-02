@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Vertraulichkeitsbezeichnungen in Microsoft 365
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: 00da5f8577c31a02d1afb9afcfe8e84e89c07fa9
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: 489021addff2c867ace4460708f5c880c8ae3e4f
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894071"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614229"
 ---
 # <a name="demo-sensitivity-labels-in-microsoft-365"></a>Demo: Vertraulichkeitsbezeichnungen in Microsoft 365
 
@@ -32,7 +32,7 @@ In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie
 
 1. Wählen Sie im linken Navigationsbereich **Information Protection** unter „Lösungen“ aus.
 
-1. Im gelben Informationsfeld wird „Ihre Organisation hat die Möglichkeit zum Verarbeiten von Inhalten in Office-Online-Dateien, für die verschlüsselte Vertraulichkeitsbezeichnungen verwendet wurden und die in SharePoint oder auf OneDrive gespeichert sind, nicht aktiviert“ angegeben.  Wählen Sie „Jetzt aktivieren“ aus.  Nachdem Sie diese Aktion vorgenommen haben, kann es eine Verzögerung geben, bis die Einstellung vom System übernommen wurde.
+1. Im gelben Informationsfeld werden Sie darauf hingewiesen, dass Ihre Organisation die Option zum Verarbeiten von Inhalten in Office-Onlinedateien, für die verschlüsselte Vertraulichkeitsbezeichnungen verwendet wurden und die in OneDrive oder SharePoint gespeichert sind, nicht aktiviert hat.  Wählen Sie „Jetzt aktivieren“ aus.  Nachdem Sie diese Aktion vorgenommen haben, kann es eine Verzögerung geben, bis die Einstellung vom System übernommen wurde.
 
 1. Überprüfen Sie, ob die oben auf der Seite befindliche Registerkarte **Bezeichnungen** ausgewählt (unterstrichen) ist.
 

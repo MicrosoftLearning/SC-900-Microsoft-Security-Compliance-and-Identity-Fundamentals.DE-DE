@@ -1,13 +1,13 @@
 ---
 lab:
   title: Umgehen mit Azure Policy
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: b202e4b7dadc2fdadec4ac2df7aa6bcee7400b6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893935"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614421"
 ---
 # <a name="lab-explore-azure-policy"></a>Lab: Umgehen mit Azure Policy
 
@@ -33,7 +33,7 @@ Azure Policy hilft bei der Durchsetzung von Organisationsstandards und bei der B
 
 1. Oben auf der Seite unter „Essentials“ werden der Name, die Beschreibung und andere wesentliche Informationen angezeigt.  Lesen Sie die Beschreibung (bewegen Sie den Mauszeiger über die Beschreibung). HINWEIS: Das Beschreibungsfeld verweist auf Azure Security Center, das in Microsoft Defender für Cloud umbenannt wurde.
 
-1. Beachten Sie, dass die im Dashboard bereitgestellten Informationen entsprechend dem ausgewählten Element – der Initiativendefinition von „ASC-Standard“ – aktualisiert werden.  Wie Sie bereits erfahren haben, ist eine Initiativendefinition eine Sammlung von Richtliniendefinitionen, die auf das Erreichen eines einzigen übergeordneten Ziels ausgerichtet sind. Informationen können nach Gruppe, Richtlinien, nicht konformen Ressourcen oder Ereignissen angezeigt werden.
+1. Beachten Sie, dass die im Dashboard bereitgestellten Informationen entsprechend dem ausgewählten Element aktualisiert werden: ASC-Standard. Dieser ASC-Standard ist die Definition der Azure Security Benchmark-Initiative.  Wie Sie bereits erfahren haben, ist eine Initiativendefinition eine Sammlung von Richtliniendefinitionen, die auf das Erreichen eines einzigen übergeordneten Ziels ausgerichtet sind. Informationen können nach Gruppe, Richtlinien, nicht konformen Ressourcen oder Ereignissen angezeigt werden.
 
 1. Schließen Sie die ASC-Seite, und kehren Sie zur Startseite der Richtlinie zurück, indem Sie oben rechts im Fenster **X** auswählen.
 
@@ -69,7 +69,9 @@ Azure Policy hilft bei der Durchsetzung von Organisationsstandards und bei der B
 
 1. Beachten Sie den standardmäßigen Zuweisungsnamen.  Übernehmen Sie den Namen unverändert, und wählen Sie unten auf der Seite **Weiter** aus.
 
-1. Geben Sie im Feld „Name der Markierung“ den Text **Umgebung** ein, und wählen Sie dann **Weiter** aus.  
+1. Geben Sie im Feld „Name der Markierung“ den Text **Umgebung** ein, und wählen Sie dann **Weiter** aus. 
+
+1. Behalten Sie die Standardkorrektureinstellungen unverändert bei, und wählen Sie dann **Weiter** aus. 
 
 1. Geben Sie in der Meldung über die Nichtkonformität den Text **Umgebungstag erforderlich** ein, und wählen Sie dann **Weiter** aus. Hinweis: Diese Meldung wird als Grund für Nichtkonformität für Ressourcengruppen angezeigt, die vor der Richtlinienzuweisung erstellt wurden und das Umgebungstag nicht aufweisen.  Für nach der Erstellung der Richtlinie erstellte Ressourcengruppen wird das Erstellen der Ressourcengruppen verweigert, sofern kein Umgebungstag vorliegt.
 
@@ -97,11 +99,13 @@ Azure Policy hilft bei der Durchsetzung von Organisationsstandards und bei der B
 
 1. Es wird eine Meldung zur bestandenen Validierung angezeigt („Tagname“ und „Wert“ sind keine Pflichtfelder im Assistenten). Wählen Sie dann **Erstellen** aus.
 
-1. Oben im Bildschirm wird die Fehlermeldung „Fehler beim Erstellen der Ressourcengruppe. Zeigen Sie die Fehlerdetails an“ angezeigt.  Wählen Sie **Fehlerdetails anzeigen** aus. Die Bedingung, die Teil der Azure-Richtlinie ist, wurde nicht erfüllt. Daher wurde die Erstellung der Ressourcengruppe aufgrund der Nichtkonformität blockiert. Hinweis: Wenn die Fehlermeldung nicht angezeigt wird und die Ressourcengruppe erstellt wurde, ist die Richtlinie noch nicht wirksam.  Navigieren Sie zum Aufrufen der in der vorherigen Aufgabe erstellten Richtlinie zur Seite „Richtlinie“. Sobald die Richtlinie wirksam ist, werden Sie feststellen, dass die Ressource nicht konform ist.  Die Detailseite umfasst die Meldung über die Nichtkonformität.
+1. Oben im Bildschirm wird die Fehlermeldung „Fehler beim Erstellen der Ressourcengruppe. Zeigen Sie die Fehlerdetails an“ angezeigt.  Wählen Sie **Fehlerdetails anzeigen** aus. Die Bedingung, die Teil der Azure-Richtlinie ist, wurde nicht erfüllt. Daher wurde die Erstellung der Ressourcengruppe aufgrund der Nichtkonformität blockiert. 
+
+    Hinweis: Wenn die Fehlermeldung nicht angezeigt wird und die Ressourcengruppe erstellt wurde, ist die Richtlinie noch nicht wirksam.  Navigieren Sie zum Aufrufen der in der vorherigen Aufgabe erstellten Richtlinie zur Seite „Richtlinie“. Sobald die Richtlinie wirksam ist, werden Sie feststellen, dass die Ressource nicht konform ist.  Die Detailseite umfasst die Meldung über die Nichtkonformität. Wenn ein Fehler zurückgegeben wird, zeigen Ihnen die folgenden Schritte, wie Sie die Bereitstellung korrigieren.
 
 1. Die Fehlerzusammenfassung zeigt den Fehlertyp „Die Ressource ‚SC900-Labs‘ wurde durch eine Richtlinie abgelehnt“.  Schließen Sie dieses Fenster. Wählen Sie dazu in der oberen linken Ecke des Bildschirms das **X** aus.
 
-1. Wählen Sie im Fenster „Ressourcengruppe erstellen“ die Option **< Vorherige** aus.
+1. Wählen Sie im Fenster „Ressourcengruppe erstellen“ die Option  **Zurück** aus.
 
 1. Sie sind zurück auf der Seite mit den Tags für „Ressourcengruppe erstellen“.  Geben Sie in das Feld „Name“ den Text „Umgebung“ und in das Feld „Wert“ den Text **SC900-Labs** ein. Wählen Sie anschließend **Weiter: Überprüfen + erstellen >** aus.
 

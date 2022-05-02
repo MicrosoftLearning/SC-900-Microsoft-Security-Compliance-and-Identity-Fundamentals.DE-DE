@@ -2,12 +2,12 @@
 lab:
   title: Erkunden von Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 6921230c178c08c8a6868de49f2f0673a72127fc
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: b140c437202af133f02d8e615795a97f634aca96
+ms.sourcegitcommit: 89f5fbd1e9c70e30108daa8fbeb65ebd9947bf1a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019270"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "141605423"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Lab: Erkunden von Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
 
@@ -27,19 +27,20 @@ In diesem Lab erkunden Sie die Funktion von Netzwerksicherheitsgruppen in Azure.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 1. Wählen Sie in der oberen linken Ecke des Bildschirms neben dem Text „Microsoft Azure“ das Symbol „Portalmenü anzeigen“ (die drei horizontalen Linien werden auch als Hamburgersymbol bezeichnet) und dann **Alle Dienste** aus.  
 1. Wählen Sie im Hauptfenster unter „Empfohlen“ die Option „Virtuelle Computer“ aus.  Wenn „Virtuelle Computer“ nicht aufgelistet wird, geben Sie den entsprechenden Text in die Suchleiste ein, und treffen Sie dann die Auswahl aus den Suchergebnissen.
-1. Wählen Sie oben links auf der Seite **+ Erstellen** und dann **+ Virtueller Computer** aus.
+1. Wählen Sie oben links auf der Seite **+Erstellen** und dann **+Virtueller Azure-Computer** aus.
 1. Tragen Sie auf der Registerkarte „Grundlagen“ die folgenden Informationen (übernehmen Sie für nicht aufgeführte Elemente die Standardeinstellungen) ein:
     1. Abonnement: Bestätigen Sie, dass die Standardeinstellung „Azure Pass-Förderung“ lautet.
 
     1. Ressourcengruppe: Wählen Sie **Neu erstellen** aus. Geben Sie dann **LabsSC900-RG** in das Feld „Name“ ein, und wählen Sie **OK** aus.
     1. Name des virtuellen Computers: Geben Sie **SC900-WinVM** ein.
-    1. Image: Wählen Sie im Dropdownmenü **Windows 10 Pro, Version 20H2 – Gen 1** aus.
-    1. Größe: Wählen Sie im Dropdownmenü **Alle Größen anzeigen** und dann **B2s** aus. Klicken Sie anschließend unten auf der Seite auf **Auswählen**.
-    1. Benutzername:  Geben Sie den gewünschten Benutzernamen ein.  Notieren Sie sich diesen, da Sie ihn für den Zugriff auf den virtuellen Computer benötigen.
-    1. Kennwort:  Geben Sie ein Kennwort Ihrer Wahl ein.  Notieren Sie sich dieses, da Sie es für den Zugriff auf den virtuellen Computer benötigen.
-    1. Öffentliche eingehende Ports: Wählen Sie **Keine** aus.
-    1. Lizenz: Wählen Sie **Ich bestätige, dass ich über eine berechtigte Windows 10-Lizenz mit Rechten für mehrinstanzenfähiges Hosting verfüge** aus, sodass im Kontrollkästchen ein Häkchen angezeigt wird.
-    1. Klicken Sie auf **Weiter: Datenträger**. 
+    1. Region: Wenn das Regionsfeld nicht vorab ausgefüllt ist, wählen Sie die Region aus, die Ihrem Standort am nächsten ist.
+    3. Image: Wählen Sie im Dropdownmenü **Windows 10 Pro, Version 20H2 – Gen 1** aus.
+    4. Größe: Wählen Sie im Dropdownmenü **Alle Größen anzeigen** und dann **B2s** aus. Klicken Sie anschließend unten auf der Seite auf **Auswählen**.
+    5. Benutzername:  Geben Sie den gewünschten Benutzernamen ein.  Notieren Sie sich diesen, da Sie ihn für den Zugriff auf den virtuellen Computer benötigen.
+    6. Kennwort:  Geben Sie ein Kennwort Ihrer Wahl ein.  Notieren Sie sich dieses, da Sie es für den Zugriff auf den virtuellen Computer benötigen.
+    7. Öffentliche eingehende Ports: Wählen Sie **Keine** aus.
+    8. Lizenz: Wählen Sie **Ich bestätige, dass ich über eine berechtigte Windows 10-Lizenz mit Rechten für mehrinstanzenfähiges Hosting verfüge** aus, sodass im Kontrollkästchen ein Häkchen angezeigt wird.
+    9. Klicken Sie auf **Weiter: Datenträger**. 
 1. Sie befinden sich nun auf der Registerkarte „Datenträger“ für die VM-Konfiguration.  Übernehmen Sie alle Standardeinstellungen, und wählen Sie **Weiter: Netzwerk >** aus.
 1. Sie befinden sich nun auf der Registerkarte „Netzwerk“ für die VM-Konfiguration.  Tragen Sie die folgenden Informationen (übernehmen Sie für nicht aufgeführte Elemente die Standardeinstellungen) ein:
     1. NIC-Netzwerksicherheitsgruppe: Wählen Sie **Keine** aus.  Hinweis: Sie wählen in diesem Schritt „Keine“ aus, weil Sie alle Einrichtungsschritte einer NSG selbst durchführen sollen. Diese werden in den nachfolgenden Aufgaben behandelt.
