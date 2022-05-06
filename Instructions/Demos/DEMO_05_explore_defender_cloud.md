@@ -2,16 +2,16 @@
 Demo:
   title: Microsoft Defender für Cloud'
   module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: 1548f7ff825d472eeb53697342abf8cd48ad084f
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: b9cf202b9aef7f700b08c1dd6f55444d328fac9a
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894102"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557337"
 ---
 # <a name="demo-microsoft-defender-for-cloud"></a>Demo: Microsoft Defender für Cloud
 
-### <a name="demo-scenario"></a>Demoszenario
+## <a name="demo-scenario"></a>Demoszenario
 
 In dieser Demo gehen Sie Microsoft Defender für Cloud durch und zeigen, wie der Sicherheitsstatus einer Organisation mit der Azure-Sicherheitsbewertung verbessert werden kann.
 
@@ -54,4 +54,3 @@ In dieser Demo gehen Sie Microsoft Defender für Cloud durch und zeigen, wie der
 ## <a name="review"></a>Überprüfung
 
 In dieser Demo sind Sie Microsoft Defender für Cloud durchgegangen und haben gezeigt, wie der Sicherheitsstatus einer Organisation mit der Azure-Sicherheitsbewertung verbessert werden kann.
-

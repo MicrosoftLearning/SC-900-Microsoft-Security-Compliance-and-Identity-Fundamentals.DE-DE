@@ -1,21 +1,22 @@
 ---
 Pre-Demo Setup:
   title: Demoeinrichtung
-ms.openlocfilehash: b44b5fe0c5f01e8cb2364dc426c2ec3a2b1e7029
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893934"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557253"
 ---
 # <a name="pre-demo-setup"></a>Einrichtung vor der Demo
 
-### <a name="setup-part-1---redeem-azure-pass"></a>Teil 1 der Einrichtung – Einlösen des Azure Pass
+## <a name="setup-part-1---redeem-azure-pass"></a>Teil 1 der Einrichtung – Einlösen des Azure Pass
+
 Bei dieser Einrichtungsaufgabe lösen Sie Ihren Azure Pass unter Verwendung der gleichen Anmeldeinformationen ein, die Sie auch für den Microsoft 365-Mandanten verwenden.  So können Sie nahtloser zwischen Microsoft 365 und Azure wechseln.
 
 1. Falls Browserfenster geöffnet sind, wird empfohlen, alle Browser zu schließen.
 
-1. Klicken Sie mit der rechten Maustaste auf das Microsoft Edge-Symbol, und wählen Sie **Neues InPrivate-Fenster** aus, um eine neue InPrivate-Browsersitzung zu öffnen. Sonstige 
+1. Klicken Sie mit der rechten Maustaste auf das Microsoft Edge-Symbol, und wählen Sie **Neues InPrivate-Fenster** aus, um eine neue InPrivate-Browsersitzung zu öffnen.
 
 1. Geben Sie **www.microsoftazurepass.com** in die Adressleiste ein.  
 
@@ -33,6 +34,7 @@ Bei dieser Einrichtungsaufgabe lösen Sie Ihren Azure Pass unter Verwendung der 
 1. Lassen Sie die Browserregisterkarte für die Homepage des Azure-Portals geöffnet. In der nächsten Demo navigieren Sie zu ihr zurück.
 
 ### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Teil 2 der Einrichtung – Aktivieren des Microsoft 365-Überwachungsprotokolls
+
 In dieser Einrichtungsaufgabe aktivieren Sie die Überwachungsprotokollfunktion in Microsoft 365.  Obwohl das Überwachungsprotokoll laut Dokumentation standardmäßig aktiviert ist, trifft dies für die meisten Labmandanten nicht zu, und es kann mehrere Stunden dauern, bis die Änderung wirksam wird.  Es empfiehlt sich, diese Funktion zu aktivieren, da Microsoft 365 Überwachungsprotokolle für Benutzererkenntnisse und -aktivitäten in Richtlinien und Analyseerkenntnisse verwendet.
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.
@@ -59,5 +61,3 @@ In dieser Einrichtungsaufgabe aktivieren Sie die Überwachungsprotokollfunktion 
 ### <a name="review"></a>Überprüfung
 
 Bei dieser Einrichtung haben Sie Ihren Azure Pass unter Verwendung der gleichen Anmeldeinformationen eingelöst, die Sie auch für den Microsoft 365-Mandanten verwenden.  Außerdem haben Sie die Überwachungsprotokollfunktion in Microsoft 365 aktiviert.
-
-

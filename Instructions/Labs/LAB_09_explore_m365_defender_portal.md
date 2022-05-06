@@ -2,28 +2,30 @@
 lab:
   title: Erkunden des Microsoft 365 Defender-Portals
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: c3b666c86b361f7d33c6ae7f3639b7b015d8fa30
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614409"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557145"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Lab: Erkunden des Microsoft 365 Defender-Portals
 
 ## <a name="lab-scenario"></a>Labszenario
-In diesem Lab erkunden Sie das Microsoft 365 Defender-Portal, indem Sie den auf der Landing Page angezeigten Inhalt durchgehen. Außerdem erkunden Sie die Optionen im Navigationsbereich, die einen schnellen Zugriff auf die Funktionen bieten, die Bestandteil der Lösung für Extended Detection and Response (XDR) von Microsoft sind: Microsoft Defender für Endpunkt und Microsoft Defender für Office 365 (E-Mail und Zusammenarbeit).  Als Letztes erkunden Sie zudem, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.
 
+In diesem Lab erkunden Sie das Microsoft 365 Defender-Portal, indem Sie den auf der Landing Page angezeigten Inhalt durchgehen. Außerdem erkunden Sie die Optionen im Navigationsbereich, die einen schnellen Zugriff auf die Funktionen bieten, die Bestandteil der Lösung für Extended Detection and Response (XDR) von Microsoft sind: Microsoft Defender für Endpunkt und Microsoft Defender für Office 365 (E-Mail und Zusammenarbeit).  Als Letztes erkunden Sie zudem, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.
 
 **Geschätzte Dauer**: 10–15 Minuten
 
-#### <a name="task-1--explore-the-microsoft-365-defender-landing-page"></a>Aufgabe 1:  Erkunden der Landing Page von Microsoft 365 Defender
+### <a name="task-1"></a>Aufgabe 1
+
+Erkunden der Landing Page von Microsoft 365 Defender
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.
 
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
-   
+
     1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten. Dadurch gelangen Sie zur Seite „Microsoft 365 Admin Center“.
 
@@ -43,7 +45,9 @@ In diesem Lab erkunden Sie das Microsoft 365 Defender-Portal, indem Sie den auf
 
 1. Indem Sie den Titel einer Karte auswählen, erhalten Sie zusätzliche Informationen zu diesem Thema. Dies erkunden Sie bei der nächsten Aufgabe.  Lassen Sie das Browserfenster geöffnet.
 
-#### <a name="task-2-in-this-task-you-will-explore-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>Aufgabe 2: Bei dieser Aufgabe erkunden Sie, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.
+### <a name="task-2"></a>Aufgabe 2
+
+Bei dieser Aufgabe erkunden Sie, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.
 
 1. Wählen Sie auf der Startseite des Microsoft 365 Defender-Portals auf der Titelleiste der Karte (der Text wird blau) die Option **Microsoft-Sicherheitsbewertung** aus.  Alternativ können Sie **Sicherheitsbewertung** im linken Navigationsbereich auswählen.
 
@@ -63,5 +67,6 @@ In diesem Lab erkunden Sie das Microsoft 365 Defender-Portal, indem Sie den auf
 
 1. Schließen Sie die Browserseite.
 
-#### <a name="review"></a>Überprüfung
+### <a name="review"></a>Überprüfung
+
 In diesem Lab haben Sie das Microsoft 365 Defender-Portal erkundet, indem Sie den auf der Landing Page angezeigten Inhalt durchgegangen sind. Außerdem haben Sie die Optionen im Navigationsbereich erkundet, die einen Schnellzugriff auf Funktionen ermöglichen, die Bestandteil der Microsoft-Lösung für Extended Detection and Response (XDR), von Microsoft Defender für Endpunkt und von Microsoft Defender für Office 365 (E-Mail und Zusammenarbeit) sind.  Als Letztes haben Sie erkundet, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.

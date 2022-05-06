@@ -2,12 +2,12 @@
 lab:
   title: Erkunden von Azure Active Directory
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 075b7123b5d7e17b7e30dfcacf9f90ef97a67f83
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: ca6ea1f2fc67ad1c09a108079eada6c8a9ebd89c
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894022"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557289"
 ---
 # <a name="lab-explore-azure-active-directory"></a>Lab: Erkunden von Azure Active Directory
 
@@ -15,17 +15,17 @@ ms.locfileid: "137894022"
 
 In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Sie einen Benutzer, konfigurieren die verschiedenen Einstellungen und fügen dabei auch Lizenzen hinzu.  
 
-
-
 **Geschätzte Dauer**: 10–15 Minuten
 
-#### <a name="task-1--as-a-subscriber-to-microsoft-365-you-are-already-using-azure-ad--in-this-task-you-will-walk-through-accessing-azure-ad-through-the-microsoft-365-admin-portal-and-through-the-azure-portal"></a>Aufgabe 1:  Als Abonnent von Microsoft 365 verwenden Sie Azure AD bereits.  Bei dieser Aufgabe durchlaufen Sie den schrittweisen Prozess zum Zugreifen auf Azure AD über das Microsoft 365-Verwaltungsportal und das Azure-Portal.
+### <a name="task-1"></a>Aufgabe 1
+
+Als Abonnent von Microsoft 365 verwenden Sie Azure AD bereits.  Bei dieser Aufgabe durchlaufen Sie den schrittweisen Prozess zum Zugreifen auf Azure AD über das Microsoft 365-Verwaltungsportal und das Azure-Portal.
 
 1. Öffnen Sie Microsoft Edge.
 
 2. Geben Sie **admin.microsoft.com** in die Adressleiste ein, um auf das Microsoft 365 Admin Center zuzugreifen.
 
-3. Melden Sie sich mit Ihren Administratoranmeldeinformationen an. 
+3. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
@@ -44,8 +44,9 @@ In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Si
 
 10. Lassen Sie diese Browserseite für die nächste Aufgabe geöffnet.
 
+### <a name="task-2"></a>Aufgabe 2
 
-#### <a name="task-2--in-this-task-youll-learn-how-to-create-a-new-user-in-azure-active-directory-and-explore-some-of-services-that-can-be-managed-at-the-user-level"></a>Aufgabe 2:  Bei dieser Aufgabe erfahren Sie, wie Sie in Azure Active Directory einen neuen Benutzer erstellen. Außerdem erkunden Sie einige der Dienste, die auf Benutzerebene verwaltet werden können.
+Bei dieser Aufgabe erfahren Sie, wie Sie in Azure Active Directory einen neuen Benutzer erstellen. Außerdem erkunden Sie einige der Dienste, die auf Benutzerebene verwaltet werden können.
 
 1. Navigieren Sie zu der in Ihrem Browser geöffneten Registerkarte „Contoso – Microsoft Azure“. Falls Sie die Registerkarte geschlossen haben, öffnen Sie eine Browserseite. Geben Sie „portal.azure.com“ in die Adressleiste ein, und wählen Sie „Azure Active Directory“ aus.  Sie sollten beim Azure-Portal als Administrator angemeldet sein. Falls nicht, melden Sie sich wieder an.
 
@@ -109,7 +110,9 @@ In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Si
 
 20. Melden Sie sich von allen Browserregisterkarten ab. Klicken Sie dazu auf das Benutzersymbol neben der E-Mail-Adresse in der oberen rechten Ecke des Bildschirms. Schließen Sie dann alle Browserfenster.
 
-#### <a name="task-3--in-this-task-you-will-sign-in-as-sara-perez-for-the-first-time"></a>Aufgabe 3:  Bei dieser Aufgabe melden Sie sich erstmals als Sara Perez an.
+### <a name="task-3"></a>Aufgabe 3
+
+Bei dieser Aufgabe melden Sie sich erstmals als Sara Perez an.
 
 1. Öffnen Sie Microsoft Edge.
 
@@ -127,9 +130,6 @@ In diesem Lab greifen Sie auf Azure Active Directory zu.  Außerdem erstellen Si
 
 8. **Melden Sie sich von allen Browserregisterkarten ab**. Klicken Sie dazu auf das Benutzersymbol neben der E-Mail-Adresse in der oberen rechten Ecke des Bildschirms. Schließen Sie dann alle Browserfenster.
 
+### <a name="review"></a>Überprüfung
 
-
-#### <a name="review"></a>Überprüfung
 In diesem Lab haben Sie Azure AD erstmals erkundet. Da Abonnenten von Microsoft 365 Azure AD automatisch verwenden, haben Sie festgestellt, dass Sie über das Microsoft 365-Verwaltungsportal oder das Azure-Portal auf Azure AD-Funktionen und -Dienste zugreifen können.  Dabei gelangen Sie an dieselbe Stelle, unabhängig von Ihrem bevorzugten Verfahren.  Außerdem haben Sie den Prozess der Erstellung eines neuen Benutzers durchlaufen und die verschiedenen konfigurierbaren Einstellungen kennengelernt. Dazu zählen Gruppen, denen der Benutzer zugewiesen werden kann, die Verfügbarkeit von Rollen und die Zuweisung von Benutzerlizenzen.
-
-

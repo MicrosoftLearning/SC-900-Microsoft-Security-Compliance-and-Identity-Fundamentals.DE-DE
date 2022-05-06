@@ -2,28 +2,30 @@
 lab:
   title: Umgehen mit Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614421"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557517"
 ---
 # <a name="lab-explore-azure-policy"></a>Lab: Umgehen mit Azure Policy
 
 ## <a name="lab-scenario"></a>Labszenario
-Azure Policy hilft bei der Durchsetzung von Organisationsstandards und bei der Bewertung der Compliance nach Bedarf. Azure Policy wertet Ressourcen in Azure aus, indem die Eigenschaften dieser Ressourcen mit Geschäftsregeln verglichen werden. In diesem Lab erkunden Sie zunächst die Landing Page von Azure Policy. Nach der anfänglichen Erkundung der Azure Policy-Seite erstellen Sie eine Richtlinie und erfahren, wie sich diese Richtlinie auswirkt.
 
+Azure Policy hilft bei der Durchsetzung von Organisationsstandards und bei der Bewertung der Compliance nach Bedarf. Azure Policy wertet Ressourcen in Azure aus, indem die Eigenschaften dieser Ressourcen mit Geschäftsregeln verglichen werden. In diesem Lab erkunden Sie zunächst die Landing Page von Azure Policy. Nach der anfänglichen Erkundung der Azure Policy-Seite erstellen Sie eine Richtlinie und erfahren, wie sich diese Richtlinie auswirkt.
 
 **Geschätzte Dauer**: 20 bis 25 Minuten
 
-#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>Aufgabe 1: Erkunden Sie kurz die Azure Policy-Seite.
+### <a name="task-1"></a>Aufgabe 1
+
+Erkunden Sie kurz die Azure Policy-Seite.
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **portal.microsoft.com** in die Adressleiste ein.
 
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
-    
+
     1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
@@ -53,7 +55,9 @@ Azure Policy hilft bei der Durchsetzung von Organisationsstandards und bei der B
 
 1. Lassen Sie diese Browserregisterkarte („Richtlinie – Microsoft Azure“) für die nächste Aufgabe geöffnet.
 
-#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>Aufgabe 2:  In dieser Aufgabe erstellen Sie eine einfache Richtlinienzuweisung, um eine Markierung für Ressourcengruppen zu erfordern.
+### <a name="task-2"></a>Aufgabe 2
+
+In dieser Aufgabe erstellen Sie eine einfache Richtlinienzuweisung, um eine Markierung für Ressourcengruppen zu erfordern.
 
 1. Öffnen Sie die Browserregisterkarte „Richtlinie – Microsoft Azure“.
 
@@ -69,9 +73,9 @@ Azure Policy hilft bei der Durchsetzung von Organisationsstandards und bei der B
 
 1. Beachten Sie den standardmäßigen Zuweisungsnamen.  Übernehmen Sie den Namen unverändert, und wählen Sie unten auf der Seite **Weiter** aus.
 
-1. Geben Sie im Feld „Name der Markierung“ den Text **Umgebung** ein, und wählen Sie dann **Weiter** aus. 
+1. Geben Sie im Feld „Name der Markierung“ den Text **Umgebung** ein, und wählen Sie dann **Weiter** aus.
 
-1. Behalten Sie die Standardkorrektureinstellungen unverändert bei, und wählen Sie dann **Weiter** aus. 
+1. Behalten Sie die Standardkorrektureinstellungen unverändert bei, und wählen Sie dann **Weiter** aus.
 
 1. Geben Sie in der Meldung über die Nichtkonformität den Text **Umgebungstag erforderlich** ein, und wählen Sie dann **Weiter** aus. Hinweis: Diese Meldung wird als Grund für Nichtkonformität für Ressourcengruppen angezeigt, die vor der Richtlinienzuweisung erstellt wurden und das Umgebungstag nicht aufweisen.  Für nach der Erstellung der Richtlinie erstellte Ressourcengruppen wird das Erstellen der Ressourcengruppen verweigert, sofern kein Umgebungstag vorliegt.
 
@@ -81,7 +85,9 @@ Azure Policy hilft bei der Durchsetzung von Organisationsstandards und bei der B
 
 1. Sie befinden sich nun auf der Homepage der Azure-Dienste.  Lassen Sie diese Seite geöffnet. Sie benötigen sie für die nächste Aufgabe.
 
-#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>Aufgabe 3:  In dieser Aufgabe sehen Sie die Auswirkung der Azure-Richtlinienzuweisung. Dazu erstellen Sie eine Ressourcengruppe in Azure, die kein Tag enthält. Anschließend aktualisieren Sie die Ressourcengruppe so, dass sie ein Tag enthält.  Hinweis: Es kann bis zu 30 Minuten dauern, bis die in der vorherigen Aufgabe erstellte Richtlinie wirksam wird. In der Regel geht dies aber schneller.
+### <a name="task-3"></a>Aufgabe 3
+
+In dieser Aufgabe sehen Sie die Auswirkung der Azure-Richtlinienzuweisung. Dazu erstellen Sie eine Ressourcengruppe in Azure, die kein Tag enthält. Anschließend aktualisieren Sie die Ressourcengruppe so, dass sie ein Tag enthält.  Hinweis: Es kann bis zu 30 Minuten dauern, bis die in der vorherigen Aufgabe erstellte Richtlinie wirksam wird. In der Regel geht dies aber schneller.
 
 1. Öffnen Sie die Browserregisterkarte „Home – Microsoft Azure“.
 
@@ -99,7 +105,7 @@ Azure Policy hilft bei der Durchsetzung von Organisationsstandards und bei der B
 
 1. Es wird eine Meldung zur bestandenen Validierung angezeigt („Tagname“ und „Wert“ sind keine Pflichtfelder im Assistenten). Wählen Sie dann **Erstellen** aus.
 
-1. Oben im Bildschirm wird die Fehlermeldung „Fehler beim Erstellen der Ressourcengruppe. Zeigen Sie die Fehlerdetails an“ angezeigt.  Wählen Sie **Fehlerdetails anzeigen** aus. Die Bedingung, die Teil der Azure-Richtlinie ist, wurde nicht erfüllt. Daher wurde die Erstellung der Ressourcengruppe aufgrund der Nichtkonformität blockiert. 
+1. Oben im Bildschirm wird die Fehlermeldung „Fehler beim Erstellen der Ressourcengruppe. Zeigen Sie die Fehlerdetails an“ angezeigt.  Wählen Sie **Fehlerdetails anzeigen** aus. Die Bedingung, die Teil der Azure-Richtlinie ist, wurde nicht erfüllt. Daher wurde die Erstellung der Ressourcengruppe aufgrund der Nichtkonformität blockiert.
 
     Hinweis: Wenn die Fehlermeldung nicht angezeigt wird und die Ressourcengruppe erstellt wurde, ist die Richtlinie noch nicht wirksam.  Navigieren Sie zum Aufrufen der in der vorherigen Aufgabe erstellten Richtlinie zur Seite „Richtlinie“. Sobald die Richtlinie wirksam ist, werden Sie feststellen, dass die Ressource nicht konform ist.  Die Detailseite umfasst die Meldung über die Nichtkonformität. Wenn ein Fehler zurückgegeben wird, zeigen Ihnen die folgenden Schritte, wie Sie die Bereitstellung korrigieren.
 
@@ -115,12 +121,11 @@ Azure Policy hilft bei der Durchsetzung von Organisationsstandards und bei der B
 
 1. Entfernen Sie die Azure-Richtlinie, bevor Sie den Vorgang beenden.
     1. Wählen Sie in der oberen linken Ecke der Seite die Option „Start“ aus, um zur Azure-Homepage zurückzukehren.
-    
+
     1. Wählen Sie unter „Azure-Dienste“ die Option „Azure Policy“ aus.
     1. In der Mitte der Seite wird eine Liste der Azure-Richtlinien-/-Initiativenzuweisungen angezeigt.  Wählen Sie die Auslassungspunkte für die Richtlinienzuweisung „Tag für Ressourcengruppen erforderlich“ und dann „Zuweisung löschen“ aus.
     1. Sie werden aufgefordert zu bestätigen, dass die Zuweisung gelöscht werden soll.  Wählen Sie Ja aus.
 
-
-#### <a name="review"></a>Überprüfung
+### <a name="review"></a>Überprüfung
 
 In diesem Lab haben Sie die Landing Page von Azure Policy kennengelernt. Nach der anfänglichen Erkundung der Azure Policy-Seite haben Sie den Prozess der Erstellung einer Richtlinie durchlaufen und konnten die Auswirkung dieser Richtlinie beobachten.

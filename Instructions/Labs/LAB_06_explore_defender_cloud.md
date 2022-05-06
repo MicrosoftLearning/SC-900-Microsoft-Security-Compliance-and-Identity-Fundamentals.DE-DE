@@ -2,22 +2,26 @@
 lab:
   title: Erkunden von Microsoft Defender für Cloud
   module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: 208e11a7e82497fbb900b4fa024fb6fb367d458e
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 580e84e726a6ba9c7d9109881710e08f059d0818
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893991"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557570"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>Lab: Erkunden von Microsoft Defender für Cloud
 
 ## <a name="lab-scenario"></a>Labszenario
+
 In diesem Lab erkunden Sie Defender für Cloud und erfahren, wie Sie mithilfe der Azure-Sicherheitsbewertung den Sicherheitsstatus Ihrer Organisation verbessern können.
 
 **Geschätzte Dauer**: 30 Minuten
 
-#### <a name="task-1-in-this-task-you-will-take-a-brief-tour-of-microsoft-defender-for-cloud"></a>Aufgabe 1: In dieser Aufgabe erhalten Sie einen kurzen Überblick über Microsoft Defender für Cloud.
-1.  Öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein.
+### <a name="task-1"></a>Aufgabe 1
+
+In dieser Aufgabe erhalten Sie einen kurzen Überblick über Microsoft Defender für Cloud.
+
+1. Öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein.
 
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
@@ -48,35 +52,36 @@ In diesem Lab erkunden Sie Defender für Cloud und erfahren, wie Sie mithilfe de
 
 1. Wählen Sie auf der Hauptseite **Einhaltung gesetzlicher Bestimmungen** aus. Auf der Seite „Einhaltung gesetzlicher Bestimmungen“ finden Sie eine Liste mit Compliancekontrollen.  Unter jeder Kontrolle befinden sich eine Reihe von Bewertungen, die auf dem Azure-Sicherheitsvergleichstest basieren. Dieser liefert Empfehlungen dazu, wie Sie Ihre Cloudlösungen auf Azure schützen können.
     1. Wählen Sie **IM. Identitätsverwaltung** und dann **IM.6 Verwenden stärkerer Authentifizierungssteuerungen für den gesamten Azure Active Directory-basierten Zugriff** aus.  In der Liste werden Aktionen zur Verbesserung der Compliancesituation aufgeführt, für die der Kunde verantwortlich ist.
-    1. Wählen Sie das **X** oben rechts auf dem Bildschirm aus, um die Seite zu schließen und zur Übersichtsseite von Microsoft Defender für Cloud zurückzukehren. 
+    1. Wählen Sie das **X** oben rechts auf dem Bildschirm aus, um die Seite zu schließen und zur Übersichtsseite von Microsoft Defender für Cloud zurückzukehren.
     1. Lassen Sie die Übersichtsseite von Microsoft Defender für Cloud geöffnet. Sie wird in der nächsten Aufgabe verwendet.
 
+### <a name="task-2"></a>Aufgabe 2
 
-#### <a name="task-2-in-this-task-you-will-navigate-to-azure-secure-score-and-explore-recommendations-that-can-improve-your-secure-score"></a>Aufgabe 2: Bei dieser Aufgabe navigieren Sie zur Azure-Sicherheitsbewertung und erkunden Empfehlungen, die Ihre Sicherheitsbewertung verbessern können. 
+Bei dieser Aufgabe navigieren Sie zur Azure-Sicherheitsbewertung und erkunden Empfehlungen, die Ihre Sicherheitsbewertung verbessern können.
 
 1. Wählen Sie auf der Übersichtsseite von Microsoft Defender für Cloud die Karte **Sicherheitsbewertung** aus.
 1. Wählen Sie **Azure Pass-Förderung** aus.  Beachten Sie Ihre Sicherheitsbewertung.
 1. Wählen Sie auf der Seite „Empfehlungen“ die Option **Best Practices für die Sicherheit implementieren** aus, um die Liste zu erweitern. Beachten Sie, dass der Ressourcenintegritätsstatus rot angezeigt wird.
-1. Wählen Sie das Element **Ihrem Abonnement muss mehr als ein Besitzer zugewiesen sein** aus, das den Ressourcenintegritätsstatus in Rot anzeigt. 
+1. Wählen Sie das Element **Ihrem Abonnement muss mehr als ein Besitzer zugewiesen sein** aus, das den Ressourcenintegritätsstatus in Rot anzeigt.
 1. Stellen Sie sicher, dass unter **Betroffene Ressourcen** „Fehlerhafte Ressourcen“ ausgewählt bzw. unterstrichen ist, und wählen Sie dann das aufgeführte Azure-Abonnement aus.
 1. Wählen Sie oben auf der Seite „Zugriffssteuerung (IAM)“ die Option **+ Hinzufügen** aus. Wählen Sie dann aus dem Dropdown den Eintrag **Rollenzuweisung hinzufügen** aus.
     1. Wählen Sie links auf der Seite **Besitzer** aus (dies sollte das erste aufgeführte Element sein), sodass die Zeile grau hervorgehoben ist, und wählen Sie dann unten auf der Seite **Weiter** aus.
-    1. Wählen Sie neben „Mitglieder“ die Option **+ Mitglieder auswählen** aus. 
+    1. Wählen Sie neben „Mitglieder“ die Option **+ Mitglieder auswählen** aus.
     1. Wählen Sie im Fenster „Mitglieder auswählen“, das auf der rechten Seite des Bildschirms geöffnet wird, **Alex Willber** aus, und klicken Sie dann unten auf der Seite auf **Auswählen**.  
     1. Überprüfen Sie auf der Seite „Rollenzuweisung hinzufügen“, ob Alex Willber als Mitglied aufgeführt ist, und wählen Sie dann **Weiter** sowie **Überprüfen + zuweisen** aus.
     1. Es kann bis zu 24 Stunden dauern, bis der Status aktualisiert wird. Danach wird auch Ihre Sicherheitsbewertung aktualisiert, da alle Elemente in der Gruppe „Zugriff und Berechtigungen verwalten“ erfüllt sind.
     1. Wählen Sie oben links auf der Seite an der Stelle, wo „Azure Pass“ steht, **Microsoft Defender für Cloud** aus, um zur Übersichtsseite von Microsoft Defender für Cloud zurückzukehren.
 1. Lassen Sie diese Seite für die nachfolgende Aufgabe geöffnet.
 
+### <a name="task-3"></a>Aufgabe 3
 
-#### <a name="task-3--recall-that-microsoft-defender-for-cloud-is-offered-in-two-modes-without-enhanced-security-features-free-and-with-enhanced-security-features-which-are-available-through-the-microsoft-defender-for-cloud-plans-in-this-task-you-discover-how-to-enabledisable-the-various-microsoft-defender-for-cloud-plans"></a>Aufgabe 3:  Denken Sie daran, dass Microsoft Defender für Cloud in zwei Modi angeboten wird: ohne erweiterte Sicherheitsfeatures (kostenlos) und mit erweiterten Sicherheitsfeatures, die über die Microsoft Defender für Cloud-Pläne verfügbar sind. In dieser Aufgabe erfahren Sie, wie Sie die verschiedenen Microsoft Defender für Cloud-Pläne aktivieren/deaktivieren.
+Denken Sie daran, dass Microsoft Defender für Cloud in zwei Modi angeboten wird: ohne erweiterte Sicherheitsfeatures (kostenlos) und mit erweiterten Sicherheitsfeatures, die über die Microsoft Defender für Cloud-Pläne verfügbar sind. In dieser Aufgabe erfahren Sie, wie Sie die verschiedenen Microsoft Defender für Cloud-Pläne aktivieren/deaktivieren.
 
-1.  Wählen Sie auf der Übersichtsseite von Microsoft Defender für Cloud im linken Navigationsbereich **Umgebungseinstellungen** aus.
+1. Wählen Sie auf der Übersichtsseite von Microsoft Defender für Cloud im linken Navigationsbereich **Umgebungseinstellungen** aus.
 1. Wählen Sie das Größer-als-Zeichen **>** neben „Mandantenstammgruppe“ aus, um sie zu erweitern (wählen Sie „Mandantenstammgruppe“ nicht direkt aus, da Sie dann zu einer anderen Seite geleitet werden). Wählen Sie dann **Azure Pass – Sponsorship** aus.
-1.  Beachten Sie auf der Seite mit den Defender-Plänen, wie Sie alle Pläne aktivieren oder einzelne Defender-Pläne auswählen können. Übernehmen Sie die Einstellungen unverändert (alle Pläne deaktiviert).
-1.  Sie können nun die Browserregisterkarte schließen, um das Azure-Portal zu beenden.
+1. Beachten Sie auf der Seite mit den Defender-Plänen, wie Sie alle Pläne aktivieren oder einzelne Defender-Pläne auswählen können. Übernehmen Sie die Einstellungen unverändert (alle Pläne deaktiviert).
+1. Sie können nun die Browserregisterkarte schließen, um das Azure-Portal zu beenden.
 
+### <a name="review"></a>Überprüfung
 
-#### <a name="review"></a>Überprüfung
 In diesem Lab haben Sie Defender für Cloud erkundet und erfahren, wie Sie mithilfe der Azure-Sicherheitsbewertung den Sicherheitsstatus Ihrer Organisation verbessern können.
-

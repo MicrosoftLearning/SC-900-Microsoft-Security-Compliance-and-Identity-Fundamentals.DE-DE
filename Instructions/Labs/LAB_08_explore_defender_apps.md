@@ -2,23 +2,26 @@
 lab:
   title: 'Erkunden von Microsoft Defender für Cloud-Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: aa360b3d9e604e384cc5b040ef747425af76e13b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893998"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557571"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Lab: Erkunden von Microsoft Defender für Cloud-Apps
 
 ## <a name="lab-scenario"></a>Labszenario
-In diesem Lab erkunden Sie die Funktionen von Microsoft Defender für Cloud-Apps.  Sie gehen die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien durch.  Hinweis:  Eine Organisation muss über eine Lizenz verfügen, um Microsoft Defender für Cloud-Apps verwenden zu können, wobei es sich um einen benutzerbasierten Abonnementdienst handelt. 
+
+In diesem Lab erkunden Sie die Funktionen von Microsoft Defender für Cloud-Apps.  Sie gehen die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien durch.  Hinweis:  Eine Organisation muss über eine Lizenz verfügen, um Microsoft Defender für Cloud-Apps verwenden zu können, wobei es sich um einen benutzerbasierten Abonnementdienst handelt.
 
 **Geschätzte Dauer**: 15 bis 20 Minuten
 
-#### <a name="task-1-explore-cloud-discovery"></a>Aufgabe 1: Erkunden Sie Cloud Discovery.
+### <a name="task-1"></a>Aufgabe 1
 
-1.  Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.
+Erkunden Sie Cloud Discovery.
+
+1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.
 
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
@@ -50,7 +53,9 @@ In diesem Lab erkunden Sie die Funktionen von Microsoft Defender für Cloud-Apps
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
-#### <a name="task-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>Aufgabe 2: Finden Sie Möglichkeiten, wie Sie die aufgezeichneten Aktivitäten untersuchen können.
+### <a name="task-2"></a>Aufgabe 2
+
+Finden Sie Möglichkeiten, wie Sie die aufgezeichneten Aktivitäten untersuchen können.
 
 1. Wählen Sie im linken Navigationsbereich unter „Untersuchen“ die Option **Aktivitätsprotokoll** aus.  Hier erhalten Sie Sichtbarkeit in alle Aktivitäten im Zusammenhang mit Ihren verbundenen Apps.   Da der Office 365-Connector bereits verbunden ist, sollten einige Daten angezeigt werden. Nachdem Sie mithilfe des App-Connectors eine Verbindung zwischen Cloud App Security und einer App hergestellt haben, scannt Cloud App Security alle Aktivitäten, die durchgeführt wurden, wobei die rückwirkende Scanzeit je nach App abweicht, und wird anschließend ständig mit neuen Aktivitäten aktualisiert.  
 
@@ -66,14 +71,16 @@ In diesem Lab erkunden Sie die Funktionen von Microsoft Defender für Cloud-Apps
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
+### <a name="task-3"></a>Aufgabe 3
 
-#### <a name="task-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>Aufgabe 3: In dieser Aufgabe erkunden Sie die Seiten mit den Richtlinien und Warnungen in Microsoft Defender für Cloud-Apps.
+In dieser Aufgabe erkunden Sie die Seiten mit den Richtlinien und Warnungen in Microsoft Defender für Cloud-Apps.
 
-1. Wählen Sie im linken Navigationsbereich neben der Stelle, an der **Steuerung** steht, den Pfeil nach unten und dann **Richtlinien** aus.  Die aufgelisteten Richtlinien umfassen Informationen zur Anzahl der von der Richtlinie generierten Warnungen, zum Schweregrad usw. Wenn Sie ein Element in der Liste auswählen, z. B. **Risikoanmeldung**, können Sie die Richtlinie bearbeiten. Wählen Sie unten auf der Seite **Abbrechen** aus. 
+1. Wählen Sie im linken Navigationsbereich neben der Stelle, an der **Steuerung** steht, den Pfeil nach unten und dann **Richtlinien** aus.  Die aufgelisteten Richtlinien umfassen Informationen zur Anzahl der von der Richtlinie generierten Warnungen, zum Schweregrad usw. Wenn Sie ein Element in der Liste auswählen, z. B. **Risikoanmeldung**, können Sie die Richtlinie bearbeiten. Wählen Sie unten auf der Seite **Abbrechen** aus.
 
 1. Wählen Sie im linken Navigationsbereich **Warnungen** aus.  Wenn Warnungen aufgelistet werden, wählen Sie ein Element aus der Liste der Warnungen aus. Gehen Sie die bereitgestellten Informationen durch.  Wählen Sie in der oberen rechten Seite des Fensters **Warnung schließen** aus, um die Optionen zum Schließen der Warnung anzuzeigen.  
 
 1. Schließen Sie das Browserfenster.
 
-#### <a name="review"></a>Überprüfung
+### <a name="review"></a>Überprüfung
+
 In diesem Lab haben Sie die Funktionen von Microsoft Defender für Cloud-Apps erkundet.  Sie sind die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien durchgegangen.

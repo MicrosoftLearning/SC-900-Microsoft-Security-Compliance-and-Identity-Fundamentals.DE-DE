@@ -2,16 +2,16 @@
 Demo:
   title: Self-Service-Kennwortzurücksetzung von Azure Active Directory
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 8b5ab5e9ba2670841d8bcf897cbfb4f6e76c9265
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 819439157f86ba4a28255cf876e239f3960df8f4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894150"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557217"
 ---
 # <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>Demo: Self-Service-Kennwortzurücksetzung (SSPR) von Azure Active Directory
 
-### <a name="demo-scenario"></a>Demoszenario
+## <a name="demo-scenario"></a>Demoszenario
 
 In dieser Demo gehen Sie die verschiedenen Einstellungen für die Aktivierung der Self-Service-Kennwortzurücksetzung durch.
 
@@ -40,7 +40,6 @@ In dieser Demo gehen Sie die verschiedenen Einstellungen für die Aktivierung de
 
 1. Lassen Sie diese Browserseite für die nächste Demo geöffnet.
 
-#### <a name="review"></a>Überprüfung
+### <a name="review"></a>Überprüfung
 
-In dieser Demo haben Sie die Einstellungen für die Self-Service-Kennwortzurücksetzung gezeigt. 
-
+In dieser Demo haben Sie die Einstellungen für die Self-Service-Kennwortzurücksetzung gezeigt.
