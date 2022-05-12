@@ -2,12 +2,12 @@
 lab:
   title: Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 7a9ae15dda8636c3323afacc0f92fc630485cc64
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: ceaf7c5695abc9b7a7c179f6e5a1580b22af3016
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894015"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489270"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Lab: Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung
 
@@ -65,7 +65,7 @@ In diesem Lab gehen Sie als Administrator den Prozess der Aktivierung der Self-S
 
 2. Wählen Sie im linken Navigationsbereich **Kennwort zurücksetzen** aus.  
 
-3. Die Eigenschaften für die Self-Service-Kennwortzurücksetzung werden angezeigt.  Stellen Sie sicher, dass **Self-Service-Kennwortzurücksetzung** für die Gruppe **ausgewählt** ist, wofür sie aufgelistet ist, nämlich **SSPRSecurityUsers**.  Bewegen Sie den Mauszeiger über das Informationssymbol neben dem Text „Gruppe auswählen“, und beachten Sie die angezeigte Meldung „Definiert die Gruppe von Benutzern, die ihre eigenen Kennwörter zurücksetzen können“. Sie müssen Benutzer in die Gruppe aufnehmen. Es ist nicht möglich, Benutzer einzeln auszuwählen.  Wenn Sie die Gruppe ändern, ersetzt die von Ihnen ausgewählte Gruppe zudem die derzeit aufgelistete Gruppe.  Sie sollten der SSPR-Gruppe Benutzer einfach hinzufügen.  Beachten Sie als Letztes das blaue Informationsfeld: „Diese Einstellungen gelten nur für Endbenutzer in Ihrer Organisation. Administratoren können die Self-Service-Kennwortzurücksetzung immer durchführen und müssen zum Zurücksetzen ihres Kennworts zwei Authentifizierungsmethoden verwenden.“
+3. Die Eigenschaften für die Self-Service-Kennwortzurücksetzung werden angezeigt.  Stellen Sie sicher, dass **Self-Service-Kennwortzurücksetzung** für die aufgeführte Gruppe **SSPRSecurityGroupUsers** **aktiviert** ist.  Bewegen Sie den Mauszeiger über das Informationssymbol neben dem Text „Gruppe auswählen“, und beachten Sie die angezeigte Meldung „Definiert die Gruppe von Benutzern, die ihre eigenen Kennwörter zurücksetzen können“. Sie müssen Benutzer in die Gruppe aufnehmen. Es ist nicht möglich, Benutzer einzeln auszuwählen.  Wenn Sie die Gruppe ändern, ersetzt die von Ihnen ausgewählte Gruppe zudem die derzeit aufgelistete Gruppe.  Sie sollten der SSPR-Gruppe Benutzer einfach hinzufügen.  Beachten Sie als Letztes das blaue Informationsfeld: „Diese Einstellungen gelten nur für Endbenutzer in Ihrer Organisation. Administratoren können die Self-Service-Kennwortzurücksetzung immer durchführen und müssen zum Zurücksetzen ihres Kennworts zwei Authentifizierungsmethoden verwenden.“
 
 5. Wählen Sie im linken Navigationsbereich von „Kennwort zurücksetzen“ die Option **Authentifizierungsmethoden** aus.
 
@@ -99,7 +99,7 @@ In diesem Lab gehen Sie als Administrator den Prozess der Aktivierung der Self-S
 
 4. Da Sie sich erstmals als Adele Vance anmelden, werden Sie aufgefordert, Ihr Kennwort zurückzusetzen.  Geben Sie Ihr altes Kennwort ein.  Geben Sie **SC900-Lab** als neues Kennwort ein. Geben Sie **SC-900-Lab** in das Feld „Kennwort bestätigen“ ein.  Wählen Sie **Anmelden**.  Hinweis: Wir verwenden dieses Kennwort nur der Einfachheit halber für das Lab. Als bewährte Methode würden Sie in der Regel ein sichereres Kennwort eingeben.
 
-5. Ein Popupfenster wird angezeigt und gibt an, dass weitere Informationen erforderlich sind,  Denn als Mitglied der Gruppe „SSPRSecurityUsers“ müssen sich die Gruppenmitglieder im Rahmen der Konfiguration registrieren, wenn sie sich anmelden.  Wählen Sie die Schaltfläche **Weiter** aus.  Hinweis:  Alternativ zur Registrierung durch die Benutzer können Administratoren die Authentifizierungsmethoden direkt konfigurieren, wenn sie einen Benutzer hinzufügen. Dazu müssen Administratoren die Telefonnummern und E-Mail-Adressen der Benutzer kennen und festlegen, um die Self-Service-Kennwortzurücksetzung auszuführen und um das Kennwort eines Benutzers zurückzusetzen.
+5. Ein Popupfenster wird angezeigt und gibt an, dass weitere Informationen erforderlich sind,  Denn als Mitglied der Gruppe „SSPRSecurityGroupUsers“ müssen sich die Gruppenmitglieder im Rahmen der Konfiguration registrieren, wenn sie sich anmelden.  Wählen Sie die Schaltfläche **Weiter** aus.  Hinweis:  Alternativ zur Registrierung durch die Benutzer können Administratoren die Authentifizierungsmethoden direkt konfigurieren, wenn sie einen Benutzer hinzufügen. Dazu müssen Administratoren die Telefonnummern und E-Mail-Adressen der Benutzer kennen und festlegen, um die Self-Service-Kennwortzurücksetzung auszuführen und um das Kennwort eines Benutzers zurückzusetzen.
 
 6. Die Seite „Schützen Sie Ihr Konto“ wird geöffnet.  Das angezeigte Fenster ist für die Authentifizierungsmethode „Telefon“. Falls Sie nicht über ein Mobilgerät verfügen, das SMS empfangen kann, springen Sie zum nächsten Schritt.  Sie werden aufgefordert, eine Telefonnummer einzugeben. Stellen Sie sicher, dass die Option **Code per SMS an mich senden** aktiviert ist.   Geben Sie die Telefonnummer ein, über die Sie einen Code per SMS empfangen können, und wählen Sie die Schaltfläche **Weiter** aus.  Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code soeben an das von Ihnen eingegebene Telefon gesendet wurde.  Geben Sie den empfangenen Code ein, und wählen Sie **Weiter** aus. In einem Fenster, das geöffnet wird, werden „Erfolg“ und Ihre „Standardanmeldemethode“ angezeigt.  Wählen Sie **Fertig** aus.  
 

@@ -1,12 +1,12 @@
 ---
 lab:
   title: Einrichten
-ms.openlocfilehash: 29b07bfeb08919349ac982c5a8ee5b3cce254704
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 5e141b2b29f43e4de741a94e06ef10dbe6cd78e3
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894063"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489246"
 ---
 # <a name="lab-setup"></a>Lab: Setup
 
@@ -56,7 +56,7 @@ In dieser Einrichtungsaufgabe aktivieren Sie die Überwachungsprotokollfunktion 
 
 1. Stellen Sie sicher, dass die Registerkarte **Suche** ausgewählt (unterstrichen) ist.
 
-1. Warten Sie zwei bis drei Minuten, nachdem Sie zur Seite „Überwachen“ gelangt sind.  Wenn die Überwachung NICHT aktiviert ist, wird oben auf der Seite ein blauer Balken mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Sobald die Überwachung aktiviert ist, wird der blaue Balken nicht mehr angezeigt.  Wird der blaue Balken nicht angezeigt, ist die Überwachung bereits aktiviert, und keine weitere Aktion ist erforderlich.  Sie können die Aktivierung der Überwachung auch über PowerShell überprüfen. Dies wird im Rahmen dieses Kurses jedoch nicht behandelt.
+1. Warten Sie zwei bis drei Minuten, nachdem Sie zur Seite „Überwachen“ gelangt sind.  Wenn die Überwachung NICHT aktiviert ist, wird oben auf der Seite ein blauer Balken mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Wenn Sie aufgefordert werden, zu bestätigen, dass die Organisationseinstellung aktualisiert werden müssen, wählen Sie **Ja** aus. Sobald die Überwachung aktiviert ist, wird der blaue Balken nicht mehr angezeigt.  Wird der blaue Balken nicht angezeigt, ist die Überwachung bereits aktiviert, und keine weitere Aktion ist erforderlich.  Sie können die Aktivierung der Überwachung auch über PowerShell überprüfen. Dies wird im Rahmen dieses Kurses jedoch nicht behandelt.
 
 1. Wählen Sie im linken Navigationsbereich **Start** aus, um zur Homepage des Microsoft 365 Compliance Center zurück zu gelangen.
 
