@@ -2,19 +2,22 @@
 Demo:
   title: Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 502bc783d6de1a8c4454df90550aac24d0c16d22
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614181"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557133"
 ---
 # <a name="demo-azure-policy"></a>Demo: Azure Policy
 
-### <a name="demo-scenario"></a>Demoszenario
+## <a name="demo-scenario"></a>Demoszenario
+
 In dieser Demo gehen Sie den Prozess der Einrichtung einer Azure-Richtlinie und die Auswirkungen dieser Richtlinie durch.
 
-#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>Teil 1 der Demo: Erstellen einer Richtlinie, um ein Tag für eine Ressourcengruppe zu erfordern (es werden die Schritte zur Erstellung einer Richtlinie aus einer Vorlage gezeigt)
+### <a name="demo-part-1"></a>Teil 1 der Demo
+
+Erstellen einer Richtlinie, um ein Tag für eine Ressourcengruppe zu erfordern (es werden die Schritte zur Erstellung einer Richtlinie aus einer Vorlage gezeigt)
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **portal.microsoft.com** in die Adressleiste ein.  Sie sollten bereits angemeldet sein. Falls nicht, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
@@ -46,7 +49,9 @@ In dieser Demo gehen Sie den Prozess der Einrichtung einer Azure-Richtlinie und 
 
 1. Sie befinden sich nun auf der Homepage der Azure-Dienste.  Lassen Sie diese Seite geöffnet. Sie benötigen sie für die nächste Aufgabe.
 
-#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>Teil 2 der Demo:  Zeigen Sie die Auswirkungen der Richtlinie. Erstellen Sie dazu eine Ressourcengruppe ohne Markierung, und fügen Sie dieser dann eine Markierung hinzu.
+### <a name="demo-part-2"></a>Teil 2 der Demo
+
+Zeigen Sie die Auswirkungen der Richtlinie. Erstellen Sie dazu eine Ressourcengruppe ohne Markierung, und fügen Sie dieser dann eine Markierung hinzu.
 
 1. Wählen Sie oben auf der Seite unterhalb von „Azure-Dienste“ die Option **Ressourcengruppen** aus. Wenn die Option nicht angezeigt wird, geben Sie in die Suchleiste „Ressourcengruppen“ ein, und wählen Sie den Eintrag dann aus.
 
@@ -74,6 +79,6 @@ In dieser Demo gehen Sie den Prozess der Einrichtung einer Azure-Richtlinie und 
 
 1. Die Ressourcengruppe wird aufgelistet.  Da das Tag in der Ressourcengruppe bereitgestellt wurde, wurde die im Rahmen der Azure-Richtlinie enthaltene Bedingung erfüllt.  Die Ressourcengruppe ist mit der Richtlinie konform.
 
-#### <a name="review"></a>Überprüfung
+### <a name="review"></a>Überprüfung
 
 In dieser Demo haben Sie den Prozess der Einrichtung einer Azure-Richtlinie und die Auswirkungen dieser Richtlinie gezeigt.

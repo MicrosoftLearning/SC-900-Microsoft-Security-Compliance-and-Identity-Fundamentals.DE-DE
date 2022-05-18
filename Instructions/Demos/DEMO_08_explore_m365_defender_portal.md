@@ -2,19 +2,22 @@
 Demo:
   title: Das Microsoft 365 Defender-Portal
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 5c556556a182328414d27ab91de82224845a145c
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 19e4de67b0c63d0afdd318d98fedb4e230675730
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614361"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557309"
 ---
 # <a name="demo-the-microsoft-365-defender-portal"></a>Demo: Das Microsoft 365 Defender-Portal
 
-### <a name="demo-scenario"></a>Demoszenario
+## <a name="demo-scenario"></a>Demoszenario
+
 In dieser Demo zeigen Sie das Microsoft 365 Defender-Portal, indem Sie den auf der Landing Page angezeigten Inhalt durchgehen. Außerdem gehen Sie die Optionen im Navigationsbereich durch, die einen schnellen Zugriff auf die Funktionen bieten, die Bestandteil der Lösung für Extended Detection and Response (XDR) von Microsoft sind: Microsoft Defender für Endpunkt und Microsoft Defender für Office 365 (E-Mail und Zusammenarbeit).  Als Letztes zeigen Sie zudem, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.
 
-#### <a name="demo-part-1--explore-the-microsoft-365-defender-landing-page"></a>Teil 1 der Demo:  Erkunden der Landing Page von Microsoft 365 Defender
+### <a name="demo-part-1"></a>Teil 1 der Demo
+
+Erkunden der Landing Page von Microsoft 365 Defender
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.  Sie sollten bereits als Administrator angemeldet sein.  Falls nicht, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
@@ -36,7 +39,9 @@ In dieser Demo zeigen Sie das Microsoft 365 Defender-Portal, indem Sie den auf 
 
 1. Indem Sie den Titel einer Karte auswählen, erhalten Sie zusätzliche Informationen zu diesem Thema. Dies erkunden Sie bei der nächsten Aufgabe.  Lassen Sie das Browserfenster geöffnet.
 
-#### <a name="demo-part-2-in-this-part-of-the-demo-you-will-show-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>Teil 2 der Demo: Bei diesem Teil der Demo zeigen Sie, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.
+### <a name="demo-part-2"></a>Teil 2 der Demo
+
+Bei diesem Teil der Demo zeigen Sie, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.
 
 1. Wählen Sie auf der Startseite des Microsoft 365 Defender-Portals auf der Titelleiste der Karte (der Text wird blau) die Option **Microsoft-Sicherheitsbewertung** aus.  Alternativ können Sie **Sicherheitsbewertung** im linken Navigationsbereich auswählen.
 
@@ -56,6 +61,6 @@ In dieser Demo zeigen Sie das Microsoft 365 Defender-Portal, indem Sie den auf 
 
 1. Schließen Sie die Browserseite.
 
-#### <a name="review"></a>Überprüfung
+### <a name="review"></a>Überprüfung
 
 In dieser Demo haben Sie das Microsoft 365 Defender-Portal erkundet, indem Sie den auf der Landing Page angezeigten Inhalt durchgegangen sind. Außerdem haben Sie die Optionen im Navigationsbereich erkundet, die einen Schnellzugriff auf Funktionen ermöglichen, die Bestandteil der Microsoft-Lösung für Extended Detection and Response (XDR), von Microsoft Defender für Endpunkt und von Microsoft Defender für Office 365 (E-Mail und Zusammenarbeit) sind.  Als Letztes haben Sie gezeigt, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.

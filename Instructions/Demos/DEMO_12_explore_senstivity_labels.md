@@ -1,21 +1,23 @@
 ---
 Demo:
-  title: Vertraulichkeitsbezeichnungen in Microsoft 365
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: 489021addff2c867ace4460708f5c880c8ae3e4f
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: Vertraulichkeitsbezeichnungen in Microsoft Purview
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
+ms.openlocfilehash: 190ba104d08f47bf1bddfbd262b76c9e6aa8581c
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614229"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557193"
 ---
-# <a name="demo-sensitivity-labels-in-microsoft-365"></a>Demo: Vertraulichkeitsbezeichnungen in Microsoft 365
+# <a name="demo-sensitivity-labels-in-microsoft-purview"></a>Demo: Vertraulichkeitsbezeichnungen in Microsoft Purview
 
-### <a name="demo-scenario"></a>Demoszenario
+## <a name="demo-scenario"></a>Demoszenario
+
 In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie gehen die Einstellungen für vorhandene, bereits erstellte Vertraulichkeitsbezeichnungen und für die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung durch.   Anschließend erfahren Sie, wie eine Bezeichnung angewendet wird, und welche Auswirkung diese Bezeichnung aus Perspektive eines Benutzers hat.
 
+### <a name="demo-part-1"></a>Teil 1 der Demo
 
-#### <a name="demo-part-1-in-this-demo-you-show-the-settings-for-an-existing-sensitivity-label-and-the-corresponding-policy-to-publish-the-label"></a>Teil 1 der Demo: In dieser Demo zeigen Sie die Einstellungen für eine vorhandene Vertraulichkeitsbezeichnung und die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung.
+In dieser Demo zeigen Sie die Einstellungen für eine vorhandene Vertraulichkeitsbezeichnung und die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung.
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.
 
@@ -26,13 +28,13 @@ In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
 
-1. Wählen Sie unter „Admin Center“ die Option **Compliance** aus.  Die Startseite des Microsoft 365 Compliance Center wird auf einer neuen Browserseite geöffnet.  
+1. Wählen Sie unter „Admin Center“ die Option **Compliance** aus.  Die Startseite des Microsoft Purview-Complianceportals wird auf einer neuen Browserseite geöffnet.  
 
-1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Compliance Center **Alle anzeigen** aus.
+1. Wählen Sie im linken Navigationsbereich des Microsoft Purview-Complianceportals **Alle anzeigen** aus.
 
 1. Wählen Sie im linken Navigationsbereich **Information Protection** unter „Lösungen“ aus.
 
-1. Im gelben Informationsfeld werden Sie darauf hingewiesen, dass Ihre Organisation die Option zum Verarbeiten von Inhalten in Office-Onlinedateien, für die verschlüsselte Vertraulichkeitsbezeichnungen verwendet wurden und die in OneDrive oder SharePoint gespeichert sind, nicht aktiviert hat.  Wählen Sie „Jetzt aktivieren“ aus.  Nachdem Sie diese Aktion vorgenommen haben, kann es eine Verzögerung geben, bis die Einstellung vom System übernommen wurde.
+1. Im gelben Informationsfeld werden Sie darauf hingewiesen, dass Ihre Organisation die Option zum Verarbeiten von Inhalten in Office-Onlinedateien, für die verschlüsselte Vertraulichkeitsbezeichnungen verwendet wurden und die in OneDrive oder SharePoint gespeichert sind, nicht aktiviert hat.  Wählen Sie **Jetzt aktivieren** aus.  Nachdem Sie diese Aktion vorgenommen haben, kann es eine Verzögerung geben, bis die Einstellung vom System übernommen wurde.
 
 1. Überprüfen Sie, ob die oben auf der Seite befindliche Registerkarte **Bezeichnungen** ausgewählt (unterstrichen) ist.
 
@@ -50,9 +52,9 @@ In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie
 
     1. Sie befinden sich nun im Fenster „Automatisches Anwenden von Bezeichnungen für Dateien und E-Mails“.  Lesen Sie oben auf der Seite die Beschreibung zum Anwenden der automatischen Bezeichnung und das darunter befindliche Informationsfeld.  Beachten Sie außerdem, dass diese Bezeichnung für das automatische Anwenden von Bezeichnungen für bestimmte Bedingungen festgelegt ist. Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
 
-    1. In diesem nächsten Fenster werden Schutzeinstellungen für Teams, Gruppen und Sites festgelegt, wofür diese Bezeichnung gilt. Wenn sie nicht aktiviert ist, wählen Sie unten auf der Seite die Option **Weiter** aus. 
+    1. In diesem nächsten Fenster werden Schutzeinstellungen für Teams, Gruppen und Sites festgelegt, wofür diese Bezeichnung gilt. Wenn sie nicht aktiviert ist, wählen Sie unten auf der Seite die Option **Weiter** aus.
 
-    1. Dieses nächste Fenster ist eine Previewfunktion zum automatischen Anwenden dieser Bezeichnung auf Azure-Datenbankspalten (wie etwa SQL, Synapse und mehr), die Typen vertraulicher Informationen enthalten, die von Ihnen ausgewählt werden.  Diese Funktionen sind nicht aktiviert. Wählen Sie unten auf der Seite die Option **Abbrechen** aus, um den Assistenten für die Bezeichnungskonfiguration zu schließen und um zur Seite „Information Protection“ zurückzukehren. 
+    1. Dieses nächste Fenster ist eine Previewfunktion zum automatischen Anwenden dieser Bezeichnung auf Azure-Datenbankspalten (wie etwa SQL, Synapse und mehr), die Typen vertraulicher Informationen enthalten, die von Ihnen ausgewählt werden.  Diese Funktionen sind nicht aktiviert. Wählen Sie unten auf der Seite die Option **Abbrechen** aus, um den Assistenten für die Bezeichnungskonfiguration zu schließen und um zur Seite „Information Protection“ zurückzukehren.
 
 1. Wählen Sie im oberen Bereich der Seite „Information Protection“ die Option **Bezeichnungsrichtlinien** aus.  Vertraulichkeitsbezeichnungen können aufgrund von Bezeichnungsrichtlinien veröffentlicht werden.  
 
@@ -70,18 +72,19 @@ In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie
 
 1. Wählen Sie auf der Seite „Information Protection“ die Option „Automatisches Bezeichnen“ aus.  Beachten Sie, dass dort keine automatische Bezeichnungsrichtlinie konfiguriert ist.  Nehmen Sie keine Änderungen an den Einstellungen vor.  Wenn Sie sich fragen, weshalb hier keine Richtlinie vorhanden ist, obwohl die Bezeichnungskonfiguration so festgelegt ist, dass die Bezeichnungen auf Dateien und E-Mails automatisch angewendet werden, wechseln Sie zurück zu den Schritten, in denen Sie die Bezeichnungskonfigurationseinstellungen durchgegangen sind. Überprüfen Sie die Beschreibung und Informationsfelder, die „Automatisches Anwenden von Bezeichnungen für Dateien und E-Mails“ zugeordnet sind.  Hinweis:  Auf der Registerkarte „Automatisches Bezeichnen“ für die Vertraulichkeitsbezeichnung wird  „Sie müssen eine automatische Bezeichnungsrichtlinie erstellen, um diese Bezeichnung automatisch auf bereits (in SharePoint und OneDrive) gespeicherte Dateien oder auf bereits durch Exchange verarbeitete E-Mails anzuwenden“ angezeigt.
 
-1. Wählen Sie im linken Navigationsbereich die Option „Startseite“ aus, um zum Microsoft 365 Compliance Center zurückzukehren.
+1. Wählen Sie im linken Navigationsbereich die Startseite aus, um zur Startseite des Microsoft Purview-Complianceportals zurückzukehren.
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
+### <a name="demo-part-2"></a>Teil 2 der Demo
 
-#### <a name="demo-part-2--in-this-step-you-will-show-the-process-of-applying-a-label-from-the-perspective-of-the-user-in-this-case-the-user-is-the-admin-and-view-the-content-marking-that-is-generated-by-the-label"></a>Teil 2 der Demo:  In diesem Schritt zeigen Sie den Prozess der Anwendung einer Bezeichnung aus Perspektive des Benutzers (in diesem Fall ist der Benutzer der Administrator) und sehen die durch die Bezeichnung generierte Inhaltsmarkierung an.
+In diesem Schritt zeigen Sie den Prozess der Anwendung einer Bezeichnung aus Perspektive des Benutzers (in diesem Fall ist der Benutzer der Administrator) und sehen die durch die Bezeichnung generierte Inhaltsmarkierung an.
 
-1. Wählen Sie auf der Startseite von Microsoft 365 Compliance Center das **App-Startfeld-Symbol** aus, das sich neben dem Text „Contoso Electronics“ befindet. **Klicken Sie mit der rechten Maustaste auf das Word-Symbol**, und wählen Sie **In neuer Registerkarte öffnen** aus.  
+1. Wählen Sie auf der Startseite des Microsoft Purview-Complianceportals das **App-Startfeld-Symbol** aus, das sich neben dem Text „Contoso Electronics“ befindet. **Klicken Sie mit der rechten Maustaste auf das Word-Symbol**, und wählen Sie **In neuer Registerkarte öffnen** aus.  
 
 1. Wählen Sie **+ Neues leeres Dokument** aus. Geben Sie dann etwas Text auf der Seite ein.  Wählen Sie oben auf der Seite auf dem blauen Balken den Pfeil nach unten aus, der sich neben „DokumentXX – gespeichert“ befindet, und geben Sie in das Feld „Dateiname“ den Text **Testbezeichnung** ein.
 
-1. Wählen Sie auf der oberen Menüleiste die Option **Vertraulichkeit** aus. Wenn diese Option nicht sofort angezeigt wird, aktualisieren Sie die Seite. Wählen Sie im Dropdown den Eintrag **Vertraulich – Finanzen** aus. 
+1. Wählen Sie auf der oberen Menüleiste die Option **Vertraulichkeit** aus. Wenn diese Option nicht sofort angezeigt wird, aktualisieren Sie die Seite. Wählen Sie im Dropdown den Eintrag **Vertraulich – Finanzen** aus.
 
 1. Wählen Sie auf der oberen Menüleiste die Option **Ansicht** und dann die Ansicht **Lesebereich** aus.
 
@@ -89,9 +92,11 @@ In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie
 
 1. Schließen Sie die in Ihrem Browser geöffneten Microsoft Word-Registerkarten, um Word zu schließen.
 
-#### <a name="demo-part-3-optional-in-addition-to-content-marking-the-label-protection-setting-was-set-for-encryption-per-the-permissions-that-were-configured-with-this-label-members-of-the-finance-group-can-co-author-documents-with-this-label-applied-and-users-in-the-contoso-tenant-can-view-or-any-documentemail-with-the-label-applied--in-this-section-you-will-send-this-document-to-an-email-address-to-which-you-have-access-ie-a-personal-email-address-or-your-microsoft-email-and-that-is-not-part-of-the-wwlxzzzzonmicrosoftcom-domain-and-see-what-happens-when-you-try-to-open-the-attachment"></a>Teil 3 der Demo (optional): Zusätzlich zur Inhaltsmarkierung wurde die Bezeichnungsschutzeinstellung für die Verschlüsselung festgelegt. Entsprechend den für diese Bezeichnung konfigurierten Berechtigungen können Mitglieder der Finanzgruppe Dokumente, auf die diese Bezeichnung angewendet ist, gemeinsam erstellen, und Benutzer im Contoso-Mandanten können sie (oder Dokumente/E-Mails, auf welche die Bezeichnung angewendet ist) anzeigen.  In diesem Abschnitt senden Sie dieses Dokument an eine E-Mail-Adresse, auf die Sie zugreifen können (d. h. eine persönliche E-Mail-Adresse oder Ihre Microsoft-E-Mail-Adresse), die jedoch NICHT Bestandteil der Domäne „WWLxZZZZ.OnMicrosoft.com“ ist. Anschließend erfahren Sie, was passiert, wenn Sie versuchen, die Anlage zu öffnen.  
+### <a name="demo-part-3-optional"></a>Teil 3 der Demo (optional)
 
-1. Wählen Sie auf der Startseite von Microsoft 365 Compliance Center das **App-Startfeld-Symbol** aus, das sich neben dem Text „Contoso Electronics“ befindet. **Klicken Sie mit der rechten Maustaste auf das Outlook-Symbol**, und wählen Sie **In neuer Registerkarte öffnen** aus.
+Zusätzlich zur Inhaltsmarkierung wurde die Bezeichnungsschutzeinstellung für die Verschlüsselung festgelegt. Entsprechend den für diese Bezeichnung konfigurierten Berechtigungen können Mitglieder der Finanzgruppe Dokumente, auf die diese Bezeichnung angewendet ist, gemeinsam erstellen, und Benutzer im Contoso-Mandanten können sie (oder Dokumente/E-Mails, auf welche die Bezeichnung angewendet ist) anzeigen.  In diesem Abschnitt senden Sie dieses Dokument an eine E-Mail-Adresse, auf die Sie zugreifen können (d. h. eine persönliche E-Mail-Adresse oder Ihre Microsoft-E-Mail-Adresse), die jedoch NICHT Bestandteil der Domäne „WWLxZZZZ.OnMicrosoft.com“ ist. Anschließend erfahren Sie, was passiert, wenn Sie versuchen, die Anlage zu öffnen.  
+
+1. Wählen Sie auf der Startseite des Microsoft Purview-Complianceportals das **App-Startfeld-Symbol** aus, das sich neben dem Text „Contoso Electronics“ befindet. **Klicken Sie mit der rechten Maustaste auf das Outlook-Symbol**, und wählen Sie **In neuer Registerkarte öffnen** aus.
 
 1. Wählen Sie in der oberen linken Ecke des Bildschirms die Option **Neue Nachricht** aus.  Geben Sie eine E-Mail-Adresse ein, auf die Sie zugreifen können und die kein Bestandteil der Domäne „WWLxZZZZ.OnMicrosoft.com“ ist. Geben Sie dann **Test** in die Betreffzeile ein.
 
@@ -105,6 +110,6 @@ In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie
 
 1. Schließen Sie die geöffneten Browserregisterkarten.
 
+### <a name="review"></a>Überprüfung
 
-#### <a name="review"></a>Überprüfung
 In dieser Demo haben Sie Vertraulichkeitsbezeichnungen gezeigt.  Sie haben die Einstellungen für vorhandene, bereits erstellte Vertraulichkeitsbezeichnungen und die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung gezeigt. Anschließend haben Sie gezeigt, wie eine Bezeichnung angewendet wird und welche Auswirkung diese Bezeichnung aus Perspektive eines Benutzers hat.

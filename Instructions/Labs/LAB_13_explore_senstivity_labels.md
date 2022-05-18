@@ -1,42 +1,43 @@
 ---
 lab:
-  title: Erkunden von Vertraulichkeitsbezeichnungen in Microsoft 365
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: ab8d44cf92697deb200bf968a1865d328025984b
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: Erkunden von Vertraulichkeitsbezeichnungen in Microsoft Purview
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
+ms.openlocfilehash: 3d69459ebcd4ffa34bd71997ea86a8aeae4d0774
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614445"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557589"
 ---
-# <a name="lab-explore-sensitivity-labels-in-microsoft-365"></a>Lab: Erkunden von Vertraulichkeitsbezeichnungen in Microsoft 365
+# <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Lab: Erkunden von Vertraulichkeitsbezeichnungen in Microsoft Purview
 
 ## <a name="lab-scenario"></a>Labszenario
-In diesem Lab erkunden Sie die Funktionen von Vertraulichkeitsbezeichnungen.  Sie gehen die Einstellungen für vorhandene, bereits erstellte Vertraulichkeitsbezeichnungen und für die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung durch.   Anschließend erfahren Sie, wie eine Bezeichnung angewendet wird, und welche Auswirkung diese Bezeichnung aus Perspektive eines Benutzers hat.
 
+In diesem Lab erkunden Sie die Funktionen von Vertraulichkeitsbezeichnungen.  Sie gehen die Einstellungen für vorhandene, bereits erstellte Vertraulichkeitsbezeichnungen und für die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung durch.   Anschließend erfahren Sie, wie eine Bezeichnung angewendet wird, und welche Auswirkung diese Bezeichnung aus Perspektive eines Benutzers hat.
 
 **Geschätzte Dauer**: 20 bis 25 Minuten
 
-#### <a name="task-1-in-this-task-you-will-gain-an-understanding-of-what-sensitivity-labels-can-do-by-going-through-the-settings-for-an-existing-sensitivity-label-that-have-been-created-and-the-corresponding-policy-to-publish-the-label"></a>Aufgabe 1: In dieser Aufgabe erfahren Sie, wozu Vertraulichkeitsbezeichnungen dienen, indem Sie die Einstellungen für eine bereits erstellte Vertraulichkeitsbezeichnung und für die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung durchgehen.
+### <a name="task-1"></a>Aufgabe 1
+
+In dieser Aufgabe erfahren Sie, wozu Vertraulichkeitsbezeichnungen dienen, indem Sie die Einstellungen für eine bereits erstellte Vertraulichkeitsbezeichnung und für die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung durchgehen.
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.
 
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
-    
+
     1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten. Dadurch gelangen Sie zur Seite „Microsoft 365 Admin Center“.
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
 
-1. Wählen Sie unter „Admin Center“ die Option **Compliance** aus.  Die Startseite des Microsoft 365 Compliance Center wird auf einer neuen Browserseite geöffnet.  
+1. Wählen Sie unter „Admin Center“ die Option **Compliance** aus.  Die Startseite des Microsoft Purview-Complianceportals wird auf einer neuen Browserseite geöffnet.  
 
 1. Wählen Sie im linken Navigationsbereich **Information Protection** unter „Lösungen“ aus.
 
 1. Wählen Sie oben auf der Seite die Registerkarte **Bezeichnungen** aus.
 
-1. Daraufhin wird ein gelbes Informationsfeld mit dem folgenden Hinweis angezeigt: „Ihre Organisation hat die Möglichkeit zum Verarbeiten von Inhalten in Office-Online-Dateien, für die verschlüsselte Vertraulichkeitsbezeichnungen verwendet wurden und die in SharePoint oder auf OneDrive gespeichert sind, nicht aktiviert“.  Wählen Sie „Jetzt aktivieren“ aus.  Nachdem Sie diese Aktion vorgenommen haben, kann es eine Verzögerung geben, bis die Einstellung vom System übernommen wurde.
-
+1. Daraufhin wird ein gelbes Informationsfeld mit dem folgenden Hinweis angezeigt: „Ihre Organisation hat die Möglichkeit zum Verarbeiten von Inhalten in Office-Online-Dateien, für die verschlüsselte Vertraulichkeitsbezeichnungen verwendet wurden und die in SharePoint oder auf OneDrive gespeichert sind, nicht aktiviert“.  Wählen Sie **Jetzt aktivieren** aus.  Nachdem Sie diese Aktion vorgenommen haben, kann es eine Verzögerung geben, bis die Einstellung vom System übernommen wurde.** **
 
 1. Beachten Sie in der Mitte der Seite, dass bereits Bezeichnungen erstellt wurden.  Wählen Sie **Vertraulich – Finanzen** aus.  Ein Fenster wird geöffnet, das Informationen über diese Bezeichnung bereitstellt.  Beachten Sie, wie diese Bezeichnung festgelegt ist, um die Verschlüsselung und Inhaltsmarkierung zu unterstützen.  Wählen Sie oben auf der Seite „Bezeichnung bearbeiten“ aus, um einige der grundlegenden Konfigurationseinstellungen anzuzeigen.
 
@@ -52,9 +53,9 @@ In diesem Lab erkunden Sie die Funktionen von Vertraulichkeitsbezeichnungen.  Si
 
 1. Sie befinden sich nun im Fenster „Automatisches Anwenden von Bezeichnungen für Dateien und E-Mails“.  Lesen Sie oben auf der Seite die Beschreibung zum Anwenden der automatischen Bezeichnung und das darunter befindliche Informationsfeld.  Beachten Sie außerdem, dass diese Bezeichnung für das automatische Anwenden von Bezeichnungen für bestimmte Bedingungen festgelegt ist. Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
 
-1. In diesem nächsten Fenster werden Schutzeinstellungen für Teams, Gruppen und Sites festgelegt, wofür diese Bezeichnung gilt. Wenn sie nicht aktiviert ist, wählen Sie unten auf der Seite die Option **Weiter** aus. 
+1. In diesem nächsten Fenster werden Schutzeinstellungen für Teams, Gruppen und Sites festgelegt, wofür diese Bezeichnung gilt. Wenn sie nicht aktiviert ist, wählen Sie unten auf der Seite die Option **Weiter** aus.
 
-1. Dieses nächste Fenster ist eine Previewfunktion zum automatischen Anwenden dieser Bezeichnung auf Azure-Datenbankspalten (wie etwa SQL, Synapse und mehr), die Typen vertraulicher Informationen enthalten, die von Ihnen ausgewählt werden.  Diese Funktionen sind nicht aktiviert. Wählen Sie unten auf der Seite die Option **Abbrechen** aus, um den Assistenten für die Bezeichnungskonfiguration zu schließen und um zur Seite „Information Protection“ zurückzukehren. 
+1. Dieses nächste Fenster ist eine Previewfunktion zum automatischen Anwenden dieser Bezeichnung auf Azure-Datenbankspalten (wie etwa SQL, Synapse und mehr), die Typen vertraulicher Informationen enthalten, die von Ihnen ausgewählt werden.  Diese Funktionen sind nicht aktiviert. Wählen Sie unten auf der Seite die Option **Abbrechen** aus, um den Assistenten für die Bezeichnungskonfiguration zu schließen und um zur Seite „Information Protection“ zurückzukehren.
 
 1. Wählen Sie im oberen Bereich der Seite „Information Protection“ die Option **Bezeichnungsrichtlinien** aus.  Vertraulichkeitsbezeichnungen können aufgrund von Bezeichnungsrichtlinien veröffentlicht werden.  
 
@@ -75,31 +76,31 @@ In diesem Lab erkunden Sie die Funktionen von Vertraulichkeitsbezeichnungen.  Si
 
 1. Wählen Sie auf der Seite „Information Protection“ die Option „Automatisches Bezeichnen“ aus.  Beachten Sie, dass dort keine automatische Bezeichnungsrichtlinie konfiguriert ist.  Nehmen Sie keine Änderungen an den Einstellungen vor.  Wenn Sie sich fragen, weshalb hier keine Richtlinie vorhanden ist, obwohl die Bezeichnungskonfiguration so festgelegt ist, dass die Bezeichnungen auf Dateien und E-Mails automatisch angewendet werden, wechseln Sie zurück zu den Schritten, in denen Sie die Bezeichnungskonfigurationseinstellungen durchgegangen sind. Überprüfen Sie die Beschreibung und Informationsfelder, die „Automatisches Anwenden von Bezeichnungen für Dateien und E-Mails“ zugeordnet sind.  Hinweis:  Auf der Registerkarte „Automatisches Bezeichnen“ für die Vertraulichkeitsbezeichnung wird  „Sie müssen eine automatische Bezeichnungsrichtlinie erstellen, um diese Bezeichnung automatisch auf bereits (in SharePoint und OneDrive) gespeicherte Dateien oder auf bereits durch Exchange verarbeitete E-Mails anzuwenden“ angezeigt.
 
-1. Wählen Sie im linken Navigationsbereich die Option „Startseite“ aus, um zum Microsoft 365 Compliance Center zurückzukehren.
+1. Wählen Sie im linken Navigationsbereich die Startseite aus, um zur Startseite des Microsoft Purview-Complianceportals zurückzukehren.
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
+### <a name="task-2"></a>Aufgabe 2
 
-#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-applying-a-label-from-the-perspective-of-the-user-in-this-case-the-user-is-the-admin-and-view-the-content-marking-that-is-generated-by-the-label"></a>Aufgabe 2:  In dieser Aufgabe durchlaufen Sie den Prozess der Anwendung einer Bezeichnung aus Perspektive des Benutzers (in diesem Fall ist der Benutzer der Administrator) und sehen die durch die Bezeichnung generierte Inhaltsmarkierung an.
+In dieser Aufgabe durchlaufen Sie den Prozess der Anwendung einer Bezeichnung aus Perspektive des Benutzers (in diesem Fall ist der Benutzer der Administrator) und sehen die durch die Bezeichnung generierte Inhaltsmarkierung an.
 
-1. Stellen Sie zunächst sicher, dass Office auf Ihrem virtuellen Labcomputer (VM) eingerichtet wurde.  Wählen Sie hierzu die Registerkarte **Microsoft 365 Admin Center** aus, die im Browser geöffnet ist.  Wenn Sie die Registerkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **admin.microsoft.com** ein.
-    1. Wählen Sie im linken Navigationsbereich **Abrechnung** aus, um alle Optionen anzuzeigen. Wählen Sie dann **Ihre Produkte** aus.
-    1. Wählen Sie auf der Seite „Ihre Produkte“ die Option **Microsoft 365 E5 Trial** aus.
-    1. Wählen Sie auf der Seite „Microsoft 365 E5 Trial“ **Software herunterladen und installieren** aus, und befolgen Sie die Anweisungen auf der Seite.
+1. Wählen Sie auf der Startseite von Microsoft 365 Compliance Center das **App-Startfeld-Symbol** aus, das sich neben dem Text „Contoso Electronics“ befindet. **Klicken Sie mit der rechten Maustaste auf das Word-Symbol**, und wählen Sie **In neuer Registerkarte öffnen** aus.  
 
-1. Wählen Sie in der linken unteren Ecke des virtuellen Labcomputers das Windows-Symbol, **Word** und dann **Leeres Dokument** aus.  Dadurch wird ein neues Word-Dokument in der Desktopversion von Word geöffnet.
+1. Wählen Sie **+ Neues leeres Dokument** aus. Geben Sie dann etwas Text auf der Seite ein.  Wählen Sie oben auf der Seite auf dem blauen Balken den Pfeil nach unten aus, der sich neben „DokumentXX – gespeichert“ befindet, und geben Sie in das Feld „Dateiname“ den Text **Testbezeichnung** ein.
 
-1. Wählen Sie auf der oberen Menüleiste **Sensitivität** aus. Wählen Sie im Dropdown den Eintrag **Vertraulich – Finanzen** aus.
+1. Wählen Sie auf der oberen Menüleiste die Option **Vertraulichkeit** aus. Wenn diese Option nicht sofort angezeigt wird, aktualisieren Sie die Seite. Wählen Sie im Dropdown den Eintrag **Vertraulich – Finanzen** aus.
 
-1. Beachten Sie, dass das Dokument das Wasserzeichen enthält.  Das Wasserzeichen wird als kleiner, hellgrauer Text vertikal auf der Seite angezeigt. 
+1. Wählen Sie auf der oberen Menüleiste die Option **Ansicht** und dann die Ansicht **Lesebereich** aus.
 
-1. Speichern Sie die Word-Datei.
+1. Beachten Sie, dass das Dokument das Wasserzeichen enthält.  
 
 1. Schließen Sie die in Ihrem Browser geöffneten Microsoft Word-Registerkarten, um Word zu schließen.
 
-#### <a name="task-3-optional-in-addition-to-content-marking-the-label-protection-setting-was-set-for-encryption-per-the-permissions-that-were-configured-with-this-label-members-of-the-finance-group-can-co-author-documents-with-this-label-applied-and-users-in-the-contoso-tenant-can-view--in-this-task-you-will-send-this-document-to-an-email-address-to-which-you-have-access-ie-a-personal-email-address-and-that-is-not-part-of-the-wwlxzzzzonmicrosoftcom-domain-and-see-what-happens-when-you-try-to-open-the-attachment"></a>Aufgabe 3 (optional): Zusätzlich zur Inhaltsmarkierung wurde die Bezeichnungsschutzeinstellung für die Verschlüsselung festgelegt. Entsprechend den für diese Bezeichnung konfigurierten Berechtigungen können Mitglieder der Finanzgruppe Dokumente, auf die diese Bezeichnung angewendet ist, gemeinsam erstellen, und Benutzer im Contoso-Mandanten können sie anzeigen.  In dieser Aufgabe senden Sie dieses Dokument an eine E-Mail-Adresse, auf die Sie zugreifen können (d. h. eine persönliche E-Mail-Adresse), die jedoch NICHT Bestandteil der Domäne „WWLxZZZZ.OnMicrosoft.com“ ist. Anschließend erfahren Sie, was passiert, wenn Sie versuchen, die Anlage zu öffnen.  
+### <a name="task-3-optional"></a>Aufgabe 3 (optional)
 
-1. Wählen Sie auf der Startseite von Microsoft 365 Compliance Center das **App-Startfeld-Symbol** aus, das sich neben dem Text „Contoso Electronics“ befindet. **Klicken Sie mit der rechten Maustaste auf das Outlook-Symbol**, und wählen Sie **In neuer Registerkarte öffnen** aus.
+Zusätzlich zur Inhaltsmarkierung wurde die Bezeichnungsschutzeinstellung für die Verschlüsselung festgelegt. Entsprechend den für diese Bezeichnung konfigurierten Berechtigungen können Mitglieder der Finanzgruppe Dokumente, auf die diese Bezeichnung angewendet ist, gemeinsam erstellen, und Benutzer im Contoso-Mandanten können sie anzeigen.  In dieser Aufgabe senden Sie dieses Dokument an eine E-Mail-Adresse, auf die Sie zugreifen können (d. h. eine persönliche E-Mail-Adresse), die jedoch NICHT Bestandteil der Domäne „WWLxZZZZ.OnMicrosoft.com“ ist. Anschließend erfahren Sie, was passiert, wenn Sie versuchen, die Anlage zu öffnen.
+
+1. Wählen Sie auf der Startseite des Microsoft Purview-Complianceportals das **App-Startfeld-Symbol** aus, das sich neben dem Text „Contoso Electronics“ befindet. **Klicken Sie mit der rechten Maustaste auf das Outlook-Symbol**, und wählen Sie **In neuer Registerkarte öffnen** aus.
 
 1. Wählen Sie in der oberen linken Ecke des Bildschirms die Option **Neue Nachricht** aus.  Geben Sie eine E-Mail-Adresse ein, auf die Sie zugreifen können und die kein Bestandteil der Domäne „WWLxZZZZ.OnMicrosoft.com“ ist. Geben Sie dann **Test** in die Betreffzeile ein.
 
@@ -113,6 +114,6 @@ In diesem Lab erkunden Sie die Funktionen von Vertraulichkeitsbezeichnungen.  Si
 
 1. Schließen Sie die geöffneten Browserregisterkarten.
 
+### <a name="review"></a>Überprüfung
 
-#### <a name="review"></a>Überprüfung
 In diesem Lab erkunden Sie die Funktionen von Vertraulichkeitsbezeichnungen.  Sie gehen die Einstellungen für vorhandene, bereits erstellte Vertraulichkeitsbezeichnungen und für die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung durch.   Anschließend erfahren Sie, wie eine Bezeichnung angewendet wird, und welche Auswirkung diese Bezeichnung aus Perspektive eines Benutzers hat.

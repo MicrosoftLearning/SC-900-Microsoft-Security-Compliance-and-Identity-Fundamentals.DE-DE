@@ -2,20 +2,21 @@
 Demo:
   title: Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 878316bb32c23e57550dddda1312af270a2fe078
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019282"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557528"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Demo: Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
 
-### <a name="demo-scenario"></a>Demoszenario
+## <a name="demo-scenario"></a>Demoszenario
+
 In dieser Demo zeigen Sie die Funktionalität einer Netzwerksicherheitsgruppe (NSG) in Azure.  Dazu erstellen Sie im Rahmen der Einrichtung vor der Demo zunächst einen virtuellen Computer (Virtual Machine, VM) ohne NSG. Zudem erstellen Sie eine NSG ohne zugehörige Schnittstelle oder Subnetz.  Im Rahmen der Demo zeigen Sie die standardmäßigen Ein- und Ausgangsregeln für die NSG. Anschließend durchlaufen Sie den Prozess zum Zuweisen der Schnittstelle der VM zur NSG.  Nach der Konfiguration testen Sie mithilfe der standardmäßigen NSG-Regeln und auch der von Ihnen erstellten Regeln die Verbindung mit der VM.
   
+### <a name="pre-demo-setup-part-1"></a>Einrichtung vor der Demo – Teil 1
 
-#### <a name="pre-demo-setup-part-1"></a>Einrichtung vor der Demo – Teil 1
  Kursleitern sollten dies **VOR** der Kurszeit ausführen, da das Erstellen einer VM mehrere Minuten dauern kann. Im Rahmen dieser Einrichtung erstellen Sie einen virtuellen Computer unter Windows 10.
 
 1. Öffnen Sie die Registerkarte **Startseite – Microsoft Azure** in Ihrem Browser.  Falls Sie die Registerkarte geschlossen haben, öffnen Sie eine Browserseite. Geben Sie „portal.azure.com“ in die Adressleiste ein, und melden Sie sich erneut an.
@@ -62,7 +63,8 @@ In dieser Demo zeigen Sie die Funktionalität einer Netzwerksicherheitsgruppe (N
 
 1. Sie befinden sich nun wieder im Azure-Portal auf der Seite „SC900-WinVM“.  Lassen Sie die Browserregisterkarte für die nächste Aufgabe geöffnet.
 
-#### <a name="pre-demo-setup-part-2"></a>Einrichtung vor der Demo – Teil 2
+### <a name="pre-demo-setup-part-2"></a>Einrichtung vor der Demo – Teil 2
+
 Erstellen Sie eine Netzwerksicherheitsgruppe, OHNE dieser NSG die Netzwerkschnittstelle der VM zuzuweisen.  
 
 1. Öffnen Sie in Ihrem Browser die Registerkarte „SC900-WinVM – Microsoft Azure“.
@@ -80,7 +82,8 @@ Erstellen Sie eine Netzwerksicherheitsgruppe, OHNE dieser NSG die Netzwerkschnit
 
 1. Wählen Sie nach Abschluss der Bereitstellung **Zu Ressource wechseln** aus, und stellen Sie sicher, dass alles in Ordnung ist.  Dort sollten 3 standardmäßige Eingangs-, 3 standardmäßige Ausgangsregeln, keine Subnetze und keine Schnittstellen vorhanden sein, die der NSG zugeordnet sind.  Wechseln Sie zurück zur **Startseite** des Azure-Portals.  
 
-#### <a name="demo"></a>Demo
+### <a name="demo"></a>Demo
+
 Gehen Sie die Einstellungen für eine NSG durch.  In diesem Fall gehen Sie sie für eine vorhandene NSG (die von Ihnen oben bei der Einrichtung erstellte) durch, die bisher noch keiner VM-Schnittstelle zugewiesen wurde. Anschließend zeigen Sie den Prozess zum Verknüpfen einer Schnittstelle mit der NSG und den Prozess zum Erstellen von Eingangs- und Ausgangsregeln.
 
 1. Öffnen Sie die Browserregisterkarte **Startseite – Microsoft Azure**.  Falls Sie die Registerkarte geschlossen haben, öffnen Sie eine Browserseite. Geben Sie „portal.azure.com“ in die Adressleiste ein, und melden Sie sich erneut an.
@@ -143,13 +146,14 @@ Gehen Sie die Einstellungen für eine NSG durch.  In diesem Fall gehen Sie sie f
 
 1. Testen Sie nun die NSG-Regel für ausgehenden Datenverkehr.
     1. Öffnen Sie in der VM den Edge-Browser.
-    1. Geben Sie **https://www.bing.com** ein. Die Seite sollte nicht angezeigt werden. Hinweis: Wenn Sie eine Verbindung mit dem Internet herstellen können und sichergestellt haben, dass alle Parameter für die Ausgangsregel ordnungsgemäß festgelegt wurden, liegt dies wahrscheinlich daran, dass es ein paar Minuten dauern kann, bis die Regel wirksam wird. Warten Sie einige Minuten, und versuchen Sie erneut.
+    1. Geben Sie **www.bing.com** ein. Die Seite sollte nicht angezeigt werden. Hinweis: Wenn Sie eine Verbindung mit dem Internet herstellen können und sichergestellt haben, dass alle Parameter für die Ausgangsregel ordnungsgemäß festgelegt wurden, liegt dies wahrscheinlich daran, dass es ein paar Minuten dauern kann, bis die Regel wirksam wird. Warten Sie einige Minuten, und versuchen Sie erneut.
 
 1. Schließen Sie die Remotedesktopverbindung. Wählen Sie dazu oben zentral auf der Seite, wo die IP-Adresse angezeigt wird, das **X** aus. Ein Popupfenster gibt „Die Remotesitzung wird getrennt“ an. Klicken Sie auf **OK**.
 
 1. Wechseln Sie zur Startseite des Azure-Portals zurück. Wählen Sie dazu oben auf der Seite auf dem blauen Balken **Microsoft Azure** aus.
 
-#### <a name="tear-down"></a>Nachbereitung
+### <a name="tear-down"></a>Nachbereitung
+
 **WICHTIG:** Bei dieser Aufgabe löschen Sie die Ressourcengruppe und alle darin enthaltenen Ressourcen.   Dies ist wichtig, um zusätzliche Gebühren zu vermeiden.
 
 1. Öffnen Sie in Ihrem Browser die Registerkarte „SC900-WinVM – Microsoft Azure“.

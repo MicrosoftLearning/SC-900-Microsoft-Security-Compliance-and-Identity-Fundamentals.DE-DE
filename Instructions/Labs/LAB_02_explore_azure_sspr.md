@@ -2,12 +2,12 @@
 lab:
   title: Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: ceaf7c5695abc9b7a7c179f6e5a1580b22af3016
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489270"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557469"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Lab: Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung
 
@@ -17,8 +17,9 @@ In diesem Lab gehen Sie als Administrator den Prozess der Aktivierung der Self-S
 
 **Geschätzte Dauer**: 15 bis 20 Minuten
 
+### <a name="task-1"></a>Aufgabe 1
 
-#### <a name="task-1--in-this-task-you-as-the-admin-will-add-an-existing-user-adele-vance-into-the-ssprsecurityusers-group--also-you-will-also-need-to-do-a-reset-of-the-users-password-so-that-you-can-do-a-first-time-login-as-the-user-and-register-for-sspr"></a>Aufgabe 1:  Bei dieser Aufgabe fügen Sie als Administrator der Gruppe „SSPRSecurityUsers“ den vorhandenen Benutzer Adele Vance hinzu.  Zudem müssen Sie das Kennwort des Benutzers zurücksetzen, damit Sie eine Erstanmeldung als der Benutzer vornehmen und sich für die SSPR registrieren können.
+Bei dieser Aufgabe fügen Sie als Administrator der Gruppe „SSPRSecurityUsers“ den vorhandenen Benutzer Adele Vance hinzu.  Zudem müssen Sie das Kennwort des Benutzers zurücksetzen, damit Sie eine Erstanmeldung als der Benutzer vornehmen und sich für die SSPR registrieren können.
 
 1. Öffnen Sie Microsoft Edge.
 
@@ -59,35 +60,38 @@ In diesem Lab gehen Sie als Administrator den Prozess der Aktivierung der Self-S
 
 18. Lassen Sie das Fenster „Contoso-Übersicht“ geöffnet, da Sie es in der nachfolgenden Aufgabe verwenden werden.
 
-#### <a name="task-2-in-this-task-you-as-the-admin-will-learn-how-to-configure-password-reset-for-users-including-configuration-of-the-types-of-authentication-methods-to-use"></a>Aufgabe 2: Bei dieser Aufgabe erfahren Sie als Administrator, wie die Kennwortzurücksetzung für Benutzer konfiguriert wird, einschließlich der Konfiguration der zu verwendenden Authentifizierungsmethodentypen.
+### <a name="task-2"></a>Aufgabe 2
+
+Bei dieser Aufgabe erfahren Sie, wie Administrator*innen die Kennwortzurücksetzung für Benutzer*innen konfigurieren, einschließlich der Konfiguration der zu verwendenden Authentifizierungsmethoden.
 
 1. Navigieren Sie zu der in Ihrem Browser geöffneten Registerkarte „Contoso – Microsoft Azure“. Falls Sie die Registerkarte geschlossen haben, öffnen Sie eine Browserseite. Geben Sie „portal.azure.com“ in die Adressleiste ein, und wählen Sie „Azure Active Directory“ aus.  Sie sollten beim Azure-Portal als Administrator angemeldet sein. Falls nicht, melden Sie sich wieder an.
 
-2. Wählen Sie im linken Navigationsbereich **Kennwort zurücksetzen** aus.  
+1. Wählen Sie im linken Navigationsbereich **Kennwort zurücksetzen** aus.  
 
-3. Die Eigenschaften für die Self-Service-Kennwortzurücksetzung werden angezeigt.  Stellen Sie sicher, dass **Self-Service-Kennwortzurücksetzung** für die aufgeführte Gruppe **SSPRSecurityGroupUsers** **aktiviert** ist.  Bewegen Sie den Mauszeiger über das Informationssymbol neben dem Text „Gruppe auswählen“, und beachten Sie die angezeigte Meldung „Definiert die Gruppe von Benutzern, die ihre eigenen Kennwörter zurücksetzen können“. Sie müssen Benutzer in die Gruppe aufnehmen. Es ist nicht möglich, Benutzer einzeln auszuwählen.  Wenn Sie die Gruppe ändern, ersetzt die von Ihnen ausgewählte Gruppe zudem die derzeit aufgelistete Gruppe.  Sie sollten der SSPR-Gruppe Benutzer einfach hinzufügen.  Beachten Sie als Letztes das blaue Informationsfeld: „Diese Einstellungen gelten nur für Endbenutzer in Ihrer Organisation. Administratoren können die Self-Service-Kennwortzurücksetzung immer durchführen und müssen zum Zurücksetzen ihres Kennworts zwei Authentifizierungsmethoden verwenden.“
+1. Die Eigenschaften für die Self-Service-Kennwortzurücksetzung werden angezeigt.  Stellen Sie sicher, dass **Self-Service-Kennwortzurücksetzung** für die aufgeführte Gruppe **SSPRSecurityGroupUsers** **aktiviert** ist.  Bewegen Sie den Mauszeiger über das Informationssymbol neben dem Text „Gruppe auswählen“, und beachten Sie die angezeigte Meldung „Definiert die Gruppe von Benutzern, die ihre eigenen Kennwörter zurücksetzen können“. Sie müssen Benutzer in die Gruppe aufnehmen. Es ist nicht möglich, Benutzer einzeln auszuwählen.  Wenn Sie die Gruppe ändern, ersetzt die von Ihnen ausgewählte Gruppe zudem die derzeit aufgelistete Gruppe.  Sie sollten der SSPR-Gruppe Benutzer einfach hinzufügen.  Beachten Sie als Letztes das blaue Informationsfeld: „Diese Einstellungen gelten nur für Endbenutzer in Ihrer Organisation. Administratoren können die Self-Service-Kennwortzurücksetzung immer durchführen und müssen zum Zurücksetzen ihres Kennworts zwei Authentifizierungsmethoden verwenden.“
 
-5. Wählen Sie im linken Navigationsbereich von „Kennwort zurücksetzen“ die Option **Authentifizierungsmethoden** aus.
+1. Wählen Sie im linken Navigationsbereich von „Kennwort zurücksetzen“ die Option **Authentifizierungsmethoden** aus.
 
-6. Wählen Sie **1** in „Anzahl von Methoden, die zurückgesetzt werden müssen“ aus. Beachten Sie das Informationsfeld auf dem Bildschirm.
+1. Wählen Sie **1** in „Anzahl von Methoden, die zurückgesetzt werden müssen“ aus. Beachten Sie das Informationsfeld auf dem Bildschirm.
 
-7. Beachten Sie die unterschiedlichen Methoden, die für Benutzer verfügbar sind.  **E-Mail** und **Mobiltelefon (nur SMS)** sollten bereits aktiviert sein. Falls nicht, aktivieren Sie sie.
+1. Beachten Sie die unterschiedlichen Methoden, die für Benutzer verfügbar sind.  **E-Mail** und **Mobiltelefon (nur SMS)** sollten bereits aktiviert sein. Falls nicht, aktivieren Sie sie.
 
-8. Wählen Sie im linken Navigationsbereich von „Kennwort zurücksetzen“ die Option **Registrierung** aus.  
+1. Wählen Sie im linken Navigationsbereich von „Kennwort zurücksetzen“ die Option **Registrierung** aus.  
 
-9. Stellen Sie sicher, dass die Einstellung „Registrierung von Benutzern bei der Anmeldung verlangen?“ auf **Ja** festgelegt ist.  Übernehmen Sie für die Einstellung „Anzahl der Tage, bevor Benutzer aufgefordert werden, ihre Authentifizierungsinformationen erneut zu bestätigen“ die Standardeinstellung von 180.   Beachten Sie das Informationsfeld auf der Seite.
+1. Stellen Sie sicher, dass die Einstellung „Registrierung von Benutzern bei der Anmeldung verlangen?“ auf **Ja** festgelegt ist.  Übernehmen Sie für die Einstellung „Anzahl der Tage, bevor Benutzer aufgefordert werden, ihre Authentifizierungsinformationen erneut zu bestätigen“ die Standardeinstellung von 180.   Beachten Sie das Informationsfeld auf der Seite.
 
-10. Wählen Sie im linken Navigationsbereich von „Kennwort zurücksetzen“ die Option **Benachrichtigungen** aus.  
+1. Wählen Sie im linken Navigationsbereich von „Kennwort zurücksetzen“ die Option **Benachrichtigungen** aus.  
 
-11. Stellen Sie sicher, dass die Einstellung „Benutzer über Kennwortzurücksetzungen benachrichtigen“ auf **Ja** festgelegt ist.  Übernehmen Sie „Nein“ für die Einstellung „Alle Administratoren benachrichtigen, wenn andere Administratoren ihr Kennwort zurücksetzen“.
+1. Stellen Sie sicher, dass die Einstellung „Benutzer über Kennwortzurücksetzungen benachrichtigen“ auf **Ja** festgelegt ist.  Übernehmen Sie „Nein“ für die Einstellung „Alle Administratoren benachrichtigen, wenn andere Administratoren ihr Kennwort zurücksetzen“.
 
-12. Beachten Sie, dass der Navigationsbereich „Kennwort zurücksetzen“ auch Optionen zum Anzeigen der Überwachungsprotokolle und von „Nutzung & Erkenntnisse“ umfasst.
+1. Beachten Sie, dass der Navigationsbereich „Kennwort zurücksetzen“ auch Optionen zum Anzeigen der Überwachungsprotokolle und von „Nutzung & Erkenntnisse“ umfasst.
 
-13. **Melden Sie sich von allen Browserregisterkarten ab**. Klicken Sie dazu auf das Benutzersymbol neben der E-Mail-Adresse in der oberen rechten Ecke des Bildschirms. Schließen Sie dann alle Browserfenster.
+1. **Melden Sie sich von allen Browserregisterkarten ab**. Klicken Sie dazu auf das Benutzersymbol neben der E-Mail-Adresse in der oberen rechten Ecke des Bildschirms. Schließen Sie dann alle Browserfenster.
 
+### <a name="task-3"></a>Aufgabe 3
 
-#### <a name="task-3--in-this-task-you-as-user-adele-vance-will-go-through-the-registration-process-for-self-service-password-reset--this-task-requires-that-you-have-access-to-a-mobile-device-where-you-can-receive-text-messages-or-a-personal-email-account-that-you-can-access"></a>Aufgabe 3:  Bei dieser Aufgabe durchlaufen Sie als der Benutzer Adele Vance den Registrierungsprozess für die Self-Service-Kennwortzurücksetzung.  Für diese Aufgabe müssen Sie über Zugriff auf ein Mobilgerät, auf dem Sie SMS empfangen können, oder über ein persönliches E-Mail-Konto verfügen, auf das Sie zugreifen können.
- 
+Bei dieser Aufgabe durchlaufen Sie als der Benutzer Adele Vance den Registrierungsprozess für die Self-Service-Kennwortzurücksetzung.  Für diese Aufgabe müssen Sie über Zugriff auf ein Mobilgerät, auf dem Sie SMS empfangen können, oder über ein persönliches E-Mail-Konto verfügen, auf das Sie zugreifen können.
+
 1. Öffnen Sie Microsoft Edge.
 
 2. Geben Sie **login.microsoftonline.com** in die Adressleiste ein.
@@ -107,23 +111,25 @@ In diesem Lab gehen Sie als Administrator den Prozess der Aktivierung der Self-S
 
 8. Sie können ihre Anmeldung jetzt abschließen.  Sie sollten sich jetzt auf der Landing Page des Azure-Portals befinden.  Wenn Sie feststellen, dass die Anmeldezeit abgelaufen ist, geben Sie das Kennwort „SC900-Lab“ einfach noch einmal ein.
 
-9. Melden Sie sich vom Azure-Portal ab, und schließen Sie das Browserfenster. 
+9. Melden Sie sich vom Azure-Portal ab, und schließen Sie das Browserfenster.
 
-#### <a name="task-4-optional-in-this-task-you-as-user-adele-vance-will-go-through-the-process-of-resetting-your-password"></a>Aufgabe 4 (optional): Bei dieser Aufgabe durchlaufen Sie als der Benutzer Adele Vance den Prozess zum Zurücksetzen Ihres Kennworts.
+### <a name="task-4-optional"></a>Aufgabe 4 (optional)
+
+Bei dieser Aufgabe durchlaufen Sie als die Benutzerin Adele Vance den Prozess zum Zurücksetzen Ihres Kennworts.
 
 1. Öffnen Sie Microsoft Edge.
 
-2. Geben Sie login.microsoftonline.com in die Adressleiste ein.
+2. Geben Sie **login.microsoftonline.com** in die Adressleiste ein.
 
 3. Melden Sie sich als Adele Vance an. Geben Sie dazu Ihre E-Mail-Adresse **AdeleV@WWLxZZZZ.onmicrosoft.com** ein (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde), und wählen Sie die Schaltfläche **Weiter** aus. Es kann sein, dass stattdessen das Fenster „Konto auswählen“ geöffnet wird. Wählen Sie in diesem Fall das Konto für Adele Vance aus.
 
-4. Wählen Sie **Ich habe mein Kennwort vergessen** im Fenster „Kennwort eingeben“ aus. 
+4. Wählen Sie **Ich habe mein Kennwort vergessen** im Fenster „Kennwort eingeben“ aus.
 
 5. Das Fenster „Konto wieder aktivieren“ wird geöffnet.   Vergewissern Sie sich, dass die E-Mail-Adresse für Adele Vance, AdeleV@WWLxZZZZ.onmicrosoft.com, im Feld für die E-Mail-Adresse oder den Benutzernamen angezeigt wird.  Falls nicht, geben Sie sie ein.  
 
 6. Geben Sie in das leere Feld die im Bild angezeigten Zeichen oder die Wörter aus dem Audio ein. Wählen Sie nach der Eingabe **Weiter** aus.
 
-7. Auf dem Bildschirm werden „Konto wieder aktivieren“ sowie „Überprüfungsschritt 1 > Neues Kennwort auswählen“ angezeigt. Übernehmen Sie die Standardeinstellung **Textnachricht an mein Mobiltelefon senden**.  Sie werden aufgefordert, Ihre Mobiltelefonnummer einzugeben.  Wählen Sie nach ihrer Eingabe die Schaltfläche **Textnachricht** aus.  Wenn Sie während der Registrierung „E-Mail“ ausgewählt haben, wird im Fenster „Konto wieder aktivieren“ die Meldung „Sie erhalten eine E-Mail mit einem Prüfcode unter Ihrer alternativen E-Mail-Adresse“ angezeigt.  Wählen Sie **E-Mail** aus. 
+7. Auf dem Bildschirm werden „Konto wieder aktivieren“ sowie „Überprüfungsschritt 1 > Neues Kennwort auswählen“ angezeigt. Übernehmen Sie die Standardeinstellung **Textnachricht an mein Mobiltelefon senden**.  Sie werden aufgefordert, Ihre Mobiltelefonnummer einzugeben.  Wählen Sie nach ihrer Eingabe die Schaltfläche **Textnachricht** aus.  Wenn Sie während der Registrierung „E-Mail“ ausgewählt haben, wird im Fenster „Konto wieder aktivieren“ die Meldung „Sie erhalten eine E-Mail mit einem Prüfcode unter Ihrer alternativen E-Mail-Adresse“ angezeigt.  Wählen Sie **E-Mail** aus.
 
 8. Geben Sie den Prüfcode ein, und klicken Sie auf **Weiter**.
 
@@ -137,11 +143,13 @@ In diesem Lab gehen Sie als Administrator den Prozess der Aktivierung der Self-S
 
 13. Melden Sie sich ab. Wählen Sie dazu das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann **Abmelden** aus. Schließen Sie dann alle Browserfenster.
 
-#### <a name="task-5-optional--in-this-task-you-as-the-administrator-will-briefly-view-the-audit-logs-and-the-usage--insights-data-associated-with-password-reset"></a>Aufgabe 5 (optional):  Bei dieser Aufgabe zeigen Sie als Administrator kurz die Überwachungsprotokolle und die der Kennwortzurücksetzung zugeordneten Daten vom Typ „Nutzung & Erkenntnisse“ an.
+### <a name="task-5-optional"></a>Aufgabe 5 (optional)
+
+Bei dieser Aufgabe zeigen Sie als Administrator kurz die Überwachungsprotokolle und die der Kennwortzurücksetzung zugeordneten Daten vom Typ „Nutzung und Erkenntnisse“ an.
 
 1. Öffnen Sie Microsoft Edge.
 
-2. Geben Sie **portal.azure.com** in die Adressleiste ein. 
+2. Geben Sie **portal.azure.com** in die Adressleiste ein.
 
 3. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
@@ -164,6 +172,6 @@ In diesem Lab gehen Sie als Administrator den Prozess der Aktivierung der Self-S
 
 11. Schließen Sie die geöffneten Browserregisterkarten.
 
+### <a name="review"></a>Überprüfung
 
-#### <a name="review"></a>Überprüfung
 In diesem Lab sind Sie als Administrator den Prozess der Aktivierung der Self-Service-Kennwortzurücksetzung durchgegangen. Bei aktivierter SSPR haben Sie anschließend die Rolle eines Benutzers übernommen und sind den Prozess der Registrierung für die SSPR und auch zur Zurücksetzung Ihres Kennworts durchgegangen.  Als Letztes haben Sie als Administrator erfahren, wo Sie auf die Überwachungsprotokolle und Daten vom Typ „Nutzung & Erkenntnisse“ für die SSPR zugreifen.

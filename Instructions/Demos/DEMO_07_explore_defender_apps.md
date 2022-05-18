@@ -2,19 +2,20 @@
 Demo:
   title: 'Microsoft Defender für Cloud-Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: f653c14f8383ef3c5823d9c4626e7d6c3a693df8
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 5ab8489c487f8eb80354f18cf83b896f8ba4793f
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894094"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557169"
 ---
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>Demo: Microsoft Defender für Cloud-Apps
 
-### <a name="demo-scenario"></a>Demoszenario
+## <a name="demo-scenario"></a>Demoszenario
+
 In dieser Demo zeigen Sie die Funktionen von Microsoft Defender für Cloud-Apps.  Sie führen den Kursteilnehmer durch die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien.  Hinweis:  Eine Organisation muss über eine Lizenz verfügen, um Microsoft Defender für Cloud-Apps verwenden zu können, wobei es sich um einen benutzerbasierten Abonnementdienst handelt.  
 
-#### <a name="demo-part-1-explore-cloud-discovery"></a>Teil 1 der Demo: Erkunden Sie Cloud Discovery.
+### <a name="demo-part-1-explore-cloud-discovery"></a>Teil 1 der Demo: Erkunden der Cloud Discovery
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.  Sie sollten bereits als Administrator angemeldet sein.  Falls nicht, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
@@ -54,7 +55,9 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Defender für Cloud-Apps.
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
-#### <a name="demo-part-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>Teil 2 der Demo: Finden Sie Möglichkeiten, wie Sie die aufgezeichneten Aktivitäten untersuchen können.
+### <a name="demo-part-2"></a>Teil 2 der Demo
+
+Finden Sie Möglichkeiten, wie Sie die aufgezeichneten Aktivitäten untersuchen können.
 
 1. Wählen Sie im linken Navigationsbereich unter **Untersuchen** die Option **Aktivitätsprotokoll** aus.  Hier können Sie alle Aktivitäten im Zusammenhang mit Ihren verbundenen Apps anzeigen.   Da der Office 365-Connector bereits verbunden ist, sollten einige Daten angezeigt werden. Nachdem Sie mithilfe des App-Connectors eine Verbindung zwischen Cloud App Security und einer App hergestellt haben, scannt Cloud App Security alle Aktivitäten, die durchgeführt wurden, wobei die rückwirkende Scanzeit je nach App abweicht, und wird anschließend ständig mit neuen Aktivitäten aktualisiert.  
 
@@ -66,8 +69,9 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Defender für Cloud-Apps.
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
+### <a name="demo-part-3"></a>Teil 3 der Demo
 
-#### <a name="demo-part-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>Teil 3 der Demo: In dieser Aufgabe erkunden Sie die Seiten mit den Richtlinien und Warnungen in Microsoft Defender für Cloud-Apps.
+In dieser Aufgabe erkunden Sie die Seiten mit den Richtlinien und Warnungen in Microsoft Defender für Cloud-Apps.
 
 1. Wählen Sie im linken Navigationsbereich unter „Steuerung“ die Option **Richtlinien** aus.  Die aufgelisteten Richtlinien umfassen Informationen zur Anzahl der von der Richtlinie generierten Warnungen, zum Schweregrad usw. Durch Auswahl eines Elements werden ausführlichere Informationen zur Richtlinie angezeigt. Wählen Sie ein Element aus der Liste aus, beispielsweise **Riskante Anmeldung**.  
 
@@ -75,5 +79,6 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Defender für Cloud-Apps.
 
 1. Schließen Sie das Browserfenster.
 
-#### <a name="review"></a>Überprüfung
+### <a name="review"></a>Überprüfung
+
 In dieser Demo haben Sie die Funktionen von Microsoft Defender für Cloud-Apps angezeigt.  Sie haben die im Cloud Discovery-Dashboard verfügbaren Informationen und die verfügbaren Funktionen zum Untersuchen von Ergebnissen und zum Steuern der Auswirkung auf Ihre Organisation durch Richtlinien gezeigt.

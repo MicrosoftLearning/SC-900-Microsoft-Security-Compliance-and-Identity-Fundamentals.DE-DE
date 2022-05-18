@@ -1,28 +1,29 @@
 ---
 Demo:
-  title: Erkunden des Microsoft 365 Compliance Center und Compliance-Managers
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft 365'
-ms.openlocfilehash: 32c4783d9a909bfd8099750b994ab5a05718c198
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: Erkunden des Microsoft 365-Complianceportals und des Compliance-Managers
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
+ms.openlocfilehash: 7c0b3e5a3153e48ddb3a7e7cca991c9df6a89bdf
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614205"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557241"
 ---
-# <a name="demo-explore-the-microsoft-365-compliance-center--compliance-manager"></a>Demo: Erkunden des Microsoft 365 Compliance Center und Compliance-Managers
+# <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Demo: Erkunden des Microsoft 365-Complianceportals und des Compliance-Managers
 
 ## <a name="demo-scenario"></a>Demoszenario
-In dieser Demo zeigen Sie die Startseite des Microsoft 365 Compliance Center und erfahren, wie Organisationen ihre Compliancesituation mithilfe der Funktionen von Compliance-Manager verbessern können.
 
-## <a name="instructions"></a>Anweisungen
+In dieser Demo zeigen Sie die Startseite des Microsoft Purview-Complianceportals an und erfahren, wie Organisationen ihre Compliancesituation mithilfe der Funktionen von Compliance-Manager verbessern können.
 
-#### <a name="demo-part-1-show-the-microsoft-365-compliance-center-home-page-and-how-to-customize-the-card-view-and-the-navigation-panel"></a>Teil 1 der Demo: Zeigen Sie die Startseite des Microsoft 365 Compliance Center, und zeigen Sie, wie Sie die Kartenansicht und den Navigationsbereich anpassen können.
+### <a name="demo-part-1"></a>Teil 1 der Demo
+
+Anzeigen der Startseite des Microsoft Purview-Complianceportals und Erfahren, wie Sie die Kartenansicht und den Navigationsbereich anpassen können.
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein. Sie sollten bereits als Administrator angemeldet sein.  Falls nicht, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
 
-1. Wählen Sie unter „Admin Center“ die Option **Compliance** aus.  Die Startseite des Microsoft 365 Compliance Center wird auf einer neuen Browserseite geöffnet.  
+1. Wählen Sie unter „Admin Center“ die Option **Compliance** aus.  Die Startseite des Microsoft Purview-Complianceportals wird auf einer neuen Browserseite geöffnet.  
 
 1. Im Kartenabschnitt auf der Startseite sehen Sie auf einen Blick, wie die Compliancesituation der Organisation aussieht, welche Lösungen für Ihre Organisation verfügbar sind, und vieles mehr.
 
@@ -34,7 +35,7 @@ In dieser Demo zeigen Sie die Startseite des Microsoft 365 Compliance Center und
 
 1. Wählen Sie **+ Karten hinzufügen** aus, um Karten hinzuzufügen.  Das Fenster „Fügen Sie Ihrer Startseite Karten hinzu“ wird geöffnet.  Bewegen Sie den Cursor über die in diesem Fenster angezeigte Lösungskatalogkarte, und ziehen Sie sie an die Stelle auf Ihrem Startbildschirm, an der die Karte positioniert werden soll.
 
-1. Beachten Sie im linken Navigationsbereich der Startseite von Microsoft 365 Compliance Center die unter „Lösungen“ aufgelisteten Elemente.  Wenn nur „Katalog“ angezeigt wird, dann wählen Sie im linken Navigationsbereich **Alles anzeigen** aus.  Beachten Sie, dass alle zusätzlichen Lösungen im Abschnitt „Lösungen“ angezeigt werden.  
+1. Beachten Sie im linken Navigationsbereich der Startseite des Microsoft Purview-Complianceportals die unter „Lösungen“ aufgelisteten Elemente.  Wenn nur „Katalog“ angezeigt wird, dann wählen Sie im linken Navigationsbereich **Alles anzeigen** aus.  Beachten Sie, dass alle zusätzlichen Lösungen im Abschnitt „Lösungen“ angezeigt werden.  
 
 1. Als Complianceadministrator verwalten Sie für Ihre Organisation möglicherweise einen Satz von Lösungen, die immer im Navigationsbereich aufgeführt werden sollen.  Wählen Sie **Navigation anpassen** aus, um diesen Bereich anzupassen.  
 
@@ -42,9 +43,11 @@ In dieser Demo zeigen Sie die Startseite des Microsoft 365 Compliance Center und
 
 1. Lassen Sie die Browserregisterkarte geöffnet.
 
-#### <a name="demo-part-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>Teil 2 der Demo: Mit Compliance-Manager erfahren Sie mehr über die Compliancesituation Ihrer Organisation.
+### <a name="demo-part-2"></a>Teil 2 der Demo
 
-1. Wählen Sie im linken Navigationsbereich des Microsoft 365 Compliance Center **Compliance-Manager** aus.  Alternativ können Sie in der Titelleiste der Compliance-Manager-Karte „Compliance-Manager“ auswählen.
+Mit Compliance-Manager erfahren Sie mehr über die Compliancesituation Ihrer Organisation.
+
+1. Wählen Sie im linken Navigationsbereich des Microsoft Purview-Complianceportals **Compliance-Manager** aus.  Alternativ können Sie in der Titelleiste der Compliance-Manager-Karte „Compliance-Manager“ auswählen.
 
 1. Stellen Sie sicher, dass oben auf der Seite „Compliance-Manager“ **Übersicht** ausgewählt (unterstrichen) ist. Scrollen Sie nach unten, um alle Informationen zu sehen, die auf der Seite verfügbar sind.  Auf dieser Seite finden Sie Informationen zu Ihrer Compliancebewertung in Prozent, basierend auf den von Ihnen erreichten Punkten und den von Microsoft verwalteten Punkten, die Sie erreicht haben.   Es werden wichtige Verbesserungsaktionen, Lösungen, die sich auf Ihre Bewertung auswirken, und eine Aufschlüsselung der Compliancebewertung nach Kategorien oder Bewertungen angezeigt.
 
@@ -66,7 +69,8 @@ In dieser Demo zeigen Sie die Startseite des Microsoft 365 Compliance Center und
 
 1. Wählen Sie in der enthaltenen Vorlagenliste **ISO/IEC27001:2013** aus. Wählen Sie oben rechts auf der Seite **+ Bewertung erstellen** aus.  Beachten Sie, dass links auf dem Bildschirm nur zwei Schritte angezeigt werden, um aus der Vorlage eine Bewertung zu erstellen.  Wählen Sie unten auf der Seite „Abbrechen“ aus.
 
-1. Wählen Sie im linken Navigationsbereich die Option **Startseite** aus, um zur Startseite von Microsoft 365 Compliance Center zurückzukehren.  Lassen Sie diese Browserseite für die nachfolgende Demo geöffnet.
+1. Wählen Sie im linken Navigationsbereich die **Startseite** aus, um zur Startseite des Microsoft Purview-Complianceportals zurückzukehren.  Lassen Sie diese Browserseite für die nachfolgende Demo geöffnet.
 
-#### <a name="review"></a>Überprüfung
-In dieser Demo haben Sie die Startseite von Microsoft 365 Compliance Center und Möglichkeiten gezeigt, wie Organisationen ihre Compliancesituation mithilfe der Funktionen von Compliance-Manager verbessern können.
+### <a name="review"></a>Überprüfung
+
+In dieser Demo haben Sie die Startseite des Microsoft Purview-Complianceportals angezeigt und erfahren, wie Organisationen ihre Compliancesituation mithilfe der Funktionen von Compliance-Manager verbessern können.
