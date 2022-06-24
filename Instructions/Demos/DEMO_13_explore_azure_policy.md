@@ -2,12 +2,12 @@
 Demo:
   title: Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1916af2407c9f493b0c305828eb75d9810901859
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557133"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542674"
 ---
 # <a name="demo-azure-policy"></a>Demo: Azure Policy
 
@@ -19,7 +19,7 @@ In dieser Demo gehen Sie den Prozess der Einrichtung einer Azure-Richtlinie und 
 
 Erstellen einer Richtlinie, um ein Tag für eine Ressourcengruppe zu erfordern (es werden die Schritte zur Erstellung einer Richtlinie aus einer Vorlage gezeigt)
 
-1. Öffnen Sie Microsoft Edge. Geben Sie **portal.microsoft.com** in die Adressleiste ein.  Sie sollten bereits angemeldet sein. Falls nicht, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
+1. Öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein.  Sie sollten bereits angemeldet sein. Falls nicht, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
 1. Geben Sie in das Suchfeld, das sich auf dem blauen Balken oben auf der Seite neben dem Text „Microsoft Azure“ befindet, den Text **Richtlinie** ein, und wählen Sie dann **Richtlinie** aus den Suchergebnissen aus.
 
