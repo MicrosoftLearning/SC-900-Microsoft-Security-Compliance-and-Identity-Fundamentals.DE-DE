@@ -2,12 +2,12 @@
 lab:
   title: Erkunden des Insider-Risikomanagements in Microsoft Purview
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557541"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542638"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Lab: Erkunden des Insider-Risikomanagements in Microsoft Purview
 
@@ -35,7 +35,7 @@ Bei dieser Aufgabe aktivieren Sie als globaler Administrator Berechtigungen für
 
 1. Wählen Sie im linken Navigationsbereich des Microsoft Purview-Complianceportals **Berechtigungen** aus.
 
-1. Wählen Sie auf der Seite „Berechtigungen und Rollen“ unter „Complianceportal“ die Option **Rollen** aus.
+1. Navigieren Sie auf der Seite „Berechtigungen und Rollen“ zum Abschnitt „Anzeigen und Verwalten von Rollen, die zum Ausführen lösungsspezifischer Aufgaben im Compliance Center verwendet werden“. Wählen Sie **Rollen** aus.
 
 1. Geben Sie **Insider-Risiko** in die Suchleiste ein. Wählen Sie dann das Suchsymbol (Vergrößerungsglas) aus.  Beachten Sie die zahlreichen Rollen, die angezeigt werden.  Diese weisen jeweils unterschiedliche Zugriffsebenen auf.  Wählen Sie **Insider-Risikomanagement** aus.
 

@@ -2,12 +2,12 @@
 lab:
   title: Erkunden der Zugriffsverwaltung in Azure AD mit bedingtem Zugriff
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c8e9f8eb6e0d3609adc7ed5ea7f4d18ebfa33c4b
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557276"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542602"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Lab: Erkunden der Zugriffsverwaltung in Azure AD mit bedingtem Zugriff
 
@@ -28,7 +28,7 @@ Bei dieser Aufgabe setzen Sie als Administrator das Kennwort für den Benutzer D
     1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
-3. Wählen Sie **Azure Active Directory** aus.  
+3. Wählen Sie in der oberen linken Ecke des Bildschirms neben dem Text „Microsoft Azure“ das Symbol „Portalmenü anzeigen“ (die drei horizontalen Linien werden auch als Hamburgersymbol bezeichnet) und dann im linken Navigationsbereich unter „Favoriten“ Azure Active Directory aus. Wenn die Option nicht unter „Favoriten“ aufgeführt ist, geben Sie Azure Active Directory im Suchfeld ein. Wählen Sie anschließend aus der Ergebnisliste **Azure Active Directory** aus.
 
 4. Wählen Sie im linken Navigationsbereich **Benutzer** aus.
 

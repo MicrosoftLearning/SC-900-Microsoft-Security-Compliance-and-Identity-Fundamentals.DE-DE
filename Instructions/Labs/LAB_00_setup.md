@@ -1,24 +1,24 @@
 ---
 lab:
   title: Einrichten
-ms.openlocfilehash: f39a5d0193ff23baa3a9c177a712c0ed9bf54ec6
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: ccbb76933233296b92dabd0e03fc63a0b51bf139
+ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557303"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "146458311"
 ---
 # <a name="lab-setup"></a>Lab: Setup
 
 ## <a name="lab-scenario"></a>Labszenario
 
-In diesem Lab lösen Sie Ihren Azure Pass unter Verwendung der gleichen Anmeldeinformationen ein, die Sie auch für den Microsoft 365-Mandanten verwenden.  So können Sie nahtlos zwischen Microsoft 365 und Azure wechseln. Im Rahmen der Einrichtung aktivieren Sie auch die Überwachungsprotokollfunktion im Microsoft 365-Mandanten, da es etwas dauern kann, bis diese wirksam wird. Microsoft 365 verwendet Überwachungsprotokolle für Benutzererkenntnisse und -aktivitäten in Richtlinien und Analyseerkenntnisse.
+Dieses Setuplab besteht aus zwei separaten Aufgaben.  Die erste Aufgabe wird angewendet und nur empfohlen, wenn in Ihrer Laborumgebung die Verwendung eines Azure Pass-Angebots integriert ist. Die zweite Aufgabe konzentriert sich auf die Aktivierung des Microsoft-Überwachungsprotokolls und wird empfohlen, unabhängig davon, ob Ihre Umgebung das Azure Pass-Angebot verwendet.
 
 **Geschätzte Dauer**: 5–10 Minuten
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>Teil 1 der Einrichtung – Einlösen des Azure Pass
 
-Bei dieser Einrichtungsaufgabe lösen Sie Ihren Azure Pass unter Verwendung der gleichen Anmeldeinformationen ein, die Sie auch für den Microsoft 365-Mandanten verwenden.  So können Sie nahtloser zwischen Microsoft 365 und Azure wechseln.
+Diese Aufgabe wird angewendet und nur empfohlen, wenn die von Ihnen verwendete Laborumgebung ein Azure Pass-Angebot enthält. In dieser Aufgabe lösen Sie Ihr Azure Pass-Angebot unter Verwendung der gleichen Anmeldeinformationen ein, die Sie auch für den Microsoft 365-Mandanten verwenden.  So können Sie nahtloser zwischen Microsoft 365 und Azure wechseln.
 
 1. Falls Browserfenster geöffnet sind, wird empfohlen, alle Browser zu schließen.
 
