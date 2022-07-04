@@ -2,12 +2,12 @@
 lab:
   title: Erkunden des Insider-Risikomanagements in Microsoft Purview
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b284151be19a0f9add77ef4c015520c7e4a7f363
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542638"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741878"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Lab: Erkunden des Insider-Risikomanagements in Microsoft Purview
 
@@ -115,6 +115,8 @@ Bei dieser Aufgabe gehen Sie die Erstellung einer Richtlinie durch.
 1. Sie befinden sich wieder auf der Registerkarte „Richtlinien“ der Seite „Insider-Risikomanagement“.  Die von Ihnen soeben erstellte Richtlinie wird aufgelistet.  
 
 1. Bei der von Ihnen soeben erstellten Richtlinie werden im Feld „Benutzer im Geltungsbereich“ Benutzer angezeigt, denen aktuell durch die Richtlinie Risikobewertungen zugewiesen sind.  Benutzern werden Risikobewertungen zugewiesen, wenn die Richtlinie ausgelöst wird. Daher wird der Wert „0“ angezeigt.  Ein Administrator kann eine Richtlinie konfigurieren, um bestimmten Benutzern basierend auf der von den von Ihnen ausgewählten Richtlinien erkannten Aktivität Risikobewertungen zuzuweisen UND welche die Anforderung umgeht, dass zunächst ein auslösendes Ereignis erkannt wird.  Wählen Sie dazu den leeren Kreis neben dem Richtliniennamen aus, um die Richtlinie auszuwählen. Wählen Sie dann die oberhalb der Tabelle mit den Richtlinien angezeigte Option **Bewertung starten** aus.  Füllen Sie jedes Feld aus, und wählen Sie dann **Bewertung der Aktivitäten starten** aus.  Es kann bis zu 24 Stunden dauern, bis die Benutzer auf der Registerkarte „Benutzer“ angezeigt werden. Danach können Sie die Benutzer auf dieser Registerkarte auswählen, um erkannte Aktivitäten zu überprüfen.  Klicken Sie unten im Fenster auf **Schließen**.
+
+1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 

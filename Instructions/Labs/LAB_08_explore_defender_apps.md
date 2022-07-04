@@ -2,12 +2,12 @@
 lab:
   title: 'Erkunden von Microsoft Defender für Cloud-Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c6b9e816596c74199123b21a9fcb07a5d33a725c
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557571"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650064"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Lab: Erkunden von Microsoft Defender für Cloud-Apps
 
@@ -79,7 +79,7 @@ In dieser Aufgabe erkunden Sie die Seiten mit den Richtlinien und Warnungen in M
 
 1. Wählen Sie im linken Navigationsbereich **Warnungen** aus.  Wenn Warnungen aufgelistet werden, wählen Sie ein Element aus der Liste der Warnungen aus. Gehen Sie die bereitgestellten Informationen durch.  Wählen Sie in der oberen rechten Seite des Fensters **Warnung schließen** aus, um die Optionen zum Schließen der Warnung anzuzeigen.  
 
-1. Schließen Sie das Browserfenster.
+1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 

@@ -2,18 +2,18 @@
 Demo:
   title: Vertraulichkeitsbezeichnungen in Microsoft Purview
   module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 190ba104d08f47bf1bddfbd262b76c9e6aa8581c
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 9dbcb385f5f4545942ecd38fe5fc0ad17e2934a3
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557193"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649956"
 ---
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>Demo: Vertraulichkeitsbezeichnungen in Microsoft Purview
 
 ## <a name="demo-scenario"></a>Demoszenario
 
-In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie gehen die Einstellungen für vorhandene, bereits erstellte Vertraulichkeitsbezeichnungen und für die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung durch.   Anschließend erfahren Sie, wie eine Bezeichnung angewendet wird, und welche Auswirkung diese Bezeichnung aus Perspektive eines Benutzers hat.
+In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie gehen die Einstellungen für vorhandene, bereits erstellte Vertraulichkeitsbezeichnungen und für die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung durch.   Anschließend erfahren Sie, wie eine Bezeichnung angewendet wird, und welche Auswirkung diese Bezeichnung aus Perspektive eines Benutzers hat.  **HINWEIS:** Wenn Sie Word zum ersten Mal online mit Ihrem Microsoft 365-Mandanten verwenden, kann es bis zu 15 Minuten dauern, bis die Option „Vertraulichkeit“ im Menüband angezeigt wird.  Referent*innen sollten den Demoteil 2 noch vor Kursbeginn ausführen, damit noch genügend Zeit bleibt, bis die Option angezeigt wird.
 
 ### <a name="demo-part-1"></a>Teil 1 der Demo
 

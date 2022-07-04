@@ -2,12 +2,12 @@
 lab:
   title: Umgehen mit Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 0a2ead44f5dc74a7684b8d78ea34c85767f8af92
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: f314612acb21c226e350ce9f6ab026cee2551378
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542590"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741914"
 ---
 # <a name="lab-explore-azure-policy"></a>Lab: Umgehen mit Azure Policy
 
@@ -125,6 +125,8 @@ In dieser Aufgabe sehen Sie die Auswirkung der Azure-Richtlinienzuweisung. Dazu 
     1. Wählen Sie unter „Azure-Dienste“ die Option „Azure Policy“ aus.
     1. In der Mitte der Seite wird eine Liste der Azure-Richtlinien-/-Initiativenzuweisungen angezeigt.  Wählen Sie die Auslassungspunkte für die Richtlinienzuweisung „Tag für Ressourcengruppen erforderlich“ und dann „Zuweisung löschen“ aus.
     1. Sie werden aufgefordert zu bestätigen, dass die Zuweisung gelöscht werden soll.  Wählen Sie Ja aus.
+
+1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 

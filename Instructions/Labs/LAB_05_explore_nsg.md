@@ -2,12 +2,12 @@
 lab:
   title: Erkunden von Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 71472d6f2cbb946d75ff8e6bc2da2afa87af96aa
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 2d5add9ca1efd99cf7e5268a1125f97f20910a07
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557505"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650088"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Lab: Erkunden von Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
 
@@ -151,9 +151,9 @@ Die Standardausgangsregeln für NSG lassen ausgehenden Internetdatenverkehr zu. 
 1. Schließen Sie die Remotedesktopverbindung. Wählen Sie dazu oben zentral auf der Seite, wo die IP-Adresse angezeigt wird, das **X** aus.  Ein Popupfenster gibt „Die Remotesitzung wird getrennt“ an. Klicken Sie auf **OK**.
 1. Bei dieser Aufgabe haben Sie erfolgreich eine Ausgangsregel in Ihrer NSG konfiguriert, um ausgehenden Internetdatenverkehr zu blockieren.
 
-### <a name="task-5"></a>Aufgabe 5
+### <a name="tear-down"></a>Nachbereitung
 
-**WICHTIG:** Bei dieser Aufgabe löschen Sie die Ressourcengruppe und alle darin enthaltenen Ressourcen.   Dies ist wichtig, um zusätzliche Gebühren zu vermeiden.
+VMs sind eine Ressource, die in Rechnung gestellt wird. Obwohl die Kosten für die Ausführung der VMs in dieser Demo gering sind, wird empfohlen, bei Abschluss dieses Kurses die Ressourcengruppe zu löschen, die die VM sowie zugehörige Ressourcen enthält.
 
 1. Öffnen Sie in Ihrem Browser die Registerkarte „SC900-WinVM – Microsoft Azure“.
 
@@ -163,6 +163,7 @@ Die Standardausgangsregeln für NSG lassen ausgehenden Internetdatenverkehr zu. 
 1. Wählen Sie im oberen mittleren Bereich der LabsSC900-Seite die Option **Ressourcengruppe löschen** aus.
 1. Geben Sie in das Fenster, das geöffnet wird, den Namen der Ressourcengruppe **LabsSC900** ein, um die Löschung der Ressourcengruppe und aller zugehöriger Ressourcen zu bestätigen. Wählen Sie dann unten auf der Seite **Löschen** aus.
 1. Es kann ein paar Minuten dauern, bis alle Ressourcen und die Ressourcengruppe gelöscht sind.
+1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 

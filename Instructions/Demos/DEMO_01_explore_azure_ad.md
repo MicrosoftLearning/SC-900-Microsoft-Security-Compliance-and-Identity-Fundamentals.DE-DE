@@ -2,22 +2,31 @@
 Demo:
   title: Benutzereinstellungen von Azure Active Directory
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: eb1ffc50ce90922dced58726c39879edfc74fb5b
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 061dfa556f7e4e00d63c938b52097e0b641fed4f
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557180"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741890"
 ---
 # <a name="demo-azure-active-directory-user-settings"></a>Demo: Benutzereinstellungen von Azure Active Directory
 
 ## <a name="demo-scenario"></a>Demoszenario
 
-In dieser Demo greifen Sie auf Azure Active Directory zu und gehen die verschiedenen Einstellungen für einen bestehenden Benutzer durch.
+In dieser Demo greifen Sie auf Azure Active Directory zu und gehen die verschiedenen Einstellungen für einen bestehenden Benutzer durch.  Hinweis an den Referenten:  In dieser Demo wird über den Microsoft 365-Mandanten auf Azure AD zugegriffen. Alternativ können Sie Kursteilnehmer*innen zeigen, wie über das Azure-Portal auf Azure AD zugegriffen werden kann. Die Absicht dahinter ist, dass gezeigt werden soll, dass Microsoft 365 über das Microsoft 365-Portal auch Zugriff auf Azure AD bietet.
 
-1. Navigieren Sie zu der in Ihrem Browser geöffneten Registerkarte **Startseite – Microsoft Azure**.  Wenn Sie die Registerkarte geschlossen haben, öffnen Sie Microsoft Edge, und geben Sie in die Adressleiste „portal.azure.com“ ein. Melden Sie sich mit den gleichen Anmeldeinformationen an, die Sie für Ihren Microsoft 365-Mandanten verwenden.
+1. Öffnen Sie Microsoft Edge.
 
-1. Auf der Landing Page des Azure-Portals werden Azure-Dienste angezeigt. Wählen Sie **Azure Active Directory** aus. Ist diese Option nicht unmittelbar sichtbar, geben Sie im Suchfeld neben „Microsoft Azure“ den Text „Azure Active Directory“ ein.  Außerdem sollten Sie zeigen, wie Sie Azure Active Directory über das Symbol zur Anzeige des Portalmenüs aufrufen (die drei horizontalen Linien in dem blauen Balken oben auf der Seite werden auch als Hamburgersymbol bezeichnet). Dieses befindet sich links neben dem Eintrag „Microsoft Azure“.
+1. Geben Sie **admin.microsoft.com** in die Adressleiste ein, um auf das Microsoft 365 Admin Center zuzugreifen.
+
+1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
+    1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
+    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
+    1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
+
+1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
+
+1. Wählen Sie unter „Admin Center“ den Eintrag **Azure Active Directory** aus (möglicherweise müssen Sie dazu nach unten scrollen).  Die Seite „Mein Dashboard“ des Azure Active Directory Admin Center wird auf einer neuen Browserseite geöffnet. In den Hauptfenstern des Dashboards werden verschiedene Kacheln angezeigt, darunter die Kachel „Organisationsidentität“ (Contoso, der Mandant und die Azure AD-Edition), eine Kachel für Benutzer und Gruppen und mehr.
 
 1. Wählen Sie im linken Navigationsbereich **Benutzer** aus. Beachten Sie, dass bereits Benutzer für Ihren Mandanten konfiguriert sind.
 

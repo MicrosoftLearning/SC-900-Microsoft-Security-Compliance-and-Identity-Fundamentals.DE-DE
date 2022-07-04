@@ -2,12 +2,12 @@
 lab:
   title: Erkunden von Vertraulichkeitsbezeichnungen in Microsoft Purview
   module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 3d69459ebcd4ffa34bd71997ea86a8aeae4d0774
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 65cf71c24e66e5c94fb27a1479693338a3cd7091
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557589"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741842"
 ---
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Lab: Erkunden von Vertraulichkeitsbezeichnungen in Microsoft Purview
 
@@ -88,7 +88,7 @@ In dieser Aufgabe durchlaufen Sie den Prozess der Anwendung einer Bezeichnung au
 
 1. Wählen Sie **+ Neues leeres Dokument** aus. Geben Sie dann etwas Text auf der Seite ein.  Wählen Sie oben auf der Seite auf dem blauen Balken den Pfeil nach unten aus, der sich neben „DokumentXX – gespeichert“ befindet, und geben Sie in das Feld „Dateiname“ den Text **Testbezeichnung** ein.
 
-1. Wählen Sie auf der oberen Menüleiste die Option **Vertraulichkeit** aus. Wenn diese Option nicht sofort angezeigt wird, aktualisieren Sie die Seite. Wählen Sie im Dropdown den Eintrag **Vertraulich – Finanzen** aus.
+1. Wählen Sie auf der oberen Menüleiste die Option **Vertraulichkeit** aus. Wenn diese Option nicht sofort angezeigt wird, aktualisieren Sie die Seite. Wählen Sie im Dropdown den Eintrag **Vertraulich – Finanzen** aus.  HINWEIS:  Es kann bis zu 15 Minuten dauern, bis die Option „Vertraulichkeit“ angezeigt wird.
 
 1. Wählen Sie auf der oberen Menüleiste die Option **Ansicht** und dann die Ansicht **Lesebereich** aus.
 
@@ -112,7 +112,7 @@ Zusätzlich zur Inhaltsmarkierung wurde die Bezeichnungsschutzeinstellung für d
 
 1. Melden Sie sich im Webbrowser auf Ihrer Lab-VM mit dem E-Mail-Konto an, an das Sie das Dokument gesendet haben.  Beachten Sie, dass die E-Mail möglicherweise in Ihrem Junk-E-Mail-Ordner gelandet ist.  Wenn Sie versuchen, die angefügte Word-Datei zu öffnen, werden Sie benachrichtigt, dass Sie nicht berechtigt sind, das Dokument zu öffnen.
 
-1. Schließen Sie die geöffneten Browserregisterkarten.
+1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 

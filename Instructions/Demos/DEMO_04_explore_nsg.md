@@ -2,12 +2,12 @@
 Demo:
   title: Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: a136022cd3458d513011b10c408827d33fbc8caa
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557528"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741854"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Demo: Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
 
@@ -152,9 +152,9 @@ Gehen Sie die Einstellungen für eine NSG durch.  In diesem Fall gehen Sie sie f
 
 1. Wechseln Sie zur Startseite des Azure-Portals zurück. Wählen Sie dazu oben auf der Seite auf dem blauen Balken **Microsoft Azure** aus.
 
-### <a name="tear-down"></a>Nachbereitung
+### <a name="post-course-delivery-tear-down"></a>Löschen von Daten und Ressourcen nach Abschluss des Kurses
 
-**WICHTIG:** Bei dieser Aufgabe löschen Sie die Ressourcengruppe und alle darin enthaltenen Ressourcen.   Dies ist wichtig, um zusätzliche Gebühren zu vermeiden.
+VMs sind eine Ressource, die in Rechnung gestellt wird. Obwohl die Kosten für die Ausführung der VMs in dieser Demo gering sind, wird empfohlen, bei Abschluss dieses Kurses die Ressourcengruppe zu löschen, die die VM sowie zugehörige Ressourcen enthält.
 
 1. Öffnen Sie in Ihrem Browser die Registerkarte „SC900-WinVM – Microsoft Azure“.
 
