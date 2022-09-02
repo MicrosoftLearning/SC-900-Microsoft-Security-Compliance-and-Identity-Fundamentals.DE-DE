@@ -2,12 +2,12 @@
 Demo:
   title: Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: a136022cd3458d513011b10c408827d33fbc8caa
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 34a08ed5a6edd845087e4ed4b5d94d4f06bc8f89
+ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741854"
+ms.lasthandoff: 08/27/2022
+ms.locfileid: "147695304"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Demo: Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
 
@@ -31,37 +31,24 @@ In dieser Demo zeigen Sie die Funktionalität einer Netzwerksicherheitsgruppe (N
     1. **Name des virtuellen Computers**: Geben Sie **SC900-WinVM** ein.
     1. **Region**: Übernehmen Sie den Standardwert.
     1. **Verfügbarkeitsoptionen**: Wählen Sie **Keine Infrastrukturredundanz erforderlich** aus.  HINWEIS: Es ist sehr wichtig, „Verfügbarkeitsoptionen“ auf „Keine Infrastrukturredundanz erforderlich“ festzulegen. Andernfalls funktioniert die Demo nicht wie gewünscht.  Wenn eine Verfügbarkeitsoption vorhanden ist, ist eine NSG erforderlich, wobei wir die VM mit Absicht ohne eine NSG erstellen.
-    1. **Image**: Wählen Sie im Dropdownmenü **Windows 10 Pro, Version 20H2 – Gen 1** aus.
+    1. **Bild**: Wählen Sie im Dropdownmenü **Windows 10 Pro, Version 21H2 – Gen 2** aus.
     1. **Größe**: Wählen Sie im Dropdownmenü **Alle Größen anzeigen** und dann **B2s** aus. Klicken Sie anschließend unten auf der Seite auf **Auswählen**.
     1. **Benutzername**:  Geben Sie den gewünschten Benutzernamen ein.  Notieren Sie sich diesen, da Sie ihn für den Zugriff auf den virtuellen Computer benötigen.
     1. **Kennwort:**  Geben Sie ein Kennwort Ihrer Wahl ein.  Notieren Sie sich dieses, da Sie es für den Zugriff auf den virtuellen Computer benötigen.
-    1. **Öffentliche eingehende Ports**: Sie können die Standardeinstellung übernehmen. Die hier getätigte Auswahl ist jedoch unerheblich, da sie durch die Netzwerkeinstellungen überschrieben wird.
+    1. **Öffentliche eingehende Ports**: Verlassen Sie die Standardeinstellung, **Ausgewählte Ports zulassen**.
+    1. **Eingehende Ports auswählen**: Verlassen Sie die Standardeinstellung, **RDP 3389**
     1. **Lizenz**: Wählen Sie **Ich bestätige, dass ich über eine berechtigte Windows 10-Lizenz mit Rechten für mehrinstanzenfähiges Hosting verfüge** aus, sodass im Kontrollkästchen ein Häkchen angezeigt wird.
     1. Klicken Sie auf **Weiter: Datenträger**.
 
 1. Sie befinden sich nun auf der Registerkarte „Datenträger“ für die VM-Konfiguration.  Übernehmen Sie alle Standardeinstellungen, und wählen Sie **Weiter: Netzwerk >** aus.
+1. Sie befinden sich nun auf der Registerkarte „Netzwerk“ für die VM-Konfiguration.  Wählen Sie für die NIC-Netzwerksicherheitsgruppe die Option **Keine** aus. Belassen Sie für alle anderen Einstellungen die Standardwerte.
+1. Wählen Sie unten auf der Seite **Weiter: Überprüfen + erstellen>** aus, nachdem die Überprüfung bestanden wurde, wählen Sie **Erstellen** aus. Der Abschluss der VM-Bereitstellung kann mehrere Minuten dauern.
+1. Wählen Sie nach Abschluss der VM-Bereitstellung die Option **Zu Ressource wechseln** aus.
+1. Sie befinden sich nun auf der Seite „SC900-WinVM“.
+1. Wählen Sie oben auf der Seite **Verbinden** aus. Wählen Sie anschließend im Dropdown **RDP** aus.
+1. Beachten Sie, dass die Portvoraussetzungen nicht erfüllt sind.  Damit die Voraussetzung erfüllt werden kann, muss eine eingehende Netzwerksicherheitsregel mit dem Zielport 3389, der von RDP verwendet wird, konfiguriert werden.  Dies werden Sie in der nächsten Aufgabe tun, wenn Sie eine Netzwerksicherheitsgruppe erstellen.
+1. Lassen Sie diese Browserregisterkarte geöffnet.
 
-1. Sie befinden sich nun auf der Registerkarte „Netzwerk“ für die VM-Konfiguration.  Tragen Sie die folgenden Informationen (übernehmen Sie für nicht aufgeführte Elemente die Standardeinstellungen) ein:
-    1. NIC-Netzwerksicherheitsgruppe: Wählen Sie **Keine** aus.  Hinweis: Durch die Auswahl von „Keine“ stellen Sie sicher, dass der NIC keine NSG aufweist.  In einem nachfolgenden Schritt der Demo erstellen Sie eine NSG und weisen der von Ihnen erstellten NSG den VM-NIC zu.
-    1. Da für die anderen Einstellungen für die VM die Standardeinstellungen übernommen werden, fahren Sie fort, und wählen Sie „Weiter:“ **Bewerten + erstellen >** aus.
-
-1. Überprüfen Sie die Konfiguration für Ihre VM.  Hinweise: Diese VM verfügt über eine öffentliche IP-Adresse, weist aber keine NIC-Netzwerksicherheitsgruppe auf.  Aus Sicherheitsperspektive ist die VM ungeschützt.  Darum kümmern wir uns in einer nachfolgenden Aufgabe. Klicken Sie auf **Erstellen**.  Der Abschluss der VM-Bereitstellung kann mehrere Minuten dauern.
-
-1. Notieren Sie den Namen der Netzwerkschnittstelle **sc900-winvmXXX** (das XXX ist spezifisch für die Netzwerkschnittstelle Ihrer VM).
-
-1. Wählen Sie nach Abschluss der VM-Bereitstellung die Option **Zu Ressource wechseln** aus.  Sie befinden sich nun auf der Seite „SC900-WinVM“.  Notieren Sie sich die öffentliche IP-Adresse.
-
-1. Wählen Sie im linken Navigationsbereich **Netzwerk** aus, und notieren Sie die Netzwerkschnittstelle **sc900-winvmXXX** (das XXX ist spezifisch für die Netzwerkschnittstelle Ihrer VM).  Dort sollten mit der Schnittstelle weder Ein- noch Ausgangsregeln verknüpft sein.  
-
-1. Wählen Sie oben auf der Seite **Verbinden** aus, da es wichtig ist, sicherzustellen, dass Sie eine Verbindung mit der VM herstellen können.
-    1. Stellen Sie oben auf der Seite sicher, dass **RDP** ausgewählt (unterstrichen) ist.
-    1. Stellen Sie sicher, dass die IP-Adresse auf „Öffentliche IP-Adresse“ festgelegt ist, übernehmen Sie die Standardportnummer, und wählen Sie **RDP-Datei herunterladen** aus.
-    1. **Öffnen** Sie die heruntergeladene Datei. Wählen Sie im angezeigten Fenster die Option **Verbinden** aus.
-    1. Ein Fenster wird geöffnet, von dem Sie aufgefordert werden, Ihre Anmeldeinformationen einzugeben. Wenn vom Standardfenster eine PIN angefordert wird, wählen Sie **Weitere Optionen** und dann **Anderes Konto verwenden** aus.   Sie werden aufgefordert, Ihre Anmeldeinformationen einzugeben.  Geben Sie den Benutzernamen und das Kennwort ein, die Sie beim Erstellen der VM verwendet haben.
-    1. Ein Remotedesktop-Verbindungsfenster wird geöffnet und gibt „Die Identität des Remotecomputers kann nicht überprüft werden.  Möchten Sie die Verbindung dennoch herstellen?“ an.  Wählen Sie **Ja** aus.
-    1. Sie sind nun mit Ihrer erstellten Windows-VM verbunden. Schließen Sie die Windows-Einrichtung ab. Obwohl Sie die Verbindung mit der VM über RDP und einen allgemein genutzten RDP-Port hergestellt haben, sind bei dieser VM alle Ports geöffnet, wobei der Datenverkehr durch nichts gefiltert wird.  Schließen Sie die Remotedesktopverbindung. Wählen Sie dazu oben zentral auf der Seite, wo die IP-Adresse angezeigt wird, das **X** aus.  Ein Popupfenster gibt „Die Remotesitzung wird getrennt“ an. Klicken Sie auf **OK**.
-
-1. Sie befinden sich nun wieder im Azure-Portal auf der Seite „SC900-WinVM“.  Lassen Sie die Browserregisterkarte für die nächste Aufgabe geöffnet.
 
 ### <a name="pre-demo-setup-part-2"></a>Einrichtung vor der Demo – Teil 2
 
@@ -77,7 +64,7 @@ Erstellen Sie eine Netzwerksicherheitsgruppe, OHNE dieser NSG die Netzwerkschnit
     1. Abonnement:  Azure Pass-Förderung
     1. Ressourcengruppe:  **LabsSC900-RG**
     1. Name:  **NSG-SC900**
-    1. Region: Übernehmen Sie den Standardwert **(USA) USA, Osten**.
+    1. Region: Übernehmen Sie den Standardwert
     1. Wählen Sie **Bewerten + erstellen** und dann **Erstellen** aus.
 
 1. Wählen Sie nach Abschluss der Bereitstellung **Zu Ressource wechseln** aus, und stellen Sie sicher, dass alles in Ordnung ist.  Dort sollten 3 standardmäßige Eingangs-, 3 standardmäßige Ausgangsregeln, keine Subnetze und keine Schnittstellen vorhanden sein, die der NSG zugeordnet sind.  Wechseln Sie zurück zur **Startseite** des Azure-Portals.  
@@ -102,14 +89,10 @@ Gehen Sie die Einstellungen für eine NSG durch.  In diesem Fall gehen Sie sie f
     1. Geben Sie oben auf der Seite in die Suchleiste den Text **Virtuelle Computer** ein, und wählen Sie den Eintrag aus.
     1. Wählen Sie **SC900-WinVM** auf der Seite „Virtuelle Computer“ aus.
     1. Wählen Sie oben auf der Seite „SC900-WinVM“ die Option **Verbinden** und dann **RDP** aus.
-    1. Stellen Sie sicher, dass die IP-Adresse auf „Öffentliche IP-Adresse“ festgelegt ist, übernehmen Sie die Standardportnummer, und wählen Sie **RDP-Datei herunterladen** aus.
-    1. **Öffnen** Sie die heruntergeladene-Datei, und wählen Sie **Verbinden** aus.
-    1. Nachdem ein paar Sekunden lang versucht wurde, eine Verbindung herzustellen, wird in der Fehlermeldung angezeigt, dass der Remotedesktop keine Verbindung mit dem Remotecomputer herstellen kann. Klicken Sie auf **OK**.
+    1. Beachten Sie, dass die Portvoraussetzungen nicht erfüllt sind.  Damit die Voraussetzung erfüllt werden kann, muss eine eingehende Netzwerksicherheitsregel mit dem Zielport 3389, der von RDP verwendet wird, konfiguriert werden.  
 
-1. Nachdem Sie nun die Auswirkung von NSG-Standardeingangsregeln gezeigt haben, möchten Sie eine neue Regel erstellen, um eingehenden RDP-Datenverkehr zuzulassen.  Heben Sie hervor, dass Sie die vorhandenen Standardregeln nicht löschen können. Sie können lediglich neue mit einer höheren Priorität erstellen.
-    1. Wählen Sie im linken Navigationsbereich unter „Einstellungen“ die Option **Netzwerk** aus.  Sie befinden sich auf der Netzwerkseite der VM. Sie können hier eine Eingangsregel und Ausgangsregel erstellen. Sie wechseln jedoch zurück zur NSG-Seite, da in der Demo NSGs behandelt werden.  **NSG-SC900 auswählen**, hierbei handelt es sich um den Link in der Mitte des Fensters.
-
-1. Sie befinden sich nun auf der NSG-Übersichtsseite.  Beachten Sie die Informationen über die NSG. Wählen Sie im linken Navigationsbereich der NSG-Seite unter „Einstellungen“ die Option **Sicherheitsregeln für eingehenden Datenverkehr** aus. Wählen Sie anschließend oben auf der Seite **+ Hinzufügen** aus. Stellen Sie die verschiedenen Einstellungen der Seite „Eingangssicherheitsregel hinzufügen“ vor. Sie sollten die Regel zum Zulassen von eingehenden RDP-Datenverkehr tatsächlich erstellen. Verwenden Sie dazu die folgenden Einstellungen:
+1. Jetzt werden Sie eine neue Regel erstellen wollen, um eingehenden RDP-Datenverkehr zuzulassen.  Heben Sie hervor, dass Sie die vorhandenen Standardregeln nicht löschen können. Sie können lediglich neue mit einer höheren Priorität erstellen. Wählen Sie im linken Navigationsbereich unter „Einstellungen“ die Option **Netzwerk** aus.  Sie befinden sich auf der Netzwerktechnologieseite der VM.
+1. Stellen Sie sicher, dass die Registerkarte **Regeln für eingehende Ports** ausgewählt (unterstrichen) ist und wählen Sie dann **Regel für eingehenden Port hinzufügen** zum Erstellen der Regel mit den folgenden Einstellungen, um eingehenden RDP-Datenverkehr zuzulassen:
     1. Quelle: **Alle**
     1. Quellportbereiche: **\***
     1. Ziel: **Beliebig**
@@ -120,7 +103,7 @@ Gehen Sie die Einstellungen für eine NSG durch.  In diesem Fall gehen Sie sie f
     1. Wählen Sie **Hinzufügen** aus.
     1. Nach der Bereitstellung der Regel wird sie in der Liste der Eingangsregeln angezeigt.
 
-1. Testen Sie nun die **Sicherheitsregeln für ausgehenden Datenverkehr**.  Wählen Sie oben auf der Seite **+ Hinzufügen** aus, und erläutern Sie die verschiedenen Einstellungen.  Ich empfehle, die Regel zu erstellen – über die folgenden Einstellungen wird eine Regel zum Verweigern des ausgehenden Internetdatenverkehrs erstellt:
+1. Wählen Sie nun die Registerkarte **Regeln für ausgehende Ports** aus, und überprüfen Sie die Standardregeln.  Wählen Sie oben auf der Seite **Regel für ausgehenden Port hinzufügen** aus, und nehmen Sie die verschiedenen Einstellungen vor.  Ich empfehle, die Regel zu erstellen – über die folgenden Einstellungen wird eine Regel zum Verweigern des ausgehenden Internetdatenverkehrs erstellt:
     1. Quelle: **Alle**
     1. Quellportbereiche: **\***
     1. Ziel: **Diensttag**
@@ -134,7 +117,7 @@ Gehen Sie die Einstellungen für eine NSG durch.  In diesem Fall gehen Sie sie f
     1. Wählen Sie **Hinzufügen** aus.
     1. Nach der Bereitstellung der Regel wird sie in der Liste der Ausgangsregeln angezeigt.
 
-1. Wechseln Sie nun zurück zu Ihrer VM, und testen Sie die Regeln.  Wählen Sie oben auf der Seite oberhalb von „Sicherheitsregeln für ausgehenden Datenverkehr“ den Eintrag **SC900-VM** aus.
+1. Wechseln Sie nun zurück zu Ihrer VM, und testen Sie die Regeln.  Wählen Sie oben auf der Seite die Option **SC900-VM** aus.
 
 1. Testen Sie die Eingangsregel, indem Sie sicherstellen, dass Sie über das RDP eine Verbindung mit der VM herstellen können.
     1. Wählen Sie im linken Navigationsbereich **Verbinden** aus.
