@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Erkunden von Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
-  module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 47f71fdf1587a240803bb508a902ce098253793d
-ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
+ms.openlocfilehash: d2377516343cb85c279c1a2d6347c59f573d73c7
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2022
-ms.locfileid: "147695292"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892196"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: 'Erkunden von Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 1: Beschreiben der grundlegenden Sicherheitsfunktionen in Azure; Lerneinheit 6: Beschreiben von Azure-Netzwerksicherheitsgruppen'
+---
+--->
+
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Lab: Erkunden von Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
+
+Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen
+- Modul: Beschreiben der grundlegenden Sicherheitsfunktionen in Azure
+- Lerneinheit: Beschreiben von Azure-Netzwerksicherheitsgruppen
 
 ## <a name="lab-scenario"></a>Labszenario
 
@@ -51,7 +60,7 @@ Bei dieser Aufgabe erstellen Sie einen virtuellen Computer unter Windows 10.
 1. Wählen Sie nach Abschluss der VM-Bereitstellung die Option **Zu Ressource wechseln** aus.
 1. Sie befinden sich nun auf der Seite „SC900-WinVM“.
 1. Wählen Sie oben auf der Seite **Verbinden** aus. Wählen Sie anschließend im Dropdown **RDP** aus.
-1. Beachten Sie, dass die Portvoraussetzungen nicht erfüllt sind.  Damit die Voraussetzung erfüllt werden kann, muss eine eingehende Netzwerksicherheitsregel mit dem Zielport 3389, der von RDP verwendet wird, konfiguriert werden.  Dies werden Sie in der nächsten Aufgabe tun, wenn Sie eine Netzwerksicherheitsgruppe erstellen.
+1. Beachten Sie, dass die Portvoraussetzungen nicht erfüllt sind.  Damit die Voraussetzung erfüllt wird, muss eine eingehende Netzwerksicherheitsregel mit dem Zielport 3389 konfiguriert werden, der von RDP verwendet wird.  Dies werden Sie in der nächsten Aufgabe tun, wenn Sie eine Netzwerksicherheitsgruppe erstellen.
 1. Lassen Sie diese Browserregisterkarte geöffnet.
 
 ### <a name="task-2"></a>Aufgabe 2

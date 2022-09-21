@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Umgehen mit Azure Policy
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: f314612acb21c226e350ce9f6ab026cee2551378
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741914"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892148"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: 'Erkunden von Azure Policy' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 6: Beschreiben der Ressourcengovernancefunktionen in Azure; Lerneinheit 2: Beschreiben von Azure Policy'
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>Lab: Umgehen mit Azure Policy
+
+Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen
+- Modul: Beschreiben der Ressourcengovernancefunktionen in Azure
+- Lerneinheit: Beschreiben von Azure Policy
 
 ## <a name="lab-scenario"></a>Labszenario
 

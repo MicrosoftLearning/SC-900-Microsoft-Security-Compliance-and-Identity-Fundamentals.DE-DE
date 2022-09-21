@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: f1bd0a494cc5486e13a03cf1e8829d38a28451ab
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542650"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892172"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: 'Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Modul 2: Beschreiben der Authentifizierungsfunktionen von Azure AD; Lerneinheit 4: Beschreiben der Self-Service-Kennwortzurücksetzung in Azure AD'
+---
+--->
+
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Lab: Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung
+
+Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra
+- Modul: Beschreiben der Authentifizierungsfunktionen von Azure AD
+- Lerneinheit: Beschreiben der Self-Service-Kennwortzurücksetzung in Azure AD
 
 ## <a name="lab-scenario"></a>Labszenario
 

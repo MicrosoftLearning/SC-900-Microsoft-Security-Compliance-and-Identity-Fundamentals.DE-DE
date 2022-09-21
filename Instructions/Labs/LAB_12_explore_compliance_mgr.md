@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Erkunden des Microsoft 365-Complianceportals und des Compliance-Managers
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4f0c9c57619e1dc8c44ce86b97e4ac9a5488e189
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 8d3268c28c1dc2335f0554caf801abe11b6ae0d2
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741830"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892376"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: 'Erkunden des Microsoft Purview-Complianceportals und des Compliance-Managers' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Microsoft-Complianceverwaltungsfunktionen; Modul 2: Beschreiben der Complianceverwaltungsfunktionen in Microsoft Purview; Lerneinheit 2: Beschreiben des Microsoft Purview-Complianceportals'
+---
+--->
+
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Lab: Erkunden des Microsoft 365-Complianceportals und des Compliance-Managers
+
+Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen
+- Modul: Beschreiben der Complianceverwaltungsfunktionen in Microsoft Purview
+- Lerneinheit: Beschreiben des Microsoft Purview-Complianceportals
 
 ## <a name="lab-scenario"></a>Labszenario
 

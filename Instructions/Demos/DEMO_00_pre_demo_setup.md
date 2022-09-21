@@ -1,15 +1,20 @@
 ---
-Pre-Demo Setup:
-  title: Demoeinrichtung
-ms.openlocfilehash: ecb20fc5819b9557f966c924bbb69a32a6b588e2
-ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
+ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "146458323"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892472"
 ---
+<a name="---"></a><!---
+---
+Pre-Demo Setup: Title: 'Einrichtung der Demo'
+---
+--->
+
 ## <a name="pre-demo-setup"></a>Einrichtung vor der Demo
-Diese Einrichten besteht aus zwei separaten Aufgaben.  Die erste Aufgabe wird angewendet und nur empfohlen, wenn in Ihrer Laborumgebung die Verwendung eines Azure Pass-Angebots integriert ist. Die zweite Aufgabe konzentriert sich auf die Aktivierung des Microsoft-Überwachungsprotokolls und wird empfohlen, unabhängig davon, ob Ihre Umgebung das Azure Pass-Angebot verwendet.
+
+Diese Einrichten besteht aus zwei separaten Aufgaben.  Die erste Aufgabe wird angewandt und nur empfohlen, wenn in Ihrer Demoumgebung die Verwendung eines Azure Pass-Angebots integriert ist. Die zweite Aufgabe konzentriert sich auf die Aktivierung des Microsoft-Überwachungsprotokolls und wird empfohlen, unabhängig davon, ob Ihre Umgebung das Azure Pass-Angebot verwendet.
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>Teil 1 der Einrichtung – Einlösen des Azure Pass
 

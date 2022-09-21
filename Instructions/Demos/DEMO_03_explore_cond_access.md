@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Bedingter Zugriff mit Azure Active Directory
-  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 9c981817c195e981ea69dc6bba5f168848d6d084
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c9d70711fdf9579ef2fdac491a59ceaf6a09547a
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557361"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892484"
 ---
-# <a name="demo-azure-active-directory-conditional-access"></a>Demo: Bedingter Zugriff in Azure Active Directory
+<a name="---"></a><!---
+---
+Demo: Title: 'Bedingter Zugriff in Azure AD' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Modul 3: Beschreiben der Zugriffsverwaltungsfunktionen von Azure AD; Lerneinheit 2: Erklären des bedingten Zugriffs in Azure AD'
+---
+--->
+
+# <a name="demo-azure-ad-conditional-access"></a>Demo: Bedingter Zugriff in Azure AD
+
+Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra
+- Modul: Beschreiben der Zugriffsverwaltungsfunktionen von Azure AD
+- Lerneinheit: Beschreiben des bedingten Zugriffs in Azure AD
 
 ## <a name="demo-scenario"></a>Demoszenario
 
