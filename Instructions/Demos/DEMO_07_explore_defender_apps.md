@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: 'Microsoft Defender für Cloud-Apps '
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 5ab8489c487f8eb80354f18cf83b896f8ba4793f
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 2ea64f800931ec99ace8cd3ec349573a0931899e
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557169"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892616"
 ---
+<a name="---"></a><!---
+---
+Demo: Title: 'Microsoft Defender für Cloud-Apps' Module: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 4: Beschreiben der Bedrohungsschutzfunktionen von Microsoft 365; Lerneinheit 5: Beschreiben von Microsoft Defender für Cloud-Apps'
+---
+--->
+
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>Demo: Microsoft Defender für Cloud-Apps
+
+Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen
+- Modul: Beschreiben der Bedrohungsschutzfunktionen von Microsoft 365
+- Lerneinheit: Beschreiben von Microsoft Defender für Cloud-Apps
 
 ## <a name="demo-scenario"></a>Demoszenario
 

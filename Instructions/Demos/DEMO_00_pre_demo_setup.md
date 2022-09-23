@@ -1,18 +1,24 @@
 ---
-Pre-Demo Setup:
-  title: Demoeinrichtung
-ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557253"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892472"
 ---
-# <a name="pre-demo-setup"></a>Einrichtung vor der Demo
+<a name="---"></a><!---
+---
+Pre-Demo Setup: Title: 'Einrichtung der Demo'
+---
+--->
 
-## <a name="setup-part-1---redeem-azure-pass"></a>Teil 1 der Einrichtung – Einlösen des Azure Pass
+## <a name="pre-demo-setup"></a>Einrichtung vor der Demo
 
-Bei dieser Einrichtungsaufgabe lösen Sie Ihren Azure Pass unter Verwendung der gleichen Anmeldeinformationen ein, die Sie auch für den Microsoft 365-Mandanten verwenden.  So können Sie nahtloser zwischen Microsoft 365 und Azure wechseln.
+Diese Einrichten besteht aus zwei separaten Aufgaben.  Die erste Aufgabe wird angewandt und nur empfohlen, wenn in Ihrer Demoumgebung die Verwendung eines Azure Pass-Angebots integriert ist. Die zweite Aufgabe konzentriert sich auf die Aktivierung des Microsoft-Überwachungsprotokolls und wird empfohlen, unabhängig davon, ob Ihre Umgebung das Azure Pass-Angebot verwendet.
+
+### <a name="setup-part-1---redeem-azure-pass"></a>Teil 1 der Einrichtung – Einlösen des Azure Pass
+
+Diese Aufgabe wird angewendet und nur empfohlen, wenn die von Ihnen verwendete Demoumgebung ein Azure Pass-Angebot enthält. In dieser Aufgabe lösen Sie Ihr Azure Pass-Angebot unter Verwendung der gleichen Anmeldeinformationen ein, die Sie auch für den Microsoft 365-Mandanten verwenden.  So können Sie nahtloser zwischen Microsoft 365 und Azure wechseln.
 
 1. Falls Browserfenster geöffnet sind, wird empfohlen, alle Browser zu schließen.
 

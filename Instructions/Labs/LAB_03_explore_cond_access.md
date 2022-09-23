@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Erkunden der Zugriffsverwaltung in Azure AD mit bedingtem Zugriff
-  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 5d7767e0187f043004b0c9d17e7cd1d1915613cc
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557276"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892160"
 ---
+<a name="---"></a><!---
+---
+Lab: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Modul: Beschreiben der Zugriffsverwaltungsfunktionen von Azure AD; Lerneinheit: Erklären des bedingten Zugriffs in Azure AD'
+---
+--->
+
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Lab: Erkunden der Zugriffsverwaltung in Azure AD mit bedingtem Zugriff
+
+Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra
+- Modul: Beschreiben der Zugriffsverwaltungsfunktionen von Azure AD
+- Lerneinheit: Beschreiben des bedingten Zugriffs in Azure AD
 
 ## <a name="lab-scenario"></a>Labszenario
 
@@ -28,7 +37,7 @@ Bei dieser Aufgabe setzen Sie als Administrator das Kennwort für den Benutzer D
     1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
-3. Wählen Sie **Azure Active Directory** aus.  
+3. Wählen Sie in der oberen linken Ecke des Bildschirms neben dem Text „Microsoft Azure“ das Symbol „Portalmenü anzeigen“ (die drei horizontalen Linien werden auch als Hamburgersymbol bezeichnet) und dann im linken Navigationsbereich unter „Favoriten“ Azure Active Directory aus. Wenn die Option nicht unter „Favoriten“ aufgeführt ist, geben Sie Azure Active Directory im Suchfeld ein. Wählen Sie anschließend aus der Ergebnisliste **Azure Active Directory** aus.
 
 4. Wählen Sie im linken Navigationsbereich **Benutzer** aus.
 

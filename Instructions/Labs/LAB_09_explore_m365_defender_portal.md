@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Erkunden des Microsoft 365 Defender-Portals
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c22aadb543f4501b74be9a6d12da3af3b63b632f
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557145"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892676"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: 'Erkunden des Microsoft 365 Defender-Portals' Module: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 4: Beschreiben der Bedrohungsschutzfunktionen von Microsoft 365; Lerneinheit 7: Beschreiben des Microsoft 365 Defender-Portals'
+---
+--->
+
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Lab: Erkunden des Microsoft 365 Defender-Portals
+
+Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen
+- Modul: Beschreiben der Bedrohungsschutzfunktionen von Microsoft 365
+- Lerneinheit: Beschreiben des Microsoft 365 Defender-Portals
 
 ## <a name="lab-scenario"></a>Labszenario
 
@@ -65,7 +74,7 @@ Bei dieser Aufgabe erkunden Sie, wie Organisationen mithilfe der Microsoft-Siche
 
 1. Wählen Sie oben auf der Seite **Metriken und Trends** aus.  Beachten Sie die verfügbaren Informationen.  Wählen Sie in der oberen rechten Ecke der Seite das **Kalendersymbol** aus.  Sie können die Ansicht auf einen benutzerdefinierten Datumsbereich eingrenzen.  Durch die Auswahl des **Filtersymbols** können Sie die Ansicht nach Identität, Geräte bzw. Apps filtern.  Schließen Sie das Fenster, und wählen Sie im linken Navigationsbereich die Option **Startseite** aus, um zur Startseite von Microsoft 365 Defender zurückzukehren.
 
-1. Schließen Sie die Browserseite.
+1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 

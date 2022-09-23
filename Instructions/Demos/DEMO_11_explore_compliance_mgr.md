@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Erkunden des Microsoft 365-Complianceportals und des Compliance-Managers
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 7c0b3e5a3153e48ddb3a7e7cca991c9df6a89bdf
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 557b2974e32c920172be89f909225d30519b79a0
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557241"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892410"
 ---
+<a name="---"></a><!---
+---
+Demo: Title: 'Erkunden des Microsoft Purview-Complianceportals und des Compliance-Managers' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Microsoft-Complianceverwaltungsfunktionen; Modul 2: Beschreiben der Complianceverwaltungsfunktionen in Microsoft Purview; Lerneinheit 2: Beschreiben des Microsoft Purview-Complianceportals'
+---
+--->
+
 # <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Demo: Erkunden des Microsoft 365-Complianceportals und des Compliance-Managers
+
+Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen
+- Modul: Beschreiben der Complianceverwaltungsfunktionen in Microsoft Purview
+- Lerneinheit: Beschreiben des Microsoft Purview-Complianceportals
 
 ## <a name="demo-scenario"></a>Demoszenario
 

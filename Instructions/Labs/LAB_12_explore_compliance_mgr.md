@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Erkunden des Microsoft 365-Complianceportals und des Compliance-Managers
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4745dddb860e82ddc05e7c88deb0e0644046e0b5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d3268c28c1dc2335f0554caf801abe11b6ae0d2
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557487"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892376"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: 'Erkunden des Microsoft Purview-Complianceportals und des Compliance-Managers' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Microsoft-Complianceverwaltungsfunktionen; Modul 2: Beschreiben der Complianceverwaltungsfunktionen in Microsoft Purview; Lerneinheit 2: Beschreiben des Microsoft Purview-Complianceportals'
+---
+--->
+
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Lab: Erkunden des Microsoft 365-Complianceportals und des Compliance-Managers
+
+Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen
+- Modul: Beschreiben der Complianceverwaltungsfunktionen in Microsoft Purview
+- Lerneinheit: Beschreiben des Microsoft Purview-Complianceportals
 
 ## <a name="lab-scenario"></a>Labszenario
 
@@ -69,7 +78,7 @@ Mit Compliance-Manager erfahren Sie mehr über die Compliancesituation Ihrer Org
 
 1. Wählen Sie in der enthaltenen Vorlagenliste **ISO/IEC27001:2013** aus. Wählen Sie oben rechts auf der Seite **+ Bewertung erstellen** aus.  Beachten Sie, dass links auf dem Bildschirm nur zwei Schritte angezeigt werden, um aus der Vorlage eine Bewertung zu erstellen.  Wählen Sie unten auf der Seite „Abbrechen“ aus.
 
-1. Schließen Sie die geöffneten Browserregisterkarten.
+1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 

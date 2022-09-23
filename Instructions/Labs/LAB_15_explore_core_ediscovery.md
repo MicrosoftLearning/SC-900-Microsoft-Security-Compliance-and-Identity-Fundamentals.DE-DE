@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Erkunden des eDiscovery (Standard)-Workflows
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 60abb7856a80be94c8f1bd755f313a0d12616671
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557601"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892663"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: 'Erkunden des eDiscovery (Standard)-Workflows' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 5: eDiscovery-Funktionen und Überwachungsfunktionen von Microsoft Purview; Lerneinheit 2: Beschreiben der eDiscovery-Lösungen in Microsoft 365'
+---
+--->
+
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Lab: Erkunden des eDiscovery (Standard)-Workflows
+
+Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen
+- Modul: eDiscovery-Funktionen und Überwachungsfunktionen von Microsoft Purview
+- Lerneinheit: Beschreiben der eDiscovery-Lösungen in Microsoft 365
 
 ## <a name="lab-scenario"></a>Labszenario
 
@@ -126,6 +135,8 @@ Erstellen Sie bei vorhandener Aufbewahrung eine Suchabfrage.  Nach Abschluss Ihr
     1. Wählen Sie im zweiten Feld den Speicherort aus, an dem die Exportdatei gespeichert werden soll, und wählen Sie dann **Start** aus.  Wählen Sie nach Abschluss des Downloadprozesses **Schließen** aus, und schließen Sie diese Browserregisterkarte.
     1. Sie befinden sich wieder im Fenster „Testaufbewahrung – Vertriebssuche_Exportieren“.  Klicken Sie auf **Schließen**.
     1. Überprüfen Sie den Downloadspeicherort, um sicherzustellen, dass der Download erfolgreich abgeschlossen wurde.
+
+1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 

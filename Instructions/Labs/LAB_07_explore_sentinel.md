@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Erkunden von Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 656e8003ac2a835d263b98cc25871f186ff2a0c8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557157"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892641"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: 'Erkunden von Microsoft Sentinel' Learning Path/Module/Title: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 3: Beschreiben der Sicherheitsfunktionen von Microsoft Sentinel; Lerneinheit 3: Erklären des integrierten Bedrohungsmanagements von Microsoft Sentinel'
+---
+--->
+
 # <a name="lab-explore-microsoft-sentinel"></a>Lab: Erkunden von Microsoft Sentinel
+
+Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen
+- Modul: Beschreiben der Sicherheitsfunktionen von Microsoft Sentinel
+- Lerneinheit: Erklären des integrierten Bedrohungsmanagements von Microsoft Sentinel
 
 ## <a name="lab-scenario"></a>Labszenario
 
@@ -137,7 +146,7 @@ Microsoft Sentinel wird auf Grundlage der Datenmenge abgerechnet, die zur Analys
 
 4. Wählen Sie im oberen mittleren Bereich der Seite die Option **Ressourcengruppe löschen** aus.  Überprüfen Sie die Warnung.  Geben Sie den Namen der Ressourcengruppe **SC900-ResourceGroup** ein. Wählen Sie dann unten auf der Seite **Löschen** aus.  Es kann mehrere Minuten dauern, bis die Ressourcengruppe gelöscht ist.
 
-5. Nachdem Sie die Löschung der Ressourcengruppe überprüft haben, schließen Sie die Browserseite.
+5. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 

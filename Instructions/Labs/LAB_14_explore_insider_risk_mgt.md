@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Erkunden des Insider-Risikomanagements in Microsoft Purview
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557541"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892700"
 ---
+<a name="---"></a><!--->
+---
+Lab: Title: 'Erkunden des Insider-Risikomanagements in Microsoft Purview' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 4: Beschreiben der Microsoft Purview-Funktionen für den Umgang mit Insider-Risiken; Lerneinheit 2: Beschreiben des Insider-Risikomanagements'
+---
+--->
+
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Lab: Erkunden des Insider-Risikomanagements in Microsoft Purview
+
+Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen
+- Modul: Beschreiben der Microsoft Purview-Funktionen für den Umgang mit Insider-Risiken
+- Lerneinheit: Beschreiben des Insider-Risikomanagements
 
 ## <a name="lab-scenario"></a>Labszenario
 
@@ -35,7 +44,7 @@ Bei dieser Aufgabe aktivieren Sie als globaler Administrator Berechtigungen für
 
 1. Wählen Sie im linken Navigationsbereich des Microsoft Purview-Complianceportals **Berechtigungen** aus.
 
-1. Wählen Sie auf der Seite „Berechtigungen und Rollen“ unter „Complianceportal“ die Option **Rollen** aus.
+1. Navigieren Sie auf der Seite „Berechtigungen und Rollen“ zum Abschnitt „Anzeigen und Verwalten von Rollen, die zum Ausführen lösungsspezifischer Aufgaben im Compliance Center verwendet werden“. Wählen Sie **Rollen** aus.
 
 1. Geben Sie **Insider-Risiko** in die Suchleiste ein. Wählen Sie dann das Suchsymbol (Vergrößerungsglas) aus.  Beachten Sie die zahlreichen Rollen, die angezeigt werden.  Diese weisen jeweils unterschiedliche Zugriffsebenen auf.  Wählen Sie **Insider-Risikomanagement** aus.
 
@@ -115,6 +124,8 @@ Bei dieser Aufgabe gehen Sie die Erstellung einer Richtlinie durch.
 1. Sie befinden sich wieder auf der Registerkarte „Richtlinien“ der Seite „Insider-Risikomanagement“.  Die von Ihnen soeben erstellte Richtlinie wird aufgelistet.  
 
 1. Bei der von Ihnen soeben erstellten Richtlinie werden im Feld „Benutzer im Geltungsbereich“ Benutzer angezeigt, denen aktuell durch die Richtlinie Risikobewertungen zugewiesen sind.  Benutzern werden Risikobewertungen zugewiesen, wenn die Richtlinie ausgelöst wird. Daher wird der Wert „0“ angezeigt.  Ein Administrator kann eine Richtlinie konfigurieren, um bestimmten Benutzern basierend auf der von den von Ihnen ausgewählten Richtlinien erkannten Aktivität Risikobewertungen zuzuweisen UND welche die Anforderung umgeht, dass zunächst ein auslösendes Ereignis erkannt wird.  Wählen Sie dazu den leeren Kreis neben dem Richtliniennamen aus, um die Richtlinie auszuwählen. Wählen Sie dann die oberhalb der Tabelle mit den Richtlinien angezeigte Option **Bewertung starten** aus.  Füllen Sie jedes Feld aus, und wählen Sie dann **Bewertung der Aktivitäten starten** aus.  Es kann bis zu 24 Stunden dauern, bis die Benutzer auf der Registerkarte „Benutzer“ angezeigt werden. Danach können Sie die Benutzer auf dieser Registerkarte auswählen, um erkannte Aktivitäten zu überprüfen.  Klicken Sie unten im Fenster auf **Schließen**.
+
+1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 

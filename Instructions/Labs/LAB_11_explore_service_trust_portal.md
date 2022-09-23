@@ -1,19 +1,26 @@
 ---
-lab:
-  title: Explore the Service Trust Portal
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 7171b8c2d05da29c64594c5b6437d3106e320cee
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557205"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892688"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: 'Erkunden des Service Trust Portals' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 1: Beschreiben der Microsoft-Complianceverwaltungsfunktionen; Lerneinheit 2: Erkunden des Service Trust Portals'
+---
+--->
+
 # <a name="lab-explore-the-service-trust-portal"></a>Lab: Explore the Service Trust Portal
+
+Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
+
+Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul: Beschreiben der Microsoft-Complianceverwaltungsfunktionen; Lerneinheit: Erkunden des Service Trust Portals
 
 ## <a name="lab-scenario"></a>Labszenario
 
-In diesem Lab erkunden Sie die im Service Trust Portal verfügbaren Funktionen und Inhalte. Zudem besuchen Sie das Trust Center und navigieren zu den sechs wichtigen Datenschutzprinzipien.
+In diesem Lab erkunden Sie die im Service Trust Portal verfügbaren Funktionen und Inhalte. Sie besuchen auch das Trust Center, um Informationen zum Datenschutz bei Microsoft anzuzeigen.
 
 **Geschätzte Dauer**: 10–15 Minuten
 
@@ -49,20 +56,14 @@ In dieser Aufgabe erkunden Sie das Service Trust Portal und die verschiedenen ve
 
 ### <a name="task-2"></a>Aufgabe 2
 
-In dieser Aufgabe besuchen Sie das Trust Center und navigieren zu den sechs wichtigsten Datenschutzprinzipien von Microsoft.
+In dieser Aufgabe besuchen Sie das Trust Center und navigieren zu den Informationen, in denen der Datenschutz bei Microsoft erläutert wird.
 
-1. Wählen Sie oben auf der Seite des Service Trust Portals die Option **Trust Center** und dann **Start** aus. Dadurch wird eine neue Browserregisterkarte geöffnet, über die Sie zum Trust Center gelangen, wo Sie weitere Informationen über Sicherheit, Compliance und Datenschutz in der Microsoft-Cloud finden.
+1. Wählen Sie oben auf der Seite des Service Trust Portals die Option **Trust Center** und dann **Start** aus. Es wird eine neue Browserregisterkarte geöffnet, die Sie zum Trust Center weiterleitet, wo Sie weitere Informationen finden, zum Beispiel zum Datenschutz.  
 
-1. Wählen Sie oben auf der Seite **Datenschutz** und dann **Ressourcen** aus.
+1. Zudem werden Information zur Verpflichtung von Microsoft gegenüber Ihnen angezeigt.  Wählen Sie **Informationen zum Datenschutz bei Microsoft** aus.  Scrollen Sie durch die Seite, und öffnen Sie die verschiedenen Links, um mehr über den Datenschutz bei Microsoft zu erfahren.
 
-1. Wählen Sie **Zusätzliche Datenschutzressourcen** aus.
-
-1. Wählen Sie **Datenschutz bei Microsoft** aus.
-
-1. Lesen Sie sich die sechs wichtigsten Datenschutzprinzipien durch.
-
-1. Schließen Sie die Browserfenster, um das Service Trust Portal und das Trust Center zu beenden.
+1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 
-In diesem Lab haben Sie einige der im Service Trust Portal verfügbaren Optionen erkundet. Außerdem haben Sie erfahren, wie Sie auf Berichte zugreifen und „Meine Bibliothek“ verwenden können, um Dokumente für die künftige Überprüfung zu speichern.  Zusätzlich haben Sie das Trust Center besucht, um auf die Datenschutzprinzipien von Microsoft zuzugreifen und sie zu lesen.
+In diesem Lab haben Sie einige der im Service Trust Portal verfügbaren Optionen erkundet. Außerdem haben Sie erfahren, wie Sie auf Berichte zugreifen und „Meine Bibliothek“ verwenden können, um Dokumente für die künftige Überprüfung zu speichern.  Zusätzlich haben Sie das Trust Center besucht, um auf Informationen zum Datenschutz bei Microsoft zuzugreifen und diese zu lesen.

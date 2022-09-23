@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure Policy
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 61ec82b1a7015371a60df61c5a6e5af39cdd9fd6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557133"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892208"
 ---
+<a name="---"></a><!---
+---
+Demo: Title: 'Azure Policy' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 6: Beschreiben der Ressourcengovernancefunktionen in Azure; Lerneinheit 2: Beschreiben von Azure Policy'
+---
+--->
+
 # <a name="demo-azure-policy"></a>Demo: Azure Policy
+
+Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen
+- Modul: Beschreiben der Ressourcengovernancefunktionen in Azure
+- Lerneinheit: Beschreiben von Azure Policy
 
 ## <a name="demo-scenario"></a>Demoszenario
 
@@ -19,7 +28,7 @@ In dieser Demo gehen Sie den Prozess der Einrichtung einer Azure-Richtlinie und 
 
 Erstellen einer Richtlinie, um ein Tag für eine Ressourcengruppe zu erfordern (es werden die Schritte zur Erstellung einer Richtlinie aus einer Vorlage gezeigt)
 
-1. Öffnen Sie Microsoft Edge. Geben Sie **portal.microsoft.com** in die Adressleiste ein.  Sie sollten bereits angemeldet sein. Falls nicht, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
+1. Öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein.  Sie sollten bereits angemeldet sein. Falls nicht, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
 1. Geben Sie in das Suchfeld, das sich auf dem blauen Balken oben auf der Seite neben dem Text „Microsoft Azure“ befindet, den Text **Richtlinie** ein, und wählen Sie dann **Richtlinie** aus den Suchergebnissen aus.
 

@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d58cd38338d81136cf0b9b474137354269507e6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557325"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892388"
 ---
+<a name="---"></a><!---
+---
+Demo: Title: 'Microsoft Sentinel' Learning Path/Module/Title: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 3: Beschreiben der Sicherheitsfunktionen von Microsoft Sentinel; Lerneinheit 3: Erklären des integrierten Bedrohungsmanagements von Microsoft Sentinel'
+---
+--->
+
 # <a name="demo-microsoft-sentinel"></a>Demo: Microsoft Sentinel
+
+Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen
+- Modul: Beschreiben der Sicherheitsfunktionen von Microsoft Sentinel
+- Lerneinheit: Erklären des integrierten Bedrohungsmanagements von Microsoft Sentinel
 
 ## <a name="demo-scenario"></a>Demoszenario
 
@@ -121,9 +130,9 @@ In diesem Teil der Demo zeigen Sie einige der Optionen an, die in Sentinel verf�
 
 1. Wählen Sie in der oberen linken Ecke des Fensters direkt unterhalb der blauen Leiste die Option **Startseite** aus, um zur Startseite des Azure-Portals zurückzukehren.
 
-### <a name="task-6"></a>Aufgabe 6
+### <a name="post-course-delivery-tear-down"></a>Löschen von Daten und Ressourcen nach Abschluss des Kurses
 
-Löschen Sie nach Abschluss des Kurses Daten und Ressourcen. Microsoft Sentinel wird auf Grundlage der Datenmenge abgerechnet, die zur Analyse in Microsoft Sentinel erfasst wurde. Obwohl die im Rahmen dieser Demo erfasste Datenmenge sehr gering ist, sollten Sie die Microsoft Sentinel-Ressourcengruppe löschen, nachdem Sie die Funktionen von Microsoft Sentinel erkundet haben.
+Microsoft Sentinel wird auf Grundlage der Datenmenge abgerechnet, die zur Analyse in Microsoft Sentinel erfasst wurde. Obwohl die im Rahmen dieser Demo erfasste Datenmenge sehr gering ist, sollten Sie die Microsoft Sentinel-Ressourcengruppe löschen, sobald der Kurs zu Ende ist.
 
 1. Wählen Sie auf der Seite „Microsoft Sentinel“ in der oberen linken Ecke der Seite oberhalb des Texts „Microsoft Sentinel“ die Option **Alle Dienste** aus.
 

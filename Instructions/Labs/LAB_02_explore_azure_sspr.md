@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557469"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892172"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: 'Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Modul 2: Beschreiben der Authentifizierungsfunktionen von Azure AD; Lerneinheit 4: Beschreiben der Self-Service-Kennwortzurücksetzung in Azure AD'
+---
+--->
+
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Lab: Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung
+
+Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra
+- Modul: Beschreiben der Authentifizierungsfunktionen von Azure AD
+- Lerneinheit: Beschreiben der Self-Service-Kennwortzurücksetzung in Azure AD
 
 ## <a name="lab-scenario"></a>Labszenario
 
@@ -97,7 +106,7 @@ Bei dieser Aufgabe durchlaufen Sie als der Benutzer Adele Vance den Registrierun
 2. Geben Sie **login.microsoftonline.com** in die Adressleiste ein.
 
 3. Melden Sie sich als Adele Vance an.
-    1. Geben Sie **AdedleV@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
+    1. Geben Sie **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das in der vorherigen Aufgabe notierte Kennwort ein. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 

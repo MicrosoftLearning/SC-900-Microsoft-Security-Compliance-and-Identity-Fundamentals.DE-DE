@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Umgehen mit Azure Policy
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557517"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892148"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: 'Erkunden von Azure Policy' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 6: Beschreiben der Ressourcengovernancefunktionen in Azure; Lerneinheit 2: Beschreiben von Azure Policy'
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>Lab: Umgehen mit Azure Policy
+
+Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
+
+- Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen
+- Modul: Beschreiben der Ressourcengovernancefunktionen in Azure
+- Lerneinheit: Beschreiben von Azure Policy
 
 ## <a name="lab-scenario"></a>Labszenario
 
@@ -21,7 +30,7 @@ Azure Policy hilft bei der Durchsetzung von Organisationsstandards und bei der B
 
 Erkunden Sie kurz die Azure Policy-Seite.
 
-1. Öffnen Sie Microsoft Edge. Geben Sie **portal.microsoft.com** in die Adressleiste ein.
+1. Öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein.
 
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
@@ -125,6 +134,8 @@ In dieser Aufgabe sehen Sie die Auswirkung der Azure-Richtlinienzuweisung. Dazu 
     1. Wählen Sie unter „Azure-Dienste“ die Option „Azure Policy“ aus.
     1. In der Mitte der Seite wird eine Liste der Azure-Richtlinien-/-Initiativenzuweisungen angezeigt.  Wählen Sie die Auslassungspunkte für die Richtlinienzuweisung „Tag für Ressourcengruppen erforderlich“ und dann „Zuweisung löschen“ aus.
     1. Sie werden aufgefordert zu bestätigen, dass die Zuweisung gelöscht werden soll.  Wählen Sie Ja aus.
+
+1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 
