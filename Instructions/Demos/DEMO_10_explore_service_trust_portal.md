@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 38537f333f690a8526c5a62de40ca86ab9335b48
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 4f9915c3de45245a26ddb2fc93a4c9a81b00faca
+ms.sourcegitcommit: cf0e185a6bd333ae09116c87c1d8445a8c02c5a2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892448"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "147965803"
 ---
 <a name="---"></a><!---
 ---
@@ -16,7 +16,9 @@ Demo: Title: 'Service Trust Portal' Learning Path/Module/Unit: 'Lernpfad: Beschr
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 
-Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul: Beschreiben der Microsoft-Complianceverwaltungsfunktionen; Lerneinheit: Erkunden des Service Trust Portals
+- Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen
+- Modul: Beschreiben der Complianceverwaltungsfunktionen in Microsoft Purview
+- Explore the Service Trust Portal
 
 ## <a name="demo-scenario"></a>Demoszenario
 
@@ -32,36 +34,36 @@ In diesem Teil führen Sie den Kursteilnehmer schrittweise durch die im Service 
 
 1. Auf einige der Ressourcen im Service Trust Portal können Sie nur zugreifen, wenn Sie sich als authentifizierter Benutzer mit Ihrem Konto für Microsoft Cloud Services anmelden und die Microsoft-Geheimhaltungsvereinbarung für Compliancematerialien lesen und akzeptieren. In der oberen rechten Ecke der Landing Page für das Service Trust Portal wird die Option „Anmelden“ angezeigt.  **Melden** Sie sich mit Ihren Administratoranmeldeinformationen an, und wählen Sie **Zustimmen** aus, wenn Sie dazu aufgefordert werden, um die Geheimhaltungsvereinbarung für Compliancematerialien von Microsoft zu akzeptieren.
 
-1. Scrollen Sie auf der Seite nach unten, und beachten Sie die Links zu Überwachungsberichten, Dokumenten und Ressourcen und mehr.  Wählen Sie **Alle Überwachungsberichte anzeigen** aus.
+1. Scrollen Sie auf der Seite nach unten, und beachten Sie die verschiedenen Kategorien der verfügbaren Informationen. Wählen Sie in der Kategorie "Zertifizierungen", "Vorschriften" und "Standards" **ISO/IEC** aus.
 
-1. Scrollen Sie nach unten bis zur Mitte der Seite. Hier sehen Sie die neuen und archivierten Überwachungsberichte.  Sie können aus einer Vielzahl von Kategorien auswählen, darunter „Compliance-Leitfäden“, „ENS-Überwachungsberichte und Zertifikate“, „FAQ“ und „Whitepaper“ usw.
+1. Beachten Sie die Beschreibung oben auf der Seite und verfügbaren anwendbaren Dokumenten.  Wählen Sie die **Auslassungspunkte** unter der Kopfzeile "Weitere Optionen" für das erste Dokument in der Liste aus.  Beachten Sie die verschiedenen Optionen.
 
-1. Wählen Sie **ISO-Berichte** aus.  Wenn die Option für „ISO-Berichte“ nicht sofort angezeigt wird, klicken Sie auf den Nach-rechts-Pfeil, bis die Option für „ISO-Bericht“ angezeigt wird, und wählen Sie sie aus.
+1. Wählen Sie die **Auslassungszeichen (...) und dann In Bibliothek speichern** aus.  Ein Fenster wird angezeigt, um Benachrichtigungen zu erhalten. Wählen Sie **Ja**.
 
-1. Es wird eine lange Liste mit verfügbaren ISO-Berichten angezeigt. Daher können Sie sowohl nach einem Datumsbereich als auch nach Dokumenttyp, Clouddienst und Branchen filtern.  In diesem Fall suchen Sie nach den für Azure DevOps verfügbaren ISO-Berichten.  Wählen Sie „Clouddienst“ aus, und wählen Sie dann in der Dropdownliste „Azure DevOps“ (auch als VSTS bezeichnet) aus.  Daraufhin werden zwei Dokumente angezeigt.
+1. Um zu überprüfen, ob das Dokument gespeichert wurde, scrollen Sie nach oben auf der Seite, und wählen Sie **"Meine Bibliothek**" aus.  Wählen Sie für jedes Dokument auf der Seite "Meine Bibliothek" die Auslassungspunkte aus, um die verfügbaren Optionen anzuzeigen.
 
-1. Sie können alle oder einzelne Dokumente herunterladen oder in der Bibliothek speichern.  In diesem Fall möchten Sie lediglich das erste Dokument speichern.  Wählen Sie die **Auslassungszeichen (...)** und dann **In Bibliothek speichern** aus.  Sie werden aufgefordert, das Dokument zu abonnieren. Wählen Sie **Bestätigen** aus.
+1. Wählen Sie oben auf der Seite "Meine Bibliothek" das **Dienstvertrauenswürdige Portal** aus, um zur Startseite des Dienstvertrauenswürdigen Portals zurückzukehren.
 
-1. Möglicherweise wird ein Popupfenster mit der Option angezeigt, E-Mail-Benachrichtigungen zu erhalten, wenn in der Bibliothek gespeicherte Dokumente aktualisiert werden.  In diesem Fall müssen Sie nicht über Aktualisierungen benachrichtigt werden. Übernehmen Sie daher die Standardwerte, und wählen Sie **Speichern** aus.  Das Dokument ist weiterhin in der Bibliothek gespeichert.
+1. Scrollen Sie auf der Startseite des Dienstvertrauenswürdigen Portals nach unten zur Kategorie " **Industrie" und "Regionale Ressourcen** ".  Beachten Sie die verfügbaren Kacheln.  Wählen Sie **"Finanzdienste**" aus.  Scrollen Sie nach unten, um alle verfügbaren Regionen und Länder anzuzeigen.  Wählen Sie die Kachel für jedes Land aus, um die entsprechenden Dokumente anzuzeigen.
 
-1. Überprüfen Sie nun, ob sich das Dokument tatsächlich in der Bibliothek befindet. Scrollen Sie nach oben, um wieder zum Anfang der Seite zu gelangen. Wählen Sie **Meine Bibliothek** im oberen Navigationsbereich aus.  Wenn die Option „Meine Bibliothek“ nicht angezeigt wird, wählen Sie „Mehr“ und dann „Meine Bibliothek“ aus.
+1. Um die Startseite des Service Trust Portal zurückzugeben, wählen Sie oben auf der Seite den Link **Service Trust Portal** aus.
 
-1. Wählen Sie oben auf der Seite des Service Trust Portals **Vertrauensstellungsdokumente** aus, und beachten Sie die Optionen. Erkunden Sie die für die einzelnen unter „Vertrauensstellungsdokumente“ aufgeführten Links verfügbaren Informationen. Durch Auswahl von „Überwachungsberichte“ gelangen Sie zum selben Speicherort, den Sie in den vorherigen Schritten erkundet haben (andere Möglichkeiten zum Abrufen desselben Inhalts).  
+1. Scrollen Sie auf der Startseite des Dienstvertrauenswürdigen Portals nach unten zur **Ressource für Ihre Organisationskategorie** . Wählen Sie **"Ressourcen" für Ihre Organisation** aus.  Beachten Sie, dass alle hier aufgeführten Dokumente auf dem Abonnement und den Berechtigungen Ihrer Organisation basieren.
 
-1. Wählen Sie oben auf der Seite **Branchen & Regionen** aus.  Wählen Sie **Lösungen für Regionen** aus. Beachten Sie die verschiedenen aufgeführten Regionen.  Wählen Sie **Vereinigtes Königreich** aus.  
-
-1. Sie können aus verschiedenen Kategorien wählen,  darunter „GRC Assessment-Berichte“, „Compliance-Leitfäden“ und mehr.  Wie in der vorherigen Aufgabe können Sie die Liste der angezeigten Dokumente filtern. Außerdem können Sie Dokumente auswählen, um sie herunterzuladen oder in der Bibliothek zu speichern.
+1. Um die Startseite des Service Trust Portal zurückzugeben, wählen Sie oben auf der Seite den Link **Service Trust Portal** aus.
 
 ### <a name="demo-part-2-optional"></a>Teil 2 der Demo (optional)
 
 In diesem Teil der Demo präsentieren Sie das Trust Center und navigieren zu den Informationen, in denen der Datenschutz bei Microsoft erläutert wird.
 
-1. Wählen Sie oben auf der Seite des Service Trust Portals die Option **Trust Center** und dann **Start** aus. Es wird eine neue Browserregisterkarte geöffnet, die Sie zum Trust Center weiterleitet, wo Sie weitere Informationen finden, zum Beispiel zum Datenschutz.  
+1. Scrollen Sie auf der Startseite des Dienstvertrauenswürdigen Portals nach unten zur Kategorie **"Berichte", "Whitepaper" und "Artefakte"** . Wählen Sie **"Datenschutz" und "Datenschutz" aus**.  
 
-1. Zudem werden Information zur Verpflichtung von Microsoft gegenüber Ihnen angezeigt.  Wählen Sie **Informationen zum Datenschutz bei Microsoft** aus.  Scrollen Sie durch die Seite, und öffnen Sie die verschiedenen Links, um mehr über den Datenschutz bei Microsoft zu erfahren.
+1. Zusätzlich zum Auflisten aller anwendbaren Dokumente gibt es eine Beschreibung der Kategorie, gefolgt von einem Link zu "Weitere Informationen".  Falls die Protokolle automatisch gelöscht werden sollen, wählen Sie **Weitere Informationen**
 
-1. Schließen Sie die Browserfenster, um das Service Trust Portal und das Trust Center zu beenden.
+1. Es wird eine neue Browserregisterkarte geöffnet, die Sie zum Trust Center weiterleitet, wo Sie weitere Informationen finden, zum Beispiel zum Datenschutz. Erkunden Sie den Inhalt dieser Seite, und navigieren Sie durch verschiedene Links.
+
+1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 
-In dieser Demo haben Sie einige der im Service Trust Portal verfügbaren Optionen erkundet. Außerdem haben Sie erfahren, wie Sie auf Überwachungsberichte für Microsoft-Clouddienste zugreifen und „Meine Bibliothek“ verwenden können, um Dokumente für die künftige Überprüfung zu speichern.  Zusätzlich haben Sie das Trust Center besucht, um auf Informationen zum Datenschutz bei Microsoft zuzugreifen und diese zu lesen.
+In diesem Lab haben Sie einige der im Service Trust Portal verfügbaren Optionen erkundet. Außerdem haben Sie erfahren, wie Sie auf Berichte zugreifen und „Meine Bibliothek“ verwenden können, um Dokumente für die künftige Überprüfung zu speichern.  Zusätzlich haben Sie das Trust Center besucht, um auf Informationen zum Datenschutz bei Microsoft zuzugreifen und diese zu lesen.
