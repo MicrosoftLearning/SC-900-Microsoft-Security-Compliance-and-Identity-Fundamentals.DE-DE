@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 24ec2a7dbaaefd938e78bdcb23489a1f5f10c95a
+ms.sourcegitcommit: 2db6494ae1734d32ac8d57874ef9f53e1fc9420c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892172"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "148118959"
 ---
 <a name="---"></a><!---
 ---
@@ -148,7 +148,7 @@ Bei dieser Aufgabe durchlaufen Sie als die Benutzerin Adele Vance den Prozess zu
 
 11. Wählen Sie **AdeleV@WWLxZZZZZZ.onmicrosoft.com** im Informationsfeld „Konto auswählen“ aus, geben Sie Ihr neues Kennwort ein, und wählen Sie dann die Schaltfläche **Anmelden** aus.  Wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten, wählen Sie **Nein** aus.
 
-12. Sie sollten sich nun im Azure-Portal befinden.
+12. Sie sollten sich nun im Office-Portal befinden.
 
 13. Melden Sie sich ab. Wählen Sie dazu das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann **Abmelden** aus. Schließen Sie dann alle Browserfenster.
 
