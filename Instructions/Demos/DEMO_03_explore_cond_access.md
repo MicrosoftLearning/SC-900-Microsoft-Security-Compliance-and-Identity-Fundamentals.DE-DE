@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: b9577dbed15e45986a20f4caf0f233c8e6fe4a4a
-ms.sourcegitcommit: e95df9b6b0cd4511c64832583e414ce7745cd29e
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "148022688"
----
 <a name="---"></a><!---
 ---
 Demo: Title: 'Bedingter Zugriff in Azure AD' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Modul 3: Beschreiben der Zugriffsverwaltungsfunktionen von Azure AD; Lerneinheit 2: Erklären des bedingten Zugriffs in Azure AD'
