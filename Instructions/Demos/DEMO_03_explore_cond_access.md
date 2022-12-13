@@ -4,7 +4,6 @@ Demo: Title: 'Bedingter Zugriff in Azure AD' Learning Path/Module/Unit: 'Lernpf
 ---
 --->
 
-
 # <a name="demo-azure-ad-conditional-access"></a>Demo: Bedingter Zugriff in Azure AD
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
@@ -25,11 +24,11 @@ In dieser Demo gehen Sie die verschiedenen Optionen durch, die für eine Richtli
 
 1. Der Bildschirm „Richtlinien für bedingten Zugriff“ wird angezeigt. Alle vorhandenen Richtlinien für bedingten Zugriff werden hier aufgelistet. Wählen Sie zum Anzeigen der Einstellungen für den bedingten Zugriff **+ Neue Richtlinie** aus.
 
-1. Geben Sie im Feld **Name** einfachen einen Namen für die Richtlinie ein.
+1. Geben Sie im Feld **Name** einen Namen für die Richtlinie ein.
 
 1. Beachten Sie, dass Ihnen unter **Zuweisungen** verschiedene Optionen zur Verfügung stehen.  Da es sich bei Richtlinien für bedingten Zugriff um Wenn-/Dann-Anweisungen handelt, sind die Einstellungen für die Zuweisungen wie „Wenn“-Anweisungen.
-    1. **Benutzer und Gruppen**: Bewegen Sie den Mauszeiger über das Informationssymbol neben „Benutzer und Gruppen“. Heben Sie dann hervor, dass dies der Ort ist, an dem Sie die Benutzer und Gruppen im Verzeichnis festlegen, wofür die Richtlinie gilt. Wählen Sie **0 Benutzer und Gruppen ausgewählt**.  Nun wird die Option zum Aufnehmen oder Ausschließen von Benutzern oder Gruppen angezeigt. Wählen Sie die für die Registerkarte **Aufnehmen** verfügbaren Einstellungen aus, und heben Sie sie hervor. Wählen Sie dann die für die Registerkarte **Ausschließen** verfügbaren Einstellungen aus, und sprechen Sie darüber.
-    1. **Cloud-Apps oder -aktionen**: Bewegen Sie den Mauszeiger über das Informationssymbol neben dem Text „Cloud-Apps oder -aktionen“, und heben Sie hervor, dass Sie darüber die für die Richtlinie für bedingten Zugriff verwendeten Anwendungen oder für die durch den Benutzer ausgeführten Aktionen festlegen.  Wählen Sie **Keine Cloud-Apps oder -aktionen ausgewählt** aus.
+    1. **Benutzer und Gruppen**: Bewegen Sie den Mauszeiger über das Informationssymbol neben „Benutzer und Gruppen“. Heben Sie dann hervor, dass dies der Ort ist, an dem Sie die Benutzer und Gruppen im Verzeichnis festlegen, wofür die Richtlinie gilt. Wählen Sie **0 Benutzer und Gruppen ausgewählt**.  Nun wird die Option zum Ein- oder Ausschließen von Benutzern oder Gruppen angezeigt. Wählen Sie die für die Registerkarte **Aufnehmen** verfügbaren Einstellungen aus, und heben Sie sie hervor. Wählen Sie dann die für die Registerkarte **Ausschließen** verfügbaren Einstellungen aus, und sprechen Sie darüber.
+    1. **Cloud-Apps oder -aktionen**: Bewegen Sie den Mauszeiger über das Informationssymbol neben dem Text „Cloud-Apps oder -aktionen“, und heben Sie hervor, dass Sie darüber die für die Richtlinie für bedingten Zugriff verwendeten Anwendungen oder für die durch den Benutzer ausgeführten Aktionen festlegen.  Wählen Sie **Keine Cloud-Apps, Aktionen oder Authentifizierungskontexte ausgewählt** aus.
         1. Wählen Sie den Dropdownpfeil im darunterliegenden Feld **Wählen Sie aus, worauf diese Richtlinie angewendet werden soll** aus, und beachten Sie die Optionen.  Übernehmen Sie die Standardeinstellung „Cloud-Apps“.
         1. Wählen Sie die für die Registerkarte „Einschließen“ verfügbaren Einstellungen aus, und heben Sie sie hervor. Wählen Sie unter der Registerkarte **Einschließen** die Option **Apps auswählen** aus.  Beachten Sie das Fenster, das geöffnet wird, in dem Sie aus einer Liste von Anwendungen auswählen können.  Treffen Sie keine Auswahl. Schließen Sie dieses Fenster, indem Sie in der oberen rechten Ecke des Fensters das **X** auswählen. Wechseln Sie zurück, indem Sie **Keine** auswählen, um den Fehler zu entfernen.
         1. Wählen Sie dann die für die Registerkarte **Ausschließen** verfügbaren Einstellungen aus, und sprechen Sie darüber.  Hier können Sie wiederum bestimmte Apps auswählen, die ausgeschlossen werden sollen.
@@ -39,9 +38,10 @@ In dieser Demo gehen Sie die verschiedenen Optionen durch, die für eine Richtli
         1. **Geräteplattform**: Plattform, über die sich der Benutzer anmeldet, zum Beispiel „iOS“.
         1. **Standort**: Standort (wird mithilfe des IP-Adressbereichs bestimmt), über den sich der Benutzer anmeldet.
         1. **Client-Apps**: Software, die der Benutzer verwendet, um auf die Cloud-App zuzugreifen, zum Beispiel „Browser“.
+        1. **Filtern nach Geräten**: Beim Erstellen von Richtlinien für bedingten Zugriff können Administratoren bestimmte Geräte in ihrer Umgebung als Ziel angeben oder ausschließen. Der Administrator kann mithilfe von unterstützten Operatoren und Eigenschaften für Gerätefilter und den anderen verfügbaren Zuweisungsbedingungen in Ihren Richtlinien für bedingten Zugriff auf bestimmte Geräte abzielen.
 
 1. **Zugriffssteuerungen**: So wie Richtlinien für bedingten Zugriff analog zu Wenn/Dann-Anweisungen sind, sind Zugriffssteuerungen analog zur „Dann“-Anweisung.
-    1. **Erteilen**: Bewegen Sie den Mauszeiger über das Informationssymbol neben „Erteilen“, um die Beschreibung anzuzeigen.  Wählen Sie **0 Steuerelemente ausgewählt** aus, um die verschiedenen Optionen anzuzeigen.  Sprechen Sie über einige davon.  Heben Sie insbesondere die unter „Zugriff gewähren“ befindliche Option **Mehrstufige Authentifizierung anfordern** hervor, und erläutern Sie, wie sie verwendet werden kann, um sehr genau zu steuern, wann die MFA erforderlich ist.   Heben Sie zudem hervor, dass Sie mehrere Steuerelemente und alle oder bloß ein paar der ausgewählten Steuerelemente als erforderlich festlegen können.
+    1. **Erteilen**: Bewegen Sie den Mauszeiger über das Informationssymbol neben „Erteilen“, um die Beschreibung anzuzeigen.  Wählen Sie **0 Steuerelemente ausgewählt** aus, um die verschiedenen Optionen anzuzeigen.  Sprechen Sie über einige davon.  Heben Sie insbesondere die unter „Zugriff gewähren“ befindliche Option **Multi-Faktor-Authentifizierung anfordern** hervor, und erläutern Sie, wie sie verwendet werden kann, um sehr genau zu steuern, wann MFA erforderlich ist.   Heben Sie zudem hervor, dass Sie mehrere Steuerelemente und alle oder bloß ein paar der ausgewählten Steuerelemente als erforderlich festlegen können.
     1. **Sitzung**: Bewegen Sie den Mauszeiger über das Informationssymbol neben „Sitzung“, um die Beschreibung anzuzeigen.  Heben Sie hervor, dass „Sitzungssteuerelemente“ für eingeschränkte Interaktionsmöglichkeiten innerhalb einer Cloud-App sorgt.  Beispielsweise kann der Benutzer auf die Cloud-App zugreifen, aber Inhalte weder herunterladen noch drucken.  Dies ist ein komplexeres Thema. Halten Sie es daher einfach.
 
 1. Nach der Konfiguration einer Richtlinie können Sie eine Richtlinie aktivieren. Wählen Sie dazu **An** aus, und klicken Sie auf die Schaltfläche **Erstellen**, um eine Richtlinie zu erstellen.

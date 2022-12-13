@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 557b2974e32c920172be89f909225d30519b79a0
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892410"
----
 <a name="---"></a><!---
 ---
 Demo: Title: 'Erkunden des Microsoft Purview-Complianceportals und des Compliance-Managers' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Microsoft-Complianceverwaltungsfunktionen; Modul 2: Beschreiben der Complianceverwaltungsfunktionen in Microsoft Purview; Lerneinheit 2: Beschreiben des Microsoft Purview-Complianceportals'
@@ -58,27 +50,26 @@ Mit Compliance-Manager erfahren Sie mehr über die Compliancesituation Ihrer Org
 
 1. Wählen Sie im linken Navigationsbereich des Microsoft Purview-Complianceportals **Compliance-Manager** aus.  Alternativ können Sie in der Titelleiste der Compliance-Manager-Karte „Compliance-Manager“ auswählen.
 
-1. Stellen Sie sicher, dass oben auf der Seite „Compliance-Manager“ **Übersicht** ausgewählt (unterstrichen) ist. Scrollen Sie nach unten, um alle Informationen zu sehen, die auf der Seite verfügbar sind.  Auf dieser Seite finden Sie Informationen zu Ihrer Compliancebewertung in Prozent, basierend auf den von Ihnen erreichten Punkten und den von Microsoft verwalteten Punkten, die Sie erreicht haben.   Es werden wichtige Verbesserungsaktionen, Lösungen, die sich auf Ihre Bewertung auswirken, und eine Aufschlüsselung der Compliancebewertung nach Kategorien oder Bewertungen angezeigt.
+1. Stellen Sie sicher, dass oben auf der Seite „Compliance-Manager“ **Übersicht** ausgewählt (unterstrichen) ist. Scrollen Sie nach unten, um alle Informationen zu sehen, die auf der Seite verfügbar sind.  Auf dieser Seite finden Sie Informationen zu Ihrer Compliancebewertung, den von Ihnen erreichten Punkten und den von Microsoft verwalteten Punkten, die Sie erreicht haben.   Es werden wichtige Verbesserungsaktionen, Lösungen, die sich auf Ihre Bewertung auswirken, und eine Aufschlüsselung der Compliancebewertung nach Kategorien oder Bewertungen angezeigt.
 
-1. Wählen Sie oben auf der Übersichtsseite **Verbesserungsaktionen** aus.  Mit diesen Aktionen können Sie die Compliancebewertung Ihrer Organisation verbessern. Die Aktualisierung der Punkte kann dabei bis zu 24 Stunden dauern.  Beachten Sie die verfügbaren Filter.
+1. Wählen Sie oben auf der Übersichtsseite **Verbesserungsaktionen** aus.  Diese Aktionen können die Compliancebewertung der Organisation verbessern. Beachten Sie, dass es bis zu 24 Stunden dauern kann, bis die Punkte aktualisiert wurden, wenn Verbesserungsaktionen durchgeführt werden.  Beachten Sie die verfügbaren Filter.
 
-1. Wählen Sie in der Liste der Verbesserungsaktionen **Self-Service-Kennwortzurücksetzung aktivieren** aus.  Für jede Verbesserungsaktion gibt es einen Übersichtsbereich sowie eine Detailseite, auf der Sie die Implementierung, die Tests, die zugehörigen Normen und gesetzlichen Anforderungen sowie die Dokumente auswählen können.
+1. Wählen Sie in der Liste der Verbesserungsaktionen **Self-Service-Kennwortzurücksetzung aktivieren** aus.  Überprüfen Sie die verfügbaren Informationen für die Verbesserungsaktion.  Die linke Seite des Fensters bietet einen kurzen Überblick über die Implementierung, den Teststatus und vieles mehr. Rechts neben der Übersicht finden Sie eine Detailseite, auf der Sie die Implementierung, die Tests, die zugehörigen Normen und gesetzlichen Anforderungen sowie die Dokumente auswählen können. Jede dieser Registerkarten enthält ausführlichere Informationen zur Verbesserungsaktion.
 
-1. Schließen Sie das Fenster mit dem **X** oben rechts auf dem Bildschirm.  Alternativ können Sie im Breadcrumb oben links auf der Seite **Verbesserungsaktionen** auswählen.  Sie befinden sich jetzt wieder auf der Seite mit den Verbesserungsaktionen.
+1. Schließen Sie diese Verbesserungsaktion, indem Sie oben links auf der Seite im Breadcrumb **Verbesserungsaktionen** auswählen.  Sie befinden sich jetzt wieder auf der Seite mit den Verbesserungsaktionen.
 
 1. Wählen Sie oben auf der Seite die Option **Lösungen** aus. Auf dieser Seite sehen Sie, wie Lösungen zu Ihrer Bewertung beitragen, sowie die entsprechenden verbleibenden Verbesserungsmöglichkeiten.
 
-1. Wählen Sie oben auf der Seite die Option **Bewertungen** aus. Auf dieser Seite sehen Sie die Datenschutz-Baseline.  Dabei handelt es sich um eine Standardbewertung, die Microsoft in Compliance-Manager für die Datenschutz-Baseline von Microsoft 365 zur Verfügung stellt.  Diese Baseline-Bewertung umfasst eine Reihe von Kontrollen für wichtige Verordnungen und Standards für den Datenschutz und allgemeine Data Governance. Je mehr eigene Bewertungen Sie erstellen und verwalten, um die speziellen Anforderungen Ihrer Organisation zu erfüllen, desto hilfreicher wird Compliance-Manager.
+1. Wählen Sie oben auf der Seite die Option **Bewertungen** aus. Auf dieser Seite sehen Sie die Datenschutzbaseline für Microsoft 365.  Dabei handelt es sich um eine Baselinestandardbewertung, die Microsoft im Compliance-Manager für Microsoft 365 zur Verfügung stellt.  Diese Baseline-Bewertung umfasst eine Reihe von Kontrollen für wichtige Verordnungen und Standards für den Datenschutz und allgemeine Data Governance. Je mehr eigene Bewertungen Sie hinzufügen, um die speziellen Anforderungen Ihrer Organisation zu erfüllen, desto hilfreicher wird Compliance-Manager.
 
-1. Wählen Sie **Datenschutz-Baseline** aus.  Beachten Sie die auf der Fortschrittsregisterkarte verfügbaren Informationen.  Außerdem können Sie den Status der Kontrollen für diese Bewertung, Ihre Verbesserungsaktionen und Microsoft-Aktionen anzeigen.  
+1. Wählen Sie **Datenschutz-Baseline** aus.  Beachten Sie die auf der Fortschrittsregisterkarte verfügbaren Informationen. Sie können auch Informationen zu den Steuerelementen, Ihren Verbesserungsaktionen und Microsoft-Aktionen anzeigen.  
 
 1. Wählen Sie oben links auf der Seite, wo „Bewertungen“ steht (der Breadcrumb), die Option **Bewertung** aus, um zur Seite mit den Bewertungen zurückzukehren.  
 
-1. Wählen Sie oben auf der Seite die Option **Bewertungsvorlagen** aus.  Auf dieser Seite werden die verfügbaren Vorlagen aufgeführt. Sie können zur Erstellung von Bewertungen für Organisation eine vorhandene Vorlage verwenden oder eine neue Vorlage erstellen.
+1. Wählen Sie oben auf der Seite die Option **Bewertungsvorlagen** aus.  Auf dieser Seite werden die verfügbaren Vorlagen aufgeführt. Sie können zur Erstellung von Bewertungen für Ihre Organisation eine vorhandene Vorlage verwenden oder eine neue Vorlage erstellen.
+    1. Wählen Sie in der enthaltenen Vorlagenliste eine beliebige Vorlage aus. Wählen Sie oben rechts auf der Seite **+ Bewertung erstellen** aus.  Hier sehen Sie die wenigen Schritte und Informationen, die zum Erstellen einer Bewertung aus einer vorhandenen Vorlage erforderlich sind: Identifizieren des Produkts für die Bewertung, Benennen der Bewertung und Zuweisen zu einer Gruppe.  Wählen Sie unten auf der Seite „Abbrechen“ aus.
 
-1. Wählen Sie in der enthaltenen Vorlagenliste **ISO/IEC27001:2013** aus. Wählen Sie oben rechts auf der Seite **+ Bewertung erstellen** aus.  Beachten Sie, dass links auf dem Bildschirm nur zwei Schritte angezeigt werden, um aus der Vorlage eine Bewertung zu erstellen.  Wählen Sie unten auf der Seite „Abbrechen“ aus.
-
-1. Wählen Sie im linken Navigationsbereich die **Startseite** aus, um zur Startseite des Microsoft Purview-Complianceportals zurückzukehren.  Lassen Sie diese Browserseite für die nachfolgende Demo geöffnet.
+1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### <a name="review"></a>Überprüfung
 

@@ -14,19 +14,19 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 ## <a name="lab-scenario"></a>Labszenario
 
-In diesem Lab gehen Sie als Administrator den Prozess der Aktivierung der Self-Service-Kennwortzurücksetzung durch. Bei aktivierter SSPR übernehmen Sie anschließend die Rolle eines Benutzers und gehen den Prozess der Registrierung für die SSPR und auch zur Zurücksetzung Ihres Kennworts durch.  Schließlich können Sie als Administrator Überwachungsprotokolle sowie Nutzungsdaten und Erkenntnisse für die SSPR anzeigen.
+In diesem Lab gehen Sie als Administrator den Prozess der Aktivierung der Self-Service-Kennwortzurücksetzung durch. Bei aktivierter SSPR übernehmen Sie anschließend die Rolle eines Benutzers und durchlaufen den Prozess der Registrierung für SSPR und auch zur Zurücksetzung Ihres Kennworts.  Schließlich können Sie als Administrator Überwachungsprotokolle sowie Nutzungsdaten und Erkenntnisse für die SSPR anzeigen.
 
 **Geschätzte Dauer**: 15 bis 20 Minuten
 
 ### <a name="task-1"></a>Aufgabe 1
 
-Bei dieser Aufgabe fügen Sie als Administrator der Gruppe „SSPRSecurityUsers“ den vorhandenen Benutzer Adele Vance hinzu.  Zudem müssen Sie das Kennwort des Benutzers zurücksetzen, damit Sie eine Erstanmeldung als der Benutzer vornehmen und sich für die SSPR registrieren können.
+Bei dieser Aufgabe fügen Sie als Administrator der Gruppe „SSPRSecurityUsers“ den vorhandenen Benutzer Adele Vance hinzu.  Zudem müssen Sie das Kennwort des Benutzers zurücksetzen, damit Sie eine Erstanmeldung als der Benutzer vornehmen und sich für SSPR registrieren können.
 
 1. Öffnen Sie Microsoft Edge.
 
 2. Geben Sie **portal.azure.com** in die Adressleiste ein, und melden Sie sich mit Ihren Administratoranmeldeinformationen an.
-    1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
-    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
+    1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
+    1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
 3. Wählen Sie **Azure Active Directory** aus.  
@@ -49,7 +49,7 @@ Bei dieser Aufgabe fügen Sie als Administrator der Gruppe „SSPRSecurityUsers�
 
 12. Wählen Sie **Adele Vance** aus der Liste der Benutzer aus.
 
-13. Wählen Sie oben auf der Seite **Kennwort zurücksetzen** aus. Da Sie sich nicht zuvor als Adele Vance angemeldet haben, müssen Sie das Kennwort zurücksetzen.
+13. Wählen Sie oben auf der Seite **Kennwort zurücksetzen** aus. Da Sie sich zuvor noch nicht als Adele Vance angemeldet haben, müssen Sie das Kennwort zurücksetzen.
 
 14. Wenn das Kennwortzurücksetzungsfenster geöffnet wird, wählen Sie **Kennwort zurücksetzen** aus.  WICHTIG: Notieren Sie das neue Kennwort. Sie benötigen es in einer nachfolgenden Aufgabe, um sich als der Benutzer anmelden zu können.
 
@@ -69,7 +69,7 @@ Bei dieser Aufgabe erfahren Sie, wie Administrator*innen die Kennwortzurücksetz
 
 1. Wählen Sie im linken Navigationsbereich **Kennwort zurücksetzen** aus.  
 
-1. Die Eigenschaften für die Self-Service-Kennwortzurücksetzung werden angezeigt.  Stellen Sie sicher, dass **Self-Service-Kennwortzurücksetzung** für die aufgeführte Gruppe **SSPRSecurityGroupUsers** **aktiviert** ist.  Bewegen Sie den Mauszeiger über das Informationssymbol neben dem Text „Gruppe auswählen“, und beachten Sie die angezeigte Meldung „Definiert die Gruppe von Benutzern, die ihre eigenen Kennwörter zurücksetzen können“. Sie müssen Benutzer in die Gruppe aufnehmen. Es ist nicht möglich, Benutzer einzeln auszuwählen.  Wenn Sie die Gruppe ändern, ersetzt die von Ihnen ausgewählte Gruppe zudem die derzeit aufgelistete Gruppe.  Sie sollten der SSPR-Gruppe Benutzer einfach hinzufügen.  Beachten Sie als Letztes das blaue Informationsfeld: „Diese Einstellungen gelten nur für Endbenutzer in Ihrer Organisation. Administratoren können die Self-Service-Kennwortzurücksetzung immer durchführen und müssen zum Zurücksetzen ihres Kennworts zwei Authentifizierungsmethoden verwenden.“
+1. Die Eigenschaften für die Self-Service-Kennwortzurücksetzung werden angezeigt.  Stellen Sie sicher, dass **Self-Service-Kennwortzurücksetzung** für die aufgeführte Gruppe **SSPRSecurityGroupUsers** **aktiviert** ist.  Bewegen Sie den Mauszeiger über das Informationssymbol neben dem Text „Gruppe auswählen“, und beachten Sie die angezeigte Meldung „Definiert die Gruppe von Benutzern, die ihre eigenen Kennwörter zurücksetzen können“. Sie müssen Benutzer in die Gruppe aufnehmen. Es ist nicht möglich, Benutzer einzeln auszuwählen.  Wenn Sie die Gruppe ändern, ersetzt die von Ihnen ausgewählte Gruppe zudem die derzeit aufgelistete Gruppe.  Sie sollten der SSPR-Gruppe daher Benutzer hinzufügen.  Beachten Sie als Letztes das blaue Informationsfeld: „Diese Einstellungen gelten nur für Endbenutzer in Ihrer Organisation. Administratoren können die Self-Service-Kennwortzurücksetzung immer durchführen und müssen zum Zurücksetzen ihres Kennworts zwei Authentifizierungsmethoden verwenden.“
 
 1. Wählen Sie im linken Navigationsbereich von „Kennwort zurücksetzen“ die Option **Authentifizierungsmethoden** aus.
 
@@ -98,19 +98,20 @@ Bei dieser Aufgabe durchlaufen Sie als der Benutzer Adele Vance den Registrierun
 2. Geben Sie **login.microsoftonline.com** in die Adressleiste ein.
 
 3. Melden Sie sich als Adele Vance an.
-    1. Geben Sie **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
+    1. Geben Sie **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das in der vorherigen Aufgabe notierte Kennwort ein. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
+
 
 4. Da Sie sich erstmals als Adele Vance anmelden, werden Sie aufgefordert, Ihr Kennwort zurückzusetzen.  Geben Sie Ihr altes Kennwort ein.  Geben Sie **SC900-Lab** als neues Kennwort ein. Geben Sie **SC-900-Lab** in das Feld „Kennwort bestätigen“ ein.  Wählen Sie **Anmelden**.  Hinweis: Wir verwenden dieses Kennwort nur der Einfachheit halber für das Lab. Als bewährte Methode würden Sie in der Regel ein sichereres Kennwort eingeben.
 
 5. Ein Popupfenster wird angezeigt und gibt an, dass weitere Informationen erforderlich sind,  Denn als Mitglied der Gruppe „SSPRSecurityGroupUsers“ müssen sich die Gruppenmitglieder im Rahmen der Konfiguration registrieren, wenn sie sich anmelden.  Wählen Sie die Schaltfläche **Weiter** aus.  Hinweis:  Alternativ zur Registrierung durch die Benutzer können Administratoren die Authentifizierungsmethoden direkt konfigurieren, wenn sie einen Benutzer hinzufügen. Dazu müssen Administratoren die Telefonnummern und E-Mail-Adressen der Benutzer kennen und festlegen, um die Self-Service-Kennwortzurücksetzung auszuführen und um das Kennwort eines Benutzers zurückzusetzen.
 
-6. Die Seite „Schützen Sie Ihr Konto“ wird geöffnet.  Das angezeigte Fenster ist für die Authentifizierungsmethode „Telefon“. Falls Sie nicht über ein Mobilgerät verfügen, das SMS empfangen kann, springen Sie zum nächsten Schritt.  Sie werden aufgefordert, eine Telefonnummer einzugeben. Stellen Sie sicher, dass die Option **Code per SMS an mich senden** aktiviert ist.   Geben Sie die Telefonnummer ein, über die Sie einen Code per SMS empfangen können, und wählen Sie die Schaltfläche **Weiter** aus.  Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code soeben an das von Ihnen eingegebene Telefon gesendet wurde.  Geben Sie den empfangenen Code ein, und wählen Sie **Weiter** aus. In einem Fenster, das geöffnet wird, werden „Erfolg“ und Ihre „Standardanmeldemethode“ angezeigt.  Wählen Sie **Fertig**aus.  
+6. Die Seite „Schützen Sie Ihr Konto“ wird geöffnet.  Das angezeigte Fenster ist für die Authentifizierungsmethode „Telefon“. Falls Sie nicht über ein Mobilgerät verfügen, das SMS empfangen kann, springen Sie zum nächsten Schritt.  Sie werden aufgefordert, eine Telefonnummer einzugeben. Stellen Sie sicher, dass die Option **Code per SMS an mich senden** aktiviert ist.   Geben Sie die Telefonnummer ein, über die Sie einen Code per SMS empfangen können, und wählen Sie die Schaltfläche **Weiter** aus.  Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code an das von Ihnen eingegebene Telefon gesendet wurde.  Geben Sie den empfangenen Code ein, und wählen Sie **Weiter** aus. In einem Fenster, das geöffnet wird, werden „Erfolg“ und Ihre „Standardanmeldemethode“ angezeigt.  Wählen Sie **Fertig**aus.  
 
-7. Überspringen Sie diesen Schritt, falls Sie SSPR mit Ihrer Mobiltelefonnummer konfigurieren konnten.  Alternativ können Sie eine andere Methode als angezeigt im unteren linken Bereich des Fensters einrichten.  Wenn Sie eine andere Methode einrichten möchten, wählen Sie **Ich möchte eine andere Methode einrichten** aus. In einem angezeigten Popupfenster werden Sie Folgendes gefragt: „Welche Methode möchten Sie verwenden?“  Wählen Sie im Dropdown den Eintrag **E-Mail** als Ihre bevorzugte Methode aus. Wählen Sie dann die Schaltfläche **Bestätigen** aus.  Geben Sie die gewünschte E-Mail-Adresse ein, und wählen Sie dann **Weiter** aus.  Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code soeben an die von Ihnen eingegebene E-Mail-Adresse gesendet wurde.  Greifen Sie auf die von Ihnen eingegebene E-Mail-Adresse zu, um den Code abzurufen.  Geben Sie den empfangenen Code ein, und wählen Sie **Weiter** aus. In einem Fenster, das geöffnet wird, werden „Erfolg“ und Ihre „Standardanmeldemethode“ angezeigt.  Wählen Sie **Fertig**aus.
+7. Überspringen Sie diesen Schritt, falls Sie SSPR mit Ihrer Mobiltelefonnummer konfigurieren konnten.  Alternativ können Sie auch eine andere Methode festlegen, wie unten links im Fenster gezeigt.  Wenn Sie eine andere Methode einrichten möchten, wählen Sie **Ich möchte eine andere Methode einrichten** aus. In einem angezeigten Popupfenster werden Sie Folgendes gefragt: „Welche Methode möchten Sie verwenden?“  Wählen Sie in der Dropdownliste den Eintrag **E-Mail** als Ihre bevorzugte Methode aus. Wählen Sie dann die Schaltfläche **Bestätigen** aus.  Geben Sie die gewünschte E-Mail-Adresse ein, und wählen Sie dann **Weiter** aus.  Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code an die von Ihnen eingegebene E-Mail-Adresse gesendet wurde.  Greifen Sie auf die von Ihnen eingegebene E-Mail-Adresse zu, um den Code abzurufen.  Geben Sie den empfangenen Code ein, und wählen Sie **Weiter** aus. In einem Fenster, das geöffnet wird, werden „Erfolg“ und Ihre „Standardanmeldemethode“ angezeigt.  Wählen Sie **Fertig**aus.
 
-8. Sie können ihre Anmeldung jetzt abschließen.  Sie sollten sich jetzt auf der Landing Page des Azure-Portals befinden.  Wenn Sie feststellen, dass die Anmeldezeit abgelaufen ist, geben Sie das Kennwort „SC900-Lab“ einfach noch einmal ein.
+8. Sie können ihre Anmeldung jetzt abschließen.  Sie sollten sich jetzt auf der Landing Page des Azure-Portals befinden.  Wenn Sie feststellen, dass die Anmeldezeit abgelaufen ist, geben Sie das Kennwort „SC900-Lab“ einfach erneut ein.
 
 9. Melden Sie sich vom Azure-Portal ab, und schließen Sie das Browserfenster.
 
@@ -136,7 +137,7 @@ Bei dieser Aufgabe durchlaufen Sie als die Benutzerin Adele Vance den Prozess zu
 
 9. Auf dem nächsten Bildschirm werden Sie aufgefordert, das neue Kennwort einzugeben und das neue Kennwort zu bestätigen.  Geben Sie diese neuen Kennwörter ein, und wählen Sie die Schaltfläche **Fertig stellen** aus.
 
-10. Auf dem Bildschirm wird in einer Meldung angezeigt, dass Ihr Kennwort zurückgesetzt wurde.  Wählen Sie **Klicken Sie hier** aus, um sich mit Ihrem neuen Kennwort anzumelden.
+10. Auf dem Bildschirm wird eine Meldung angezeigt, dass Ihr Kennwort zurückgesetzt wurde.  Wählen Sie **Klicken Sie hier** aus, um sich mit Ihrem neuen Kennwort anzumelden.
 
 11. Wählen Sie **AdeleV@WWLxZZZZZZ.onmicrosoft.com** im Informationsfeld „Konto auswählen“ aus, geben Sie Ihr neues Kennwort ein, und wählen Sie dann die Schaltfläche **Anmelden** aus.  Wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten, wählen Sie **Nein** aus.
 
@@ -153,8 +154,8 @@ Bei dieser Aufgabe zeigen Sie als Administrator kurz die Überwachungsprotokolle
 2. Geben Sie **portal.azure.com** in die Adressleiste ein.
 
 3. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
-    1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
-    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
+    1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
+    1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
 4. Wählen Sie **Azure Active Directory** aus.  
@@ -175,4 +176,4 @@ Bei dieser Aufgabe zeigen Sie als Administrator kurz die Überwachungsprotokolle
 
 ### <a name="review"></a>Überprüfung
 
-In diesem Lab sind Sie als Administrator den Prozess der Aktivierung der Self-Service-Kennwortzurücksetzung durchgegangen. Bei aktivierter SSPR haben Sie anschließend die Rolle eines Benutzers übernommen und sind den Prozess der Registrierung für die SSPR und auch zur Zurücksetzung Ihres Kennworts durchgegangen.  Als Letztes haben Sie als Administrator erfahren, wo Sie auf die Überwachungsprotokolle und Daten vom Typ „Nutzung & Erkenntnisse“ für die SSPR zugreifen.
+In diesem Lab sind Sie als Administrator den Prozess der Aktivierung der Self-Service-Kennwortzurücksetzung durchgegangen. Bei aktivierter SSPR übernehmen Sie anschließend die Rolle eines Benutzers, um den Prozess der Registrierung für SSPR und auch zur Zurücksetzung Ihres Kennworts zu durchlaufen.  Als Letztes haben Sie als Administrator erfahren, wo Sie auf die Überwachungsprotokolle und Daten vom Typ „Nutzung & Erkenntnisse“ für die SSPR zugreifen.
