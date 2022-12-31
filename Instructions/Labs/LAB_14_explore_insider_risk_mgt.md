@@ -1,12 +1,4 @@
----
-ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892700"
----
-<a name="---"></a><!--->
+<a name="---"></a><!---
 ---
 Lab: Title: 'Erkunden des Insider-Risikomanagements in Microsoft Purview' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 4: Beschreiben der Microsoft Purview-Funktionen für den Umgang mit Insider-Risiken; Lerneinheit 2: Beschreiben des Insider-Risikomanagements'
 ---
@@ -22,9 +14,9 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 ## <a name="lab-scenario"></a>Labszenario
 
-In diesem Lab gehen Sie den Einstellungsprozess einer Insider-Risikorichtlinie und die grundlegenden Voraussetzungen zum Konfigurieren und Verwenden von Insider-Risikomanagementrichtlinien durch.  Hinweis: Dieses Lab umfasst Informationen zum Einrichten des Insider-Risikomanagements und zu den Optionen für das Erstellen einer Richtlinie.  In diesem Lab ist keine Aufgabe zum Auslösen der Richtlinie enthalten, da die Anzahl der Ereignisse, die zum Auslösen einer Richtlinie erforderlich sind, außerhalb des Bereichs dieser Übung liegen.
+In diesem Lab gehen Sie den Einstellungsprozess einer Insider-Risikorichtlinie und die grundlegenden Voraussetzungen zum Konfigurieren und Verwenden von Insider-Risikomanagementrichtlinien durch.  Hinweis: Dieses Lab umfasst Informationen zum Einrichten des Insider-Risikomanagements und zu den Optionen für das Erstellen einer Richtlinie.  In diesem Lab ist keine Aufgabe zum Auslösen der Richtlinie enthalten, da die Anzahl der Ereignisse, die zum Auslösen einer Richtlinie erforderlich sind, und die erforderliche Zeit den Rahmen dieser Übung überschreiten.
 
-**Geschätzte Dauer**: 25-30 Minuten
+**Geschätzte Dauer**: 45-60 Minuten
 
 ### <a name="task-1"></a>Aufgabe 1
 
@@ -33,9 +25,9 @@ Bei dieser Aufgabe aktivieren Sie als globaler Administrator Berechtigungen für
 1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.
 
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
-    1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
+    1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
 
-    1. Geben Sie das Administratorkennwort ein, das Sie vom Labhostinganbieter erhalten haben sollten. Wählen Sie **Anmelden**.
+    1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten. Dadurch gelangen Sie zur Seite „Microsoft 365 Admin Center“.
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
@@ -44,25 +36,13 @@ Bei dieser Aufgabe aktivieren Sie als globaler Administrator Berechtigungen für
 
 1. Wählen Sie im linken Navigationsbereich des Microsoft Purview-Complianceportals **Berechtigungen** aus.
 
-1. Navigieren Sie auf der Seite „Berechtigungen und Rollen“ zum Abschnitt „Anzeigen und Verwalten von Rollen, die zum Ausführen lösungsspezifischer Aufgaben im Compliance Center verwendet werden“. Wählen Sie **Rollen** aus.
+1. Wählen Sie auf der Seite „Berechtigungen und Rollen“ unter „Microsoft Purview-Lösungen“ die Option **Rollen** aus.
 
-1. Geben Sie **Insider-Risiko** in die Suchleiste ein. Wählen Sie dann das Suchsymbol (Vergrößerungsglas) aus.  Beachten Sie die zahlreichen Rollen, die angezeigt werden.  Diese weisen jeweils unterschiedliche Zugriffsebenen auf.  Wählen Sie **Insider-Risikomanagement** aus.
+1. Geben Sie **Insider-Risiko** in die Suchleiste ein. Wählen Sie dann das Suchsymbol (Vergrößerungsglas) aus.  Beachten Sie die zahlreichen Rollen, die angezeigt werden.  Diese weisen jeweils unterschiedliche Zugriffsebenen auf.  Wählen Sie **Insider-Risikomanagement** aus, und überprüfen Sie die Beschreibung.  Scrollen Sie nach unten, bis Mitglieder angezeigt werden, und beachten Sie, dass „MOD Administrator“ und „Megan Bowen“ aufgeführt werden. Klicken Sie unten im Fenster auf **Schließen**.
 
-1. Wählen Sie im Fenster, das geöffnet wird, neben „Mitglieder“ die Option **Bearbeiten** aus.
+1. Wählen Sie im linken Navigationsbereich die **Startseite** aus, um zur Microsoft Purview-Complianceportalseite zurückzukehren.
 
-1. Wählen Sie **Mitglieder auswählen** aus, um dieser Rollengruppe Mitglieder hinzuzufügen.
-
-1. Wählen Sie oben auf der Seite **+ hinzufügen** aus.
-
-1. Wählen Sie in der Liste der Namen die Einträge **MOD-Administrator** und **Megan Bowen** aus. Wählen Sie dann unten auf der Seite die Option **Hinzufügen** und **Fertig** aus.
-
-1. Überprüfen Sie, ob die hinzugefügten Mitglieder richtig sind, und wählen Sie dann **Speichern** aus.
-
-1. Wählen Sie unten im Fenster „Insider-Risikomanagement“ die Option **Schließen** aus.
-
-1. Wählen Sie im linken Navigationsbereich die **Startseite** aus, um zur des Microsoft Purview-Complianceportalseite zurückzukehren.
-
-1. Lassen Sie diese Browserregisterkarte geöffnet, da Sie in einer nachfolgenden Aufgabe dorthin zurückkehren werden.
+1. Lassen Sie diese Browserregisterkarte geöffnet, da Sie in einer nachfolgenden Aufgabe zu ihr zurückkehren werden.
 
 ### <a name="task-2-skip-if-you-did-the-setup-lab-task-to-enable-the-audit-log"></a>Aufgabe 2 (ÜBERSPRINGEN Sie sie, falls Sie die Aufgabe „Lab einrichten“ zum Aktivieren des Überwachungsprotokolls absolviert haben)
 
@@ -74,7 +54,7 @@ Das Insider-Risikomanagement verwendet Microsoft 365-Überwachungsprotokolle f�
 
 1. Stellen Sie sicher, dass die Registerkarte **Suche** ausgewählt (unterstrichen) ist.
 
-1. Warten Sie zwei bis drei Minuten, nachdem Sie zur Seite „Überwachen“ gelangt sind.  Wenn die Überwachung NICHT aktiviert ist, wird oben auf der Seite ein blauer Balken mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Sobald die Überwachung aktiviert ist, wird der blaue Balken nicht mehr angezeigt.  Wird der blaue Balken nicht angezeigt, ist die Überwachung bereits aktiviert, und keine weitere Aktion ist erforderlich.
+1. Warten Sie zwei bis drei Minuten, nachdem Sie zur Seite „Überwachen“ gelangt sind.  Wenn Überwachung NICHT aktiviert ist, wird oben auf der Seite ein blauer Balken mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Sobald die Überwachung aktiviert ist, wird der blaue Balken nicht mehr angezeigt.  Wird der blaue Balken nicht angezeigt, ist Überwachung bereits aktiviert, und keine weitere Aktion ist erforderlich.
 
 1. Wählen Sie im linken Navigationsbereich die **Startseite** aus, um zur Startseite des Microsoft Purview-Complianceportals zurückzukehren.
 
@@ -88,11 +68,10 @@ Bei dieser Aufgabe gehen Sie die Einstellungen der Insider-Risikomanagement-Lös
 
 1. Wählen Sie im linken Navigationsbereich unter „Lösungen“ die Option **Insider-Risikomanagement** aus.
 
-1. Vor dem Einrichten einer Richtlinie müssen einige Einstellungen konfiguriert werden.  Wählen Sie auf der Seite „Insider-Risikomanagement“ in der oberen rechten Ecke der Seite das **Zahnradsymbol für die Einstellungen** aus, um auf „Einstellungen für Risiken durch Insider“ zuzugreifen.  
-    1. Überprüfen Sie, ob Sie sich auf der Registerkarte **Datenschutz** befinden: Für Benutzer, die Aktivitäten ausführen, die Ihren Insiderrisikorichtlinien entsprechen, bestimmt diese Einstellung, ob ihre tatsächlichen Namen angezeigt oder anonymisierte Versionen verwendet werden sollen, um ihre Identitäten zu maskieren.  Wählen Sie **Keine anonymisierten Versionen von Benutzernamen anzeigen** und dann **Speichern** aus.
-
-    1. Wählen Sie die Registerkarte **Richtlinienindikatoren** aus. Wenn eine Richtlinie ausgelöst wird, werden den ausgewählten Indikatoren zugeordnete Aktivitäten verwendet, um die Risikobewertung für den Benutzer zu bestimmen. Die hier ausgewählten Richtlinienindikatoren werden in Vorlagen für die Insider-Risikorichtlinie aufgenommen.  Scrollen Sie, um alle verfügbaren Indikatoren und die zugehörigen Informationen anzuzeigen. Wählen Sie unter **Office-Indikatoren** die Option **Alles auswählen** und dann **Speichern** aus.
-    1. Wählen Sie die Registerkarte **Richtlinien-Zeitrahmen** aus. Die von Ihnen hier ausgewählten Zeitrahmen treten für einen Benutzer in Kraft, wenn er eine Übereinstimmung für eine Insider-Risikorichtlinie auslöst.   Im Fenster „Aktivierung“ wird festgelegt, wie lange Richtlinien aktiv Aktivitäten für Benutzer erkennen und ausgelöst werden, wenn ein Benutzer die erste Aktivität ausführt, die mit einer Richtlinie übereinstimmt. Mit „Bisherige Aktivitätserkennung“ wird festgelegt, wie weit eine Richtlinie zurückreichen soll, um Benutzeraktivitäten zu erkennen, und wird ausgelöst, wenn ein Benutzer die erste Aktivität ausführt, die mit einer Richtlinie übereinstimmt.  Lassen Sie die Standardwerte unverändert.  Wählen Sie die Registerkarte **Intelligente Erkennungen** aus.
+1. Bevor Sie mit dem Einrichten einer Richtlinie beginnen, gibt es einige Einstellungen, mit denen ein Administrator vertraut sein sollte und die nach Bedarf für seine Organisation konfiguriert werden. Wählen Sie auf der Seite „Insider-Risikomanagement“ das **Zahnradsymbol** in der oberen rechten Ecke des Fensters „Insider-Risikomanagement“ aus, um auf die Einstellungen für das Insider-Risiko zuzugreifen.  
+    1. Überprüfen Sie, ob Sie sich auf der Registerkarte **Datenschutz** befinden: Für Benutzer, die Aktivitäten ausführen, die Ihren Insiderrisikorichtlinien entsprechen, bestimmt diese Einstellung, ob ihre tatsächlichen Namen angezeigt oder anonymisierte Versionen verwendet werden sollen, um ihre Identitäten zu maskieren.  Für diese exemplarische Vorgehensweise können Sie die Standardeinstellung beibehalten.
+    1. Wählen Sie die Registerkarte **Richtlinienindikatoren** aus. Wenn eine Richtlinie ausgelöst wird, werden den ausgewählten Indikatoren zugeordnete Aktivitäten verwendet, um die Risikobewertung für den Benutzer zu bestimmen. Die hier ausgewählten Richtlinienindikatoren werden in Vorlagen für die Insider-Risikorichtlinie aufgenommen.  Scrollen Sie, um alle verfügbaren Indikatoren und die zugehörigen Informationen anzuzeigen. Wählen Sie unter **Office-Indikatoren** die Option **Alle auswählen** und dann unten auf der Seite **Speichern** aus (Sie müssen nach unten scrollen).
+    1. Wählen Sie die Registerkarte **Richtlinien-Zeitrahmen** aus. Die von Ihnen hier ausgewählten Zeitrahmen treten für einen Benutzer in Kraft, wenn er eine Übereinstimmung für eine Insider-Risikorichtlinie auslöst.   Im Fenster „Aktivierung“ wird festgelegt, wie lange Richtlinien aktiv Aktivitäten für Benutzer erkennen und ausgelöst werden, wenn ein Benutzer die erste Aktivität ausführt, die mit einer Richtlinie übereinstimmt. Mit „Bisherige Aktivitätserkennung“ wird festgelegt, wie weit eine Richtlinie zurückreichen soll, um Benutzeraktivitäten zu erkennen, und wird ausgelöst, wenn ein Benutzer die erste Aktivität ausführt, die mit einer Richtlinie übereinstimmt.  Lassen Sie die Standardwerte unverändert.
     1. Wählen Sie die Registerkarte **Intelligente Erkennungen** aus. Überprüfen Sie die hier vorhandenen Optionen.  Beachten Sie die Domäneneinstellungen und wie sie mit den Indikatoren zusammenhängen.
     1. Erkunden Sie die anderen Elemente, die in den Einstellungen aufgeführt sind, und beachten Sie, dass sich viele in der Vorschau befinden.
 
@@ -102,28 +81,26 @@ Bei dieser Aufgabe gehen Sie die Einstellungen der Insider-Risikomanagement-Lös
 
 ### <a name="task-4"></a>Aufgabe 4
 
-Bei dieser Aufgabe gehen Sie die Erstellung einer Richtlinie durch.
+In dieser Aufgabe gehen Sie die Einstellungen zum Erstellen einer Richtlinie durch.  Das Ziel besteht einfach darin, ein Gefühl für die verschiedenen Optionen und die Flexibilität zu erhalten, die mit der Erstellung einer Richtlinie verbunden sind.
 
 1. Sie sollten sich auf der Seite „Insider-Risikomanagement“ befinden.  Falls Sie noch nicht dort sind, öffnen Sie die Browserregisterkarte mit der Bezeichnung **Insider-Risikomanagement – Microsoft 365 Compliance**.
 
 1. Wählen Sie auf der Übersichtsseite für das Insider-Risikomanagement die Registerkarte **Richtlinien** und dann **+ Erstellen** aus.  Konfigurieren Sie jede der folgenden Registerkarten für Richtlinien.
 
-    1. Richtlinienvorlage:  Wählen Sie in der Liste der Kategorien den Eintrag **Datenlecks** und dann **Allgemeine Datenlecks** aus.  Beachten Sie, dass die Vorlagen in den Kategorien möglicherweise zusätzliche Voraussetzungen aufweisen.  Lesen Sie die Details für diese Vorlage, und wählen Sie dann **Weiter** aus.
-
+    1. Richtlinienvorlage: Wählen Sie unter der Kategorie „Datenlecks“ die Option **Datenlecks** aus.  Lesen Sie die Details für diese Vorlage. Unter Voraussetzungen wird die DLP-Richtlinie mit einem Häkchen in einem grünen Kreis angezeigt, um anzugeben, dass die Voraussetzung erfüllt ist.  Es gibt eine DLP-Richtlinie, die für diesen Lab-Mandanten vorkonfiguriert wurde. Wählen Sie **Weiter** aus. 
     1. Name und Beschreibung: Geben Sie den Namen **SC900-InsiderRiskPolicy** ein, und wählen Sie dann **Weiter** aus.
     1. Benutzer und Gruppen:  Lesen Sie das Informationsfeld.  Übernehmen Sie die Standardeinstellung **Alle Benutzer und Gruppen aufnehmen**.  Klicken Sie auf **Weiter**.
-    1. Zu priorisierender Inhalt: Lesen Sie die Beschreibung. Wählen Sie **Ich möchte SharePoint-Sites, Vertraulichkeitsbezeichnungen bzw. Typen vertraulicher Informationen als Prioritätsinhalt angeben** und dann **Weiter** aus.
-        1. SharePoint-Site: Lassen Sie dies bei diesem Richtlinienbeispiel leer, und wählen Sie **Weiter** aus.
-        1. Typen vertraulicher Informationen: Lassen Sie dies bei diesem Richtlinienbeispiel leer, und wählen Sie dann **Weiter** aus.
-        1. Vertraulichkeitsbezeichnungen: Wählen Sie **Vertraulichkeitsbezeichnungen hinzufügen oder bearbeiten** aus.  Wählen Sie die aufgelisteten Bezeichnungen aus:  **Vertraulich – Finanzen** und **Sehr vertraulich\Projekt – Falcon**, wählen Sie **Hinzufügen** und dann **Weiter** aus.
-    1. Auslösung: Überprüfen Sie die ausführlichen Informationen.  Die Richtlinie wird ausgelöst, wenn der Benutzer eine definierte Exfiltrationsaktivität (wählen Sie die Informationssymbole für den jeweiligen Gliederungspunkt aus, um ausführlichere Informationen zu erhalten) ausführt ODER eine Übereinstimmung mit einer vorhandenen Richtlinie zur Verhinderung von Datenverlust (DLP) vorliegt.  Wählen Sie **Benutzer führt Exfiltrationsaktivität aus** aus, da Sie im Rahmen dieser Übung keine DLP-Richtlinie konfiguriert haben.  Beachten Sie, dass die bei der vorherigen Aufgabe von Ihnen ausgewählten Richtlinienindikatoren aktiviert sind.   Beachten Sie, dass diese Indikatoren erst nach der Richtlinienauslösung aktiviert werden und dass die diesen Indikatoren zugeordneten Aktivitäten zum Berechnen einer Risikobewertung für den Benutzer verwendet werden. Klicken Sie auf **Weiter**.
-    1. Indikatorschwellenwerte: Hier können Sie die standardmäßigen oder benutzerdefinierten Schwellenwerte für die Indikatoren angeben.  Beachten Sie, dass die Indikatoren erst nach dem Richtlinientrigger aktiviert werden. Daher wirken sich diese Richtlinien nicht darauf aus, wann die Richtlinie ausgelöst wird. Wählen Sie **Benutzerdefinierte Schwellenwerte angeben** aus. Durch Auswahl dieser Option können Sie die aktuellen Standardwerte anzeigen. Übernehmen Sie die Standardeinstellungen, und wählen Sie **Weiter** aus.  
-    1. Indikatoren: Beachten Sie, dass alle Office-Indikatoren, die Sie in der vorherigen Aufgabe ausgewählt haben, ausgewählt sind.  Scrollen Sie durch die Seite, um andere verfügbare Richtlinienindikatoren und andere Elemente anzuzeigen, die automatisch ausgewählt werden.   Die Sequenzerkennung ist aktiviert.  Wenn eine Sequenz von Aktivitäten, wie definiert, erkannt wird, deutet dies auf ein größeres Risiko hin.  Bewegen Sie den Mauszeiger auf das Informationssymbol, um ausführliche Informationen zu erhalten.  Für diese Elemente müssen bestimmte Indikatoren ausgewählt und Geräte integriert werden.  Deaktivieren Sie der Einfachheit halber und deshalb, dass für diesen Mandanten keine Geräte integriert sind, die Option **Alles auswählen**.
+    1. Zu priorisierende Inhalte: Laut Beschreibung werden die Risikobewertungen für jede Aktivität erhöht, die Prioritätsinhalte enthält, was wiederum die Wahrscheinlichkeit erhöht, eine Warnung mit hohem Schweregrad zu generieren. Der Einfachheit halber wählen Sie **Ich möchte Inhalte jetzt nicht priorisieren** aus, und wählen Sie dann **Weiter** aus.
+    1. Entscheiden Sie, ob nur Aktivitäten mit Prioritätsinhalt bewertet werden sollen: Belassen Sie die Standardeinstellung **Warnungen für alle Aktivitäten abrufen**, und wählen Sie dann **Weiter** aus.
+    1. Trigger: Das auslösende Ereignis bestimmt, wann eine Richtlinie beginnt, der Aktivität eines Benutzers Risikobewertungen zuzuweisen.  Sie können eine vorhandene DLP-Richtlinie auswählen oder ob der Benutzer eine Exfiltrationsaktivität ausführen soll. Wählen Sie **Benutzer entspricht einer DLP-Richtlinie** aus, und wählen Sie dann in der Dropdownliste **U.S. Financial Data** aus. Wählen Sie **Weiter** aus.
+    1. Indikatoren: Beachten Sie, dass alle Office-Indikatoren, die Sie in der vorherigen Aufgabe ausgewählt haben, ausgewählt sind (Sie können dies erkennen, indem Sie die NACH-UNTEN-PFEILTASTE neben Office-Indikatoren auswählen), und wählen Sie dann **Weiter** aus.
+    1. Behalten Sie auf der Seite „Erkennungsoptionen“ alle Standardeinstellungen bei, lesen Sie aber die Beschreibung, die den verschiedenen Optionen zugeordnet ist, und zeigen Sie auf das Informationssymbol, um ausführlichere Informationen zu einer bestimmten Einstellung zu erhalten.  Wählen Sie **Weiter** aus.
+    1. Behalten Sie auf der Seite zum Entscheiden, ob Standard- oder Kundenindikator-Schwellenwerte verwendet werden sollen, die Standardeinstellung **Standardschwellenwerte** bei, und wählen Sie dann **Weiter** aus.
     1. Fertigstellen: Überprüfen Sie die Einstellungen, wählen Sie **Senden** und dann **Fertig** aus.
 
-1. Sie befinden sich wieder auf der Registerkarte „Richtlinien“ der Seite „Insider-Risikomanagement“.  Die von Ihnen soeben erstellte Richtlinie wird aufgelistet.  
+1. Sie befinden sich wieder auf der Registerkarte „Richtlinien“ der Seite „Insider-Risikomanagement“.  Die von Ihnen erstellte Richtlinie wird aufgelistet.  Wenn sie nicht angezeigt wird, wählen Sie das Symbol **Aktualisieren** aus.
 
-1. Bei der von Ihnen soeben erstellten Richtlinie werden im Feld „Benutzer im Geltungsbereich“ Benutzer angezeigt, denen aktuell durch die Richtlinie Risikobewertungen zugewiesen sind.  Benutzern werden Risikobewertungen zugewiesen, wenn die Richtlinie ausgelöst wird. Daher wird der Wert „0“ angezeigt.  Ein Administrator kann eine Richtlinie konfigurieren, um bestimmten Benutzern basierend auf der von den von Ihnen ausgewählten Richtlinien erkannten Aktivität Risikobewertungen zuzuweisen UND welche die Anforderung umgeht, dass zunächst ein auslösendes Ereignis erkannt wird.  Wählen Sie dazu den leeren Kreis neben dem Richtliniennamen aus, um die Richtlinie auszuwählen. Wählen Sie dann die oberhalb der Tabelle mit den Richtlinien angezeigte Option **Bewertung starten** aus.  Füllen Sie jedes Feld aus, und wählen Sie dann **Bewertung der Aktivitäten starten** aus.  Es kann bis zu 24 Stunden dauern, bis die Benutzer auf der Registerkarte „Benutzer“ angezeigt werden. Danach können Sie die Benutzer auf dieser Registerkarte auswählen, um erkannte Aktivitäten zu überprüfen.  Klicken Sie unten im Fenster auf **Schließen**.
+1. Als Administrator können Sie sofort damit beginnen, Benutzern Risikobewertungen basierend auf Aktivitäten zuzuweisen, die von den von Ihnen ausgewählten Richtlinien erkannt wurden. Dadurch wird die Anforderung umgangen, dass zuerst ein auslösendes Ereignis (z. B. eine DLP-Richtlinienentsprechung) erkannt wird.  Ein Administrator wählt dazu das leere Quadrat neben dem Richtliniennamen aus, um die Richtlinie auszuwählen. Wählen Sie dann die oberhalb der Tabelle mit den Richtlinien angezeigte Option **Bewertungsaktivität für Benutzer starten** aus.  Ein neues Fenster wird geöffnet, in dem der Administrator die verfügbaren Felder mit Daten auffüllen muss. Lassen Sie die Felder leer, da Sie diese Option nicht konfigurieren. Wenn Sie weitere Informationen dazu erhalten möchten, warum ein Administrator so vorgehen möchte, wählen Sie **Warum sollte ich so vorgehen?** aus.  Schließen Sie das Fenster, indem Sie in der oberen rechten Ecke des Bildschirms das **X** auswählen.
 
 1. Schließen Sie alle geöffneten Browserregisterkarten.
 
