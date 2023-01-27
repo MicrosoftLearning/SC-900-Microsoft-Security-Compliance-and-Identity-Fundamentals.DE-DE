@@ -87,15 +87,15 @@ Bei dieser Aufgabe durchlaufen Sie den Prozess zum Erstellen einer Richtlinie f�
 
 ### <a name="task-3"></a>Aufgabe 3
 
-Bei dieser Aufgabe sehen Sie aus Perspektive des Benutzers Debra Berger, wie sich die Richtlinie für bedingten Zugriff auswirkt. Zunächst melden Sie sich dazu bei einer Anwendung an, die in der Richtlinie für bedingten Zugriff nicht enthalten ist.  Anschließend wiederholen Sie den Prozess für eine Anwendung, die in der Richtlinie für bedingten Zugriff enthalten ist.  Beachten Sie, dass der Benutzer entsprechend der Richtlinie die MFA durchlaufen muss, wenn er auf eine Microsoft Azure-Verwaltungsanwendung zugreift.  Damit der Benutzer die MFA verwenden kann, muss er zunächst die für die MFA zu verwendende Authentifizierungsmethode registrieren, beispielsweise ein an ein Mobilgerät gesendeter Code oder eine Authenticator-Anwendung.
+Bei dieser Aufgabe sehen Sie aus Perspektive des Benutzers Debra Berger, wie sich die Richtlinie für bedingten Zugriff auswirkt. Zunächst melden Sie sich dazu bei einer Anwendung an, die nicht in der Richtlinie für bedingten Zugriff enthalten ist (das Microsoft 365-Portal unter login.microsoftonline.com).  Anschließend wiederholen Sie den Vorgang für eine Anwendung, die in der Richtlinie für bedingten Zugriff enthalten ist (das Azure-Portal unter portal.azure.com).  Beachten Sie, dass der Benutzer entsprechend der Richtlinie die MFA durchlaufen muss, wenn er auf eine Microsoft Azure-Verwaltungsanwendung zugreift.  Damit der Benutzer die MFA verwenden kann, muss er zunächst die für die MFA zu verwendende Authentifizierungsmethode registrieren, beispielsweise ein an ein Mobilgerät gesendeter Code oder eine Authenticator-Anwendung.
 
-1. Melden Sie sich als Debra Berger an. 
-    1. Geben Sie **DebraB@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
+1. Öffnen Sie Microsoft Edge.  Geben Sie **login.microsoftonline.com** in die Adressleiste ein.
+    1. Melden Sie sich als **DebraB@WWLxZZZZZZ.onmicrosoft.com** an (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde). Wählen Sie anschließend **Weiter** aus.
     1. Geben Sie das in der vorherigen Aufgabe notierte Kennwort ein. Wählen Sie **Anmelden**.
     1. Da das Kennwort temporär ist, dass bereitgestellt wurde, als Sie das Kennwort als Administrator zurückgesetzt haben, müssen Sie Ihr Kennwort (kein Bestandteil der MFA-Richtlinie) aktualisieren. Geben Sie das aktuelle Kennwort ein, geben Sie für das neue Kennwort **SC900-Lab** ein, und geben Sie dann erneut **SC900** ein, um das Kennwort zu bestätigen.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.  Sie sollten erfolgreich bei Ihrem Microsoft 365-Konto angemeldet sein. Die MFA war für diese Anwendung nicht erforderlich, da sie nicht zur Richtlinie gehört.
 
-1. Nun versuchen Sie, sich bei einer Anwendung anzumelden, welche die Kriterien für MFA erfüllt. Öffnen Sie eine neue Registerkarte in portal.Microsoft Microsoft Edge, und geben Sie **portal.azure.com** in der Adressleiste ein.
+1. Nun versuchen Sie, sich bei einer Anwendung anzumelden, welche die Kriterien für MFA erfüllt. Öffnen Sie im Browser eine neue Registerkarte, und geben Sie **portal.azure.com** ein.
 
 1. In einem Fenster wird angezeigt, dass weitere Informationen erforderlich sind.  Wählen Sie **Weiter** aus.  Beachten Sie, dass dadurch der MFA-Registrierungsprozess initiiert wird, da Sie hiermit erstmals auf die Cloud-App zugreifen, die in der Richtlinie für bedingten Zugriff identifiziert wurde.  Dieser Registrierungsprozess ist nur einmal erforderlich.   Alternativ zur Registrierung durch den Benutzer kann der Administrator die zu verwendende Authentifizierungsmethode konfigurieren.
 
