@@ -84,9 +84,9 @@ In dieser Aufgabe durchlaufen Sie den Prozess der Anwendung einer Bezeichnung au
 
 1. Wählen Sie auf der Startseite des Microsoft Purview-Complianceportals das **App-Startfeld-Symbol** aus, das sich neben dem Text „Contoso Electronics“ befindet. Wählen Sie das **Word-Symbol** aus.  
 
-1. Wählen Sie **+ Neues leeres Dokument** aus. Geben Sie dann etwas Text auf der Seite ein.  Wählen Sie oben auf der Seite den Abwärtspfeil aus, der sich neben „DokumentXX – gespeichert“ befindet, und geben Sie in das Feld „Dateiname“ den Text **Testbezeichnung** ein. Drücken Sie dann die **EINGABETASTE** auf Ihrer Tastatur.
+1. Wählen Sie unter „Neu erstellen“ die Option **Leeres Dokument** aus, und geben Sie dann auf der Seite etwas Text ein.  Wählen Sie oben auf der Seite den Abwärtspfeil aus, der sich neben „DokumentXX – gespeichert“ befindet, und geben Sie in das Feld „Dateiname“ den Text **Testbezeichnung** ein. Drücken Sie dann die **EINGABETASTE** auf Ihrer Tastatur.
 
-1. Wählen Sie in der oberen Menüleiste das Symbol **Vertraulichkeitssymbol** (das Symbol rechts neben dem Mikrofonsymbol) aus. Wenn diese Option nicht sofort angezeigt wird, aktualisieren Sie die Seite. Wählen Sie in der Dropdownliste den Eintrag **Confidential – Finance** (Vertraulich – Finanzen) aus.  
+1. Wählen Sie in der oberen Menüleiste das **Vertraulichkeitssymbol** aus – das Symbol rechts neben dem Mikrofonsymbol (je nach Bildschirmgröße müssen Sie möglicherweise die Auslassungspunkte und dann die Option „Vertraulichkeit“ auswählen). Wählen Sie in der Dropdownliste den Eintrag **Confidential – Finance** (Vertraulich – Finanzen) aus.  HINWEIS: Wenn die Option „Vertraulichkeit“ nicht sofort angezeigt wird, aktualisieren Sie die Seite. Da es sich hier um eine Mandantenumgebung in einem Lab handelt, ist die Verzögerung möglicherweise länger als üblich (10-15 Minuten).
 
 1. Wählen Sie auf der oberen Menüleiste die Option **Ansicht** und dann die Ansicht **Lesebereich** aus.
 
@@ -100,13 +100,13 @@ Erinnern Sie sich an den ersten Teil der Demo, in dem die Bezeichnung „Confide
 
 1. Wählen Sie auf der Startseite des Microsoft Purview-Complianceportals das **App-Startfeld-Symbol** aus, das sich neben dem Text „Contoso Electronics“ befindet. Wählen Sie das **Outlook-Symbol** aus.
 
-1. Wählen Sie in der oberen linken Ecke des Bildschirms die Option **Neue Nachricht** aus.  Geben Sie eine E-Mail-Adresse ein, auf die Sie zugreifen können und die kein Bestandteil der Domäne „WWLxZZZZ.OnMicrosoft.com“ ist. Geben Sie dann **Test** in die Betreffzeile ein.
+1. Wählen Sie in der oberen linken Ecke des Bildschirms die Option **Neue E-Mail** aus.  Geben Sie eine E-Mail-Adresse ein, auf die Sie zugreifen können und die kein Bestandteil der Domäne „WWLxZZZZ.OnMicrosoft.com“ ist. Geben Sie dann **Test** in die Betreffzeile ein.
 
-1. Wählen Sie **Anfügen** aus.
+1. Wählen Sie **Anfügen** (das Büroklammersymbol) aus.
 
-1. Wählen Sie **Cloudspeicherorte durchsuchen** aus.
+1. Wählen Sie **OneDrive** aus.
 
-1. Wählen Sie in der angezeigten Liste das von Ihnen erstellte Dokument aus, auf das Sie die Bezeichnung **Testbezeichnung** angewendet haben. Wählen Sie **Weiter** und dann **Als Kopie anfügen** aus.  Klicken Sie auf **Senden**.
+1. Stellen Sie sicher, dass die Registerkarte **Zuletzt verwendet** im linken Navigationsbereich ausgewählt ist.  Wählen Sie in der angezeigten Liste das von Ihnen erstellte Dokument aus, auf das Sie die Bezeichnung **Testbezeichnung** angewendet haben. Wählen Sie **Weiter** und dann **Als Kopie anfügen** aus.  Klicken Sie auf **Senden**.
 
 1. Überprüfen Sie das E-Mail-Konto, an das Sie das Dokument gesendet haben.  Beachten Sie, dass die E-Mail möglicherweise in Ihrem Junk-E-Mail-Ordner gelandet ist.  Die E-Mail wurde erfolgreich gesendet, aber wenn Sie versuchen, die angefügte Word-Datei zu öffnen, die ursprünglich mit der Bezeichnung „Confidential – Finance“ versehen wurde, wird eine Benachrichtigung angezeigt, dass Sie nicht über die Berechtigung zum Öffnen des Dokuments verfügen.
 
