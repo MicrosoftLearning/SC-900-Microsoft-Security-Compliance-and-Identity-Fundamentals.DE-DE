@@ -37,9 +37,11 @@ In dieser Aufgabe erstellen Sie eine einfache Richtlinienzuweisung, die ein Tag 
 
 1. Sie beginnen auf der Registerkarte „Grundlagen“.
     1. Behalten Sie für den Bereich die Standardeinstellung bei. In diesem Fall ist der Bereich der Richtlinie das Azure-Abonnement, das vom autorisierten Lab-Hoster (ALH) bereitgestellt wird.
-    1. Wählen Sie für die Richtliniendefinition die **Auslassungspunkte** aus.  Es wird eine Liste der verfügbaren Richtliniendefinitionen bereitgestellt.  Geben Sie in der Suchleiste **Tag erforderlich** ein. Wählen Sie in den Suchergebnissen **Tag für Ressourcengruppen erforderlich** aus (möglicherweise müssen Sie nach unten scrollen), und klicken Sie dann auf **Auswählen**.  Hinweis: Durch diese Richtlinie soll verhindert werden, dass neue Ressourcengruppen erstellt werden, welche die Anforderung nicht erfüllen.  
+    1. Wählen Sie für die Richtliniendefinition die **Auslassungspunkte** aus.  Es wird eine Liste der verfügbaren Richtliniendefinitionen bereitgestellt.  Geben Sie in der Suchleiste **Tag erforderlich** ein. Wählen Sie in den Suchergebnissen **Tag für Ressourcengruppen erforderlich** aus (möglicherweise müssen Sie nach unten scrollen), und drücken Sie dann auf **Auswählen**.  Hinweis: Durch diese Richtlinie soll verhindert werden, dass neue Ressourcengruppen erstellt werden, welche die Anforderung nicht erfüllen.  
     1. Beachten Sie den standardmäßigen Zuweisungsnamen.  Behalten Sie den Namen unverändert bei.
-    1. Stellen Sie sicher, dass „Richtlinienerzwingung“ auf **Aktiviert** festgelegt ist, und wählen Sie dann **Weiter** aus.
+    1. Stellen Sie sicher, dass die Richtlinienerzwingung auf **Aktiviert** festgelegt ist.
+
+1. Wählen Sie **Weiter** und dann erneut **Weiter** aus, um zur Registerkarte „Parameter“ zu wechseln (Sie hätten direkt die Registerkarte „Parameter“ auch direkt auswählen können).
 
 1. Sie befinden sich jetzt auf der Registerkarte „Parameter“. Geben Sie im Feld „Tagname“ die Angabe **Umgebung** ein, und wählen Sie dann **Weiter** aus.
 
