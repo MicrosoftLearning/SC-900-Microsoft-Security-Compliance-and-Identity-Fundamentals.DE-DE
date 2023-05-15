@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Title: 'Erkunden von Microsoft Sentinel' Learning Path/Module/Title: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 3: Beschreiben der Sicherheitsfunktionen von Microsoft Sentinel; Lerneinheit 3: Erklären des integrierten Bedrohungsmanagements von Microsoft Sentinel'
+lab:
+  title: 'Erkunden von Microsoft Sentinel'
+  module: 'Modul 3: Beschreiben der Sicherheitsfunktionen von Microsoft Sentinel'
 ---
---->
+
 
 # <a name="lab-explore-microsoft-sentinel"></a>Lab: Erkunden von Microsoft Sentinel
 

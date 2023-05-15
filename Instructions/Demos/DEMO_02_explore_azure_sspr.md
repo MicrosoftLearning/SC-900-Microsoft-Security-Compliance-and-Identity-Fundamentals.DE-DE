@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Demo: Title: 'Azure AD-Self-Service-Kennwortzurücksetzung (SSPR)' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Modul 2: Beschreiben der Authentifizierungsfunktionen von Azure AD; Lerneinheit 4: Beschreiben der Self-Service-Kennwortzurücksetzung in Azure AD'
+demo:
+  title: 'Azure AD-Self-Service-Kennwortzurücksetzung (SSPR)'
+  module: 'Modul 2: Beschreiben der Authentifizierungsfunktionen von Azure AD'
 ---
---->
 
 # <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Demo: Self-Service-Kennwortzurücksetzung in Azure AD
 

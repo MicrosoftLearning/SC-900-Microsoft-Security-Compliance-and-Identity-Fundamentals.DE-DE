@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Title: 'Erkunden von Azure Policy' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 6: Beschreiben der Ressourcengovernancefunktionen in Azure; Lerneinheit 2: Beschreiben von Azure Policy'
+lab:
+  title: 'Erkunden von Azure Policy'
+  module: 'Modul 6: Beschreiben der Ressourcengovernancefunktionen in Azure'
 ---
---->
+
 
 # <a name="lab-explore-azure-policy"></a>Lab: Umgehen mit Azure Policy
 

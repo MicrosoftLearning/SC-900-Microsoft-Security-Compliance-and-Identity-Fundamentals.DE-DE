@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Pre-Demo Setup: Title: 'Einrichtung der Demo'
+demo:
+  title: 'Einrichtung der Demo'
+  module: 'Einrichtung der Demo'
 ---
---->
 
 ## <a name="pre-demo-setup"></a>Einrichtung vor der Demo
 

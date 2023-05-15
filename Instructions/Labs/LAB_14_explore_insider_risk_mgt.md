@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Lab: Title: 'Erkunden des Insider-Risikomanagements in Microsoft Purview' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 4: Beschreiben der Microsoft Purview-Funktionen für den Umgang mit Insider-Risiken; Lerneinheit 2: Beschreiben des Insider-Risikomanagements'
+lab:
+  title: 'Erkunden des Insider-Risikomanagements in Microsoft Purview'
+  module: 'Modul 4: Beschreiben der Microsoft Purview-Funktionen für den Umgang mit Insider-Risiken'
 ---
---->
 
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Lab: Erkunden des Insider-Risikomanagements in Microsoft Purview
 

@@ -1,8 +1,12 @@
-<a name="---"></a><!---
 ---
+demo:
+  title: 'Erkunden von Azure AD-Benutzereinstellungen'
+  module: 'Module 1: Beschreiben der grundlegenden Dienste und Identitätstypen von Azure AD'
+---
+
+
 Demo: Title: 'Erkunden von Azure AD-Benutzereinstellungen' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Module 1: Beschreiben der grundlegenden Dienste und Identitätstypen von Azure AD; Lerneinheit 4: Beschreiben der Identitätstypen in Azure AD'
 ---
---->
 
 # <a name="demo-azure-ad-user-settings"></a>Demo: Azure AD-Benutzereinstellungen
 

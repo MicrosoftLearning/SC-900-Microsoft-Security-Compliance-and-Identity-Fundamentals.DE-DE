@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Lab: Title: 'Erkunden von Vertraulichkeitsbezeichnungen in Microsoft Purview' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 3: Beschreiben von Information Protection und Datenlebenszyklusverwaltung in Microsoft Purview; Lerneinheit 4: Beschreiben von Vertraulichkeitsbezeichnungen'
+lab:
+  title: 'Erkunden von Vertraulichkeitsbezeichnungen in Microsoft Purview'
+  module: 'Modul 3: Beschreiben von Information Protection und Datenlebenszyklusverwaltung in Microsoft Purview'
 ---
---->
 
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Lab: Erkunden von Vertraulichkeitsbezeichnungen in Microsoft Purview
 

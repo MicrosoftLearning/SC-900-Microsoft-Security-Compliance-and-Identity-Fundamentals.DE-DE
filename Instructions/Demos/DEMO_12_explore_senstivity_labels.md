@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Demo: Title: 'Vertraulichkeitsbezeichnungen in Microsoft Purview' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 3: Beschreiben von Information Protection und Datenlebenszyklusverwaltung in Microsoft Purview; Lerneinheit 4: Beschreiben von Vertraulichkeitsbezeichnungen'
+demo:
+  title: 'Vertraulichkeitsbezeichnungen in Microsoft Purview'
+  module: 'Modul 3: Beschreiben von Information Protection und Datenlebenszyklusverwaltung in Microsoft Purview'
 ---
---->
+
 
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>Demo: Vertraulichkeitsbezeichnungen in Microsoft Purview
 

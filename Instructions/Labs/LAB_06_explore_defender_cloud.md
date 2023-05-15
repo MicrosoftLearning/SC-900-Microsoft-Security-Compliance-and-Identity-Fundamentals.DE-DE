@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Lab: Title: 'Erkunden von Microsoft Defender für Cloud' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 2: Beschreiben der Sicherheitsverwaltungsfunktionen von Azure; Lerneinheit 3: Beschreiben von Microsoft Defender für Cloud'
+lab:
+  title: 'Erkunden von Microsoft Defender für Cloud'
+  module: 'Modul 2: Beschreiben der Sicherheitsverwaltungsfunktionen von Azure'
 ---
---->
+
+
 
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>Lab: Erkunden von Microsoft Defender für Cloud
 

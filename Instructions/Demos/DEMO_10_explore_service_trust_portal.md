@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Demo: Title: 'Service Trust Portal' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 1: Beschreiben der Microsoft-Complianceverwaltungsfunktionen; Lerneinheit 2: Erkunden des Service Trust Portals'
+demo:
+  title: 'Service Trust Portal'
+  module: 'Modul 1: Beschreiben der Microsoft-Complianceverwaltungsfunktionen'
 ---
---->
+
 
 # <a name="demo-service-trust-portal"></a>Demo: Service Trust Portal
 

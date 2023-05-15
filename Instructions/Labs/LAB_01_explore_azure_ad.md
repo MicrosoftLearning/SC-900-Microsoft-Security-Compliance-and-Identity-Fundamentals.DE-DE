@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Title: 'Erkunden von Azure Active Directory' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Module 1: Beschreiben der grundlegenden Dienste und Identitätstypen von Azure AD; Lerneinheit 4: Beschreiben der Identitätstypen in Azure AD'
+lab:
+  title: 'Erkunden von Azure Active Directory'
+  module: 'Module 1: Beschreiben der grundlegenden Dienste und Identitätstypen von Azure AD'
 ---
---->
+
 
 # <a name="lab-explore-azure-active-directory"></a>Lab: Erkunden von Azure Active Directory
 

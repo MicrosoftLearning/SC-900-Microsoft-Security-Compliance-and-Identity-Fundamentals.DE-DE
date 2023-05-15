@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Demo: Title: 'Bedingter Zugriff in Azure AD' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Modul 3: Beschreiben der Zugriffsverwaltungsfunktionen von Azure AD; Lerneinheit 2: Erklären des bedingten Zugriffs in Azure AD'
+demo:
+  title: 'Bedingter Zugriff in Azure AD'
+  module: 'Modul 3: Beschreiben der Zugriffsverwaltungsfunktionen von Azure AD'
 ---
---->
 
 # <a name="demo-azure-ad-conditional-access"></a>Demo: Bedingter Zugriff in Azure AD
 

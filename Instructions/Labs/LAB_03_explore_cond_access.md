@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Modul: Beschreiben der Zugriffsverwaltungsfunktionen von Azure AD; Lerneinheit: Erklären des bedingten Zugriffs in Azure AD'
+lab:
+  title: 'Beschreiben der Zugriffsverwaltungsfunktionen von Azure AD'
+  module: 'Modul: Beschreiben der Zugriffsverwaltungsfunktionen von Azure AD'
 ---
---->
+
 
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional-access"></a>Lab: Erkunden der Zugriffsverwaltung in Azure AD mit bedingtem Zugriff
 

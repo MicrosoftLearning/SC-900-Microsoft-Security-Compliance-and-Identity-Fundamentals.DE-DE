@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Demo: Title: 'Azure Policy' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 6: Beschreiben der Ressourcengovernancefunktionen in Azure; Lerneinheit 2: Beschreiben von Azure Policy'
+demo:
+  title: 'Azure Policy'
+  module: 'Modul 6: Beschreiben der Ressourcengovernancefunktionen in Azure'
 ---
---->
+
 
 # <a name="demo-azure-policy"></a>Demo: Azure Policy
 

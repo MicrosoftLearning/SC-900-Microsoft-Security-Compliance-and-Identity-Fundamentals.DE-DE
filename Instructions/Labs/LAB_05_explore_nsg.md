@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Lab: Title: 'Erkunden von Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 1: Beschreiben der grundlegenden Sicherheitsfunktionen in Azure; Lerneinheit 6: Beschreiben von Azure-Netzwerksicherheitsgruppen'
+lab:
+  title: 'Erkunden von Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)'
+  module: 'Modul 1: Beschreiben der grundlegenden Sicherheitsfunktionen in Azure'
 ---
---->
+
+
 
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Lab: Erkunden von Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
 

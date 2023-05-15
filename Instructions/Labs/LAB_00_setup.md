@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Title: 'Setup'
+lab:
+  title: 'Setup'
+  module: 'Setup'
 ---
---->
+
 
 # <a name="lab-setup"></a>Lab: Setup
 

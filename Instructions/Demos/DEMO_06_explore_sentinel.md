@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Demo: Title: 'Microsoft Sentinel' Learning Path/Module/Title: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 3: Beschreiben der Sicherheitsfunktionen von Microsoft Sentinel; Lerneinheit 3: Erklären des integrierten Bedrohungsmanagements von Microsoft Sentinel'
+demo:
+  title: 'Microsoft Sentinel'
+  module: 'Modul 3: Beschreiben der Sicherheitsfunktionen von Microsoft Sentinel'
 ---
---->
 
 # <a name="demo-microsoft-sentinel"></a>Demo: Microsoft Sentinel
 

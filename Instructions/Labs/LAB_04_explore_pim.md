@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Lab: Title: 'Erkunden der Identity Governance in Azure AD mit Privileged Identity Management ' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Modul 4: Beschreiben der Funktionen für Identitätsschutz und Governance von Azure AD; Lerneinheit 4: Beschreiben der Funktionen von Privileged Identity Management'
+lab:
+  title: 'Erkunden der Identity Governance in Azure AD mit Privileged Identity Management'
+  module: 'Modul 4: Beschreiben der Funktionen für Identitätsschutz und Governance von Azure AD'
 ---
---->
+
+
 
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Lab: Erkunden der Identity Governance in Azure AD mit Privileged Identity Management
 
