@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung'
-  module: 'Modul 2: Beschreiben der Authentifizierungsfunktionen von Azure AD'
+Lab: Title: 'Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Modul 2: Beschreiben der Authentifizierungsfunktionen von Azure AD; Lerneinheit 4: Beschreiben der Self-Service-Kennwortzurücksetzung in Azure AD'
 ---
-
+--->
 
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Lab: Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung
 

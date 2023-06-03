@@ -1,8 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)'
-  module: 'Modul 1: Beschreiben der grundlegenden Sicherheitsfunktionen in Azure'
+Demo: Title: 'Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 1: Beschreiben der grundlegenden Sicherheitsfunktionen in Azure; Lerneinheit 6: Beschreiben von Azure-Netzwerksicherheitsgruppen'
 ---
+--->
 
 # <a name="demo-azure-network-security-groups-nsgs"></a>Demo: Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)
 

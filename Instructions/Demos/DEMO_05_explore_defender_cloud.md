@@ -1,8 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Microsoft Defender für Cloud'
-  module: 'Modul 2: Beschreiben der Sicherheitsverwaltungsfunktionen von Azure'
+Demo: Title: 'Microsoft Defender für Cloud' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 2: Beschreiben der Sicherheitsverwaltungsfunktionen von Azure; Lerneinheit 3: Beschreiben von Microsoft Defender für Cloud'
 ---
+--->
 
 # <a name="demo-microsoft-defender-for-cloud"></a>Demo: Microsoft Defender für Cloud
 

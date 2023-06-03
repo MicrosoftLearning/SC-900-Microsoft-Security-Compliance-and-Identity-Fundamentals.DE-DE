@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Erkunden des Microsoft 365 Defender-Portals'
-  module: 'Modul 4: Beschreiben der Bedrohungsschutzfunktionen von Microsoft 365'
+Lab: Title: 'Erkunden des Microsoft 365 Defender-Portals' Module: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 4: Beschreiben der Bedrohungsschutzfunktionen von Microsoft 365; Lerneinheit 7: Beschreiben des Microsoft 365 Defender-Portals'
 ---
-
+--->
 
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Lab: Erkunden des Microsoft 365 Defender-Portals
 
