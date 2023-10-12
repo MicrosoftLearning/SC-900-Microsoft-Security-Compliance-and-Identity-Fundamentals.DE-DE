@@ -1,22 +1,22 @@
-<a name="---"></a><!---
+<!---
 ---
-Demo: Title: 'Service Trust Portal' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 1: Beschreiben der Microsoft-Complianceverwaltungsfunktionen; Lerneinheit 2: Erkunden des Service Trust Portals'
+Demo: Titel: 'Service Trust Portal' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 1: Beschreiben des Microsoft Service Trust-Portals und der Datenschutzfunktionen; Lerneinheit 2: Erkunden des Service Trust Portals
 ---
 --->
 
-# <a name="demo-service-trust-portal"></a>Demo: Service Trust Portal
+# Demo: Service Trust Portal
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 
 - Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen
-- Modul: Beschreiben der Complianceverwaltungsfunktionen bei Microsoft
+- Beschreibung des Service Trust-Portals von Microsoft und der Datenschutzfunktionen
 - Lektion: Erkunden von Service Trust Portal
 
-## <a name="demo-scenario"></a>Demoszenario
+## Demoszenario
 
 In dieser Demo zeigen Sie die im Service Trust Portal verfügbaren Funktionen und Inhalte. Die Navigation im Trust Center ist ebenso enthalten, um Informationen zum Datenschutz bei Microsoft anzuzeigen.
 
-### <a name="demo-part-1"></a>Teil 1 der Demo
+### Teil 1 der Demo
 
 In diesem Teil führen Sie den Kursteilnehmer schrittweise durch die im Service Trust Portal verfügbaren unterschiedlichen Inhaltstypen. Außerdem zeigen Sie, wie auf Berichte zugegriffen wird und wie Berichte in der Bibliothek gespeichert werden.
 
@@ -40,11 +40,11 @@ In diesem Teil führen Sie den Kursteilnehmer schrittweise durch die im Service 
 
 1. Um zur Startseite des Service Trust Portals zurückzukehren, wählen Sie oben auf der Seite den Link **Service Trust Portal** aus.
 
-1. Scrollen Sie auf der Startseite des Service Trust Portals nach unten zur Kategorie **Ressource für Ihre Organisation**. Wählen Sie **Ressourcen für Ihre Organisation** aus.  Beachten Sie, dass alle hier aufgeführten Dokumente auf dem Abonnement und den Berechtigungen Ihrer Organisation basieren.
+1. Scrollen Sie auf der Startseite des Service Trust Portals nach unten zur Kategorie **Ressourcen für Ihre Organisation**. Wählen Sie **Ressourcen für Ihre Organisation** aus.  Beachten Sie, dass alle hier aufgeführten Dokumente auf dem Abonnement und den Berechtigungen Ihrer Organisation basieren.
 
 1. Um zur Startseite des Service Trust Portals zurückzukehren, wählen Sie oben auf der Seite den Link **Service Trust Portal** aus.
 
-### <a name="demo-part-2-optional"></a>Teil 2 der Demo (optional)
+### Teil 2 der Demo (optional)
 
 In diesem Teil der Demo stellen Sie das Trust Center vor und navigieren zu den Informationen, in denen der Datenschutz bei Microsoft erläutert wird.
 
@@ -54,8 +54,8 @@ In diesem Teil der Demo stellen Sie das Trust Center vor und navigieren zu den I
 
 1. Es wird eine neue Browserseite mit Microsoft Trust Center geöffnet, auf der Sie weitere Informationen finden, z. B. zum Datenschutz und vieles mehr. Erkunden Sie den Inhalt dieser Seite, und nutzen Sie die verschiedenen Links.
 
-1. Schließen Sie alle geöffneten Browserregisterkarten.
+1. Schließen Sie die geöffneten Browserregisterkarten für das Dienstvertrauensportal und das Trust Center.
 
-### <a name="review"></a>Überprüfung
+### Überprüfung
 
 In dieser Demo haben Sie einige der im Service Trust Portal verfügbaren Optionen erkundet. Außerdem haben Sie erfahren, wie Sie das Feature „Meine Bibliothek“ verwenden können, um Dokumente für eine zukünftige Überprüfung zu speichern.  Zusätzlich haben Sie das Trust Center besucht, um auf Informationen zum Datenschutz bei Microsoft zuzugreifen und diese zu lesen.
