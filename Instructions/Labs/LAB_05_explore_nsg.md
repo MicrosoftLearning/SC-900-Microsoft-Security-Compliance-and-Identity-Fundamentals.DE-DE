@@ -35,7 +35,7 @@ In dieser Aufgabe zeigen Sie einige der Parameter an, die der VM zugeordnet sind
 
 1. Sie befinden sich nun auf der Seite „SC900-WinVM“.  Beachten Sie einige der grundlegenden Informationen zur VM.
 
-1. Wählen Sie oben auf der Seite **Verbinden** aus.  Wählen Sie die Option **Zugriff überprüfen** aus, die unter der IP-Adresse aufgeführt ist.  Diese Überprüfung erfolgt mithilfe von Port 3389, dem Port für die RDP-Konnektivität.  Die Meldung „Kann nicht überprüft werden“ sollte angezeigt werden.  Klicken Sie im nativen RDP-Feld auf **Auswählen**.  Im sich daraufhin öffnenden Fenster sollte unter "1 Voraussetzungen für das Konfigurieren von nativem RDP" die Meldung „Azure muss einige Features konfigurieren, um eine Verbindung mit der VM herzustellen“ angezeigt werden.  In der nächsten Aufgabe richten Sie eine NSG ein, um die RDP-Verbindung explizit zuzulassen.
+1. Wählen Sie oben auf der Seite **Verbinden** aus.  Wählen Sie die Option **Zugriff überprüfen** aus, die unter der IP-Adresse aufgeführt ist.  Diese Überprüfung erfolgt mithilfe von Port 3389, dem Port für die RDP-Konnektivität.  Die Meldung „Kann nicht überprüft werden“ sollte angezeigt werden.  Klicken Sie im nativen RDP-Feld auf **Auswählen**.  Im sich daraufhin öffnenden Fenster sollte unter „1 Voraussetzungen für das Konfigurieren von nativem RDP“ die Meldung „Azure muss einige Features konfigurieren, um eine Verbindung mit der VM herzustellen“ angezeigt werden.  In der nächsten Aufgabe richten Sie eine NSG ein, um die RDP-Verbindung explizit zuzulassen.
 
 
 1. Wählen Sie im linken Navigationsbereich **Netzwerk** aus.  
@@ -49,7 +49,7 @@ In dieser Aufgabe zeigen Sie einige der Parameter an, die der VM zugeordnet sind
 
 In diesem Teil erstellen Sie eine Netzwerksicherheitsgruppe, weisen die Netzwerkschnittstelle der VM dieser NSG zu und erstellen eine neue Regel für eingehenden RDP-Datenverkehr.
 
-1. Klicken Sie auf der geöffneten NSG-Registerkarte mit der rechten Maustaste oben auf der Seite auf den Link *Startsteite*, und wählen Sie **Link in neuer Registerkarte öffnen** aus, um eine weitere Seite für **Azure-Dienste** zu öffnen.
+1. Klicken Sie auf der geöffneten NSG-Registerkarte mit der rechten Maustaste oben auf der Seite auf den Link *Startseite*, und wählen Sie **Link in neuer Registerkarte öffnen** aus, um eine weitere Seite für **Azure-Dienste** zu öffnen.
 
 1. Geben Sie in der blauen Suchleiste oben auf der Seite **Netzwerksicherheitsgruppen** ein. Wählen Sie aus den Ergebnissen **Netzwerksicherheitsgruppen** aus. Wählen Sie nicht *Netzwerksicherheitsgruppen (klassisch)* aus.
 
@@ -93,7 +93,7 @@ In diesem Teil erstellen Sie eine Netzwerksicherheitsgruppe, weisen die Netzwerk
 
 In dieser Aufgabe testen Sie die neu erstellte NSG-Eingangsregel, um sicherzustellen, dass Sie eine RDP-Verbindung (Remotedesktop) mit der VM herstellen können.  Sobald Sie die VM nutzen, überprüfen Sie die ausgehende Konnektivität mit dem Internet von der VM aus.
 
-1. Öffnen Sie in Ihrem Browser die Registerkarte „SC900-WinVM – Microsoft Azure“. Wenn Sie die Browserregisterkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, geben Sie **https://portal.azure.com** ein, und wählen Sie **VMs** aus. Wählen Sie dann den die VM **SC900-WinVM** aus.
+1. Öffnen Sie in Ihrem Browser die Registerkarte „SC900-WinVM – Microsoft Azure“. Wenn Sie die Browserregisterkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, geben Sie **https://portal.azure.com** ein, und wählen Sie **VMs** aus. Wählen Sie dann die VM **SC900-WinVM** aus.
 
 1. Wählen Sie im linken Navigationsbereich **Verbinden** aus.
 
@@ -101,7 +101,7 @@ In dieser Aufgabe testen Sie die neu erstellte NSG-Eingangsregel, um sicherzuste
 
 1. Stellen Sie nun eine direkte Verbindung mit der VM her, indem Sie im Feld „Native RDP“ auf **Auswählen** klicken.
    
-    1. Wählen Sie im sich daraufhin öffnenden „Native RDP„-Fenster die Option **RDP-Datei herunterladen** aus.
+    1. Wählen Sie im sich daraufhin öffnenden „Native RDP“-Fenster die Option **RDP-Datei herunterladen** aus.
     1. Wenn eine Downloadwarnung angezeigt wird, wählen Sie **Beibehalten** und dann im angezeigten Popupfenster **Datei öffnen** aus.
     1. Ein Fenster für die Remotedesktopverbindung wird geöffnet. Wählen Sie **Verbinden** aus.
     1. Anschließend werden Sie zur Eingabe Ihrer Anmeldeinformationen aufgefordert.  Geben Sie den Benutzernamen und das Kennwort für die VM ein (siehe Registerkarte „Ressourcen“ im Lab-Anweisungsbereich).
@@ -144,12 +144,12 @@ In der vorherigen Aufgabe haben Sie bestätigt, dass Sie eine RDP-Verbindung mit
 
 1. Kehren Sie zu Ihrer VM zurück (das RDP-Symbol für die VM sollte auf der Taskleiste unten auf der Seite angezeigt werden).
 
-1. Öffnen Sie auf Ihrer VM den Microsoft Edge-Browser, und geben Sie **www.bing.com** ein. Die Seite sollte nicht angezeigt werden. Wenn Sie eine Verbindung mit dem Internet herstellen können und sichergestellt haben, dass alle Parameter für die Ausgangsregel ordnungsgemäß festgelegt wurden, liegt dies wahrscheinlich daran, dass es einige Minuten dauern kann, bis die Regel wirksam wird.  Schließen Sie den Browser, warten Sie ein paar Minuten, und versuchen Sie es erneut. Für Azure-Abonnements in der Lab-Umgebung können Verzögerungen auftreten,die länger als normal sind.
+1. Öffnen Sie auf Ihrer VM den Microsoft Edge-Browser, und geben Sie **www.bing.com** ein. Die Seite sollte nicht angezeigt werden. Wenn Sie eine Verbindung mit dem Internet herstellen können und sichergestellt haben, dass alle Parameter für die Ausgangsregel ordnungsgemäß festgelegt wurden, liegt dies wahrscheinlich daran, dass es einige Minuten dauern kann, bis die Regel wirksam wird.  Schließen Sie den Browser, warten Sie ein paar Minuten, und versuchen Sie es erneut. Für Azure-Abonnements in der Laborumgebung können Verzögerungen auftreten, die länger als normal sind.
 
 
 1. Schließen Sie die Remotedesktopverbindung. Wählen Sie dazu oben zentral auf der Seite, wo die IP-Adresse angezeigt wird, das **X** aus.  Ein Popupfenster wird anzeigt, das „Die Remotesitzung wird getrennt“ angibt. Klicken Sie auf **OK**.
 
-1. Wählen Sie in der oberen linken Ecke des Fensters direkt unterhalb der blauen Leiste, wo “Microsoft Azure” angezeigt wird, die Option **Startseite** aus, um zur Startseite des Azure-Portals zurückzukehren.
+1. Wählen Sie in der oberen linken Ecke des Fensters direkt unterhalb der blauen Leiste, wo „Microsoft Azure“ angezeigt wird, die Option **Startseite** aus, um zur Startseite des Azure-Portals zurückzukehren.
 
 1. Lassen Sie die Azure-Registerkarte in Ihrem Browser geöffnet.
 
