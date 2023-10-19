@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Titel: 'Microsoft Entra-Self-Service-Kennwortzurücksetzung (SSPR)' Lernpfad/Modul/Lerneinheit: 'Lernpfad: Beschreiben der Funktionen von Microsoft Entra; Modul 2: Beschreiben der Authentifizierungsfunktionen von Microsoft Entra ID; Lerneinheit 4: Beschreiben der Self-Service-Kennwortzurücksetzung'
+Demo: Titel: „Microsoft Entra-Self-Service-Kennwortzurücksetzung (SSPR)“ Lernpfad/Modul/Lerneinheit: „Lernpfad: Beschreiben der Funktionen von Microsoft Entra; Modul 2: Beschreiben der Authentifizierungsfunktionen von Microsoft Entra ID; Lerneinheit 4: Beschreiben der Self-Service-Kennwortzurücksetzung“
 ---
 --->
 
