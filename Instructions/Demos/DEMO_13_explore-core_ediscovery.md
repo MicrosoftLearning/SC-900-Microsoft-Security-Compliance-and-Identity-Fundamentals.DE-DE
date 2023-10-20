@@ -1,6 +1,6 @@
 <!---
 ---
-Lab: Titel: 'Erkunden des eDiscovery (Standard)-Workflows' Lernpfad/Modul/Lerneinheit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 5: Beschreiben der eDiscovery-Funktionen und Überwachungsfunktionen von Microsoft Purview; Lerneinheit 2: Beschreiben der eDiscovery-Lösungen in Microsoft 365'
+Lab: Titel: „Erkunden des eDiscovery (Standard)-Workflows“ Lernpfad/Modul/Lerneinheit: „Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 5: Beschreiben der eDiscovery-Funktionen und Überwachungsfunktionen von Microsoft Purview; Lerneinheit 2: Beschreiben der eDiscovery-Lösungen in Microsoft 365“
 ---
 --->
 

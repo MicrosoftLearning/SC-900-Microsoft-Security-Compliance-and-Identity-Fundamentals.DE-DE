@@ -1,6 +1,6 @@
 <!---
 ---
-Lab: Titel: 'Erkunden von Microsoft Defender for Cloud' Lernpfad/Modul/Lerneinheit: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 2: Beschreiben der Sicherheitsverwaltungsfunktionen von Azure; Lerneinheit 3: Beschreiben von Cloud Security Posture Management'
+Lab: Titel: „Erkunden von Microsoft Defender for Cloud“ Lernpfad/Modul/Lerneinheit: „Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 2: Beschreiben der Sicherheitsverwaltungsfunktionen von Azure; Lerneinheit 3: Beschreiben von Cloud Security Posture Management“
 ---
 --->
 
@@ -38,7 +38,7 @@ In dieser Aufgabe durchlaufen Sie auf hoher Ebene einige der Funktionen von Micr
 
 1. Wählen Sie im linken Navigationsbereich **Empfehlungen** aus.  
     1. Stellen Sie sicher, dass die Registerkarte **Alle Empfehlungen** ausgewählt (unterstrichen) ist.  Beachten Sie die Dashboardansicht, in der aktive Empfehlungen nach Schweregrad, Ressourcenintegrität und mehr angezeigt werden.
-    1. Wählen Sie ein Element in der Liste aus.  Auf der Seite, die geöffnet wird, sehen Sie eine Beschreibung und zusätzliche Informationen, die möglicherweise Korrekturschritte, betroffene Ressourcen und vieles mehr enthalten. Schließen Sie diese Seite mit dem **X** oben rechts auf dem Bildschirm.
+    1. Wählen Sie ein Element aus der Liste aus.  Auf der Seite, die geöffnet wird, sehen Sie eine Beschreibung und zusätzliche Informationen, die möglicherweise Korrekturschritte, betroffene Ressourcen und vieles mehr enthalten. Schließen Sie diese Seite mit dem **X** oben rechts auf dem Bildschirm.
 
 1. Wählen Sie im linken Hauptnavigationsbereich die Option **Einhaltung gesetzlicher Bestimmungen** aus.  **HINWEIS:** Wenn kein Abonnement angezeigt wird, für das die Konformität berechnet werden kann, liegt das daran, dass es zu einer Verzögerung von bis zu 24 Stunden kommen kann, bis Informationen angezeigt werden. Wechseln Sie zu Aufgabe 2.  Wenn Informationen angezeigt werden, fahren Sie mit den folgenden Schritten fort.
     1. Auf der Seite zur Einhaltung gesetzlicher Bestimmungen finden Sie eine Liste der Konformitätskontrollen, die auf dem Microsoft-Cloudsicherheits-Vergleichstest basieren (stellen Sie sicher, dass die Registerkarte „Microsoft-Cloudsicherheitsvergleichstest“ ausgewählt/unterstrichen ist). Unter jeder Steuerelementdomäne befindet sich eine Teilmenge von Steuerelementen, und für jedes Steuerelement gibt es mindestens eine Bewertung. Jede Bewertung enthält Informationen, darunter Beschreibung, Wartung und betroffene Ressourcen.
