@@ -1,24 +1,24 @@
-<a name="---"></a><!---
+<!---
 ---
-Demo: Title: 'Azure AD-Self-Service-Kennwortzurücksetzung (SSPR)' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Modul 2: Beschreiben der Authentifizierungsfunktionen von Azure AD; Lerneinheit 4: Beschreiben der Self-Service-Kennwortzurücksetzung in Azure AD'
+Demo: Titel: „Microsoft Entra-Self-Service-Kennwortzurücksetzung (SSPR)“ Lernpfad/Modul/Lerneinheit: „Lernpfad: Beschreiben der Funktionen von Microsoft Entra; Modul 2: Beschreiben der Authentifizierungsfunktionen von Microsoft Entra ID; Lerneinheit 4: Beschreiben der Self-Service-Kennwortzurücksetzung“
 ---
 --->
 
-# <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Demo: Self-Service-Kennwortzurücksetzung in Azure AD
+# Demo: Microsoft Entra-Self-Service-Kennwortzurücksetzung (SSPR)
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 
-- Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra
-- Modul: Beschreiben der Authentifizierungsfunktionen von Azure AD
-- Lerneinheit: Beschreiben der Self-Service-Kennwortzurücksetzung in Azure AD
+- Lernpfad: Beschreiben der Funktionen von Microsoft Entra
+- Modul: Beschreibung der Authentifizierungsfunktionen von Microsoft Entra ID
+- Lerneinheit: Beschreiben der Self-Service-Kennwortzurücksetzung
 
-## <a name="demo-scenario"></a>Demoszenario
+## Demoszenario
 
 In dieser Demo gehen Sie die verschiedenen Einstellungen für die Aktivierung der Self-Service-Kennwortzurücksetzung durch.
 
-1. Navigieren Sie zu der in Ihrem Browser geöffneten Registerkarte „Contoso – Microsoft Azure“. Falls Sie die Registerkarte geschlossen haben, öffnen Sie eine Browserseite. Geben Sie „portal.azure.com“ in die Adressleiste ein, und wählen Sie „Azure Active Directory“ aus. Sie sollten beim Azure-Portal als Administrator angemeldet sein. Falls nicht, melden Sie sich wieder an.
+1. Kehren Sie zur geöffneten Browserregisterkarte mit dem Titel „Start – Microsoft Entra Admin Center“ zurück.  Wenn Sie diese Browserregisterkarte zuvor geschlossen haben, öffnen Sie Microsoft Edge, und melden Sie sich bei **[entra.microsoft.com](https://entra.microsoft.com)** mit Ihren Microsoft 365-Administratoranmeldeinformationen an.
 
-1. Wählen Sie im linken Navigationsbereich „Kennwort zurücksetzen“ aus.
+1. Erweitern Sie im linken Navigationsbereich die Option **Schutz**, und wählen Sie dann **Kennwortzurücksetzung** aus.
 
 1. Die Registerkarte „Eigenschaften“ ist hervorgehoben.  Beachten Sie im Fenster „Eigenschaften“, dass SSPR für keine, ausgewählte oder alle Benutzer aktiviert werden kann.
     1. Bewegen Sie den Cursor über das Informationssymbol neben dem Text „Self-services password reset enabled“, und erklären Sie, dass die Kennwortzurücksetzung durch Auswahl von „Selected“ auf eine bestimmte Gruppe von Benutzern eingeschränkt werden kann. Weitere Optionen sind „None“ oder „All“.
@@ -41,6 +41,6 @@ In dieser Demo gehen Sie die verschiedenen Einstellungen für die Aktivierung de
 
 1. Lassen Sie diese Browserseite für die nächste Demo geöffnet.
 
-### <a name="review"></a>Überprüfung
+### Überprüfung
 
 In dieser Demo haben Sie die Einstellungen für die Self-Service-Kennwortzurücksetzung gezeigt.

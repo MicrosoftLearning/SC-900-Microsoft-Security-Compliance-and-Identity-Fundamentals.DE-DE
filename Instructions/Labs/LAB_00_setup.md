@@ -1,18 +1,25 @@
-<a name="---"></a><!---
+<!---
 ---
 Lab: Title: 'Setup'
 ---
 --->
 
-# <a name="lab-setup"></a>Lab: Setup
+# Lab: Setup
 
-## <a name="lab-scenario"></a>Labszenario
+## WWL-Mandanten – Nutzungsbedingungen
+Wenn Ihnen im Rahmen einer Präsenzschulung ein Mandant zugewiesen worden ist, steht dieser für Praxislabs innerhalb der Präsenzschulung zur Verfügung.
+
+Mandanten sollten nicht für Zwecke außerhalb von Praxislabs freigegeben oder verwendet werden. Der in diesem Kurs verwendete Mandant ist ein Testmandant; er kann nach Abschluss des Kurses nicht verwendet oder aufgerufen werden und ist nicht für Erweiterungen geeignet.
+
+Mandanten dürfen nicht in ein kostenpflichtiges Abonnement konvertiert werden. Die im Rahmen dieses Kurses erworbenen Mandanten verbleiben im Eigentum der Microsoft Corporation, und wir behalten uns das Recht vor, jederzeit auf Mandanten zuzugreifen und diese zurückzuziehen.
+
+## Labszenario
 
 Bei diesem Setuplab geht es um die Aktivierung des Microsoft-Überwachungsprotokolls.
 
 **Geschätzte Dauer**: 5–10 Minuten
 
-### <a name="setup---enable-microsoft-365-audit-log"></a>Einrichtung – Aktivieren des Microsoft 365-Überwachungsprotokolls
+### Einrichtung – Aktivieren des Microsoft 365-Überwachungsprotokolls
 
 In dieser Einrichtungsaufgabe aktivieren Sie die Überwachungsprotokollfunktion in Microsoft 365.  Obwohl das Überwachungsprotokoll laut Dokumentation standardmäßig aktiviert ist, trifft dies für die meisten Lab-Mandanten nicht zu, und es kann mehrere Stunden dauern, bis die Änderung wirksam wird.  Es empfiehlt sich, diese Funktion zu aktivieren, da Microsoft 365 Überwachungsprotokolle für Benutzererkenntnisse und -aktivitäten in Richtlinien und Analyseerkenntnisse verwendet.
 
@@ -35,6 +42,6 @@ In dieser Einrichtungsaufgabe aktivieren Sie die Überwachungsprotokollfunktion 
 
 1. Kehren Sie zur Homepage des Microsoft Purview-Complianceportals zurück, indem Sie im linken Navigationsbereich **Start** auswählen und sich bei Microsoft 365 abmelden. Melden Sie sich ab, indem Sie das Symbol in der oberen rechten Ecke des Microsoft 365-Fensters auswählen, das als Kreis mit den Buchstaben MA (neben dem Fragezeichensymbol) angezeigt wird, und dann **Abmelden** auswählen. Schließen Sie dann den Browser.
 
-### <a name="review"></a>Überprüfung
+### Überprüfung
 
 In diesem Setup haben Sie die Überwachungsprotokollfunktion in Microsoft 365 aktiviert.
