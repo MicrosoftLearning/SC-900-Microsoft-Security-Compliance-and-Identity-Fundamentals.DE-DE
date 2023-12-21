@@ -1,20 +1,20 @@
-<a name="---"></a><!---
+<!---
 ---
-Demo: Title: 'Erkunden von Azure AD-Benutzereinstellungen' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Module 1: Beschreiben der grundlegenden Dienste und Identitätstypen von Azure AD; Lerneinheit 4: Beschreiben der Identitätstypen in Azure AD'
+Demo: Titel: Erkunden Microsoft Entra ID Benutzereinstellungen Lernpfad/Modul/Lerneinheit: Lernpfad: Beschreiben der Funktionen von Microsoft Entra; Modul 1: Beschreiben der Funktions- und Identitätstypen von Microsoft Entra ID; Lerneinheit 3: Beschreiben der Microsoft Entra Identitätstypen
 ---
 --->
 
-# <a name="demo-azure-ad-user-settings"></a>Demo: Azure AD-Benutzereinstellungen
+# Demo: Microsoft Entra ID-Benutzereinstellungen
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 
-- Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra
-- Modul: Beschreiben der grundlegenden Dienste und Identitätstypen von Azure AD
-- Lerneinheit: Beschreiben der Identitätstypen in Azure AD
+- Lernpfad: Beschreiben der Funktionen von Microsoft Entra.
+- Modul: Beschreibung der Funktion und Identitätstypen von Microsoft Entra ID.
+- Lerneinheit: Beschreiben der Identitätstypen.
 
-## <a name="demo-scenario"></a>Demoszenario
+## Vorführungsszenario
 
-In dieser Demo greifen Sie auf Azure Active Directory zu und gehen die verschiedenen Einstellungen für einen vorhandenen Benutzer durch.  Hinweis an den Referenten:  In dieser Demo wird über den Microsoft 365-Mandanten auf Azure AD zugegriffen. Alternativ können Sie Kursteilnehmern zeigen, wie über das Azure-Portal auf Azure AD zugegriffen werden kann. Die Absicht dahinter ist, dass gezeigt werden soll, dass Microsoft 365 über das Microsoft 365-Portal auch Zugriff auf Azure AD bietet.
+In dieser Demo greifen Sie auf Microsoft Entra ID zu und gehen die verschiedenen Einstellungen für vorhandene Benutzer durch.
 
 1. Öffnen Sie Microsoft Edge.
 
@@ -27,34 +27,35 @@ In dieser Demo greifen Sie auf Azure Active Directory zu und gehen die verschied
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
 
-1. Wählen Sie unter „Admin Center“ den Eintrag **Azure Active Directory** aus (möglicherweise müssen Sie dazu nach unten scrollen).  Die Seite „Mein Dashboard“ des Azure Active Directory Admin Center wird auf einer neuen Browserseite geöffnet. In den Hauptfenstern des Dashboards werden verschiedene Kacheln angezeigt, darunter die Kachel „Organisationsidentität“ (Contoso, der Mandant und die Azure AD-Edition), eine Kachel für Benutzer und Gruppen und mehr.
+1. Wählen Sie im Admin Center den Eintrag **Identität** aus (möglicherweise müssen Sie dazu nach unten scrollen).  Die Übersichtsseite des Microsoft Entra Admin Centers wird auf einer neuen Browserseite geöffnet. Hier sehen Sie grundlegende Informationen zu Ihrem Contoso-Mandanten. Wenn Sie im Hauptfenster nach unten scrollen, werden auch Informationen zu Warnungen, meinem Feed, Feature-Highlights und mehr angezeigt.  
+    1. Hinweis an Referenten/Kursleiter: Sie können auch direkt auf das Microsoft Entra Admin Center zugreifen, indem Sie zu **[entra.microsoft.com](https://entra.microsoft.com)** wechseln.
 
-1. Wählen Sie im linken Navigationsbereich **Benutzer** aus. Beachten Sie, dass bereits Benutzer für Ihren Mandanten konfiguriert sind.
+1. Erweitern Sie im linken Navigationsbereich **Benutzer** und wählen Sie dann **Alle Benutzer** aus.  Auf der Benutzerseite werden zusätzliche Navigationsoptionen und die Liste der Benutzer angezeigt. Beachten Sie, dass bereits Benutzer für Ihren Mandanten konfiguriert sind.
 
-1. Wählen Sie aus der Liste der Benutzer **Adele Vance** aus.
+1. Wählen Sie aus der Liste der Benutzer*innen **Adele Vance** aus.
 
-1. Beachten Sie, dass im linken Navigationsbereich die Option **Profil** ausgewählt ist.  Zeigen Sie die Informationen auf der Profilseite bzw. erläutern Sie diese.
+1. Beachten Sie, dass im linken Navigationsbereich die **Übersicht** hellgrau hervorgehoben ist.  Zeigen Sie die Informationen auf der Übersichtsseite bzw. erläutern Sie diese.  Wählen Sie oben auf der Seite die Registerkarte **Überwachung** aus, auf der Benutzeranmeldungen angezeigt werden (es wird keine Anmeldung angezeigt, es sei denn, Sie haben sich zuvor als Adele Vance angemeldet).  Wählen Sie dann **Eigenschaften** aus, um alle Eigenschaften für das Adele Vance-Benutzerobjekt anzuzeigen.
 
-1. Wählen Sie im linken Navigationsbereich **Zugewiesene Rollen** aus.  Diesem Benutzer sind keine Administratorrollen zugewiesen.  Wählen Sie oben auf der Seite **+ Zuweisungen hinzufügen** aus, um zu sehen, welche Arten von Administratorrollen verfügbar sind.  Fügen Sie keine Zuweisungen hinzu. Schließen Sie die Seite einfach mit dem **X** rechts oben auf der Seite.
+1. Wählen Sie im linken Navigationsbereich **Zugewiesene Rollen** aus.  Diesem Benutzer sind keine Administratorrollen zugewiesen.  Wählen Sie oben auf der Seite **+ Zuweisungen hinzufügen** aus, und erweitern Sie dann auf der Seite Zuweisungen hinzufügen das Feld Rollensuche unter Rolle auswählen, um eine Liste der verfügbaren Verwaltungsrollentypen anzuzeigen.  Fügen Sie keine weiteren hinzu, schließen Sie die Seite, indem Sie das **X** oben rechts anklicken.
 
-1. Wählen Sie im linken Navigationsbereich **Gruppen** aus.  Erwähnen Sie, dass dieser Benutzer ein Mitglied mehrerer Gruppen ist.  Hier können Sie die Arten von Gruppen erwähnen.  Um diesen Benutzer anderen Gruppen hinzuzufügen, würden Sie **+ Mitgliedschaften hinzufügen** auswählen.  Fügen Sie keine neuen Gruppen hinzu. Erwähnen Sie nur, wie einfach es ist, einen Benutzer vorhandenen Gruppen hinzuzufügen. Schließen Sie das Gruppenfenster mit dem **X** rechts oben auf der Seite.
+1. Wählen Sie im linken Navigationsbereich **Gruppen** aus.  Sprechen Sie die Tatsache an, dass diese*r Benutzer*in Mitglied in mehreren Gruppen ist.  Hier können Sie sich an die Gruppen wenden.  Um diesen Benutzer anderen Gruppen hinzuzufügen, würden Sie **+ Mitgliedschaften hinzufügen** auswählen.  Fügen Sie keine neuen Gruppen hinzu. Erwähnen Sie nur, wie einfach es ist, einen Benutzer vorhandenen Gruppen hinzuzufügen. Schließen Sie das Gruppenfenster mit dem **X** rechts oben auf der Seite.
 
-1. Wählen Sie im linken Navigationsbereich **Lizenzen** aus. Beachten Sie, dass diesem Benutzer Microsoft 365 E5-Lizenzen und eine EMS-Lizenz zugewiesen sind.  Wählen Sie im oberen Bereich des Hauptfensters **+ Zuweisungen** aus, um eine Lizenz hinzuzufügen.  Zeigen Sie die Lizenzen für diesen Benutzer. Nehmen Sie KEINE Änderungen vor.  Schließen Sie dieses Fenster mit dem **X** oben rechts auf der Seite.
+1. Wählen Sie im linken Navigationsbereich **Lizenzen** aus. Beachten Sie, dass diesem Benutzer Microsoft 365 E5-Lizenzen und EMS-Lizenzen zugewiesen sind.  Wenn Sie eine Lizenz hinzufügen möchten, wählen Sie oben im Hauptfenster **oben im Zuweisungen hinzufügen** aus.  Zeigen Sie die Lizenzen für diese*n Benutzer*in an. Lassen Sie alle Angaben unverändert.  Schließen Sie dieses Fenster mit dem **X** oben rechts auf der Seite.
 
-1. Wählen Sie im linken Navigationsbereich **Geräte** aus.  Es wird nichts angezeigt. Sie können aber erklären, dass hier Geräte angezeigt werden würden, wenn diesem Benutzer welche zugewiesen wären.
+1. Wählen Sie im linken Navigationsbereich **Geräte** aus.  Nichts wird angezeigt, aber Sie können sagen, dass, wenn dieser Benutzer Geräte zugewiesen haben würde, dies an dieser Stelle angezeigt würde.
 
-1. Wählen Sie im linken Navigationsbereich **Azure-Rollenzuweisungen** aus.  Erklären Sie Folgendes:
-    1. Diese Registerkarte ist nicht identisch mit der für zugewiesene Rollen, die zuvor gezeigt wurde, da die zuvor gezeigte Registerkarte für die rollenbasierte Zugriffssteuerung in Azure Active Directory gedacht ist (betonen Sie Active Directory).
-    1. Auf dieser Registerkarte können Sie Rollenzuweisungen anzeigen, die Benutzern für Azure-Ressourcen zugewiesen wurden. Wenn Sie z. B. eine Azure-Ressourcengruppe erstellen, weisen Sie Adele eine bestimmte Rollen zu, etwa die Rolle als Besitzerin oder Mitwirkende für die Ressourcengruppe. Diese Rolle würde hier aufgeführt werden. Dies ist Teil der rollenbasierten Zugriffssteuerung in Azure (Azure RBAC). Diese Rollenzuweisung wird im Rahmen dieser konkreten Ressource verwaltet.
+1. Wählen Sie im linken Navigationsbereich **Azure-Rollenzuweisungen** aus.  Aufruf:
+    1. Diese Registerkarte ist nicht identisch mit der für zugewiesene Rollen, die zuvor gezeigt wurde, da die zuvor gezeigte Registerkarte für die rollenbasierte Zugriffssteuerung in Microsoft Entra gedacht ist.
+    1. Obwohl hier nichts aufgeführt ist, ist dies die Registerkarte, auf der Sie Rollenzuweisungen für Azure-Ressourcen anzeigen können, die Adele zugewiesen sind. Wenn Sie beispielsweise eine Azure-Ressourcengruppe erstellen und Adele eine bestimmte Rolle zuweisen, z. B. Besitzer*in oder Mitwirkende*r für die Ressourcengruppe, würden Sie diese Rolle hier sehen. Dies ist Teil der rollenbasierte Zugriffssteuerung in Azure(Azure RBAC). Diese Rollenzuweisung wird im Rahmen dieser konkreten Ressource verwaltet.
 
-1. Wählen Sie im linken Navigationsbereich **Authentifizierungsmethoden** aus.  Heben Sie die Beschreibung bevor: „Hier können Sie die Telefonnummern und E-Mail-Adressen angeben, die Benutzer für die mehrstufige Authentifizierung, die Self-Service-Kennwortzurücksetzung und zum Zurücksetzen des Kennworts eines Benutzers verwenden.“ Wenn für einen Benutzer SSPR konfiguriert ist oder dieser MFA verwenden muss und Sie als Administrator dieses Feld ausfüllen, ist der Benutzer bereits registriert und muss für SSPR oder MFA keine Registrierungsschritte mehr durchführen.  Normalerweise registrieren sich Benutzer selbst. Es kommt eher selten vor, dass der Administrator dies ausführen muss.
+1. Wählen Sie im linken Navigationsbereich **Authentifizierungsmethoden** aus.  Nennen Sie die Beschreibung, die besagt: "Hier können Sie die Telefonnummern und E-Mail-Adressen festlegen, die Benutzer*innen verwenden, um mehrstufige Authentifizierung und Self-Service-Kennwortzurücksetzung durchzuführen und das Kennwort zurückzusetzen." Wenn für einen Benutzer SSPR konfiguriert ist oder dieser MFA verwenden muss und Sie als Administrator dieses Feld ausfüllen, ist der Benutzer bereits registriert und muss für SSPR oder MFA keine Registrierungsschritte mehr durchführen.  Normalerweise registrieren sich Benutzer selbst. Es kommt eher selten vor, dass der Administrator dies ausführen muss.
 
-1. Wählen Sie im linken Navigationsbereich **Anmeldungen** aus.  Hier können Sie Anmeldeaktivitäten dieses Benutzers sehen.  Bei dieser Benutzerin wird möglicherweise nichts angezeigt, da sie sich noch nicht angemeldet hat.
+1. Wählen Sie das **X** oben rechts auf er Seite aus. Dadurch kehren Sie zur Benutzerliste zurück.
 
-1. Wählen Sie oben rechts auf der Seite das **X** aus. Daraufhin wird wieder die Benutzerliste angezeigt.  Bevor Sie die Benutzerliste schließen, können Sie hervorheben, dass oben auf der Seite MFA angezeigt wird.  Wählen Sie **Multi-Factor Authentication** aus.  Dadurch wird ein neues Browserfenster geöffnet.  Hier können Sie MFA für mehrere Benutzer auswählen.  Dies ist eine Möglichkeit, MFA für Benutzer zu aktivieren.  Wir werden näher auf MFA im Kontext von bedingtem Zugriff eingehen und aufzeigen, wie eine präzisere Steuerung von MFA möglich ist.  Schließen Sie die Browserregisterkarte für die mehrstufige Authentifizierung.
+1. Wählen Sie das **X** oben rechts auf er Seite aus. Dadurch kehren Sie zur Hauptseite für das Microsoft Entra Admin Center zurück.
 
-1. Wählen Sie oben rechts auf der Seite das **X** aus. Daraufhin wird wieder die Hauptseite für den Contoso-Mandanten angezeigt.
+1. Lassen Sie diese Browserregisterkarte geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
-### <a name="review"></a>Überprüfung
+### Überprüfung
 
 In dieser Demo haben Sie die Einstellungen eines vorhandenen Benutzers gezeigt. Dazu zählen Gruppen, denen der Benutzer zugewiesen werden kann, die Verfügbarkeit von Rollen und die Zuweisung von Benutzerlizenzen.
