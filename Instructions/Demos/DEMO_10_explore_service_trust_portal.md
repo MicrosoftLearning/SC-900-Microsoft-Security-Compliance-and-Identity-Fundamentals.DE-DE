@@ -12,7 +12,7 @@ Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 - Beschreibung des Service Trust-Portals von Microsoft und der Datenschutzfunktionen
 - Lektion: Erkunden von Service Trust Portal
 
-## Demoszenario
+## Vorführungsszenario
 
 In dieser Demo zeigen Sie die im Service Trust Portal verfügbaren Funktionen und Inhalte. Die Navigation im Trust Center ist ebenso enthalten, um Informationen zum Datenschutz bei Microsoft anzuzeigen.
 
@@ -22,7 +22,7 @@ In diesem Teil führen Sie den Kursteilnehmer schrittweise durch die im Service 
 
 1. Öffnen Sie Microsoft Edge.
 
-1. Geben Sie in der Adressleiste **aka.ms/STP** ein. Dadurch gelangen Sie zur Landing Page des Service Trust Portals. Das Service Trust Portal enthält Details zur Implementierung von Steuerungen und Prozessen von Microsoft, die unsere Clouddienste und die darin enthaltenen Kundendaten schützen.
+1. Geben Sie in der Adressleiste **aka.ms/STP** ein. Dadurch gelangen Sie zur Landing Page für das Service Trust Portal. Das Service Trust Portal enthält Details zur Implementierung von Steuerungen und Prozessen von Microsoft, die unsere Clouddienste und die darin enthaltenen Kundendaten schützen.
 
 1. Auf einige der Ressourcen im Service Trust Portal können Sie nur zugreifen, wenn Sie sich als authentifizierter Benutzer mit Ihrem Konto für Microsoft Cloud Services anmelden und die Microsoft-Geheimhaltungsvereinbarung für Compliancematerialien lesen und akzeptieren. In der oberen rechten Ecke der Landing Page für das Service Trust Portal wird die Option „Anmelden“ angezeigt.  **Melden** Sie sich mit Ihren Administratoranmeldeinformationen an, und wählen Sie **Zustimmen** aus, wenn Sie dazu aufgefordert werden, um die Geheimhaltungsvereinbarung für Compliancematerialien von Microsoft zu akzeptieren.
 
@@ -30,7 +30,7 @@ In diesem Teil führen Sie den Kursteilnehmer schrittweise durch die im Service 
 
 1. Beachten Sie die Beschreibung oben auf der Seite und die verfügbaren relevanten Dokumente.  Wählen Sie die **Auslassungspunkte** unter der Überschrift „Weitere Optionen“ für das erste Dokument in der Liste aus.  Beachten Sie die verschiedenen Optionen.
 
-1. Wählen Sie **In Bibliothek speichern** aus.  Ein Fenster wird angezeigt, in dem Sie gefragt werden, ob Sie dieses Dokument abonnieren möchten.  Wählen Sie **Ja** aus. Es wird ein Fenster für Benachrichtigungseinstellungen angezeigt. Beachten Sie die verschiedenen Einstellungen. Wählen Sie **Speichern** aus.
+1. Wählen Sie **In Bibliothek speichern** aus.  Ein Fenster wird angezeigt, in dem Sie gefragt werden, ob Sie dieses Dokument abonnieren möchten.  Wählen Sie **Ja** aus. Es wird ein Fenster für Benachrichtigungseinstellungen angezeigt. Beachten Sie die verschiedenen Einstellungen. Wählen Sie **Speichern**.
 
 1. Um zu überprüfen, ob das Dokument gespeichert wurde, scrollen Sie nach oben bis an den Anfang der Seite, und wählen Sie **Meine Bibliothek** aus.  Wählen Sie für jedes Dokument auf der Seite „Meine Bibliothek“ die Auslassungspunkte aus, um die verfügbaren Optionen anzuzeigen.
 

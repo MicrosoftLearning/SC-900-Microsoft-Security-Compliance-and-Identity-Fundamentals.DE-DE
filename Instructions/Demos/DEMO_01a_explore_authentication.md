@@ -12,7 +12,7 @@ Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 - Module: Beschreibung der Authentifizierungsfunktionen von Microsoft Entra ID.
 - Lerneinheiten: Beschreiben von Authentifizierungsmethoden und Beschreiben der mehrstufigen Authentifizierung.
 
-## Demoszenario
+## Vorführungsszenario
 
 In dieser Demo erkunden Sie die verschiedenen Einstellungen, die für die Authentifizierung in Microsoft Entra verfügbar sind.
 

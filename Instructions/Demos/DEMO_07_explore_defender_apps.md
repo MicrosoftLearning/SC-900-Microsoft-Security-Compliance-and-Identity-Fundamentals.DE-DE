@@ -4,7 +4,7 @@ Demo: Title: 'Microsoft Defender für Cloud-Apps' Module: 'Lernpfad: Beschreiben
 ---
 --->
 
-# Demo: Microsoft Defender für Cloud-Apps
+# Demo: Microsoft Defender for Cloud Apps
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 
@@ -12,7 +12,7 @@ Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 - Modul: Beschreiben der Bedrohungsschutzfunktionen von Microsoft 365
 - Lerneinheit: Beschreiben von Microsoft Defender für Cloud-Apps
 
-## Demoszenario
+## Vorführungsszenario
 
 In dieser Demo zeigen Sie die Funktionen von Microsoft Defender for Cloud-Apps.  Sie führen die Lernenden durch die Informationen, die im Cloud Discovery-Dashboard verfügbar sind, den Cloud App-Katalog, die Möglichkeiten zur Untersuchung der Ergebnisse mit dem Aktivitätsprotokoll und Dateien sowie die Möglichkeiten zur Kontrolle der Auswirkungen auf Ihr Unternehmen mithilfe von Richtlinien.  Hinweis: Eine Organisation muss über eine Lizenz verfügen, um Microsoft Defender for Cloud-Apps verwenden zu können, einen benutzerbasierten Abonnementdienst.  
 
@@ -30,13 +30,13 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Defender for Cloud-Apps. 
 
 1. Wählen Sie **Ermittelte Apps** aus. Das Fenster „Ermittelte Apps“ enthält eine ausführliche Ansicht der ermittelten Apps, einschließlich der Risikobewertung, des Datenverkehrs, der Anzahl der Benutzer und mehr.
     1. Wählen Sie für ein beliebiges Element in der Liste die **Auslassungspunkte** in der Spalte der Aktion der Tabelle aus.  Beachten Sie die verschiedenen Optionen, die verfügbar sind, einschließlich der Funktion, mit der eine Apps als sanktioniert oder nicht sanktioniert markiert werden kann.  Wählen Sie die Auslassungspunkte erneut aus, um das Aktionsfeld zu schließen.
-    1. Durch die Auswahl eines bestimmten Zeilenelements wird für die bestimmte App eine Detailseite geöffnet.  Wählen Sie ein Element in der Liste aus.  Wählen Sie für das ausgewählte Element die Registerkarte **Cloud-App-Nutzung** aus, um ausführlichere Informationen wie **Nutzung**, **Benutzer**, **IP-Adressen** und **Warnungen** anzuzeigen. Wenn Sie mit dem Untersuchen der Detailseite fertig sind, kehren Sie zur Seite „Ermittelte Apps“ zurück, indem Sie oben auf der Seite **Cloud Discovery** auswählen.  Wenn Sie „Cloud Discovery“ im linken Navigationsbereich auswählen, gelangen Sie zurück zur Dashboardansicht.
+    1. Durch die Auswahl eines bestimmten Zeilenelements wird für die bestimmte App eine Detailseite geöffnet.  Wählen Sie ein Element aus der Liste aus.  Wählen Sie für das ausgewählte Element die Registerkarte **Cloud-App-Nutzung** aus, um ausführlichere Informationen wie **Nutzung**, **Benutzer**, **IP-Adressen** und **Warnungen** anzuzeigen. Wenn Sie mit dem Untersuchen der Detailseite fertig sind, kehren Sie zur Seite „Ermittelte Apps“ zurück, indem Sie oben auf der Seite **Cloud Discovery** auswählen.  Wenn Sie „Cloud Discovery“ im linken Navigationsbereich auswählen, gelangen Sie zurück zur Dashboardansicht.
     1. Wählen Sie oben auf der Seite die Registerkarte **IP-Adressen** aus. Dort finden Sie Daten wie die Anzahl der Transaktionen, das Datenverkehrsvolumen und die Uploadvolumen nach IP-Adresse.  Beachten Sie, dass Sie auch nach einer bestimmten IP-Adresse filtern oder die Daten zur weitergehenden Analyse exportieren können.
     1. Wählen Sie oben auf der Seite die Option **Benutzer** aus.  Dies ist derselbe Informationstyp, der bei der Auswahl von IP-Adressen bereitgestellt wird. Diese Angaben werden jedoch für einzelne Benutzer aufgelistet.  Auch hier filtern Sie nach einem bestimmten Benutzer und exportieren die Daten zur weitergehenden Analyse.
 
 1. Ein wichtiger Punkt ist, dass die auf der Seite Cloud Discovery und den zugehörigen Registerkarten bereitgestellten Informationen entweder auf Momentaufnahmeberichten von Datenverkehrsprotokollen beruhen, die Sie manuell von Ihren Firewalls und Proxys hochladen, oder auf fortlaufenden Berichten, die alle Protokolle analysieren, die aus Ihrem Netzwerk mit Cloud App Security weitergeleitet werden.  Wählen Sie in der oberen rechten Ecke der Seite **Aktionen** aus, um zu erfahren, wo dies eingerichtet wird.
     1. Wählen Sie die erste Option **Momentaufnahmebericht zu Cloud Discovery erstellen** und dann **Weiter** aus. Hier tragen Sie die erforderlichen Details ein und laden Datenverkehrsprotokolle hoch, um einen Bericht zu generieren und hochzuladen.  Wählen Sie **Beenden** aus, und wählen Sie erneut **Beenden** aus, wenn Sie gefragt werden, ob Sie sicher sind.  Die für Ihren Lab-Mandanten angezeigten Daten stammen aus einem Momentaufnahmebericht. Sie können diese Informationen oben im Cloud Discovery-Fenster anzeigen.
-    1. Wählen Sie zum Anzeigen der Option für fortlaufende Berichte **Aktionen** in der oberen rechten Ecke der Seite aus, und wählen Sie im Dropdown den Eintrag **Automatischen Upload konfigurieren** aus.  Es sind keine Datenquellen verbunden. Hier würden Sie jedoch eine Datenquelle hinzufügen. Wählen Sie **Datenquelle hinzufügen** und dann den Dropdownpfeil im Feld **Appliance auswählen** aus, um die Appliancetypen anzuzeigen, die Sie als Datenquelle verbinden können.  Wählen Sie **Abbrechen** aus, um den Vorgang zu beenden.
+    1. Wählen Sie zum Anzeigen der Option für fortlaufende Berichte **Aktionen** in der oberen rechten Ecke der Seite aus, und wählen Sie im Dropdown den Eintrag **Automatischen Upload konfigurieren** aus.  Es sind keine Datenquellen verbunden. Hier würden Sie jedoch eine Datenquelle hinzufügen. Wählen Sie **Datenquelle hinzufügen** und dann den Dropdownpfeil im Feld **Appliance auswählen** aus, um die Appliancetypen anzuzeigen, die Sie als Datenquelle verbinden können.  Wählen Sie **Abbrechen** aus, um zu beenden.
     1. Wählen Sie im linken Navigationsbereich **Cloud Discovery** aus, um zur Seite „Cloud Discovery“ zurückzukehren.
 
 1. Mit Microsoft 365 Defender for Cloud-Apps können Sie direkt eine Verbindung mit Apps herstellen, indem Sie App-Connectors festlegen, die Ihnen eine bessere Sichtbarkeit und Kontrolle über Ihre Cloud-Apps ermöglichen. Wählen Sie in der oberen rechten Ecke des Bildschirms **Aktionen** und dann **Cloud Discovery-Einstellungen** aus.  Beachten Sie die verfügbaren Einstellungen.
@@ -57,7 +57,7 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Defender for Cloud-Apps. 
 
 ### Teil 2 der Demo: Erkunden des Cloud-App-Katalogs
 
-In diesem Teil der Demo zeigen Sie die Funktionen des Cloud-App-Katalogs. Cloud Discovery analysiert Ihre Datenverkehrsprotokolle im Abgleich mit dem Cloud-App-Katalog von Microsoft Defender for Cloud-Apps, der mehr als 31.000 Cloud-Apps enthält. Die Apps werden nach über 80 Risikofaktoren bewertet, damit Sie laufende Einblicke in die Verwendung der Cloud, die Schatten-IT und die Risiken haben, die die Schatten-IT für Ihre Organisation darstellt.  
+In diesem Teil der Demo zeigen Sie die Funktionen des Cloud-App-Katalogs. Cloud Discovery analysiert Ihre Datenverkehrsprotokolle im Abgleich mit dem Cloud-App-Katalog von Microsoft Defender for Cloud-Apps, der mehr als 31.000 Cloud-Apps enthält. Die Apps werden nach über 80 Risikofaktoren bewertet, damit Sie laufende Einblicke in die Verwendung der Cloud, die Schatten-IT und die Risiken haben, die die Schatten-IT für Ihre Organisation darstellt.  
 
 1. Wählen Sie im linken Navigationsbereich **Cloud-App-Katalog** aus.
 
@@ -73,7 +73,7 @@ Erkunden Sie Möglichkeiten, die aufgezeichneten Aktivitäten mit dem Aktivität
 
 1. Wählen Sie im linken Navigationsbereich **Aktivitätsprotokoll** aus. Hier können Sie alle Aktivitäten im Zusammenhang mit Ihren verbundenen Apps anzeigen. Möglicherweise werden keine Daten aufgelistet, da es mehrere Stunden dauern kann, rückwirkende Überprüfungen durchzuführen, nachdem Überwachung aktiviert wurde, und für Lab-Mandanten möglicherweise Verzögerungen auftreten, die länger als normal sind. Beachten Sie die verfügbaren Filteroptionen und die Option zum Erstellen einer neuen Richtlinie aus der Suche.
 
-1. Um den Datenschutz zu gewährleisten, erhalten Sie von Microsoft Defender for Cloud Apps Einblick in alle Dateien aus Ihren verbundenen Apps, z. B. alle in SharePoint und Salesforce gespeicherten Dateien. Wählen Sie im linken Navigationsbereich die Option **Dateien** aus, und erkunden Sie sie.
+1. Um den Datenschutz zu gewährleisten, erhalten Sie Einblick von Microsoft Defender for Cloud Apps in alle Dateien aus Ihren verbundenen Apps, z. B. alle in SharePoint und Salesforce gespeicherten Dateien. Wählen Sie im linken Navigationsbereich die Option **Dateien** aus, und erkunden Sie sie.
     1. Die Möglichkeit zum Überprüfen von Dateien muss im Rahmen der Informationsschutzeinstellungen von Microsoft 365 Cloud-Apps aktiviert werden.  Wählen Sie **Dateiüberwachung aktivieren** aus, und wählen Sie das Kontrollkästchen neben **Dateiüberwachung aktivieren** aus, und wählen Sie dann **Speichern** aus.  
     1. Kehren Sie zu den Dateien zurück, indem Sie im linken Navigationsbereich unter Cloud-Apps die Option **Dateien** auswählen. Möglicherweise wird nichts aufgeführt, da es einige Tage dauern kann, bis Sie Ihre Dateien sehen können, aber es lohnt sich, weil Sie die Liste der Dateidaten nach App, Besitzer, Zugriffsebene, Dateityp und übereinstimmender Richtlinie filtern können. Sie können außerdem eine neue Richtlinie aus der Suche und dem Export der Daten erstellen.
 

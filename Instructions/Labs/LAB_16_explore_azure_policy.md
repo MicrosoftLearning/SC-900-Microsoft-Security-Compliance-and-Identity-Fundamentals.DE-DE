@@ -1,10 +1,10 @@
-<a name="---"></a><!---
+<!---
 ---
 Lab: Title: 'Erkunden von Azure Policy' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 6: Beschreiben der Ressourcengovernancefunktionen in Azure; Lerneinheit 2: Beschreiben von Azure Policy'
 ---
 --->
 
-# <a name="lab-explore-azure-policy"></a>Lab: Umgehen mit Azure Policy
+# Lab: Umgehen mit Azure Policy
 
 Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
@@ -12,13 +12,13 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 - Modul: Beschreiben der Ressourcengovernancefunktionen in Azure
 - Lerneinheit: Beschreiben von Azure Policy
 
-## <a name="lab-scenario"></a>Labszenario
+## Labszenario
 
 Azure Policy hilft bei der Durchsetzung von Organisationsstandards und bei der Bewertung der Compliance nach Bedarf. Azure Policy wertet Ressourcen in Azure aus, indem die Eigenschaften dieser Ressourcen mit Geschäftsregeln verglichen werden. In diesem Lab erstellen Sie eine Richtlinie und sehen sich die Auswirkungen dieser Richtlinie an.  Außerdem erhalten Sie Informationen zu Compliance und Wartung, die auf der Richtlinienseite verfügbar sind.
 
 **Geschätzte Dauer**: 15 bis 20 Minuten
 
-### <a name="task-1"></a>Aufgabe 1
+### Aufgabe 1
 
 In dieser Aufgabe erstellen Sie eine einfache Richtlinienzuweisung, die ein Tag für eine Ressourcengruppe erfordert.
 1.  Öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein.
@@ -37,7 +37,7 @@ In dieser Aufgabe erstellen Sie eine einfache Richtlinienzuweisung, die ein Tag 
 
 1. Sie beginnen auf der Registerkarte „Grundlagen“.
     1. Behalten Sie für den Bereich die Standardeinstellung bei. In diesem Fall ist der Bereich der Richtlinie das Azure-Abonnement, das vom autorisierten Lab-Hoster (ALH) bereitgestellt wird.
-    1. Wählen Sie für die Richtliniendefinition die **Auslassungspunkte** aus.  Es wird eine Liste der verfügbaren Richtliniendefinitionen bereitgestellt.  Geben Sie in der Suchleiste **Tag erforderlich** ein. Wählen Sie in den Suchergebnissen **Tag für Ressourcengruppen erforderlich** aus (möglicherweise müssen Sie nach unten scrollen), und drücken Sie dann auf **Auswählen**.  Hinweis: Durch diese Richtlinie soll verhindert werden, dass neue Ressourcengruppen erstellt werden, welche die Anforderung nicht erfüllen.  
+    1. Wählen Sie für die Richtliniendefinition **Auslassungspunkte** aus.  Es wird eine Liste der verfügbaren Richtliniendefinitionen bereitgestellt.  Geben Sie in der Suchleiste **Tag erforderlich** ein. Wählen Sie in den Suchergebnissen **Tag für Ressourcengruppen erforderlich** aus (möglicherweise müssen Sie nach unten scrollen), und drücken Sie dann auf **Auswählen**.  Hinweis: Durch diese Richtlinie soll verhindert werden, dass neue Ressourcengruppen erstellt werden, welche die Anforderung nicht erfüllen.  
     1. Beachten Sie den standardmäßigen Zuweisungsnamen.  Behalten Sie den Namen unverändert bei.
     1. Stellen Sie sicher, dass die Richtlinienerzwingung auf **Aktiviert** festgelegt ist.
 
@@ -55,7 +55,7 @@ In dieser Aufgabe erstellen Sie eine einfache Richtlinienzuweisung, die ein Tag 
 
 1. Sie befinden sich nun auf der Homepage der Azure-Dienste.  Lassen Sie diese Seite geöffnet. Sie benötigen sie für die nächste Aufgabe.
 
-### <a name="task-2"></a>Aufgabe 2
+### Aufgabe 2
 
 In dieser Aufgabe lernen Sie die Auswirkungen der Azure-Richtlinienzuweisung kennen, indem Sie versuchen, eine Ressourcengruppe in Azure zu erstellen, die kein Tag aufweist.
 
@@ -93,7 +93,7 @@ In dieser Aufgabe lernen Sie die Auswirkungen der Azure-Richtlinienzuweisung ken
 
 1. Lassen Sie die Browserregisterkarte geöffnet, sie wird für die nächste Aufgabe benötigt.
 
-### <a name="task-3-optional"></a>Aufgabe 3 (optional)
+### Aufgabe 3 (optional)
 
 In dieser Aufgabe führen Sie die Schritte zum Warten einer nicht konformen Ressourcengruppe durch. HINWEIS: Bei dem für die Übung verwendeten Azure-Abonnement kommt es zu einer längeren als der normalen Verzögerung bei der Aktualisierung des Konformitätsstatus einer gewarteten Ressourcengruppe.
 
@@ -112,6 +112,7 @@ In dieser Aufgabe führen Sie die Schritte zum Warten einer nicht konformen Ress
 
 1. Wählen Sie im linken Navigationsbereich **Compliance** aus.  Analog zur Übersichtsseite können Sie hier den Compliancezustand der aufgelisteten Richtlinien und/oder Initiativen anzeigen.  HINWEIS: Obwohl Sie das Tag der Ressourcengruppe hinzugefügt haben, dauert es einige Zeit, bis der Status aktualisiert wird.  Für Azure-Abonnements, die für Lab-Zwecke verwendet werden, können Verzögerungen auftreten, die länger als normal sind. Wenn Sie warten möchten, bis der Konformitätsstatus für diese Ressource aktualisiert wurde, beenden Sie das Lab nicht. Je nach Lab-Umgebung kann die Aktualisierung eine Stunde oder länger dauern.  
 
-### <a name="review"></a>Überprüfung
+### Überprüfung
 
 In diesem Lab haben Sie den Prozess zum Erstellen einer Azure-Richtlinienzuweisung durchlaufen und die Auswirkungen dieser Richtlinie erkennen können.
+
