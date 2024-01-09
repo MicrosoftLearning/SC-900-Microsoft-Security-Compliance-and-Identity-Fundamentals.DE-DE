@@ -27,11 +27,11 @@ In dieser Einrichtungsaufgabe aktivieren Sie die Überwachungsprotokollfunktion 
 
 1. Wählen Sie im linken Navigationsbereich des Microsoft Purview-Complianceportals **Alle anzeigen** aus.
 
-1. Wählen Sie im linken Navigationsbereich **Audit** aus.  Hinweis: Auf die Überwachungsfunktionalität kann auch über die Microsoft 365 Defender-Startseite zugegriffen werden.
+1. Wählen Sie im linken Navigationsbereich unter „Lösungen“ **Audit** aus.  Hinweis: Auf die Audit-Funktionalität kann auch über die Microsoft 365 Defender-Homepage zugegriffen werden.
 
-1. Stellen Sie sicher, dass die Registerkarte **Suche** ausgewählt (unterstrichen) ist.
+1. Vergewissern Sie sich, dass die Registerkarte **Suche** ausgewählt (unterstrichen) ist.
 
-1. Sobald Sie auf der Seite "Überwachung" landen, warten Sie 2-3 Minuten.  Wenn Überwachung NICHT aktiviert ist, wird oben auf der Seite ein blauer Balken mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Sobald die Überwachung aktiviert ist, wird die blaue Leiste ausgeblendet.  Wird der blaue Balken nicht angezeigt, ist Überwachung bereits aktiviert, und keine weitere Aktion ist erforderlich.
+1. Sobald Sie auf der Seite „Audit“ landen, warten Sie 2–3 Minuten.  Wenn Überwachung NICHT aktiviert ist, wird oben auf der Seite ein blauer Balken mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Sobald die Durchführung von Audits aktiviert ist, wird die blaue Leiste ausgeblendet.  Wird der blaue Balken nicht angezeigt, ist Überwachung bereits aktiviert, und keine weitere Aktion ist erforderlich.
 
 1. Wählen Sie im linken Navigationsbereich die **Startseite** aus, um zur Startseite des Microsoft Purview-Complianceportals zurückzukehren.
 
@@ -88,12 +88,12 @@ Für diese Einrichtung verwenden Sie die Azure Cloud Slice-Umgebung, die von dem
 
 1. Geben Sie in der blauen Suchleiste oben auf der Seite **Netzwerksicherheitsgruppen** ein. Wählen Sie in den Ergebnissen **Netzwerksicherheitsgruppen** (nicht „Klassische Netzwerksicherheitsgruppen“) aus.
 
-1. Wählen Sie **Erstellen einer Netzwerksicherheitsgruppe** aus. Auf der Registerkarte Grundlagen der Seite Netzwerksicherheitsgruppe, geben Sie die folgenden Einstellungen an:
+1. Wählen Sie **Erstellen einer Netzwerksicherheitsgruppe** aus. Geben Sie auf der Registerkarte „Allgemein“ der Seite „Netzwerksicherheitsgruppe erstellen“ die folgenden Einstellungen an:
     1. Abonnement: Behalten Sie den Standardwert bei (dies ist das Azure-Abonnement, das vom autorisierten Lab-Hoster bereitgestellt wird).
     1. Ressourcengruppe:  **LabsSC900**
     1. Name:  **NSG-SC900**
     1. Region: Übernehmen Sie den Standardwert.
-    1. Klicken Sie auf**Überprüfen + erstellen** und dann auf **Erstellen**.
+    1. Klicken Sie auf **Überprüfen + erstellen** und dann auf **Erstellen**.
     1. Sobald die Bereitstellung abgeschlossen ist (dies geschieht sehr schnell), wählen Sie **Zu Ressource wechseln** aus.
 
 ### Microsoft Defender für Cloud
@@ -124,14 +124,14 @@ Hier geht es einfach darum, zum ersten Mal auf Microsoft Defender Cloud zuzugrei
 
 1. Wählen Sie auf der Seite zum Hinzufügen von Microsoft Sentinel zu einem Arbeitsbereich die Option **Neuen Arbeitsbereich erstellen** aus.
 
-1. Geben Sie auf der Registerkarte "Grundlagen" des Arbeitsbereichs "Log Analytics erstellen" Folgendes ein:
+1. Geben Sie auf der Registerkarte „Grundlagen“ des Arbeitsbereichs „Log Analytics erstellen“ Folgendes ein:
     1. Abonnement: Übernehmen Sie die Standardeinstellung.
-    1. Ressourcengruppe: Wählen Sie **Neu erstellen** aus. Geben Sie dann **SC900-Sentinel RG** ein, und wählen Sie **OK** aus.
+    1. Ressourcengruppe: Wählen Sie **Neu erstellen** aus. Geben Sie dann **SC900-Sentinel RG** ein, und klicken Sie auf **OK**.
     1. Name: **SC900-LogAnalytics-workspace**.
     1. Region: **Ost US** (Sie können eine andere Standardregion basierend auf Ihrem Standort auswählen).
     1. Wählen Sie **Überprüfen und erstellen** aus (es werden keine Tags konfiguriert).
-    1. Vergewissern Sie sich, dass Sie die richtigen Informationen eingegeben haben, und wählen Sie dann **Erstellen** aus.
-    1. Es kann eine oder zwei Minuten dauern, bis der ne-Arbeitsbereich aufgelistet wird, wenn sie immer noch nicht angezeigt wird, wählen Sie **Aktualisieren**und dann** Hinzufügen** aus.
+    1. Vergewissern Sie sich, dass Sie die richtigen Informationen eingegeben haben, und klicken Sie dann auf **Erstellen**.
+    1. Es kann eine oder zwei Minuten dauern, bis der Arbeitsbereich aufgelistet wird. Wenn er dann immer noch nicht angezeigt wird, klicken Sie auf **Aktualisieren** und dann auf **Hinzufügen**.
 
 1. Nachdem der neue Arbeitsbereich hinzugefügt wurde, wird die Seite „Microsoft Sentinel | News und Leitfäden“ angezeigt, die angibt, dass die kostenlose Microsoft Sentinel-Testversion aktiviert ist.  Klickan Sie auf **OK**.
 

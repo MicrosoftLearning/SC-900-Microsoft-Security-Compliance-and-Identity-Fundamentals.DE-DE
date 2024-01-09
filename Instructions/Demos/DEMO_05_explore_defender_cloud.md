@@ -4,7 +4,7 @@ Demo: Titel: „Microsoft Defender for Cloud“ Lernpfad/Modul/Lerneinheit: „L
 ---
 --->
 
-# Demo: Microsoft Defender for Cloud
+# Demo: Microsoft Defender für Cloud
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 
@@ -32,7 +32,7 @@ In dieser Demoaufgabe durchlaufen Sie auf hoher Ebene einige der Funktionen von 
 
 1. Wählen Sie im linken Navigationsbereich **Sicherheitsrichtlinie** aus. Diese Option ist unter den Richtlinieneinstellungen aufgeführt. Wenn die Standardinitiative nicht zugewiesen ist, wählen Sie **Richtlinie zuweisen** aus.
     1. Beachten Sie, dass auf der Registerkarte „Grundlagen“ die Initiativendefinition „Microsoft Cloud Security Benchmark“ lautet.  Diese ist abgeblendet, da dies die Standardinitiative ist und wir hier nur die Zuweisung durchführen.
-    1. Klicken Sie auf**Überprüfen + erstellen** und dann auf **Erstellen**. Wenn Sie möchten, können Sie durch die konfigurierbaren Parameter für die verschiedenen Registerkarten scrollen, bevor Sie die Option zum Überprüfen und Erstellen auswählen.
+    1. Klicken Sie auf **Überprüfen + erstellen** und dann auf **Erstellen**. Wenn Sie möchten, können Sie durch die konfigurierbaren Parameter für die verschiedenen Registerkarten scrollen, bevor Sie die Option zum Überprüfen und Erstellen auswählen.
     1. Dies ist ein wichtiger Schritt, um sicherzustellen, dass Sie Sicherheitsempfehlungen basierend auf Microsoft Cloud Security Benchmark sehen können.  
 
 1. Beachten Sie auch, dass es vorgefertigte Branchenstandards und gesetzliche Bestimmungen gibt, die Sie hinzufügen können. Wenn die aufgeführten Standards als veraltet angezeigt werden, wählen Sie **Weitere Standards hinzufügen** aus, um eine vollständige Liste anzuzeigen.  Wählen Sie einen aus der Liste aus, und fügen Sie ihn dann manuell hinzu, indem Sie **Überprüfen + erstellen** und dann **Erstellen** auswählen.  Sie sehen, dass er der Liste der Branchen- und Standardvorschriften hinzugefügt wird.

@@ -4,7 +4,7 @@ Demo: Title: 'Microsoft Defender für Cloud-Apps' Module: 'Lernpfad: Beschreiben
 ---
 --->
 
-# Demo: Microsoft Defender for Cloud Apps
+# Demo: Microsoft Defender für Cloud Apps
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 

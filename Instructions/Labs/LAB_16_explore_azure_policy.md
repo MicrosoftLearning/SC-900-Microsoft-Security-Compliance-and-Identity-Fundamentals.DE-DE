@@ -37,7 +37,7 @@ In dieser Aufgabe erstellen Sie eine einfache Richtlinienzuweisung, die ein Tag 
 
 1. Sie beginnen auf der Registerkarte „Grundlagen“.
     1. Behalten Sie für den Bereich die Standardeinstellung bei. In diesem Fall ist der Bereich der Richtlinie das Azure-Abonnement, das vom autorisierten Lab-Hoster (ALH) bereitgestellt wird.
-    1. Wählen Sie für die Richtliniendefinition **Auslassungspunkte** aus.  Es wird eine Liste der verfügbaren Richtliniendefinitionen bereitgestellt.  Geben Sie in der Suchleiste **Tag erforderlich** ein. Wählen Sie in den Suchergebnissen **Tag für Ressourcengruppen erforderlich** aus (möglicherweise müssen Sie nach unten scrollen), und drücken Sie dann auf **Auswählen**.  Hinweis: Durch diese Richtlinie soll verhindert werden, dass neue Ressourcengruppen erstellt werden, welche die Anforderung nicht erfüllen.  
+    1. Klicken Sie auf die **Auslassungspunkte**, um zur Richtliniendefinition zu gelangen.  Es wird eine Liste der verfügbaren Richtliniendefinitionen bereitgestellt.  Geben Sie in der Suchleiste **Tag erforderlich** ein. Wählen Sie in den Suchergebnissen **Tag für Ressourcengruppen erforderlich** aus (möglicherweise müssen Sie nach unten scrollen), und drücken Sie dann auf **Auswählen**.  Hinweis: Durch diese Richtlinie soll verhindert werden, dass neue Ressourcengruppen erstellt werden, welche die Anforderung nicht erfüllen.  
     1. Beachten Sie den standardmäßigen Zuweisungsnamen.  Behalten Sie den Namen unverändert bei.
     1. Stellen Sie sicher, dass die Richtlinienerzwingung auf **Aktiviert** festgelegt ist.
 
@@ -47,7 +47,7 @@ In dieser Aufgabe erstellen Sie eine einfache Richtlinienzuweisung, die ein Tag 
 
 1. Behalten Sie die Standardkorrektureinstellungen auf der Registerkarte „Wartung“ unverändert bei, und wählen Sie dann **Weiter** aus.
 
-1. Sie befinden sich jetzt auf der Registerkarte „Nichtkonformitätsmeldungen“. Geben Sie im Feld „Nichtkonformitätsmeldung“ die Angabe **Umgebungstag ist erforderlich** ein, und wählen Sie dann **Weiter** aus. Hinweis: Diese Meldung wird als Grund für Nichtkonformität für Ressourcengruppen angezeigt, die vor der Richtlinienzuweisung erstellt wurden und das Umgebungstag nicht aufweisen.
+1. Sie befinden sich jetzt auf der Registerkarte „Nichtkonformitätsmeldungen“. Geben Sie im Feld „Nichtkonformitätsmeldung“ die Angabe **Umgebungstag ist erforderlich** ein, und wählen Sie dann **Weiter** aus. Hinweis: Diese Meldung wird als Grund für Nichtkonformität für Ressourcengruppen angezeigt, die vor der Richtlinienzuweisung erstellt wurden und das Umgebungs-Tag nicht aufweisen.
 
 1. Überprüfen Sie die Richtlinienzuweisung, und wählen Sie dann **Erstellen** aus.  Wählen Sie **Aktualisieren** aus, falls die Richtlinie nicht sofort angezeigt wird. Hinweis: Es kann bis zu 30 Minuten dauern, bis die Richtlinie wirksam wird. In der Regel geschieht dies aber viel schneller.
 
@@ -95,7 +95,7 @@ In dieser Aufgabe lernen Sie die Auswirkungen der Azure-Richtlinienzuweisung ken
 
 ### Aufgabe 3 (optional)
 
-In dieser Aufgabe führen Sie die Schritte zum Warten einer nicht konformen Ressourcengruppe durch. HINWEIS: Bei dem für die Übung verwendeten Azure-Abonnement kommt es zu einer längeren als der normalen Verzögerung bei der Aktualisierung des Konformitätsstatus einer gewarteten Ressourcengruppe.
+In dieser Aufgabe führen Sie die Schritte zum Warten einer nicht konformen Ressourcengruppe durch. HINWEIS: Bei dem für das Lab verwendeten Azure-Abonnement kommt es zu einer längeren als der normalen Verzögerung bei der Aktualisierung des Konformitätsstatus einer gewarteten Ressourcengruppe.
 
 1. Wählen Sie auf der Azure-Homepage die Option **Richtlinie** aus. Dadurch wird die Azure Policy-Homepage geöffnet, die eine Dashboardansicht bereitstellt.  Der Bereich für die Dashboardansicht ist das Azure-Abonnement, das vom autorisierten Lab-Hoster bereitgestellt wird.  
 
@@ -110,7 +110,7 @@ In dieser Aufgabe führen Sie die Schritte zum Warten einer nicht konformen Ress
 
 1. Kehren Sie nun zur Richtlinienseite zurück.  Platzieren Sie den Mauszeiger auf dem blauen Suchfeld oben auf der Seite, und wählen Sie **Richtlinie** aus.
 
-1. Wählen Sie im linken Navigationsbereich **Compliance** aus.  Analog zur Übersichtsseite können Sie hier den Compliancezustand der aufgelisteten Richtlinien und/oder Initiativen anzeigen.  HINWEIS: Obwohl Sie das Tag der Ressourcengruppe hinzugefügt haben, dauert es einige Zeit, bis der Status aktualisiert wird.  Für Azure-Abonnements, die für Lab-Zwecke verwendet werden, können Verzögerungen auftreten, die länger als normal sind. Wenn Sie warten möchten, bis der Konformitätsstatus für diese Ressource aktualisiert wurde, beenden Sie das Lab nicht. Je nach Lab-Umgebung kann die Aktualisierung eine Stunde oder länger dauern.  
+1. Wählen Sie im linken Navigationsbereich **Compliance** aus.  Analog zur Übersichtsseite können Sie hier den Compliancezustand der aufgelisteten Richtlinien und/oder Initiativen anzeigen.  HINWEIS: Obwohl Sie der Ressourcengruppe das Tag hinzugefügt haben, dauert es einige Zeit, bis der Status aktualisiert wird.  Für Azure-Abonnements, die für Lab-Zwecke verwendet werden, können Verzögerungen auftreten, die länger als normal sind. Wenn Sie warten möchten, bis der Konformitätsstatus für diese Ressource aktualisiert wurde, beenden Sie das Lab nicht. Je nach Lab-Umgebung kann die Aktualisierung eine Stunde oder länger dauern.  
 
 ### Überprüfung
 

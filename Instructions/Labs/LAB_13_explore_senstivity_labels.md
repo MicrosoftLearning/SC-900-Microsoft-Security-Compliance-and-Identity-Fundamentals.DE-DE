@@ -20,7 +20,7 @@ In diesem Lab erkunden Sie die Funktionen von Vertraulichkeitsbezeichnungen.  Si
 
 ### Aufgabe 1
 
-In dieser Aufgabe erfahren Sie, wozu Vertraulichkeitsbezeichnungen dienen, indem Sie die Einstellungen für eine bereits erstellte Vertraulichkeitsbezeichnung und für die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung durchgehen.
+In dieser Aufgabe erfahren Sie, wozu Vertraulichkeitsbezeichnungen dienen, indem Sie eine neue Bezeichnung erstellen und eine Richtlinie zur Veröffentlichung der Bezeichnung erstellen.
 
 1. Öffnen Sie die Browserregisterkarte für die Startseite von Microsoft Purview.  Wenn Sie die Registerkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **https://admin.microsoft.com** ein. Melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, der vom autorisierten Labhoster (ALH) bereitgestellt wird. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** und dann **Compliance** aus.  Die Startseite des Microsoft Purview-Complianceportals wird auf einer neuen Browserseite geöffnet.
 
@@ -30,13 +30,13 @@ In dieser Aufgabe erfahren Sie, wozu Vertraulichkeitsbezeichnungen dienen, indem
 1. Wählen Sie im linken Navigationsbereich **Bezeichnungen** aus.
    1. Möglicherweise sehen Sie auf der Bezeichnungenseite ein gelbes Informationsfeld, das anzeigt, dass Ihre Organisation die Fähigkeit zur Verarbeitung von Inhalten in Office-Onlinedateien, die mit verschlüsselten Vertraulichkeitsbezeichnungen versehen und in OneDrive und SharePoint gespeichert sind, nicht aktiviert hat.  Wählen Sie **Jetzt aktivieren** aus.  Wenn dies passiert, kann es zu einer Verzögerung für die Weitergabe der Einstellung über das System kommen, und es müssen zusätzliche Schritte ausgeführt werden, um Teams, SharePoint-Websites und Microsoft 365-Gruppen zu schützen.
 
-1. Einige Bezeichnungen wurden in Ihrem Microsoft 365-Labmandanten vorkonfiguriert. Wählen Sie die Bezeichnung" **Vertraulich-Finanzen** aus.  Ein Fenster wird geöffnet, das Informationen über diese Bezeichnung bereitstellt.  Beachten Sie die Einstellungen für diese Bezeichnung.  Wählen Sie oben auf der Seite das **Stiftsymbol** aus, um einige der grundlegenden Konfigurationseinstellungen anzuzeigen. Wenn das Stiftsymbol nicht angezeigt wird, wählen Sie die Auslassungspunkte aus.
+1. Einige Bezeichnungen wurden in Ihrem Microsoft 365-Labmandanten vorkonfiguriert. Wählen Sie die Bezeichnung namens **Vertraulich-Finanzen** aus.  Ein Fenster wird geöffnet, das Informationen über diese Bezeichnung bereitstellt.  Beachten Sie die Einstellungen für diese Bezeichnung.  Wählen Sie oben auf der Seite das **Stiftsymbol** aus, um einige der grundlegenden Konfigurationseinstellungen anzuzeigen. Wenn das Stiftsymbol nicht angezeigt wird, wählen Sie die Auslassungspunkte aus.
     1. Bei der Konfiguration werden zunächst ein Name und eine Beschreibung für Ihre Bezeichnung angegeben.  Nehmen Sie keine Änderungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
     1. Beachten Sie den Bereich für diese Bezeichnung. Nehmen Sie keine Änderungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
     1. Auf diesem nächsten Bildschirm können Sie Schutzeinstellungen für die beschrifteten Elemente auswählen. Beachten Sie, dass diese Bezeichnung konfiguriert ist, die Inhaltsmarkierung zu unterstützen. Nehmen Sie keine Änderungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
         1. Beachten Sie auf der Seite „Inhaltsmarkierung“ das oben auf der Seite befindliche Informationsfeld.  Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
     1. Sie befinden sich nun im Fenster „Automatisches Anwenden von Bezeichnungen für Dateien und E-Mails“.  Lesen Sie oben auf der Seite die Beschreibung zum Anwenden der automatischen Bezeichnung und das darunter befindliche Informationsfeld.  Beachten Sie außerdem, dass diese Bezeichnung für das automatische Anwenden von Bezeichnungen für bestimmte Bedingungen festgelegt ist. Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
-    1. In diesem Fenster werden Schutzeinstellungen für Gruppen und Sites festgelegt, für die diese Bezeichnung angewendet wird. Wenn sie nicht aktiviert ist, wählen Sie unten auf der Seite die Option **Weiter** aus.
+    1. In diesem Fenster werden Schutzeinstellungen für Teams, Gruppen und Websites festgelegt, für die diese Bezeichnung angewendet wird. Wenn sie nicht aktiviert ist, wählen Sie unten auf der Seite die Option **Weiter** aus.
     1. Dieses Fenster ist eine Previewfunktion zum automatischen Anwenden dieser Bezeichnung auf schematisierte Datenobjekte in Microsoft Purview Data Map (wie etwa SQL, Synapse und mehr), die Arten vertraulicher Informationen enthalten, die von Ihnen ausgewählt wurden.  Dieses Feature ist nicht aktiviert. Wählen Sie unten auf der Seite die Option **Abbrechen** aus, um den Assistenten für die Bezeichnungskonfiguration zu schließen und um zur Seite „Information Protection“ zurückzukehren.
 
 1. Wählen Sie im linken Navigationsbereich **Bezeichnungsrichtlinien** aus.  Vertraulichkeitsbezeichnungen können aufgrund von Bezeichnungsrichtlinien veröffentlicht werden.  Der Microsoft 365-Mandant wurde zur Vereinfachung mit einigen Bezeichnungsrichtlinien konfiguriert.
@@ -79,13 +79,13 @@ In dieser Aufgabe durchlaufen Sie den Prozess zum Anwenden einer Vertraulichkeit
 
 1. Wählen Sie unter „Neu erstellen“ die Option **Leeres Dokument** aus, und geben Sie dann auf der Seite etwas Text ein.  Wählen Sie oben auf der Seite den Abwärtspfeil aus, der sich neben „DokumentXX – gespeichert“ befindet, und geben Sie in das Feld „Dateiname“ den Text **Testbezeichnung** ein. Drücken Sie dann die **EINGABETASTE** auf Ihrer Tastatur.
 
-1. Wählen Sie in der oberen Menüleiste das **Vertraulichkeitssymbol** aus – das Symbol rechts neben dem Mikrofonsymbol (je nach Bildschirmgröße müssen Sie möglicherweise die Auslassungspunkte und dann die Option Vertraulichkeit auswählen). Oben auf der Seite wird ein gelbes Banner angezeigt, und ganz rechts wird eine Schaltfläche "Bezeichnung auswählen" angezeigt.  Wählen Sie die Schaltfläche **Bezeichnung auswählen** aus.  Es erscheint ein Popup-Fenster.   Wählen Sie **Eine Bezeichnung auswählen** und dann in der Dropdownliste **Vertraulich-Finanzen** und dann **OK** aus.  
+1. Wählen Sie in der oberen Menüleiste das **Vertraulichkeitssymbol** aus – das Symbol rechts neben dem Mikrofonsymbol (je nach Bildschirmgröße müssen Sie möglicherweise die Auslassungspunkte und dann die Option Vertraulichkeit auswählen). Oben auf der Seite wird ein gelbes Banner angezeigt, und ganz rechts wird eine Schaltfläche „Bezeichnung auswählen“ angezeigt.  Klicken Sie auf die Schaltfläche **Bezeichnung auswählen**.  Es erscheint ein Popup-Fenster.   Wählen Sie **Eine Bezeichnung auswählen** und dann in der Dropdownliste **Vertraulich-Finanzen** und klicken Sie dann auf **OK**.  
 
 1. Wählen Sie auf der oberen Menüleiste die Option **Ansicht** und dann die Ansicht **Lesebereich** aus.
 
-1. Beachten Sie, dass das Dokument das Wasserzeichen - Vertrauliche FINANZDATEN enthält.  
+1. Beachten Sie, dass das Dokument das Wasserzeichen „Vertrauliche FINANZDATEN“ enthält.  
 
-1. Schließen Sie die Microsoft Word-Registerkarten, die in Ihrem Browser geöffnet sind, um word zu beenden, aber lassen Sie die Browserregisterkarte auf der Microsoft Purview-Startseite geöffnet.
+1. Schließen Sie die Microsoft Word-Registerkarten, die in Ihrem Browser geöffnet sind, um Word zu beenden, aber lassen Sie die Browserregisterkarte mit der Microsoft Purview-Homepage geöffnet.
 
 ### Überprüfung
 
