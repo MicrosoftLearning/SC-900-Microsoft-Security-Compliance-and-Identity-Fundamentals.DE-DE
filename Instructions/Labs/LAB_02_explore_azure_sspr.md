@@ -110,7 +110,7 @@ Bei dieser Aufgabe durchlaufen Sie als die Benutzerin Sara Perez den Prozess zum
 
 1. Auf dem Bildschirm wird eine Meldung angezeigt, dass Ihr Kennwort zurückgesetzt wurde.  Klicken Sie auf **Hier klicken**, um sich mit Ihrem neuen Kennwort anzumelden.
 
-1. Wählen Sie **sara@WWLxZZZZZZ.onmicrosoft.com** im Informationsfeld „Konto auswählen“ aus, geben Sie Ihr neues Kennwort ein, und wählen Sie dann die Schaltfläche **Anmelden** aus.  Wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten, wählen Sie **Nein** aus.
+1. Wählen Sie **sara@WWLxZZZZZZ.onmicrosoft.com** im Informationsfeld „Konto auswählen“ aus, geben Sie Ihr neues Kennwort ein, und wählen Sie dann die Schaltfläche **Anmelden** aus.  Wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten, **Nein** aus.
 
 1. Sie sollten sich nun im Office-Portal befinden.
 

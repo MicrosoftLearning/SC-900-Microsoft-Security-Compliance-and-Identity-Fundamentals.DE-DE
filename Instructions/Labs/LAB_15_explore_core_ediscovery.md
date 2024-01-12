@@ -100,7 +100,7 @@ Erstellen Sie bei vorhandener Aufbewahrung eine Suchabfrage.  Sobald Ihre Suche 
 
 1. Wählen Sie im Fenster „Suchen“ die von Ihnen soeben erstellte Suche **Testaufbewahrung – Vertriebssuche** aus.  Ein Fenster, das mit ausgewählter Registerkarte „Zusammenfassung“ geöffnet wird.  Nach Abschluss der Suche gibt der Status an, dass sie beendet ist.  Es wird die Registerkarte „Suchstatistik“ angezeigt (wenn die Registerkarte „Suchstatistik“ nicht angezeigt wird, kann es sein, dass die Suche noch ausgeführt wird und ihr Abschluss möglicherweise noch einige Minuten dauert).  Wählen Sie die Registerkarte **Suchstatistik** aus und klicken Sie auf den Dropdownpfeil neben „Inhalt suchen“.  Sie können auch weitere Informationen für den Bericht „Bedingung“ und „Top“-Speicherorte anzeigen.  
 
-1. Wählen Sie am unteren Rand der Seite **Aktionen** aus.  Beachten Sie die verfügbaren Optionen, die Exportoptionen enthalten (die Exportoptionen können nicht innerhalb der Lab-Plattform ausgewählt werden, die vom autorisierten Lab-Hoster bereitgestellt wird, sind aber in einer Produktionsumgebung verfügbar und gelten als Teil des Standardworkflows). Klicken Sie auf **Schließen**.
+1. Wählen Sie am unteren Rand der Seite **Aktionen** aus.  Beachten Sie die verfügbaren Optionen, die Exportoptionen enthalten (die Exportoptionen können nicht innerhalb der Lab-Plattform ausgewählt werden, die vom autorisierten Lab-Hoster bereitgestellt wird, sind aber in einer Produktionsumgebung verfügbar und gelten als Teil des Standardworkflows). Wählen Sie **Schließen** aus.
 
 1. Melden Sie sich ab, und schließen Sie alle geöffneten Browserfenster.
 

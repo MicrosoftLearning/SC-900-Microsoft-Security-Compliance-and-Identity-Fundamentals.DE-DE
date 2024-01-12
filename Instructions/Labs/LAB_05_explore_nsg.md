@@ -83,7 +83,7 @@ In diesem Teil erstellen Sie eine Netzwerksicherheitsgruppe, weisen die Netzwerk
     1. Priorität: **1.000**. Regeln mit niedrigeren Zahlen besitzen höhere Priorität und werden zuerst verarbeitet.
     1. Name: Behalten Sie den Standardnamen bei, oder erstellen Sie Ihren eigenen beschreibenden Namen.
     1. Beachten Sie das Warnzeichen am unteren Rand der Seite.  Wir verwenden RDP nur zu Testzwecken und zur Veranschaulichung der Funktionalität der NSG.
-    1. Wählen Sie **Hinzufügen** aus.
+    1. Wählen Sie **Hinzufügen** aus
 
 1. Sobald die Regel bereitgestellt wurde, wird sie in der Liste der eingehenden Regeln angezeigt (Möglicherweise müssen Sie den Bildschirm aktualisieren).
 
@@ -137,7 +137,7 @@ In der vorherigen Aufgabe haben Sie bestätigt, dass Sie eine RDP-Verbindung mit
     1. Aktion: **Deny**
     1. Priorität: **1.000**
     1. Name: Behalten Sie den Standardnamen bei, oder erstellen Sie Ihren eigenen beschreibenden Namen.
-    1. Wählen Sie **Hinzufügen** aus.
+    1. Wählen Sie **Hinzufügen** aus
 
 1. Sobald die Regel bereitgestellt wurde, wird sie in der Liste der Regeln für ausgehenden Datenverkehr angezeigt.  Obwohl sie in der Liste angezeigt wird, dauert es einige Minuten, bis sie wirksam wird (warten Sie einige Minuten, bevor Sie mit den nächsten Schritten fortfahren).  
 
