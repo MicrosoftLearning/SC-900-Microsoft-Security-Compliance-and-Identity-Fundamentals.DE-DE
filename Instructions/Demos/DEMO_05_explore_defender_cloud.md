@@ -4,7 +4,7 @@ Demo: Titel: „Microsoft Defender for Cloud“ Lernpfad/Modul/Lerneinheit: „L
 ---
 --->
 
-# Demo: Microsoft Defender for Cloud
+# Demo: Microsoft Defender für Cloud
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 
@@ -32,12 +32,12 @@ In dieser Demoaufgabe durchlaufen Sie auf hoher Ebene einige der Funktionen von 
 
 1. Wählen Sie im linken Navigationsbereich **Sicherheitsrichtlinie** aus. Diese Option ist unter den Richtlinieneinstellungen aufgeführt. Wenn die Standardinitiative nicht zugewiesen ist, wählen Sie **Richtlinie zuweisen** aus.
     1. Beachten Sie, dass auf der Registerkarte „Grundlagen“ die Initiativendefinition „Microsoft Cloud Security Benchmark“ lautet.  Diese ist abgeblendet, da dies die Standardinitiative ist und wir hier nur die Zuweisung durchführen.
-    1. Klicken Sie auf**Überprüfen + erstellen** und dann auf **Erstellen**. Wenn Sie möchten, können Sie durch die konfigurierbaren Parameter für die verschiedenen Registerkarten scrollen, bevor Sie die Option zum Überprüfen und Erstellen auswählen.
+    1. Klicken Sie auf **Überprüfen + erstellen** und dann auf **Erstellen**. Wenn Sie möchten, können Sie durch die konfigurierbaren Parameter für die verschiedenen Registerkarten scrollen, bevor Sie die Option zum Überprüfen und Erstellen auswählen.
     1. Dies ist ein wichtiger Schritt, um sicherzustellen, dass Sie Sicherheitsempfehlungen basierend auf Microsoft Cloud Security Benchmark sehen können.  
 
 1. Beachten Sie auch, dass es vorgefertigte Branchenstandards und gesetzliche Bestimmungen gibt, die Sie hinzufügen können. Wenn die aufgeführten Standards als veraltet angezeigt werden, wählen Sie **Weitere Standards hinzufügen** aus, um eine vollständige Liste anzuzeigen.  Wählen Sie einen aus der Liste aus, und fügen Sie ihn dann manuell hinzu, indem Sie **Überprüfen + erstellen** und dann **Erstellen** auswählen.  Sie sehen, dass er der Liste der Branchen- und Standardvorschriften hinzugefügt wird.
 
-1. Wählen Sie **Übersicht**.  In der Mitte der Seite befinden sich Karten für den Sicherheitsstatus, die Einhaltung gesetzlicher Bestimmungen, Insights und mehr.  Für alle Abonnements sind grundlegende CSPM-Features aktiviert. Dadurch wird eine Sicherheitsbewertung bereitgestellt. Der Wert wird jedoch als 0 % angezeigt, da Azure eine Verzögerung von bis zu 24 Stunden aufweisen kann, bis eine anfängliche Bewertung angezeigt wird.  Obwohl der Wert der Sicherheitsbewertung derzeit 0 % lautet, weisen Sie darauf hin, dass Defender for Cloud eine Multicloudlösung ist, die nicht nur mit Azure, sondern auch mit AWS und Google Cloud Platform Ihren Sicherheitsstatus verbessern kann.
+1. Wählen Sie **Übersicht** aus.  In der Mitte der Seite befinden sich Karten für den Sicherheitsstatus, die Einhaltung gesetzlicher Bestimmungen, Insights und mehr.  Für alle Abonnements sind grundlegende CSPM-Features aktiviert. Dadurch wird eine Sicherheitsbewertung bereitgestellt. Der Wert wird jedoch als 0 % angezeigt, da Azure eine Verzögerung von bis zu 24 Stunden aufweisen kann, bis eine anfängliche Bewertung angezeigt wird.  Obwohl der Wert der Sicherheitsbewertung derzeit 0 % lautet, weisen Sie darauf hin, dass Defender for Cloud eine Multicloudlösung ist, die nicht nur mit Azure, sondern auch mit AWS und Google Cloud Platform Ihren Sicherheitsstatus verbessern kann.
 
 1. Wählen Sie oben auf der Seite die Option **Bewertete Ressourcen** aus.  (Beachten Sie, dass Sie genauso auf der Startseite von Microsoft Defender für Cloud im linken Navigationsbereich die Option „Inventar“ auswählen können.)
     1. Dadurch gelangen Sie zur Seite **Bestand**, auf der die aktuellen Ressourcen aufgeführt werden. Wählen Sie die VM-Ressource **sc900-winwm** aus. Diese Ressource ist der VM zugeordnet, die Sie im vorherigen Lab oder der vorherigen Demo verwendet haben.

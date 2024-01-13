@@ -4,7 +4,7 @@ Demo: Title: 'Azure-Netzwerksicherheitsgruppen (Network Security Groups, NSGs)' 
 ---
 --->
 
-# Demo: Azure Network Security Groups (NSGs)
+# Demo: Azure-Netzwerksicherheitsgruppen (NSGs)
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 
@@ -48,7 +48,7 @@ In diesem Teil weisen Sie der NSG eine Schnittstelle zu. Sie sprechen über die 
     1. Ressourcengruppe: **LabsSC900** (dieselbe Ressourcengruppe, die von der VM verwendet wird).
     1. Name:  **NSG-SC900**
     1. Region: Übernehmen Sie den Standardwert.
-    1. Klicken Sie auf**Überprüfen + erstellen** und dann auf **Erstellen**.
+    1. Klicken Sie auf **Überprüfen + erstellen** und dann auf **Erstellen**.
     1. Sobald die Bereitstellung abgeschlossen ist (dies geschieht sehr schnell), wählen Sie **Zu Ressource wechseln** aus.
 
 1. Oben auf der darunterliegenden Seite unter „Zusammenfassung“ werden einige grundlegende Informationen zur von Ihnen erstellten NSG angezeigt.  Zwei Punkte sind zu beachten: Es gibt keine BENUTZERDEFINIERTEN Sicherheitsregeln und keine Subnetze oder Netzwerkschnittstellen, die dieser NSG zugeordnet sind.  Obwohl es keine benutzerdefinierten Sicherheitsregeln gibt, gibt es Standardregeln für eingehenden und ausgehenden Datenverkehr, die in jeder NSG enthalten sind, wie auf der Seite gezeigt.  Überprüfen Sie die Eingangs- und Ausgangsregeln. Die Standardregeln für eingehenden Datenverkehr verweigern den gesamten eingehenden Datenverkehr, der nicht aus einem virtuellen Netzwerk oder einem Azure-Lastenausgleich stammt.  Die Ausgangsregeln verweigern den gesamten ausgehenden Datenverkehr mit Ausnahme des Datenverkehrs zwischen virtuellen Netzwerken und des ausgehenden Datenverkehrs in das Internet.
@@ -70,7 +70,7 @@ In diesem Teil weisen Sie der NSG eine Schnittstelle zu. Sie sprechen über die 
     1. Priorität: **1000**. Hinweis: Regeln mit niedrigeren Zahlen haben eine höhere Priorität und werden zuerst verarbeitet.
     1. Name: Behalten Sie den Standardnamen bei, oder erstellen Sie Ihren eigenen beschreibenden Namen.
     1. Beachten Sie das Warnzeichen am unteren Rand der Seite.  Wir verwenden RDP nur zu Testzwecken und zur Veranschaulichung der Funktionalität der NSG.
-    1. Wählen Sie **Hinzufügen** aus.
+    1. Wählen Sie **Hinzufügen** aus
 
 1. Sobald die Regel bereitgestellt wurde, wird sie in der Liste der eingehenden Regeln angezeigt (Möglicherweise müssen Sie den Bildschirm aktualisieren).
 
@@ -78,14 +78,14 @@ In diesem Teil weisen Sie der NSG eine Schnittstelle zu. Sie sprechen über die 
 
 Wenn die NSG Ihrer VM und der erstellten RDP-Regel zugeordnet wurde, zeigen Sie die Auswirkungen der NSG, indem Sie die RDP-Konnektivität mit der VM testen.
 
-1. Öffnen Sie die Registerkarte SC900-WinVM – Microsoft Azure in Ihrem Browser. 
+1. Öffnen Sie die Registerkarte „SC900-WinVM – Microsoft Azure“ in Ihrem Browser. 
 
-1. Wählen Sie im linken Navigationsbereich **Verbinden** aus.
+1. Klicken Sie im linken Navigationsbereich auf **Verbinden**.
     1. Sie können einfach **Zugriff überprüfen** auswählen.  Der Status sollte als „Zugänglich“ angezeigt werden. Wenn Sie Zeit haben, können Sie alternativ eine Verbindung mit dem virtuellen Computer herstellen, indem Sie unter Windows eine Instanz der Remotedesktopverbindung öffnen.  Mit dieser Option wird der virtuelle Computer geöffnet, wenn die Verbindung erfolgreich hergestellt wurde.  Im Folgenden sind die Schritte aufgeführt:
         1. Geben Sie in der Windows-Suchleiste **Remotedesktopverbindung** ein, und wählen Sie dann **Öffnen** aus.
         1. Geben Sie in das Feld neben **Computer** die öffentliche IP-Adresse Ihres virtuellen Computers ein.
         1. Nachdem Sie die IP-Adresse eingegeben haben, sollte der Benutzername unter dem Feld angezeigt werden, in dem Sie die IP-Adresse eingegeben haben. Wenn nicht, erweitern Sie **Optionen anzeigen** und geben Sie den Benutzernamen für Ihren virtuellen Computer ein, und wählen Sie dann **Verbinden** aus.
-        1. Ein Fenster für die Remotedesktopverbindung wird geöffnet und meldet: Die Identität des Remotecomputers kann nicht überprüft werden. Möchten Sie trotzdem eine Verbindung herstellen? Wählen Sie **Ja** aus.
+        1. Ein Fenster für die Remotedesktop-Verbindung wird geöffnet und meldet: Die Identität des Remotecomputers kann nicht überprüft werden. Möchten Sie trotzdem eine Verbindung herstellen? Wählen Sie **Ja** aus.
         1. Sie sind nun mit der VM verbunden. Verdeutlichen Sie dem bzw. der Kursteilnehmer*in, dass Sie in diesem Fall eine Verbindung mit der VM herstellen konnten, da die von Ihnen erstellte Regel für eingehenden Datenverkehr den eingehenden Datenverkehr zur VM über RDP zulässt.
         1. Minimieren Sie die VM, indem Sie den Unterstrich **_** auf der blauen Registerkarte auswählen, die die IP-Adresse der VM anzeigt. Sie gelangen so zurück zur Seite „SC900-WinVM | Verbinden“.
 
@@ -105,9 +105,9 @@ In diesem Teil zeigen Sie die aktuellen NSG-Ausgangsregeln, die ausgehenden Inte
 
 1. Wählen Sie im linken Navigationsbereich **Netzwerk** aus.
 
-1. Wählen Sie die Registerkarte **Regeln für ausgehende Ports** aus. Die Standardausgangsregeln werden angezeigt.  Beachten Sie die Standardregel "AllowInternetOutBound". Diese Regel lässt sämtlichen ausgehenden Internetdatenverkehr zu. Sie können die Standardregeln nicht entfernen, aber Sie können sie außer Kraft setzen, indem Sie Regeln mit höheren Prioritäten erstellen. Wählen Sie rechts auf der Seite **Regel für ausgehenden Port hinzufügen** aus.
+1. Wählen Sie die Registerkarte **Regeln für ausgehende Ports** aus. Die Standardausgangsregeln werden angezeigt.  Beachten Sie die Standardregel „AllowInternetOutBound“. Diese Regel lässt sämtlichen ausgehenden Internetdatenverkehr zu. Sie können die Standardregeln nicht entfernen, aber Sie können sie außer Kraft setzen, indem Sie Regeln mit höheren Prioritäten erstellen. Wählen Sie rechts auf der Seite **Regel für ausgehenden Port hinzufügen** aus.
 
-1. Geben Sie auf der Seite „Ausgehende Sicherheitsregel hinzufügen“ die folgenden Einstellungen an:
+1. Geben Sie auf der Seite „Sicherheitsregel für ausgehenden Datenverkehr hinzufügen“ die folgenden Einstellungen an:
     1. Quelle:  **Beliebig**
     1. Quellportbereiche: **\***
     1. Ziel:  **Diensttag**
@@ -118,15 +118,15 @@ In diesem Teil zeigen Sie die aktuellen NSG-Ausgangsregeln, die ausgehenden Inte
     1. Aktion: **Deny**
     1. Priorität: **1.000**
     1. Name: Behalten Sie den Standardnamen bei, oder erstellen Sie Ihren eigenen beschreibenden Namen.
-    1. Wählen Sie **Hinzufügen** aus.
+    1. Wählen Sie **Hinzufügen** aus
 
-1. Sobald die Regel bereitgestellt wurde, wird sie in der Liste der ausgehenden Regeln angezeigt.  Obwohl sie in der Liste angezeigt wird, dauert es einige Minuten, bis sie wirksam wird (warten Sie einige Minuten, bevor Sie mit den nächsten Schritten fortfahren).  
+1. Sobald die Regel bereitgestellt wurde, wird sie in der Liste der Regeln für ausgehenden Datenverkehr angezeigt.  Obwohl sie in der Liste angezeigt wird, dauert es einige Minuten, bis sie wirksam wird (warten Sie einige Minuten, bevor Sie mit den nächsten Schritten fortfahren).  
 
 1. Kehren Sie zu Ihrer VM zurück (das Symbol für die VM sollte auf der Taskleiste unten auf der Seite angezeigt werden).
 
 1. Öffnen Sie auf Ihrer VM den Microsoft Edge-Browser, und geben Sie **www.bing.com** ein. Diese Seite sollte nicht angezeigt werden.  Hinweis: Wenn Sie eine Verbindung mit dem Internet herstellen können und sichergestellt haben, dass alle Parameter für die Ausgangsregel ordnungsgemäß festgelegt wurden, liegt dies wahrscheinlich daran, dass es einige Minuten dauern kann, bis die Regel wirksam wird.  Schließen Sie den Browser, warten Sie einige Minuten, und versuchen Sie es erneut.  Hinweis: Für Azure-Abonnements in der Lab-Umgebung können Verzögerungen auftreten,die länger als normal sind.
 
-1. Schließen Sie die Remotedesktopverbindung, indem Sie das **X** in der oberen Mitte der Seite auswählen, auf der die IP-Adresse angezeigt wird.  Ein Popupfenster wird anzeigt, das „Die Remotesitzung wird getrennt“ angibt. Klickan Sie auf **OK**.
+1. Schließen Sie die Remotedesktopverbindung, indem Sie auf das **X** in der oberen Mitte der Seite klicken, auf der die IP-Adresse angezeigt wird.  Ein Popupfenster wird anzeigt, das „Die Remotesitzung wird getrennt“ angibt. Klickan Sie auf **OK**.
 
 1. Lassen Sie die Registerkarte Azure in Ihrem Browser für die nächste Azure-Demo geöffnet.
 

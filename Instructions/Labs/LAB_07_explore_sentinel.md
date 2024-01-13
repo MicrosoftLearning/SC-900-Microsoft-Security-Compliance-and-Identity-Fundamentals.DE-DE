@@ -30,16 +30,16 @@ Erstellen einer Microsoft Sentinel-Instanz
 
 1. Wählen Sie auf der Seite zum Hinzufügen von Microsoft Sentinel zu einem Arbeitsbereich die Option **Neuen Arbeitsbereich erstellen** aus.
 
-1. Geben Sie auf der Registerkarte "Grundlagen" des Arbeitsbereichs "Log Analytics erstellen" Folgendes ein:
+1. Geben Sie auf der Registerkarte „Grundlagen“ des Arbeitsbereichs „Log Analytics erstellen“ Folgendes ein:
     1. Abonnement: Behalten Sie den Standardwert bei. Dies ist das Azure-Abonnement, das vom autorisierten Lab-Hoster (ALH) bereitgestellt wird.
     1. Ressourcengruppe: Wählen Sie **SC900-Sentinel-RG** aus. Wenn diese Ressourcengruppe nicht aufgeführt ist, erstellen Sie sie, indem Sie **Neu erstellen** auswählen, **SC900-Sentinel-RG** eingeben und dann **OK** auswählen.
     1. Name: **SC900-LogAnalytics-workspace**.
     1. Region: **USA, Osten** (Sie können eine andere Standardregion basierend auf Ihrem Standort auswählen)
     1. Wählen Sie **Überprüfen und erstellen** aus (es werden keine Tags konfiguriert).
-    1. Vergewissern Sie sich, dass Sie die richtigen Informationen eingegeben haben, und wählen Sie dann **Erstellen** aus.
-    1. Es kann eine oder zwei Minuten dauern, bis der ne-Arbeitsbereich aufgelistet wird, wenn sie immer noch nicht angezeigt wird, wählen Sie **Aktualisieren**und dann** Hinzufügen** aus.
+    1. Vergewissern Sie sich, dass Sie die richtigen Informationen eingegeben haben, und klicken Sie dann auf **Erstellen**.
+    1. Es kann eine oder zwei Minuten dauern, bis der Arbeitsbereich aufgelistet wird. Wenn er dann immer noch nicht angezeigt wird, klicken Sie auf **Aktualisieren** und dann auf **Hinzufügen**.
 
-1. Nachdem der neue Arbeitsbereich hinzugefügt wurde, wird die Seite „Microsoft Sentinel | News und Leitfäden“ angezeigt, die angibt, dass die kostenlose Microsoft Sentinel-Testversion aktiviert ist.  Klickan Sie auf **OK**.  Beachten Sie die drei Schritte, die auf der Seite "Erste Schritte" aufgeführt sind.
+1. Nachdem der neue Arbeitsbereich hinzugefügt wurde, wird die Seite „Microsoft Sentinel | News und Leitfäden“ angezeigt, die angibt, dass die kostenlose Microsoft Sentinel-Testversion aktiviert ist.  Klickan Sie auf **OK**.  Beachten Sie die drei Schritte, die auf der Seite „Erste Schritte“ aufgeführt sind.
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
@@ -51,13 +51,13 @@ Nachdem die Microsoft Sentinel-Instanz erstellt wurde, ist es wichtig, dass Benu
 
 1. Wählen Sie auf der Seite „Ressourcengruppen“ die von Ihnen mit Microsoft Sentinel erstellte Ressourcengruppe aus, nämlich **SC900-Sentinel-RG**.  Wenn Sie auf Ressourcengruppenebene arbeiten, wird sichergestellt, dass jede ausgewählte Rolle auf alle Ressourcen angewendet wird, die Teil der Microsoft Sentinel-Instanz sind, die in der vorherigen Aufgabe erstellt wurde.
 
-1. Auf der SC900-Sentinel-RG Seite, wählen Sie **Access Control (IAM)** aus dem linken Navigationsbereich.
+1. Wählen Sie auf der SC900-Sentinel-RG Seite **Zugriffssteuerung (IAM)** aus dem linken Navigationsbereich.
 
-1. Wählen Sie auf der Seite Access Control **Mein Zuriff ansehen**.  Für das Azure-Abonnement, das Ihnen vom autorisierten Lab-Hoster bereitgestellt wird, wurde eine Rolle definiert, die Ihnen Zugriff zum Verwalten aller erforderlichen Ressourcen gewährt, wie in der Beschreibung gezeigt. Es ist jedoch wichtig, die verfügbaren Sentinel-spezifischen Rollen zu verstehen.  Schließen Sie das Zuweisungsfenster, indem Sie in der oberen rechten Ecke des Fensters das **X** auswählen.
+1. Wählen Sie auf der Seite Zugriffssteuerung **Mein Zugriff anzeigen**.  Für das Azure-Abonnement, das Ihnen vom autorisierten Lab-Hoster bereitgestellt wird, wurde eine Rolle definiert, die Ihnen Zugriff zum Verwalten aller erforderlichen Ressourcen gewährt, wie in der Beschreibung gezeigt. Es ist jedoch wichtig, die verfügbaren Sentinel-spezifischen Rollen zu verstehen.  Schließen Sie das Zuweisungsfenster, indem Sie in der oberen rechten Ecke des Fensters das **X** auswählen.
 
 1. Wählen Sie auf der Seite „Zugriffssteuerung“ die Registerkarte **Rollen** oben auf der Seite aus.
     1. Geben Sie **Microsoft Sentinel** in das Suchfeld ein, um die integrierten Rollen anzuzeigen, die Microsoft Sentinel zugeordnet sind.
-    1. Wählen Sie in einer der aufgeführten Rollen **Anzeigen** aus, um die Details dieser Rolle anzuzeigen.  Als bewährte Methode sollten Sie die geringsten Berechtigungen zuweisen, die für die Rolle erforderlich sind.  
+    1. Wählen Sie in einer der aufgeführten Rollen **Anzeigen** aus, um die Details dieser Rolle anzuzeigen.  Als bewährte Methode sollten Sie die geringsten Rechte zuweisen, die für die Rolle erforderlich sind.  
     1. Schließen Sie das Fenster. Wählen Sie dazu in der oberen rechten Ecke des Fensters das **X** aus.
 
 1. Schließen Sie auf der Zugriffssteuerungsseite das Fenster, indem Sie in der oberen rechten Ecke des Fensters das **X** auswählen.

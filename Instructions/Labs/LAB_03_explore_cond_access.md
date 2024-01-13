@@ -14,7 +14,7 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 ## Labszenario
 
-In diesem Lab erkunden Sie MFA beim bedingten Zugriff aus Perspektive eines Administrators und eines Benutzers.  Als Administrator erstellen Sie eine Richtlinie, die Benutzer*innen beim Zugriff auf eine cloudbasierte Microsoft Admin Portale zwingt, Multi-Faktor-Authentifizierung zu durchlaufen.  Aus Benutzerperspektive sehen Sie, wie sich die Richtlinie für bedingten Zugriff auswirkt, einschließlich des Prozesses zum Registrieren für MFA.
+In diesem Lab erkunden Sie MFA beim bedingten Zugriff aus Perspektive eines Administrators und eines Benutzers.  Als Administrator*in erstellen Sie eine Richtlinie, die Benutzer*innen beim Zugriff auf ein Microsoft Admin-Portal zwingt, Multi-Faktor-Authentifizierung zu durchlaufen.  Aus Benutzerperspektive sehen Sie, wie sich die Richtlinie für bedingten Zugriff auswirkt, einschließlich des Prozesses zum Registrieren für MFA.
 
 **Geschätzte Dauer**: 30 Minuten
 
@@ -67,7 +67,7 @@ Bei dieser Aufgabe durchlaufen Sie den Prozess zum Erstellen einer Richtlinie f�
 
 1. Wählen Sie im Feld darunter **Auswählen, wofür diese Richtlinie gilt** den Pfeil nach unten aus, und notieren Sie sich die verfügbaren Optionen.  Behalten Sie die Standardeinstellung **Cloud-Apps** bei.  Stellen Sie sicher, dass die Registerkarte **Einschließen** unterstrichen ist.  Wählen Sie erst **Apps auswählen** aus und dann unterhalb, wo **Auswählen** steht, **Keine**.  Das Fenster zum Auswählen von Cloud-Apps wird geöffnet.
 
-1. Geben Sie **Azure** in die Suchleiste ein.  Wählen Sie aus den unterhalb des Suchfelds angezeigten Suchergebnissen **Microsoft Ademin Portale** aus. Klicken Sie dann unten auf der Seite auf **Auswählen**.  Beachten Sie die Warnung.  
+1. Geben Sie **Azure** in die Suchleiste ein.  Wählen Sie aus den unterhalb des Suchfelds angezeigten Suchergebnissen **Microsoft Admin-Portale** aus. Klicken Sie dann unten auf der Seite auf **Auswählen**.  Beachten Sie die Warnung.  
 
 1. Wählen Sie **0 Bedingungen ausgewählt** unter „Bedingungen“ aus.  Beachten Sie die unterschiedlichen Optionen, die von Ihnen konfiguriert werden können.  Durch die Richtlinie können Sie den Benutzerzugriff auf Basis von Signalen von Bedingungen steuern, unter anderem: Benutzerrisiko, Anmelderisiko, Geräteplattform, Speicherort, Client-Apps oder Filtern nach Geräten.  Erkunden Sie diese konfigurierbaren Optionen, aber legen Sie keine Bedingungen fest.
 
@@ -79,11 +79,11 @@ Bei dieser Aufgabe durchlaufen Sie den Prozess zum Erstellen einer Richtlinie f�
 
 1. Wählen Sie im linken Navigationsbereich **Richtlinien** aus. Die Richtlinie für den MFA-Pilotversuch sollte in der Liste der Richtlinien für bedingten Zugriff angezeigt werden (wählen Sie bei Bedarf oben auf der Seite **Aktualisieren** aus).
 
-1. Melden Sie sich ab. Wählen Sie dazu das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann **Abmelden** aus. Schließen Sie dann alle Browserfenster.
+1. Melden Sie sich ab. Klicken Sie dazu auf das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann auf **Abmelden**. Schließen Sie dann alle Browserfenster.
 
 ### Aufgabe 3
 
-Bei dieser Aufgabe sehen Sie aus Perspektive des Benutzers Debra Berger, wie sich die Richtlinie für bedingten Zugriff auswirkt. Zunächst melden Sie sich dazu bei einer Anwendung an, die nicht in der Richtlinie für bedingten Zugriff enthalten ist (das Microsoft 365-Portal unter https://login.microsoftonline.com) ).  Anschließend wiederholen Sie den Vorgang für eine Anwendung, die in der Richtlinie für bedingten Zugriff enthalten ist (das Azure-Portal unter https://portal.azure.com) ).  Denken Sie daran, dass die Richtlinie erfordert, dass der Benutzer MFA durchlaufen muss, wenn er auf eines der Microsoft Admin Portals zugreift, einschließlich des Azure-Portals.  Damit der Benutzer die MFA verwenden kann, muss er zunächst die für die MFA zu verwendende Authentifizierungsmethode registrieren, beispielsweise ein an ein Mobilgerät gesendeter Code oder eine Authenticator-Anwendung.
+Bei dieser Aufgabe sehen Sie aus Perspektive des Benutzers Debra Berger, wie sich die Richtlinie für bedingten Zugriff auswirkt. Zunächst melden Sie sich dazu bei einer Anwendung an, die nicht in der Richtlinie für bedingten Zugriff enthalten ist (das Microsoft 365-Portal unter https://login.microsoftonline.com) ).  Anschließend wiederholen Sie den Vorgang für eine Anwendung, die in der Richtlinie für bedingten Zugriff enthalten ist (das Azure-Portal unter https://portal.azure.com) ).  Denken Sie daran, dass die Richtlinie erfordert, dass die Benutzer*innen MFA durchlaufen müssen, wenn sie auf eines der Microsoft Admin-Portale zugreifen, einschließlich des Azure-Portals.  Damit der Benutzer die MFA verwenden kann, muss er zunächst die für die MFA zu verwendende Authentifizierungsmethode registrieren, beispielsweise ein an ein Mobilgerät gesendeter Code oder eine Authenticator-Anwendung.
 
 1. Öffnen Sie Microsoft Edge.  Geben Sie in der Adressleiste **https://login.microsoftonline.com** ein.
     1. Melden Sie sich als **DebraB@WWLxZZZZZZ.onmicrosoft.com** an (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde). Wählen Sie anschließend **Weiter** aus.
@@ -99,7 +99,7 @@ Bei dieser Aufgabe sehen Sie aus Perspektive des Benutzers Debra Berger, wie sic
 
 1. Stellen Sie im Fenster, das geöffnet wird, sicher, dass Ihr Land ausgewählt ist. Geben Sie dann die gewünschte Mobiltelefonnummer ein.  Stellen Sie sicher, dass **Code per SMS an mich senden** ausgewählt ist. Klicken Sie dann auf **Weiter**.  Sie erhalten eine SMS auf Ihrem Telefon mit einem Code, den Sie eingeben müssen, wenn die Aufforderung zum Eingeben von Code angezeigt wird.  Geben Sie den erhaltenen Code ein, und klicken Sie dann auf **Weiter**.  Nach der Bestätigung wird Folgendes auf dem Bildschirm angezeigt: „Die SMS wurde verifiziert. Ihr Telefon wurde erfolgreich registriert.“  Klicken Sie auf **Weiter**. Klicken Sie danach auf **Fertig**.  Dadurch wird der einmalige Registrierungsprozess abgeschlossen.
 
-1. Sie sollten nun auf das Azure-Portal zugreifen können.  Das Azure-Portal ist ein Microsoft Admin Portal und erfordert entsprechend der erstellten Richtlinie für bedingten Zugriff die mehrstufige Authentifizierung.  
+1. Sie sollten nun auf das Azure-Portal zugreifen können.  Das Azure-Portal ist ein Microsoft Admin-Portal und erfordert entsprechend der erstellten Richtlinie für bedingten Zugriff die Multi-Faktor-Authentifizierung.  
     1. Wenn in einer Meldung angezeigt wird, dass bei Ihrer Anmeldung eine Zeitüberschreitung aufgetreten ist, geben Sie das Kennwort ein und wählen dann **Anmelden** aus.
     1. Es wird ein Fenster angezeigt, in dem Sie Ihre Identität verifizieren müssen.  Wählen Sie =X XXXXXXX aus, um einen Code auf Ihrem Mobiltelefon zu erhalten. Geben Sie den Code ein, und wählen Sie **Überprüfen** aus.
     1. Wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten, wählen Sie **Nein** aus.
@@ -108,4 +108,4 @@ Bei dieser Aufgabe sehen Sie aus Perspektive des Benutzers Debra Berger, wie sic
 
 ### Überprüfung
 
-In diesem Lab haben Sie den Prozess zum Einrichten einer Richtlinie für bedingten Zugriff durchlaufen, die Benutzer beim Zugriff auf die Cloudanwendung für das Microsoft Admin Portal zwingt, MFA zu durchlaufen.  Anschließend sind Sie den Registrierungsprozess für die MFA als ein Benutzer durchgegangen und haben die Auswirkung der Richtlinie für bedingten Zugriff gesehen, die Sie beim Zugriff auf das Azure-Portal zwang, die MFA zu verwenden.
+In diesem Lab haben Sie den Prozess zum Einrichten einer Richtlinie für bedingten Zugriff durchlaufen, die von den Benutzer*innen verlangt, MFA zu durchlaufen, wenn sie auf ein Microsoft Admin-Portal zugreifen.  Anschließend sind Sie den Registrierungsprozess für die MFA als ein Benutzer durchgegangen und haben die Auswirkung der Richtlinie für bedingten Zugriff gesehen, die Sie beim Zugriff auf das Azure-Portal zwang, die MFA zu verwenden.

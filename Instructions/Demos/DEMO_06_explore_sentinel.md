@@ -27,14 +27,14 @@ Eine Instanz von Microsoft Sentinel sollte bereits im Rahmen der Vordemo-Einrich
 1. Auf der Microsoft Sentinel-Seite sollte Ihre Instanz von Sentinel aufgeführt sein. Wählen Sie sie aus.  Wenn sie nicht aufgeführt ist, erstellen Sie sie jetzt.
     1. Wählen Sie auf der Seite „Microsoft Sentinel“ die Option **Microsoft Sentinel erstellen** aus.
 
-    1. Wählen Sie auf der Seite zum Hinzufügen von Microsoft Sentinel zu einem Arbeitsbereich die Option **Neuen Arbeitsbereich erstellen** aus. Geben Sie auf der Registerkarte "Grundlagen" des Arbeitsbereichs "Log Analytics erstellen" Folgendes ein:
+    1. Wählen Sie auf der Seite zum Hinzufügen von Microsoft Sentinel zu einem Arbeitsbereich die Option **Neuen Arbeitsbereich erstellen** aus. Geben Sie auf der Registerkarte „Grundlagen“ des Arbeitsbereichs „Log Analytics erstellen“ Folgendes ein:
         1. Abonnement: Übernehmen Sie die Standardeinstellung.
-        1. Ressourcengruppe: Wählen Sie **Neu erstellen** aus. Geben Sie dann **SC900-Sentinel RG** ein, und wählen Sie **OK** aus.
+        1. Ressourcengruppe: Wählen Sie **Neu erstellen** aus. Geben Sie dann **SC900-Sentinel RG** ein, und klicken Sie auf **OK**.
         1. Name: **SC900-LogAnalytics-workspace**.
         1. Region: **USA, Osten** (Sie können eine andere Standardregion basierend auf Ihrem Standort auswählen)
         1. Wählen Sie **Überprüfen und erstellen** aus (es werden keine Tags konfiguriert).
-        1. Vergewissern Sie sich, dass Sie die richtigen Informationen eingegeben haben, und wählen Sie dann **Erstellen** aus.
-        1. Es kann eine oder zwei Minuten dauern, bis der ne-Arbeitsbereich aufgelistet wird, wenn sie immer noch nicht angezeigt wird, wählen Sie **Aktualisieren**und dann** Hinzufügen** aus.
+        1. Vergewissern Sie sich, dass Sie die richtigen Informationen eingegeben haben, und klicken Sie dann auf **Erstellen**.
+        1. Es kann eine oder zwei Minuten dauern, bis der Arbeitsbereich aufgelistet wird. Wenn er dann immer noch nicht angezeigt wird, klicken Sie auf **Aktualisieren** und dann auf **Hinzufügen**.
         1. Nachdem der neue Arbeitsbereich hinzugefügt wurde, wird die Seite „Microsoft Sentinel | News und Leitfäden“ angezeigt, die angibt, dass die kostenlose Microsoft Sentinel-Testversion aktiviert ist.  Klickan Sie auf **OK**.
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in einer nachfolgenden Aufgabe verwenden.
@@ -47,14 +47,14 @@ Wie bei allen Azure-Ressourcen sollten Sie sicherstellen, dass Benutzer über di
 
 1. Wählen Sie auf der Seite „Ressourcengruppen“ die von Ihnen mit Microsoft Sentinel erstellte Ressourcengruppe aus, nämlich **SC900-Sentinel-RG**.
 
-1. Auf der SC900-Sentinel-RG Seite, wählen Sie **Access Control (IAM)** aus dem linken Navigationsbereich.
+1. Wählen Sie auf der SC900-Sentinel-RG Seite **Zugriffssteuerung (IAM)** aus dem linken Navigationsbereich.
 
-1. Wählen Sie auf der Seite Access Control **Mein Zuriff ansehen**.  Wenn Sie das Skillable Cloud Slice-Abonnement verwenden, wird die Rollenzuweisung auf LOD-Besitzer festgelegt. Dies ist eine benutzerdefinierte Rollenzuweisung, die für dieses Cloud Slice-Abonnement konfiguriert ist und Ihnen die erforderlichen Berechtigungen gewährt. Für Demozwecke ist es jedoch gut, die Sentinel-spezifischen Rollen anzuzeigen.  Schließen Sie das Zuweisungsfenster, indem Sie in der oberen rechten Ecke des Fensters das **X** auswählen.
+1. Wählen Sie auf der Seite Zugriffssteuerung **Mein Zugriff anzeigen**.  Wenn Sie das Skillable Cloud Slice-Abonnement verwenden, wird die Rollenzuweisung auf LOD-Besitzer festgelegt. Dies ist eine benutzerdefinierte Rollenzuweisung, die für dieses Cloud Slice-Abonnement konfiguriert ist und Ihnen die erforderlichen Berechtigungen gewährt. Für Demozwecke ist es jedoch gut, die Sentinel-spezifischen Rollen anzuzeigen.  Schließen Sie das Zuweisungsfenster, indem Sie in der oberen rechten Ecke des Fensters das **X** auswählen.
 
-    1. Wählen Sie **Hinzufügen** und dann **Rollenzuweisung hinzufügen** aus.
+    1. Wählen Sie auf der Seite „Zugriffssteuerung“ **+Hinzufügen** und dann **Rollenzuweisung hinzufügen** aus.
 
     1. Das Fenster „Rollenzuweisung hinzufügen“ wird geöffnet.  Geben Sie **Microsoft Sentinel** in das Suchfeld ein, um die vier Rollen anzuzeigen, die Microsoft Sentinel zugeordnet sind.
-    1. Wählen Sie in einer der aufgeführten Rollen **Anzeigen** aus, um die Details dieser Rolle anzuzeigen.  Als bewährte Methode sollten Sie die geringsten Berechtigungen zuweisen, die für die Rolle erforderlich sind.  
+    1. Wählen Sie in einer der aufgeführten Rollen **Anzeigen** aus, um die Details dieser Rolle anzuzeigen.  Als bewährte Methode sollten Sie die geringsten Rechte zuweisen, die für die Rolle erforderlich sind.  
 
     1. Schließen Sie das Fenster. Wählen Sie dazu in der oberen rechten Ecke des Fensters das **X** aus.
 

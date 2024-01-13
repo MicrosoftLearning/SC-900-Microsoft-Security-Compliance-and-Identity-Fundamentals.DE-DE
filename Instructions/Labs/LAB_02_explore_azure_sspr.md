@@ -14,7 +14,7 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 ## Labszenario
 
-In diesem Lab durchlaufen Sie als Administrator den Prozess des Hinzufügens eines Benutzers zur SSPR-Sicherheitsgruppe, die bereits in Ihrem Microsoft 365-Mandanten eingerichtet ist. Bei aktivierter SSPR übernehmen Sie anschließend die Rolle eines Benutzers und durchlaufen den Prozess der Registrierung für SSPR und auch zur Zurücksetzung Ihres Kennworts.  Schließlich können Sie als Administrator*in Überwachungsprotokolle, Nutzungsdaten und Einblicke zu SSPR anzeigen.
+In diesem Lab durchlaufen Sie als Administrator den Prozess des Hinzufügens eines Benutzers zur SSPR-Sicherheitsgruppe, die bereits in Ihrem Microsoft 365-Mandanten eingerichtet ist. Bei aktivierter SSPR übernehmen Sie anschließend die Rolle eines Benutzers und durchlaufen den Prozess der Registrierung für SSPR und auch zur Zurücksetzung Ihres Kennworts.  Schließlich können Sie als Administrator*in Auditprotokolle sowie Nutzungsdaten u. Erkenntnisse zu SSPR anzeigen.
 
 **Geschätzte Dauer**: 15 bis 20 Minuten
 
@@ -39,13 +39,13 @@ In dieser Aufgabe durchlaufen Sie als Administrator einige der verfügbaren Konf
 
 1. Wählen Sie im linken Navigationsbereich der Kennwortzurücksetzung die Option **Registrierung** aus.  
 
-1. Stellen Sie sicher, dass die Einstellung „Registrierung von Benutzern bei der Anmeldung verlangen“ auf **Ja** festgelegt ist.  Übernehmen Sie für die Einstellung „Anzahl der Tage, bevor Benutzer aufgefordert werden, ihre Authentifizierungsinformationen erneut zu bestätigen“ die Standardeinstellung von 180.   Beachten Sie das Informationsfeld auf der Seite.
+1. Stellen Sie sicher, dass die Einstellung „Von Benutzern bei der Anmeldung Registrierung verlangen“ auf **Ja** festgelegt ist.  Übernehmen Sie für die Einstellung „Anzahl der Tage, bevor Benutzer aufgefordert werden, ihre Authentifizierungsinformationen erneut zu bestätigen“ die Standardeinstellung von 180.   Beachten Sie das Informationsfeld auf der Seite.
 
 1. Wählen Sie im linken Navigationsbereich der Kennwortzurücksetzung die Option **Benachrichtigungen** aus.  
 
 1. Stellen Sie sicher, dass die Einstellung „Benutzer über Kennwortzurücksetzungen benachrichtigen“ auf **Ja** festgelegt ist.  Belassen Sie die Einstellung „Benachrichtigen aller Administratoren, wenn andere Administratoren ihr Kennwort zurücksetzen“ bei „Nein“.
 
-1. Beachten Sie, dass der Navigationsbereich "Kennwortzurücksetzung" auch Optionen zum Anzeigen von Überwachungsprotokollen und Verwendung & Erkenntnisse enthält.
+1. Beachten Sie, dass der Navigationsbereich „Kennwortzurücksetzung“ auch Optionen zum Anzeigen von Auditprotokollen und Nutzung u. Erkenntnisse enthält.
 
 1. Schließen Sie das Kennwortzurücksetzungsfenster. Wählen Sie dazu in der oberen rechten Ecke der Seite das **X** aus. Dadurch kehren Sie zum Microsoft Entra Admin Center zurück.
 
@@ -79,8 +79,8 @@ Bei dieser Aufgabe durchlaufen Sie als der Benutzerin Sara Perez den Registrieru
 
 1. Ein Popup zeigt an, dass weitere Informationen erforderlich sind.  Denn als Mitglied der Gruppe „SSPRSecurityGroupUsers“ müssen sich die Gruppenmitglieder im Rahmen der Konfiguration registrieren, wenn sie sich anmelden.  Wählen Sie die Schaltfläche **Weiter** aus.  Hinweis: Eine Alternative dazu, dass Benutzer*innen die Registrierung selbst durchführen, ist, dass Administrator*innen die Authentifizierungsmethoden beim Hinzufügen von Benutzer*innen direkt konfigurieren. Dazu müssen Administratoren die Telefonnummern und E-Mail-Adressen der Benutzer kennen und festlegen, um die Self-Service-Kennwortzurücksetzung auszuführen und um das Kennwort eines Benutzers zurückzusetzen.
 
-1. Die Seite „Ihr Konto schützen“ wird geöffnet.  Das angezeigte Fenster ist für die Telefon-Authentifizierungsmethode vorgesehen. Wenn Sie kein mobiles Gerät mit SMS-Empfang zur Hand haben, fahren Sie mit dem nächsten Schritt fort.  Sie werden aufgefordert, eine Telefonnummer einzugeben. Stellen Sie sicher, dass die Option **Code per SMS an mich senden** aktiviert ist.   Geben Sie die Telefonnummer ein, unter der Sie per SMS einen Code erhalten können, und wählen Sie die Schaltfläche **Weiter** aus.  Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code an das von Ihnen eingegebene Telefon gesendet wurde.  Geben Sie den empfangenen Code ein, und wählen Sie **Weiter** aus. Ein Fenster wird geöffnet, dem Sie entnehmen können, dass dies erfolgreich war, und in dem Ihre Standardanmeldemethode angezeigt wird.  Wählen Sie **Fertig** aus.  
-    1. Alternativ können Sie auch eine andere Methode festlegen, wie unten links im Fenster gezeigt.  Wenn Sie eine andere Methode einrichten möchten, wählen Sie **Ich möchte eine andere Methode einrichten** aus. In einem angezeigten Popupfenster werden Sie Folgendes gefragt: „Welche Methode möchten Sie verwenden?“  Wählen Sie in der Dropdownliste den Eintrag **E-Mail** als Ihre bevorzugte Methode aus. Wählen Sie dann die Schaltfläche **Bestätigen** aus.  Geben Sie die E-Mail-Adresse ein, die Sie verwenden möchten, und wählen Sie dann **Weiter** aus.  Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code an die von Ihnen eingegebene E-Mail-Adresse gesendet wurde.  Rufen Sie unter der von Ihnen eingegebenen E-Mail-Adresse den Code ab.  Geben Sie den empfangenen Code ein, und wählen Sie **Weiter** aus. Ein Fenster wird geöffnet, dem Sie entnehmen können, dass dies erfolgreich war, und in dem Ihre Standardanmeldemethode angezeigt wird.  Wählen Sie **Fertig** aus.
+1. Die Seite „Ihr Konto schützen“ wird geöffnet.  Das angezeigte Fenster ist für die Authentifizierungsmethode über das Handy vorgesehen. Wenn Sie kein mobiles Gerät mit SMS-Empfang zur Hand haben, fahren Sie mit dem nächsten Schritt fort.  Sie werden aufgefordert, eine Telefonnummer einzugeben. Stellen Sie sicher, dass die Option **Code per SMS an mich senden** aktiviert ist.   Geben Sie die Telefonnummer ein, unter der Sie per SMS einen Code erhalten können, und klicken Sie auf die Schaltfläche **Weiter**.  Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code an das von Ihnen eingegebene Telefon gesendet wurde.  Geben Sie den empfangenen Code ein, und klicken Sie auf **Weiter**. Ein Fenster wird geöffnet, dem Sie entnehmen können, dass dies erfolgreich war, und in dem Ihre Standardanmeldemethode angezeigt wird.  Wählen Sie **Fertig** aus.  
+    1. Alternativ können Sie auch eine andere Methode festlegen, wie unten links im Fenster gezeigt.  Wenn Sie eine andere Methode einrichten möchten, wählen Sie **Ich möchte eine andere Methode einrichten** aus. In einem angezeigten Popupfenster werden Sie Folgendes gefragt: „Welche Methode möchten Sie verwenden?“  Wählen Sie in der Dropdownliste den Eintrag **E-Mail** als Ihre bevorzugte Methode aus. Wählen Sie dann die Schaltfläche **Bestätigen** aus.  Geben Sie die E-Mail-Adresse ein, die Sie verwenden möchten, und klicken Sie dann auf **Weiter**.  Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code an die von Ihnen eingegebene E-Mail-Adresse gesendet wurde.  Greifen Sie auf die von Ihnen geöffnete E-Mail zu, um den Code herauszulesen.  Geben Sie den empfangenen Code ein, und klicken Sie auf **Weiter**. Ein Fenster wird geöffnet, dem Sie entnehmen können, dass dies erfolgreich war, und in dem Ihre Standardanmeldemethode angezeigt wird.  Wählen Sie **Fertig** aus.
 
 1. Sie können ihre Anmeldung jetzt abschließen. Wenn Sie feststellen, dass die Anmeldezeit abgelaufen ist, geben Sie das Kennwort einfach erneut ein.
 
@@ -98,23 +98,23 @@ Bei dieser Aufgabe durchlaufen Sie als die Benutzerin Sara Perez den Prozess zum
 
 1. Wählen Sie im Fenster „Kennwort eingeben“ die Option **Kennwort vergessen** aus.
 
-1. Das Fenster „Konto wieder aktivieren“ wird geöffnet.   Vergewissern Sie sich, dass die E-Mail-Adresse für Sara Perez, sara@WWLxZZZZ.onmicrosoft.com, im Feld für die E-Mail-Adresse oder den Benutzernamen angezeigt wird.  Wenn nicht, geben Sie sie ein.  
+1. Das Fenster „Konto wieder aktivieren“ wird geöffnet.   Vergewissern Sie sich, dass die E-Mail-Adresse für Sara Perez, sara@WWLxZZZZ.onmicrosoft.com, im Feld für die E-Mail-Adresse oder den Benutzernamen angezeigt wird.  Wenn nicht, geben Sie hinein.  
 
 1. Geben Sie in das leere Feld die im Bild angezeigten Zeichen oder die Wörter aus dem Audio ein. Wählen Sie nach der Eingabe **Weiter** aus.
 
-1. Auf dem Bildschirm wird „Konto wieder aktivieren“ und „Überprüfungsschritt 1 > Neues Kennwort auswählen“ angezeigt. Behalten Sie die Standardeinstellung **Textnachricht an mein Mobiltelefon senden** bei.  Sie werden aufgefordert, Ihre Mobiltelefonnummer einzugeben.  Wählen Sie nach ihrer Eingabe die Schaltfläche **Textnachricht** aus.  Wenn Sie während der Registrierung „E-Mail“ ausgewählt haben, wird im Fenster „Konto wieder aktivieren“ die Meldung „Sie erhalten eine E-Mail mit einem Prüfcode unter Ihrer alternativen E-Mail-Adresse“ angezeigt.  Wählen Sie **E-Mail** aus.
+1. Auf dem Bildschirm wird „Konto wieder aktivieren“ und „Überprüfungsschritt 1 > Neues Kennwort auswählen“ angezeigt. Behalten Sie die Standardeinstellung **SMS an mein Mobiltelefon senden** bei.  Sie werden aufgefordert, Ihre Mobiltelefonnummer einzugeben.  Wählen Sie nach ihrer Eingabe die Schaltfläche **Textnachricht** aus.  Wenn Sie während der Registrierung „E-Mail“ ausgewählt haben, wird im Fenster „Konto wieder aktivieren“ die Meldung „Sie erhalten eine E-Mail mit einem Prüfcode unter Ihrer alternativen E-Mail-Adresse“ angezeigt.  Wählen Sie **E-Mail** aus.
 
-1. Geben Sie den Prüfcode ein, und drücken Sie dann **Weiter**.
+1. Geben Sie den Prüfcode ein, und klicken Sie dann auf **Weiter**.
 
-1. Auf dem nächsten Bildschirm werden Sie aufgefordert, das neue Kennwort einzugeben und das neue Kennwort zu bestätigen.  Geben Sie dies jetzt ein, und wählen Sie die Schaltfläche **Fertig stellen** aus.
+1. Auf dem nächsten Bildschirm werden Sie aufgefordert, das neue Kennwort einzugeben und das neue Kennwort zu bestätigen.  Geben Sie diese jetzt ein, und klicken Sie auf die Schaltfläche **Fertigstellen**.
 
-1. Auf dem Bildschirm wird eine Meldung angezeigt, dass Ihr Kennwort zurückgesetzt wurde.  Wählen Sie **Klicken Sie hier**, um sich mit Ihrem neuen Kennwort anzumelden.
+1. Auf dem Bildschirm wird eine Meldung angezeigt, dass Ihr Kennwort zurückgesetzt wurde.  Klicken Sie auf **Hier klicken**, um sich mit Ihrem neuen Kennwort anzumelden.
 
-1. Wählen Sie **sara@WWLxZZZZZZ.onmicrosoft.com** im Informationsfeld „Konto auswählen“ aus, geben Sie Ihr neues Kennwort ein, und wählen Sie dann die Schaltfläche **Anmelden** aus.  Wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten, wählen Sie **Nein** aus.
+1. Wählen Sie **sara@WWLxZZZZZZ.onmicrosoft.com** im Informationsfeld „Konto auswählen“ aus, geben Sie Ihr neues Kennwort ein, und wählen Sie dann die Schaltfläche **Anmelden** aus.  Wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten, **Nein** aus.
 
 1. Sie sollten sich nun im Office-Portal befinden.
 
-1. Melden Sie sich ab. Wählen Sie dazu das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann **Abmelden** aus. Schließen Sie dann alle Browserfenster.
+1. Melden Sie sich ab. Klicken Sie dazu auf das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann auf **Abmelden**. Schließen Sie dann alle Browserfenster.
 
 ### Aufgabe 5 (optional)
 
@@ -128,16 +128,16 @@ Bei dieser Aufgabe zeigen Sie als Administrator kurz die Überwachungsprotokolle
 
 1. Wählen Sie im linken Navigationsbereich die Option **Auditprotokolle** aus.  Beachten Sie die verfügbaren Informationen und Filter.  Sie können auch Protokolle herunterladen.  
 
-1. Wählen Sie **Herunterladen** aus.  Beachten Sie, dass Sie den Download als CSV oder JSON formatieren können.  Schließen Sie das Fenster. Wählen Sie dazu in der oberen rechten Ecke des Bildschirms das **X** aus.
+1. Wählen Sie **Herunterladen** aus.  Beachten Sie, dass Sie den Download als CSV oder JSON formatieren können.  Schließen Sie das Fenster. Klicken Sie dazu in der oberen rechten Ecke des Bildschirms auf das **X**.
 
-1. Wählen Sie im linken Navigationsbereich die Option **Nutzung und Erkenntnisse** aus.
+1. Wählen Sie im linken Navigationsbereich die Option **Nutzung u. Erkenntnisse** aus.
 
 1. Beachten Sie die verfügbaren Informationen zur Registrierung.  Beachten Sie, dass es einige Zeit dauern kann, bis diese Daten aktualisiert sind, auch wenn Sie eine Aktualisierung durchgeführt haben, sodass möglicherweise die Registrierungs- oder Nutzungsdaten aus der vorherigen Aufgabe noch nicht darin widergespiegelt werden.
 
-1. Wählen Sie oben auf der Seite **Nutzung** aus, um die Anzahl der Self-Service-Kennwortzurücksetzungen und Kontoentsperrungen nach Methode anzuzeigen.  Beachten Sie, dass es einige Zeit dauern kann, bis diese Daten aktualisiert sind, auch wenn Sie eine Aktualisierung durchgeführt haben, sodass möglicherweise die Nutzungsdaten aus der vorherigen Aufgabe noch nicht darin widergespiegelt werden.
+1. Wählen Sie oben auf der Seite **Nutzung** aus, um die Anzahl der Self-Service-Kennwortzurücksetzungen und Kontoentsperrungen nach Methode anzuzeigen.  Beachten Sie, dass, auch wenn Sie eine Aktualisierung durchgeführt haben, es einige Zeit dauern kann, bis diese Daten aktualisiert sind, sodass sich möglicherweise die Nutzungsdaten aus der vorherigen Aufgabe noch nicht darin widerspiegeln.
 
 1. Schließen Sie die geöffneten Browserregisterkarten.
 
 ### Überprüfung
 
-In diesem Lab haben Sie als Administrator*in den Prozess zum Aktivieren der Self-Service-Kennwortzurücksetzung durchlaufen. Bei aktivierter SSPR übernehmen Sie anschließend die Rolle eines Benutzers, um den Prozess der Registrierung für SSPR und auch zur Zurücksetzung Ihres Kennworts zu durchlaufen.  Schließlich erfahren Sie als Administrator*in, wo Sie auf Überwachungsprotokolle und Nutzungs- und Insights-Daten für SSPR zugreifen können.
+In diesem Lab haben Sie als Administrator*in den Prozess zum Aktivieren der Self-Service-Kennwortzurücksetzung durchlaufen. Bei aktivierter SSPR übernehmen Sie anschließend die Rolle eines Benutzers, um den Prozess der Registrierung für SSPR und auch zur Zurücksetzung Ihres Kennworts zu durchlaufen.  Schließlich erfahren Sie als Administrator*in, wo Sie auf Auditprotokolle und Nutzungs- und Erkenntnis-Daten für SSPR zugreifen können.
