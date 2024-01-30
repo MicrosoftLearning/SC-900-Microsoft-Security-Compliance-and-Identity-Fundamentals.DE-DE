@@ -35,25 +35,19 @@ In dieser Aufgabe zeigen Sie einige der Parameter an, die der VM zugeordnet sind
 
 1. Sie befinden sich nun auf der Seite „SC900-WinVM“.  Beachten Sie einige der grundlegenden Informationen zur VM.
 
-1. Wählen Sie oben auf der Seite **Verbinden** aus.  Wählen Sie die Option **Zugriff überprüfen** aus, die unter der IP-Adresse aufgeführt ist.  Diese Überprüfung erfolgt mithilfe von Port 3389, dem Port für die RDP-Konnektivität.  Die Meldung „Kann nicht überprüft werden“ sollte angezeigt werden.  Klicken Sie im nativen RDP-Feld auf **Auswählen**.  Im sich daraufhin öffnenden Fenster sollte unter „1 Voraussetzungen für das Konfigurieren von nativem RDP“ die Meldung „Azure muss einige Features konfigurieren, um eine Verbindung mit der VM herzustellen“ angezeigt werden.  In der nächsten Aufgabe richten Sie eine NSG ein, um die RDP-Verbindung explizit zuzulassen.
+1. Wählen Sie im linken Navigationsbereich **Netzwerkeinstellungen** aus.  In den Abschnitten „Grundlagen“ des Hauptfensters wird die Netzwerkschnittstelle für die VM angezeigt.  Beachten Sie, dass neben der Netzwerksicherheitsgruppe nichts aufgeführt ist, da der Schnittstelle keine NSG zugewiesen ist.
 
-
-1. Wählen Sie im linken Navigationsbereich **Netzwerk** aus.  
-    1. Die Standardansicht gilt für Regeln für eingehende Ports.  Beachten Sie, dass für die Netzwerkschnittstelle für diese VM keine Netzwerksicherheitsgruppen konfiguriert sind.  Das gleiche gilt, wenn Sie Regeln für ausgehende Ports auswählen.
-    1. Wählen Sie neben „Netzwerkschnittstelle“ die Option **Effektive Sicherheitsregeln** aus.  Beachten Sie die Angabe „Der Netzwerkschnittstelle sind keine Netzwerksicherheitsgruppen oder Anwendungssicherheitsgruppen zugeordnet“.
-
-1. Lassen Sie diese Browserregisterkarte geöffnet.
-
+1. Lassen Sie diese Registerkarte geöffnet.
 
 ### Aufgabe 2
 
 In diesem Teil erstellen Sie eine Netzwerksicherheitsgruppe, weisen die Netzwerkschnittstelle der VM dieser NSG zu und erstellen eine neue Regel für eingehenden RDP-Datenverkehr.
 
-1. Klicken Sie auf der geöffneten NSG-Registerkarte mit der rechten Maustaste oben auf der Seite auf den Link *Startseite*, und wählen Sie **Link in neuer Registerkarte öffnen** aus, um eine weitere Seite für **Azure-Dienste** zu öffnen.
+1. Klicken Sie auf der geöffneten Azure-Registerkarte mit der rechten Maustaste oben auf der Seite auf den Link *Startseite*, und wählen Sie **Link in neuer Registerkarte öffnen** aus, um eine weitere Seite für **Azure-Dienste** zu öffnen.
 
 1. Geben Sie in der blauen Suchleiste oben auf der Seite **Netzwerksicherheitsgruppen** ein. Wählen Sie aus den Ergebnissen **Netzwerksicherheitsgruppen** aus. Wählen Sie nicht *Netzwerksicherheitsgruppen (klassisch)* aus.
 
-1. Klicken Sie auf der Seite Netzwerksicherheitsgruppen auf **+ Erstellen**.
+1. Wählen Sie in der Mitte der Seite die blaue Schaltfläche mit der Bezeichnung **Netzwerksicherheitsgruppe erstellen** aus.  Alternativ können Sie auf der Seite „Netzwerksicherheitsgruppen“ auch **+ Erstellen** auswählen.
 
 1. Geben Sie auf der Registerkarte „Allgemein“ der Seite „Netzwerksicherheitsgruppe erstellen“ die folgenden Einstellungen an:
     1. Abonnement: Behalten Sie den Standardwert bei (dies ist das Azure-Abonnement, das vom autorisierten Lab-Hoster bereitgestellt wird).
@@ -64,15 +58,19 @@ In diesem Teil erstellen Sie eine Netzwerksicherheitsgruppe, weisen die Netzwerk
 
 1. Klicken Sie nach Abschluss der Bereitstellung auf **Zu Ressource wechseln**.
 
-1. Oben auf der darunterliegenden Seite unter „Zusammenfassung“ werden einige grundlegende Informationen zur von Ihnen erstellten NSG angezeigt.  Zwei Punkte sind zu beachten: Es gibt keine benutzerdefinierten Sicherheitsregeln und keine Subnetze oder Netzwerkschnittstellen, die dieser NSG zugeordnet sind.  Obwohl es keine benutzerdefinierten Sicherheitsregeln gibt, gibt es Standardregeln für eingehenden und ausgehenden Datenverkehr, die in jeder NSG enthalten sind, wie auf der Seite gezeigt.  Überprüfen Sie die Eingangs- und Ausgangsregeln. Die Standardregeln für eingehenden Datenverkehr verweigern den gesamten eingehenden Datenverkehr, der nicht aus einem virtuellen Netzwerk oder einem Azure-Lastenausgleich stammt.  Die Ausgangsregeln verweigern den gesamten ausgehenden Datenverkehr mit Ausnahme des Datenverkehrs zwischen virtuellen Netzwerken und des ausgehenden Datenverkehrs in das Internet.
+1. Die Übersichtsseite für die neu erstellte NSG sollte angezeigt werden.  Wählen Sie andernfalls im linken Navigationsbereich die Option **Übersicht** aus. Oben auf der darunterliegenden Seite unter „Zusammenfassung“ werden einige grundlegende Informationen zur von Ihnen erstellten NSG angezeigt.  Zwei Punkte sind zu beachten: Es gibt keine benutzerdefinierten Sicherheitsregeln und keine Subnetze oder Netzwerkschnittstellen, die dieser NSG zugeordnet sind.  Obwohl es keine benutzerdefinierten Sicherheitsregeln gibt, gibt es Standardregeln für eingehenden und ausgehenden Datenverkehr, die in jeder NSG enthalten sind, wie auf der Seite gezeigt.  Überprüfen Sie die Eingangs- und Ausgangsregeln. Die Standardregeln für eingehenden Datenverkehr verweigern den gesamten eingehenden Datenverkehr, der nicht aus einem virtuellen Netzwerk oder einem Azure-Lastenausgleich stammt.  Die Ausgangsregeln verweigern den gesamten ausgehenden Datenverkehr mit Ausnahme des Datenverkehrs zwischen virtuellen Netzwerken und des ausgehenden Datenverkehrs in das Internet.
 
 1. Wählen Sie im linken Navigationsbereich auf der Seite „NSG-SC900“ unter „Einstellungen“ die Option **Netzwerkschnittstellen** aus.
     1. Wählen Sie **Zuordnen** aus.
-    2. Wählen Sie im Feld für Netzwerkschnittstellenzuordnungen den **Abwärtspfeil**, dann **sc900-winvmXXX** und schließlich unten im Fenster **OK** aus. Sobald die Schnittstelle dem NSG zugeordnet ist, wird sie in der Liste angezeigt.
+    2. Wählen Sie im Feld für Netzwerkschnittstellenzuordnungen den **Abwärtspfeil**, dann **sc900-winvmXXX** und schließlich unten im Fenster **OK** aus. Sobald die Schnittstelle dem NSG zugeordnet ist, wird sie in der Liste angezeigt.  Die NSG wird jetzt der Netzwerkschnittstelle Ihrer VM zugewiesen.
 
-1. Wählen Sie im linken Navigationsbereich **Eingehende Sicherheitsregeln** aus.
+1. Navigieren Sie im Browser zurück zur Registerkarte **SC900-WinWM – Microsoft Azure**.  Aktualisieren Sie die Seite. Neben „Netzwerksicherheitsgruppe“ sollte nun der Name der NSG angezeigt werden, die Sie gerade erstellt haben.  Wenn sie immer noch nicht angezeigt wird, warten Sie eine weitere Minute, und aktualisieren Sie die Seite dann erneut.
 
-1. Die Standardregeln für eingehenden Datenverkehr verweigern den gesamten eingehenden Datenverkehr, der nicht von einem VNet oder einem Azure-Lastenausgleich stammt, sodass Sie eine Regel einrichten müssen, um eingehenden RDP-Datenverkehr (Datenverkehr an Port 3389) zuzulassen. Erinnern Sie sich, dass Sie die Standardregeln nicht entfernen, aber außer Kraft setzen können, indem Sie Regeln mit höheren Prioritäten erstellen.
+1. Wählen Sie im linken Navigationsbereich **Verbinden** aus. Wählen Sie im Hauptfenster neben der Portnummer 3389 die Option **Zugriff überprüfen** aus. Die Zugriffsüberprüfungsfunktion sendet Signale (Datenverkehr) an den standardmäßigen RDP-Port 3389 der VM, um zu überprüfen, ob darauf zugegriffen werden kann. Es kann eine Minute dauern, aber dann sollte „Nicht zugänglich“ angezeigt werden.  Dies ist zu erwarten, da die NSG-Regel „DenyAllInBound“ den gesamten eingehenden Datenverkehr an die VM verweigert.
+
+1. Navigieren Sie im Browser zurück zur Registerkarte **NSG-SC900 – Microsoft Azure**.
+
+1. Wählen Sie im linken Navigationsbereich **Eingehende Sicherheitsregeln** aus. Die Standardregeln für eingehenden Datenverkehr verweigern den gesamten eingehenden Datenverkehr, der nicht von einem VNet oder einem Azure-Lastenausgleich stammt, sodass Sie eine Regel einrichten müssen, um eingehenden RDP-Datenverkehr (Datenverkehr an Port 3389) zuzulassen. Erinnern Sie sich, dass Sie die Standardregeln nicht entfernen, aber außer Kraft setzen können, indem Sie Regeln mit höheren Prioritäten erstellen.
 
 1. Wählen Sie oben auf der Seite die Option **Hinzufügen** aus. Geben Sie auf der Seite „Eingehende Sicherheitsregel hinzufügen“ die folgenden Einstellungen an:
     1. Quelle:  **Beliebig**
@@ -93,7 +91,7 @@ In diesem Teil erstellen Sie eine Netzwerksicherheitsgruppe, weisen die Netzwerk
 
 In dieser Aufgabe testen Sie die neu erstellte NSG-Eingangsregel, um sicherzustellen, dass Sie eine RDP-Verbindung (Remotedesktop) mit der VM herstellen können.  Sobald Sie die VM nutzen, überprüfen Sie die ausgehende Konnektivität mit dem Internet von der VM aus.
 
-1. Öffnen Sie die Registerkarte „SC900-WinVM – Microsoft Azure“ in Ihrem Browser. Wenn Sie die Browserregisterkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, geben Sie **https://portal.azure.com** ein, und wählen Sie **VMs** aus. Wählen Sie dann die VM **SC900-WinVM** aus.
+1. Öffnen Sie die Registerkarte „SC900-WinVM – Microsoft Azure“ in Ihrem Browser.
 
 1. Klicken Sie im linken Navigationsbereich auf **Verbinden**.
 
@@ -145,7 +143,6 @@ In der vorherigen Aufgabe haben Sie bestätigt, dass Sie eine RDP-Verbindung mit
 1. Kehren Sie zu Ihrer VM zurück (das RDP-Symbol für die VM sollte auf der Taskleiste unten auf der Seite angezeigt werden).
 
 1. Öffnen Sie auf Ihrer VM den Microsoft Edge-Browser, und geben Sie **www.bing.com** ein. Diese Seite sollte nicht angezeigt werden. Wenn Sie eine Verbindung mit dem Internet herstellen können und sichergestellt haben, dass alle Parameter für die Ausgangsregel ordnungsgemäß festgelegt wurden, liegt dies wahrscheinlich daran, dass es einige Minuten dauern kann, bis die Regel wirksam wird.  Schließen Sie den Browser, warten Sie einige Minuten, und versuchen Sie es erneut. Für Azure-Abonnements in der Laborumgebung können Verzögerungen auftreten, die länger als normal sind.
-
 
 1. Schließen Sie die Remotedesktopverbindung, indem Sie auf das **X** in der oberen Mitte der Seite klicken, auf der die IP-Adresse angezeigt wird.  Ein Popupfenster wird anzeigt, das „Die Remotesitzung wird getrennt“ angibt. Klickan Sie auf **OK**.
 
