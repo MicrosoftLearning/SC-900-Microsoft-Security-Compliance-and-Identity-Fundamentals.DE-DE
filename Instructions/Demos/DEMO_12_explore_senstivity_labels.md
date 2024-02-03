@@ -27,7 +27,7 @@ In dieser Demo zeigen Sie die Einstellungen für eine vorhandene Vertraulichkeit
 
 1. Wählen Sie im linken Navigationsbereich **Bezeichnungen** aus.
 
-1. Einige Bezeichnungen wurden in Ihrem Microsoft 365-Labmandanten vorkonfiguriert. Wählen Sie die Bezeichnung namens **Vertraulich-Finanzen** aus.  Ein Fenster wird geöffnet, das Informationen über diese Bezeichnung bereitstellt.  Beachten Sie die Einstellungen für diese Bezeichnung.  Wählen Sie oben auf der Seite das **Stiftsymbol** aus, um einige der grundlegenden Konfigurationseinstellungen anzuzeigen. Wenn das Stiftsymbol nicht angezeigt wird, wählen Sie die Auslassungspunkte aus.
+1. Einige Bezeichnungen wurden in Ihrem Microsoft 365-Labmandanten vorkonfiguriert. Wählen Sie die Bezeichnung namens **Vertraulich-Finanzen** aus.  Ein Fenster wird geöffnet, das Informationen über diese Bezeichnung bereitstellt.  Beachten Sie die Einstellungen für diese Bezeichnung.  Wählen Sie oben auf der Seite die Option **Bezeichnung bearbeiten** aus (möglicherweise als Bleistiftsymbol angezeigt), um einige der grundlegenden Konfigurationseinstellungen anzuzeigen. Wenn diese Option nicht angezeigt wird, wählen Sie die Auslassungspunkte aus.
     1. Bei der Konfiguration werden zunächst ein Name und eine Beschreibung für Ihre Bezeichnung angegeben.  Nehmen Sie keine Änderungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
     1. Beachten Sie den Bereich für diese Bezeichnung. Nehmen Sie keine Änderungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
     1. Auf diesem nächsten Bildschirm können Sie Schutzeinstellungen für die beschrifteten Elemente auswählen. Beachten Sie, dass diese Bezeichnung konfiguriert ist, die Inhaltsmarkierung zu unterstützen. Nehmen Sie keine Änderungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
@@ -38,9 +38,7 @@ In dieser Demo zeigen Sie die Einstellungen für eine vorhandene Vertraulichkeit
 
 1. Wählen Sie im linken Navigationsbereich **Bezeichnungsrichtlinien** aus.  Vertraulichkeitsbezeichnungen können aufgrund von Bezeichnungsrichtlinien veröffentlicht werden.  Der Microsoft 365-Mandant wurde zur Vereinfachung mit einigen Bezeichnungsrichtlinien konfiguriert.
 
-1. Wählen Sie **Richtlinie zu vertraulichen Finanzen** aus.  Ein Fenster wird geöffnet, das Informationen über die Richtlinie bereitstellt. 
-
-1. Wählen Sie oben im Fenster die **Richtlinie bearbeiten** aus.  Hier werden Sie durch die Einstellungen geführt, ohne etwas zu ändern.
+1. Wählen Sie **Richtlinie zu vertraulichen Finanzen** aus.  Ein Fenster wird geöffnet, das Informationen über die Richtlinie bereitstellt. Wählen Sie oben im Fenster die **Richtlinie bearbeiten** aus.  Hier werden Sie durch die Einstellungen geführt, ohne etwas zu ändern.
     1. Lesen Sie die Beschreibung unter „Zu veröffentlichende Vertraulichkeitsbezeichnungen auswählen“.  Beachten Sie die aufgelistete Bezeichnung.  Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
     1. Lesen Sie die Beschreibung für die „Zuweisung von Administratoreinheiten“. Die Administratoreinheiten sind auf das vollständige Verzeichnis festgelegt. Ändern Sie keine der Einstellungen. Wählen Sie **Weiter** aus.  
     1. Schauen Sie sich die Beschreibung für die „Veröffentlichung für Benutzer und Gruppen“ an.  Beachten Sie, dass diese Bezeichnung für alle Benutzer verfügbar ist.  Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
@@ -52,7 +50,7 @@ In dieser Demo zeigen Sie die Einstellungen für eine vorhandene Vertraulichkeit
     1. Über die letzte Konfigurationsoption wird der Name Ihrer Richtlinie festgelegt.  Da Sie die Richtlinie bearbeiten, ist das Feld „Name“ abgeblendet. Wählen Sie unten auf der Seite **Weiter** aus.
     1. Überprüfen Sie die Richtlinieneinstellungen. Wählen Sie **Abbrechen** aus, um alle Änderungen zu verwerfen und zur Seite Bezeichnungsrichtlinien zurückzukehren.
 
-1. Wählen Sie auf der Seite „Information Protection“ die Option „Automatisches Bezeichnen“ aus. Schauen Sie sich die Beschreibung an. Achten Sie darauf, dass Sie Richtlinien für die automatische Anwendung von Bezeichnungen, um automatisch Vertraulichkeitsbezeichnungen auf E-Mail-Nachrichten oder OneDrive- und SharePoint-Dateien anzuwenden, die vertrauliche Informationen enthalten, erstellen. Wenn Richtlinien für die automatische Bezeichnung konfiguriert sind, wählen Sie eine aus, und lesen Sie die Richtlinieninformationen im Detailbereich.  Wenn keine Richtlinie aufgeführt ist, können Sie die Schritte zum Erstellen durchlaufen, sofern dies die Zeit zulässt.
+1. Wählen Sie im linken Navigationsbereich unter „Information Protection“ die Option „Automatische Bezeichnung“ aus. Schauen Sie sich die Beschreibung an. Achten Sie darauf, dass Sie Richtlinien für die automatische Anwendung von Bezeichnungen, um automatisch Vertraulichkeitsbezeichnungen auf E-Mail-Nachrichten oder OneDrive- und SharePoint-Dateien anzuwenden, die vertrauliche Informationen enthalten, erstellen. Wenn Richtlinien für die automatische Bezeichnung konfiguriert sind, wählen Sie eine aus, und lesen Sie die Richtlinieninformationen im Detailbereich.  Wenn keine Richtlinie aufgeführt ist, können Sie die Schritte zum Erstellen durchlaufen, sofern dies die Zeit zulässt.
 
 1. Wählen Sie im linken Navigationsbereich die Startseite aus, um zur Startseite des Microsoft Purview-Complianceportals zurückzukehren.
 
@@ -66,8 +64,8 @@ In diesem Schritt zeigen Sie den Prozess der Anwendung einer Bezeichnung aus der
 
 1. Wählen Sie **Leeres Dokument** aus, und geben Sie dann auf der Seite etwas Text ein.  Wählen Sie oben auf der Seite auf dem blauen Balken den Abwärtspfeil aus, der sich neben „DokumentXX – gespeichert“ befindet, und geben Sie in das Feld „Dateiname“ den Text **Testbezeichnung** ein. Drücken Sie dann die **EINGABETASTE** auf Ihrer Tastatur.
 
-1. Wählen Sie in der oberen Menüleiste das Symbol **Vertraulichkeitssymbol** (das Symbol rechts neben dem Mikrofonsymbol) aus. Wenn diese Option nicht sofort angezeigt wird, aktualisieren Sie die Seite. Wählen Sie in der Dropdownliste den Eintrag **Confidential – Finance** (Vertraulich – Finanzen) aus.   HINWEIS: Wenn die Option „Vertraulichkeit“ nicht sofort angezeigt wird, aktualisieren Sie die Seite. Da es sich hier um eine Mandantenumgebung in einem Lab handelt, ist die Verzögerung möglicherweise länger als üblich (10-15 Minuten).
-1. 
+1. Ganz rechts auf der oberen Menüleiste (auch als Menüband bezeichnet) befindet sich ein Pfeil nach unten. Wählen Sie ihn aus, und wählen Sie dann **Klassisches Menüband** aus.  Dies vereinfacht das Erkennen des Vertraulichkeitssymbols. Wählen Sie neben dem Mikrofonsymbol die Option **Vertraulichkeit** aus. Wählen Sie im Dropdownmenü den Eintrag **Confidential-Finance** (Vertraulich – Finanzen) aus.  
+
 1. Wählen Sie auf der oberen Menüleiste die Option **Ansicht** und dann die Ansicht **Lesebereich** aus.
 
 1. Beachten Sie, dass das Dokument das Wasserzeichen enthält.  

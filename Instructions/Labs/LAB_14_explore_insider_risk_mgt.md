@@ -84,7 +84,7 @@ In dieser Aufgabe gehen Sie die Einstellungen zum Erstellen einer Richtlinie dur
     1. Trigger: Das auslösende Ereignis bestimmt, wann eine Richtlinie beginnt, der Aktivität eines Benutzers Risikobewertungen zuzuweisen.  Sie können eine vorhandene DLP-Richtlinie auswählen oder ob der Benutzer eine Exfiltrationsaktivität ausführen soll. Wählen Sie **Benutzer entspricht einer DLP-Richtlinie** aus, und wählen Sie dann in der Dropdownliste **U.S. Financial Data** aus. Wählen Sie **Weiter** aus.
     1. Indikatoren: Beachten Sie, dass alle Office-Indikatoren, die Sie in der vorherigen Aufgabe ausgewählt haben, ausgewählt sind (Sie können dies erkennen, indem Sie die NACH-UNTEN-PFEILTASTE neben Office-Indikatoren auswählen), und wählen Sie dann **Weiter** aus.
     1. Behalten Sie auf der Seite „Erkennungsoptionen“ alle Standardeinstellungen bei, lesen Sie aber die Beschreibung, die den verschiedenen Optionen zugeordnet ist, und zeigen Sie auf das Informationssymbol, um ausführlichere Informationen zu einer bestimmten Einstellung zu erhalten.  Wählen Sie **Weiter** aus.
-    1. Behalten Sie auf der Seite zum Entscheiden, ob Standard- oder Kundenindikator-Schwellenwerte verwendet werden sollen, die Standardeinstellung **Standardschwellenwerte** bei, und wählen Sie dann **Weiter** aus.
+    1. Behalten Sie auf der Seite, auf der Sie entscheiden können, ob Sie die Standard- oder kundenseitig festgelegte Indikatorschwellenwerte verwenden möchten, die Standardeinstellung **Standardschwellenwerte von Microsoft verwenden** bei, und wählen Sie dann **Weiter** aus.
     1. Fertigstellen: Überprüfen Sie die Einstellungen und wählen Sie **Senden** aus.
     1. Überprüfen Sie die Beschreibung, was als Nächstes geschieht, und wählen Sie dann **Fertig** aus.
 
