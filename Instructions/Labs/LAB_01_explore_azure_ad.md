@@ -1,10 +1,10 @@
-<!---
 ---
-Lab: Titel: Erkunden con Microsoft Entra ID Benutzereinstellungen Lernpfad/Modul/Lerneinheit: Lernpfad: Beschreiben der Funktionen von Microsoft Entra; Modul 1: Beschreiben der Funktions- und Identitätstypen von Microsoft Entra ID; Lerneinheit 3: Beschreiben der Microsoft Entra Identitätstypen
+lab:
+  title: Erkunden der Microsoft Entra ID-Benutzereinstellungen
+  module: Describe the function and identity types of Microsoft Entra ID
 ---
---->
 
-# Lab: Erkunden von Microsoft Entra ID
+# Lab: Erkunden der Microsoft Entra ID-Benutzereinstellungen
 
 Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
