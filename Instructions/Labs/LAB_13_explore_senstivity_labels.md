@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Erkunden von Vertraulichkeitsbezeichnungen in Microsoft Purview' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 3: Beschreiben von Information Protection und Datenlebenszyklusverwaltung in Microsoft Purview; Lerneinheit 4: Beschreiben von Vertraulichkeitsbezeichnungen'
+lab:
+  title: "Erkunden von Vertraulichkeitsbezeichnungen in Microsoft\_Purview"
+  module: Describe information protection and data lifecycle management in Microsoft Purview
 ---
---->
 
 # Lab: Erkunden von Vertraulichkeitsbezeichnungen in Microsoft Purview
 

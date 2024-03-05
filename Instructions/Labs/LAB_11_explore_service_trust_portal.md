@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Erkunden des Service Trust Portals' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 1: Beschreiben der Microsoft-Complianceverwaltungsfunktionen; Lerneinheit 2: Erkunden des Service Trust Portals'
+lab:
+  title: Informationen zu Service Trust Portal
+  module: Describe the compliance management capabilities at Microsoft
 ---
---->
 
 # Lab: Erkunden des Service Trust Portal
 
