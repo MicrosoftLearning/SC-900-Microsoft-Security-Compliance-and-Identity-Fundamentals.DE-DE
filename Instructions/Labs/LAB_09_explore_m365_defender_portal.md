@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Erkunden des Microsoft 365 Defender-Portals' Module: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 4: Beschreiben der Bedrohungsschutzfunktionen von Microsoft 365; Lerneinheit 7: Beschreiben des Microsoft 365 Defender-Portals'
+lab:
+  title: "Erkunden des Microsoft\_365 Defender-Portals"
+  module: Describe the threat protection capabilities of Microsoft 365
 ---
---->
 
 # Lab: Erkunden des Microsoft 365 Defender-Portals
 

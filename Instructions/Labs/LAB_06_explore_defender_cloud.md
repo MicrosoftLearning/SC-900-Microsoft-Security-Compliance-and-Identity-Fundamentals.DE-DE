@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Titel: „Erkunden von Microsoft Defender for Cloud“ Lernpfad/Modul/Lerneinheit: „Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 2: Beschreiben der Sicherheitsverwaltungsfunktionen von Azure; Lerneinheit 3: Beschreiben von Cloud Security Posture Management“
+lab:
+  title: Erkunden von Microsoft Defender für Cloud
+  module: Describe the security management capabilities of Azure
 ---
---->
 
 # Lab: Erkunden von Microsoft Defender für Cloud
 
