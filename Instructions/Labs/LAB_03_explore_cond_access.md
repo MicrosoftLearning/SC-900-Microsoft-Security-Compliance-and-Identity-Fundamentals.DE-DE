@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Lernpfad: Beschreiben der Funktionen von Microsoft Entra; Modul: Beschreiben der Zugriffsverwaltungsfunktionen von Microsoft Entra ID; Lerneinheit: Erklären des bedingten Zugriffs
+lab:
+  title: Bedingter Microsoft Entra-Zugriff
+  module: Describe the access management capabilities of Microsoft Entra ID
 ---
---->
 
 # Lab: Bedingter Zugriff mit Microsoft Entra
 
