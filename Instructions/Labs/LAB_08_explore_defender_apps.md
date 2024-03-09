@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Erkunden von Microsoft Defender für Cloud-Apps' Module: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 4: Beschreiben der Bedrohungsschutzfunktionen von Microsoft 365; Lerneinheit 5: Beschreiben von Microsoft Defender für Cloud-Apps'
+lab:
+  title: Erkunden von Microsoft Defender for Cloud Apps
+  module: Describe the threat protection capabilities of Microsoft 365
 ---
---->
 
 # Lab: Erkunden von Microsoft Defender für Cloud-Apps
 

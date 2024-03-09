@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Erkunden des Privileged Identity Managements. Learning Path/Module/Unit: Lernpfad: Beschreiben der Funktionen von Microsoft Entra; Modul 4: Module: Beschreiben der Funktionen für Identitätsschutz und Governance von Microsoft Entra; Lerneinheit 4: Beschreiben der Funktionen von Privileged Identity Management
+lab:
+  title: Erkunden von Privileged Identity Management
+  module: Describe the identity protection and governance capabilities of Microsoft Entra
 ---
---->
 
 # Lab: Azure Privileged Identity Management
 

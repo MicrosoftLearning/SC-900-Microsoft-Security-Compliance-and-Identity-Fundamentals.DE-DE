@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Erkunden des Microsoft Purview-Complianceportals und des Compliance-Managers' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Microsoft-Complianceverwaltungsfunktionen; Modul 2: Beschreiben der Complianceverwaltungsfunktionen in Microsoft Purview; Lerneinheit 2: Beschreiben des Microsoft Purview-Complianceportals'
+lab:
+  title: "Erkunden des Microsoft\_365-Complianceportals und des Compliance-Managers"
+  module: Describe the compliance management capabilities in Microsoft Purview
 ---
---->
 
 # Lab: Erkunden des Microsoft Purview-Complianceportals und des Compliance-Managers
 

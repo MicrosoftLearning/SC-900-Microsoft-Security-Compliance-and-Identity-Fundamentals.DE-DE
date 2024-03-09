@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Setup'
+lab:
+  title: Setup der Übungsumgebung
+  module: Setup your Microsoft 365 lab tenant (not associated with a Learn module)
 ---
---->
 
 # Lab: Einrichtung
 

@@ -6,7 +6,7 @@ layout: home
 
 # Inhaltsverzeichnis
 
-Hyperlinks zu den Lab-Übungen und Demos sind nachfolgend aufgelistet.
+Links zu den einzelnen Lab-Übungen sind nachfolgend aufgelistet.
 
 ## Labs
 
@@ -16,10 +16,15 @@ Hyperlinks zu den Lab-Übungen und Demos sind nachfolgend aufgelistet.
 {% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} – {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
+<!---
+
+
 ## Demos
 
 {% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| Modul | Demo |
+| Module | Demo |
 | --- | --- | 
 {% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
+
+--->

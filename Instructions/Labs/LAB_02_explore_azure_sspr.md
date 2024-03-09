@@ -1,3 +1,9 @@
+---
+lab:
+  title: Microsoft Entra-Self-Service-Kennwortzurücksetzung
+  module: Describe the authentication capabilities of Microsoft Entra ID
+---
+
 <!---
 ---
 Lab: Titel: Erkunden der Azure AD-Authentifizierung mit Self-Service-Kennwortzurücksetzung' Lernpfad/Modul/Lerneinheit: Lernpfad: Beschreiben der Funktionen von Azure Active Directory (Azure AD), Teil von Microsoft Entra; Modul 2: Beschreiben der Authentifizierungsfunktionen von Azure AD; Lerneinheit 4: Beschreiben der Self-Service für Kennwort
