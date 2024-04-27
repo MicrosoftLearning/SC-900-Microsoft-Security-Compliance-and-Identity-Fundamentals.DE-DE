@@ -5,6 +5,7 @@ Pre-Demo Setup: Title: 'Einrichtung der Demo'
 --->
 
 ## WWL-Mandanten – Nutzungsbedingungen
+
 Wenn Ihnen im Rahmen einer Präsenzschulung ein Mandant zugewiesen worden ist, steht dieser für Praxislabs innerhalb der Präsenzschulung zur Verfügung.
 
 Mandanten sollten nicht für Zwecke außerhalb von Praxislabs freigegeben oder verwendet werden. Der in diesem Kurs verwendete Mandant ist ein Testmandant; er kann nach Abschluss des Kurses nicht verwendet oder erreicht werden und ist nicht für Erweiterungen geeignet.
