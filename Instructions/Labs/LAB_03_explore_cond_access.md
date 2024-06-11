@@ -43,7 +43,7 @@ Bei dieser Aufgabe setzen Sie als Administrator das Kennwort für den Benutzer D
 
 ### Aufgabe 2
 
-Bei dieser Aufgabe durchlaufen Sie den Prozess zum Erstellen einer Richtlinie für bedingten Zugriff in Azure AD.
+Bei dieser Aufgabe durchlaufen Sie den Prozess zum Erstellen einer Richtlinie für bedingten Zugriff in Microsoft Entra ID.
 
 1. Öffnen Sie die Browserregisterkarte zur Startseite des Microsoft Entra Admin Centers.   Wenn Sie diese Browserregisterkarte zuvor geschlossen haben, öffnen Sie Microsoft Edge, und geben Sie **https://entra.microsoft.com** in die Adressleiste ein. Melden Sie sich dann mit Ihren Microsoft 365 Administratoranmeldeinformationen, die Sie von Ihrem ALH erhalten haben, an.
 
