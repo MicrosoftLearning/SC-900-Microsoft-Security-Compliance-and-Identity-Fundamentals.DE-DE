@@ -43,7 +43,7 @@ Bei dieser Aufgabe setzen Sie als Administrator*in das Kennwort für den Benutze
 
 ### Aufgabe 2
 
-Bei dieser Aufgabe weisen Sie als Administrator*in Diego eine Azure AD-Rolle in Privileged Identity Management zu.
+Bei dieser Aufgabe weisen Sie als Admin in Privileged Identity Management Diego eine Microsoft Entra ID-Rolle zu.
 
 1. Öffnen Sie die Registerkarte Browser für die Startseite des Microsoft Entra Admin Centers.
 
@@ -108,9 +108,9 @@ Bei dieser Aufgabe melden Sie sich als Diego Siciliani im Microsoft Entra Admin 
 1. Sie werden gefragt, ob Sie angemeldet bleiben möchten.  Wählen Sie **Ja** aus.
 1. Das Fenster „Benutzeradministrator aktivieren“ wird angezeigt.  Sie werden aufgefordert, einen Grund für die Aktivierung einzugeben.  Geben Sie in das angezeigte Feld einen beliebigen Grund ein (max. 500 Zeichen), und klicken Sie dann auf **Aktivieren**.
 1. Sie sehen den Status (drei Fortschrittsphasen), während die Aktivierung verarbeitet wird.
-1. Nach Abschluss der Aktivierung gelangen Sie zur Seite „Meine Azure AD-Rollen“ zurück. Dort wird in einer Benachrichtigung angegeben, dass Sie eine Rolle aktiviert haben.  Klicken Sie auf **Hier klicken**, um Ihre aktiven Rollen anzuzeigen.  Wenn Sie feststellen, dass die Endzeit anders ist als die ursprünglich konfigurierte, klicken Sie oben auf der Seite auf das Aktualisierungssymbol (es kann einige Minuten dauern, bis die Aktualisierung erfolgt).
+1. Nach Abschluss der Aktivierung gelangen Sie zur Seite „Meine Rollen | Microsoft Entra ID“ zurück. Dort wird in einer Benachrichtigung angegeben, dass Sie eine Rolle aktiviert haben.  Klicken Sie auf **Hier klicken**, um Ihre aktiven Rollen anzuzeigen.  Wenn Sie feststellen, dass die Endzeit anders ist als die ursprünglich konfigurierte, klicken Sie oben auf der Seite auf das Aktualisierungssymbol (es kann einige Minuten dauern, bis die Aktualisierung erfolgt).
 1. Wählen Sie im linken Navigationsbereich **Start** aus, um zur Homepage des Microsoft Entra Admin Center zurück zu gelangen. 
-1. Als Azure AD-Benutzeradministrator*in können Sie Benutzer*innen und Gruppen erstellen, Lizenzen verwalten und vieles mehr. Erweitern Sie im linken Navigationsbereich **Identität**, erweitern Sie **Benutzer** und wählen Sie dann **Alle Benutzer** aus.
+1. Als Microsoft Entra ID-Benutzeradmin können Sie Benutzerkonten und Gruppen erstellen, Lizenzen verwalten und mehr. Erweitern Sie im linken Navigationsbereich **Identität**, erweitern Sie **Benutzer** und wählen Sie dann **Alle Benutzer** aus.
 1. Wählen Sie in der Benutzerliste **Bianca Pisani** aus.
 1. Wählen Sie im linken Navigationsbereich **Lizenzen** aus.
 1. Beachten Sie, dass Bianca keine Lizenzen zugewiesen wurden.  Klicken Sie oben auf der Seite auf **+ Zuweisungen**.
@@ -122,4 +122,4 @@ Bei dieser Aufgabe melden Sie sich als Diego Siciliani im Microsoft Entra Admin 
 
 ### Überprüfung
 
-In diesem Lab haben Sie PIM erkundet.  Als Administrator*in haben Sie Diego für eine bestimmte Zeitdauer mit Benutzeradministratorrechten konfiguriert.  Dann haben Sie als Diego den Prozess der Aktivierung der Benutzeradministratorrechte und das Konfigurieren von Benutzereinstellungen durchlaufen.  Erinnern Sie sich daran, dass PIM die Azure AD Premium P2-Lizenzierung erfordert.
+In diesem Lab haben Sie PIM erkundet.  Als Administrator*in haben Sie Diego für eine bestimmte Zeitdauer mit Benutzeradministratorrechten konfiguriert.  Dann haben Sie als Diego den Prozess der Aktivierung der Benutzeradministratorrechte und das Konfigurieren von Benutzereinstellungen durchlaufen.  Beachten Sie, dass für PIM die Microsoft Entra ID Premium P2-Lizenzierung erforderlich ist.
