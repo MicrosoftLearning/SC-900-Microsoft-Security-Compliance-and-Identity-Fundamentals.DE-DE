@@ -114,7 +114,7 @@ Bei dieser Aufgabe melden Sie sich als Diego Siciliani im Microsoft Entra Admin 
 1. Wählen Sie in der Benutzerliste **Bianca Pisani** aus.
 1. Wählen Sie im linken Navigationsbereich **Lizenzen** aus.
 1. Beachten Sie, dass Bianca keine Lizenzen zugewiesen wurden.  Klicken Sie oben auf der Seite auf **+ Zuweisungen**.
-1. Wählen Sie in der Liste „Lizenzen auswählen“ **Office 365 E3** und **Windows 10 Enterprise E3** aus.
+1. Wählen Sie in der Liste der ausgewählten Lizenzen **Microsoft Power Apps für Entwickler** und **Microsoft Power Automate-Gratislizenz** aus.
 1. Klicken Sie unten auf der Seite auf **Speichern**.  Sie werden im oberen rechten Bereich der Seite kurz benachrichtigt, dass die Lizenzen erfolgreich zugewiesen wurden.
 1. Verlassen Sie die Seite mit den aktualisierten Lizenzzuweisungen, indem Sie oben rechts auf der Seite auf das **X** klicken.
 1. Melden Sie sich ab. Wählen Sie dazu das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann **Abmelden** aus. Schließen Sie dann alle Browserfenster.
