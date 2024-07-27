@@ -79,7 +79,7 @@ Als Abonnent von Microsoft 365 verwenden Sie bereits Microsoft Entra ID (zuvor a
 
     1. Wenn Sie eine Lizenz hinzufügen möchten, klicken Sie am oberen Rand des Hauptfensters auf **+ Zuweisungen**.
 
-    1. Wählen Sie unter „Lizenzen auswählen“ **Office 365 E3** und **Windows 10/11 Enterprise E3** aus. Wählen Sie anschließend unten im Bildschirm die Schaltfläche **Speichern** aus. Es sollte nun eine Benachrichtigung in der oberen rechten Ecke des Bildschirms angezeigt werden, dass die Lizenzzuweisungen erfolgreich waren.
+    1. Wählen Sie unter „Lizenzen auswählen“ **Microsoft Power Apps für Entwickler** und **Microsoft Power Automate-Gratislizenz** und klicken Sie dann auf die Schaltfläche **Speichern** am unteren Rand des Bildschirms. Es sollte nun eine Benachrichtigung in der oberen rechten Ecke des Bildschirms angezeigt werden, dass die Lizenzzuweisungen erfolgreich waren.
 
     1. Klicken Sie oben rechts auf dem Bildschirm auf das **X**, um das Fenster „Lizenzzuweisungen“ zu schließen.
 
@@ -106,7 +106,7 @@ Bei dieser Aufgabe melden Sie sich erstmals als Sara Perez an.
 
 6. Geben Sie im Feld „Neues Kennwort“ ein neues Kennwort ein, bestätigen Sie es, und klicken Sie dann auf **Anmelden**.  Notieren Sie sich Ihr neues Kennwort – Sie benötigen es für die nachfolgende Lab-Übung zu SSPR.
 
-7. Sie sollten nun erfolgreich bei Microsoft 365 angemeldet sein.
+7. Sie sollten nun erfolgreich bei Saras Microsoft-Konto angemeldet sein.  Beachten Sie, dass die Lizenzierung von Sara, die Sie in der vorherigen Aufgabe zugewiesen haben, nur auf der Microsoft Power Automate-Gratislizenz und Power Apps für Entwickler beschränkt war und keine E5-Lizenzierung umfasste.
 
 8. Melden Sie sich ab, indem Sie das Symbol in der oberen rechten Ecke des Microsoft 365-Fensters auswählen, das als Kreis mit den Buchstaben SP (neben dem Fragezeichensymbol) angezeigt wird, und dann **Abmelden** auswählen. Schließen Sie dann den Browser.
 

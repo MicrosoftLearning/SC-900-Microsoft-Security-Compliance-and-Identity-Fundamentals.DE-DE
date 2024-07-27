@@ -67,7 +67,7 @@ Bei dieser Aufgabe durchlaufen Sie den Prozess zum Erstellen einer Richtlinie f�
 
 1. Wählen Sie im Feld darunter **Auswählen, wofür diese Richtlinie gilt** den Pfeil nach unten aus, und notieren Sie sich die verfügbaren Optionen.  Behalten Sie die Standardeinstellung **Cloud-Apps** bei.  Stellen Sie sicher, dass die Registerkarte **Einschließen** unterstrichen ist.  Wählen Sie erst **Apps auswählen** aus und dann unterhalb, wo **Auswählen** steht, **Keine**.  Das Fenster zum Auswählen von Cloud-Apps wird geöffnet.
 
-1. Geben Sie **Azure** in die Suchleiste ein.  Wählen Sie aus den unterhalb des Suchfelds angezeigten Suchergebnissen **Microsoft Admin-Portale** aus. Klicken Sie dann unten auf der Seite auf **Auswählen**.  Beachten Sie die Warnung.  
+1. Wählen Sie **Microsoft Admin Portals**, und drücken Sie dann auf **Auswählen** unten auf der Seite.  Beachten Sie die Warnung.  
 
 1. Wählen Sie **0 Bedingungen ausgewählt** unter „Bedingungen“ aus.  Beachten Sie die unterschiedlichen Optionen, die von Ihnen konfiguriert werden können.  Durch die Richtlinie können Sie den Benutzerzugriff auf Basis von Signalen von Bedingungen steuern, unter anderem: Benutzerrisiko, Anmelderisiko, Geräteplattform, Speicherort, Client-Apps oder Filtern nach Geräten.  Erkunden Sie diese konfigurierbaren Optionen, aber legen Sie keine Bedingungen fest.
 
