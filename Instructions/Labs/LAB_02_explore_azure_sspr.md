@@ -77,7 +77,7 @@ In dieser Aufgabe fügen Sie als Administrator den Benutzer, den Sie in der vorh
 
 ### Aufgabe 3
 
-Bei dieser Aufgabe durchlaufen Sie als der Benutzerin Sara Perez den Registrierungsprozess für die Self-Service-Kennwortzurücksetzung.  Für diese Aufgabe müssen Sie über Zugriff auf ein Mobilgerät, auf dem Sie SMS empfangen können, oder über ein persönliches E-Mail-Konto verfügen, auf das Sie zugreifen können.
+Bei dieser Aufgabe durchlaufen Sie als der Benutzerin Sara Perez den Registrierungsprozess für die Self-Service-Kennwortzurücksetzung.  Diese Aufgabe setzt voraus, dass Sie Zugang zu einem mobilen Gerät haben, mit dem Sie SMS empfangen können.
 
 1. Öffnen Sie Microsoft Edge, und geben Sie in der Adressleiste **https://login.microsoft.com** ein.
 
@@ -85,8 +85,10 @@ Bei dieser Aufgabe durchlaufen Sie als der Benutzerin Sara Perez den Registrieru
 
 1. Ein Popup zeigt an, dass weitere Informationen erforderlich sind.  Denn als Mitglied der Gruppe „SSPRSecurityGroupUsers“ müssen sich die Gruppenmitglieder im Rahmen der Konfiguration registrieren, wenn sie sich anmelden.  Wählen Sie die Schaltfläche **Weiter** aus.  Hinweis: Eine Alternative dazu, dass Benutzer*innen die Registrierung selbst durchführen, ist, dass Administrator*innen die Authentifizierungsmethoden beim Hinzufügen von Benutzer*innen direkt konfigurieren. Dazu müssen Administratoren die Telefonnummern und E-Mail-Adressen der Benutzer kennen und festlegen, um die Self-Service-Kennwortzurücksetzung auszuführen und um das Kennwort eines Benutzers zurückzusetzen.
 
-1. Die Seite „Ihr Konto schützen“ wird geöffnet.  Das angezeigte Fenster ist für die Authentifizierungsmethode über das Handy vorgesehen. Wenn Sie kein mobiles Gerät mit SMS-Empfang zur Hand haben, fahren Sie mit dem nächsten Schritt fort.  Sie werden aufgefordert, eine Telefonnummer einzugeben. Stellen Sie sicher, dass die Option **Code per SMS an mich senden** aktiviert ist.   Geben Sie die Telefonnummer ein, unter der Sie per SMS einen Code erhalten können, und klicken Sie auf die Schaltfläche **Weiter**.  Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code an das von Ihnen eingegebene Telefon gesendet wurde.  Geben Sie den empfangenen Code ein, und klicken Sie auf **Weiter**. Ein Fenster wird geöffnet, dem Sie entnehmen können, dass dies erfolgreich war, und in dem Ihre Standardanmeldemethode angezeigt wird.  Wählen Sie **Fertig** aus.  
-    1. Alternativ können Sie auch eine andere Methode festlegen, wie unten links im Fenster gezeigt.  Wenn Sie eine andere Methode einrichten möchten, wählen Sie **Ich möchte eine andere Methode einrichten** aus. In einem angezeigten Popupfenster werden Sie Folgendes gefragt: „Welche Methode möchten Sie verwenden?“  Wählen Sie in der Dropdownliste den Eintrag **E-Mail** als Ihre bevorzugte Methode aus. Wählen Sie dann die Schaltfläche **Bestätigen** aus.  Geben Sie die E-Mail-Adresse ein, die Sie verwenden möchten, und klicken Sie dann auf **Weiter**.  Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code an die von Ihnen eingegebene E-Mail-Adresse gesendet wurde.  Greifen Sie auf die von Ihnen geöffnete E-Mail zu, um den Code herauszulesen.  Geben Sie den empfangenen Code ein, und klicken Sie auf **Weiter**. Ein Fenster wird geöffnet, dem Sie entnehmen können, dass dies erfolgreich war, und in dem Ihre Standardanmeldemethode angezeigt wird.  Wählen Sie **Fertig** aus.
+1. Die Seite „Ihr Konto schützen“ wird geöffnet.  Das angezeigte Fenster bezieht sich auf die Microsoft Authenticator-Methode, für die die Authenticator-App erforderlich ist.  Für dieses Lab verwenden wir eine andere Methode, um den Schritt zu vermeiden, die Anwendung herunterzuladen.  Wählen Sie **Ich möchte eine andere Methode verwenden**.
+    1. Wählen Sie in dem daraufhin angezeigten Popup-Fenster den Dropdown-Pfeil und **Telefon**, dann **Bestätigen**.
+    1. Sie werden aufgefordert, eine Telefonnummer einzugeben. Stellen Sie sicher, dass die Option **Empfang eines Codes** aktiviert ist.   Geben Sie die Telefonnummer ein, unter der Sie den Code erhalten können, und wählen Sie **Weiter** aus.  
+    1. Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code an das von Ihnen eingegebene Telefon gesendet wurde.  Geben Sie den empfangenen Code ein, und klicken Sie auf **Weiter**. Es öffnet sich ein Fenster, das anzeigt, dass der Code verifiziert wurde. Wählen Sie **Weiter** und dann **Fertig**.  
 
 1. Sie können ihre Anmeldung jetzt abschließen. Wenn Sie feststellen, dass die Anmeldezeit abgelaufen ist, geben Sie das Kennwort einfach erneut ein.
 
@@ -108,7 +110,7 @@ Bei dieser Aufgabe durchlaufen Sie als die Benutzerin Sara Perez den Prozess zum
 
 1. Geben Sie in das leere Feld die im Bild angezeigten Zeichen oder die Wörter aus dem Audio ein. Wählen Sie nach der Eingabe **Weiter** aus.
 
-1. Auf dem Bildschirm wird „Konto wieder aktivieren“ und „Überprüfungsschritt 1 > Neues Kennwort auswählen“ angezeigt. Behalten Sie die Standardeinstellung **SMS an mein Mobiltelefon senden** bei.  Sie werden aufgefordert, Ihre Mobiltelefonnummer einzugeben.  Wählen Sie nach ihrer Eingabe die Schaltfläche **Textnachricht** aus.  Wenn Sie während der Registrierung „E-Mail“ ausgewählt haben, wird im Fenster „Konto wieder aktivieren“ die Meldung „Sie erhalten eine E-Mail mit einem Prüfcode unter Ihrer alternativen E-Mail-Adresse“ angezeigt.  Wählen Sie **E-Mail** aus.
+1. Auf dem Bildschirm wird „Konto wieder aktivieren“ und „Überprüfungsschritt 1 > Neues Kennwort auswählen“ angezeigt. Behalten Sie die Standardeinstellung **SMS an mein Mobiltelefon senden** bei.  Sie werden aufgefordert, Ihre Mobiltelefonnummer einzugeben.  Wählen Sie nach ihrer Eingabe die Schaltfläche **Textnachricht** aus. 
 
 1. Geben Sie den Prüfcode ein, und klicken Sie dann auf **Weiter**.
 
@@ -118,7 +120,7 @@ Bei dieser Aufgabe durchlaufen Sie als die Benutzerin Sara Perez den Prozess zum
 
 1. Wählen Sie **sara@WWLxZZZZZZ.onmicrosoft.com** im Informationsfeld „Konto auswählen“ aus, geben Sie Ihr neues Kennwort ein, und wählen Sie dann die Schaltfläche **Anmelden** aus.  Wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten, **Nein** aus.
 
-1. Sie sollten sich nun im Office-Portal befinden.
+1. Sie sollten jetzt beim Microsoft-Konto von Sara angemeldet sein.
 
 1. Melden Sie sich ab. Klicken Sie dazu auf das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann auf **Abmelden**. Schließen Sie dann alle Browserfenster.
 
