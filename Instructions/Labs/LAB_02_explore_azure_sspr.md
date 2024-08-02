@@ -41,15 +41,15 @@ In dieser Aufgabe durchlaufen Sie als Administrator einige der verfügbaren Konf
 
 1. Wählen Sie für „Anzahl von erforderlichen Methoden zum Zurücksetzen“ **1** aus. Beachten Sie das Informationsfeld auf dem Bildschirm.
 
-1. Beachten Sie die verschiedenen Methoden, die Benutzer*innen zur Verfügung stehen.  **E-Mail** und **Mobiltelefon (nur SMS)** sollten bereits markiert sein. Wenn nicht, wählen Sie sie aus.
+1. Beachten Sie die verschiedenen Methoden, die Benutzer*innen zur Verfügung stehen.  **E-Mail** und **Mobiltelefon** sollten bereits markiert sein. Wenn nicht, wählen Sie sie aus.
 
 1. Wählen Sie im linken Navigationsbereich der Kennwortzurücksetzung die Option **Registrierung** aus.  
 
-1. Stellen Sie sicher, dass die Einstellung „Von Benutzern bei der Anmeldung Registrierung verlangen“ auf **Ja** festgelegt ist.  Übernehmen Sie für die Einstellung „Anzahl der Tage, bevor Benutzer aufgefordert werden, ihre Authentifizierungsinformationen erneut zu bestätigen“ die Standardeinstellung von 180.   Beachten Sie das Informationsfeld auf der Seite.
+1. Stellen Sie sicher, dass die Einstellung „Von Benutzern bei der Anmeldung Registrierung verlangen“ auf **Ja** festgelegt ist.  Übernehmen Sie für die Einstellung „Anzahl der Tage, bevor Benutzer aufgefordert werden, ihre Authentifizierungsinformationen erneut zu bestätigen“ die Standardeinstellung von **180**.   Beachten Sie das Informationsfeld auf der Seite.
 
 1. Wählen Sie im linken Navigationsbereich der Kennwortzurücksetzung die Option **Benachrichtigungen** aus.  
 
-1. Stellen Sie sicher, dass die Einstellung „Benutzer über Kennwortzurücksetzungen benachrichtigen“ auf **Ja** festgelegt ist.  Belassen Sie die Einstellung „Benachrichtigen aller Administratoren, wenn andere Administratoren ihr Kennwort zurücksetzen“ bei „Nein“.
+1. Stellen Sie sicher, dass die Einstellung „Benutzer über Kennwortzurücksetzungen benachrichtigen“ auf **Ja** festgelegt ist.  Belassen Sie die Einstellung „Benachrichtigen aller Administratoren, wenn andere Administratoren ihr Kennwort zurücksetzen“ bei **Nein**.
 
 1. Beachten Sie, dass der Navigationsbereich „Kennwortzurücksetzung“ auch Optionen zum Anzeigen von Auditprotokollen und Nutzung u. Erkenntnisse enthält.
 
@@ -85,10 +85,10 @@ Bei dieser Aufgabe durchlaufen Sie als der Benutzerin Sara Perez den Registrieru
 
 1. Ein Popup zeigt an, dass weitere Informationen erforderlich sind.  Denn als Mitglied der Gruppe „SSPRSecurityGroupUsers“ müssen sich die Gruppenmitglieder im Rahmen der Konfiguration registrieren, wenn sie sich anmelden.  Wählen Sie die Schaltfläche **Weiter** aus.  Hinweis: Eine Alternative dazu, dass Benutzer*innen die Registrierung selbst durchführen, ist, dass Administrator*innen die Authentifizierungsmethoden beim Hinzufügen von Benutzer*innen direkt konfigurieren. Dazu müssen Administratoren die Telefonnummern und E-Mail-Adressen der Benutzer kennen und festlegen, um die Self-Service-Kennwortzurücksetzung auszuführen und um das Kennwort eines Benutzers zurückzusetzen.
 
-1. Die Seite „Ihr Konto schützen“ wird geöffnet.  Das angezeigte Fenster bezieht sich auf die Microsoft Authenticator-Methode, für die die Authenticator-App erforderlich ist.  Für dieses Lab verwenden wir eine andere Methode, um den Schritt zu vermeiden, die Anwendung herunterzuladen.  Wählen Sie **Ich möchte eine andere Methode verwenden**.
-    1. Wählen Sie in dem daraufhin angezeigten Popup-Fenster den Dropdown-Pfeil und **Telefon**, dann **Bestätigen**.
+1. Die Seite „Ihr Konto schützen“ wird geöffnet.  Das angezeigte Fenster ist für die Mobiltelefonmethode vorgesehen.
     1. Sie werden aufgefordert, eine Telefonnummer einzugeben. Stellen Sie sicher, dass die Option **Empfang eines Codes** aktiviert ist.   Geben Sie die Telefonnummer ein, unter der Sie den Code erhalten können, und wählen Sie **Weiter** aus.  
-    1. Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code an das von Ihnen eingegebene Telefon gesendet wurde.  Geben Sie den empfangenen Code ein, und klicken Sie auf **Weiter**. Es öffnet sich ein Fenster, das anzeigt, dass der Code verifiziert wurde. Wählen Sie **Weiter** und dann **Fertig**.  
+    1. Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code an das von Ihnen eingegebene Telefon gesendet wurde.  Geben Sie den empfangenen Code ein, und klicken Sie auf **Weiter**. Ein Fenster wird geöffnet, das angibt, dass Ihr Mobiltelefon registriert wurde. Wählen Sie **Weiter** und dann **Fertig**.  
+    1. Wenn Sie stattdessen eine E-Mail verwenden möchten, wählen Sie **Ich möchte eine andere Methode einrichten** und folgen Sie den Schritten. 
 
 1. Sie können ihre Anmeldung jetzt abschließen. Wenn Sie feststellen, dass die Anmeldezeit abgelaufen ist, geben Sie das Kennwort einfach erneut ein.
 
