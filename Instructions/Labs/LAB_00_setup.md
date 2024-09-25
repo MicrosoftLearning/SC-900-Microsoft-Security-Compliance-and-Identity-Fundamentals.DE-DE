@@ -4,7 +4,7 @@ lab:
   module: Setup your Microsoft 365 lab tenant (not associated with a Learn module)
 ---
 
-# Lab: Einrichtung
+# Lab: Einrichtung der Microsoft 365-Mandantschaft
 
 ## WWL-Mandanten – Nutzungsbedingungen
 Wenn Ihnen im Rahmen einer Präsenzschulung ein Mandant zugewiesen worden ist, steht dieser für Praxislabs innerhalb der Präsenzschulung zur Verfügung.
@@ -15,33 +15,36 @@ Mandanten dürfen nicht in ein kostenpflichtiges Abonnement konvertiert werden. 
 
 ## Labszenario
 
-Bei diesem Setuplab geht es um die Aktivierung des Microsoft-Überwachungsprotokolls.
+Dieses Setup-Lab besteht aus der Aktivierung der Microsoft-Überwachungsprotokoll- und Dateiüberwachungsfunktionen im Microsoft 365-Mandanten.
 
 **Geschätzte Dauer**: 5–10 Minuten
 
-### Einrichtung – Aktivieren des Microsoft 365-Überwachungsprotokolls
+### Einrichtung - Aktivieren Sie die Überwachung von Microsoft 365-Auditprotokollen und Dateien
 
-In dieser Einrichtungsaufgabe aktivieren Sie die Audit-Protokoll-Funktion in Microsoft 365.  Obwohl das Überwachungsprotokoll laut Dokumentation standardmäßig aktiviert ist, trifft dies für die meisten Lab-Mandanten nicht zu, und es kann mehrere Stunden dauern, bis die Änderung wirksam wird.  Es empfiehlt sich, dieses Feature zu aktivieren, da Microsoft 365 Audit-Protokolle für Benutzererkenntnisse und -aktivitäten in Richtlinien und Analyseerkenntnissen verwendet.
+In dieser Einrichtungsaufgabe aktivieren Sie die Audit-Protokoll- und Dateiüberwachungsfunktionen in Microsoft 365.  
 
-1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.
+1. Öffnen Sie Microsoft Edge. Geben Sie in der Adressleiste **https://admin.microsoft.com** ein.
 
-1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
-    1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
-    1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
-    1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten. Dadurch gelangen Sie zur Seite „Microsoft 365 Admin Center“.
+1. Melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, die von Ihrem autorisierten Labhoster (ALH) bereitgestellt werden.
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
 
-1. Wählen Sie unter „Admin Center“ die Option **Compliance** aus.  Die Startseite des Microsoft Purview-Complianceportals wird auf einer neuen Browserseite geöffnet.  
+1. Wählen Sie **Sicherheit** unter „Admin Center“ aus.  Die Startseite von Microsoft Defender wird auf einer neuen Browserseite geöffnet.  
 
-1. Wählen Sie im linken Navigationsbereich unter „Lösungen“ **Audit** aus.  Hinweis: Auf die Audit-Funktionalität kann auch über die Microsoft 365 Defender-Homepage zugegriffen werden (zuvor als Microsoft 365 Security Center bezeichnet).
+1. Wählen Sie im linken Navigationsbereich des Microsoft Purview-Complianceportals **Alle anzeigen** aus.
 
-1. Stellen Sie sicher, dass die Registerkarte **Neue Suche** ausgewählt (unterstrichen) ist.
+1. Scrollen Sie im linken Navigationsbereich nach unten, und erweitern Sie **System**.  Wählen Sie in der erweiterten Liste **Überwachung** aus.  Hinweis: Auf die Überwachungsfunktionalität kann auch über das Microsoft Purview-Portal zugegriffen werden.
 
-1. Sobald Sie auf der Seite „Audit“ landen, warten Sie 2–3 Minuten.  Wenn die Durchführung von Audits NICHT aktiviert ist, wird oben auf der Seite eine blaue Leiste mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Wenn Sie aufgefordert werden, zu bestätigen, dass die Organisationseinstellung aktualisiert werden müssen, wählen Sie **Ja** aus. Sobald die Durchführung von Audits aktiviert ist, wird die blaue Leiste ausgeblendet.  Wird der blaue Balken nicht angezeigt, ist Überwachung bereits aktiviert, und keine weitere Aktion ist erforderlich.  Eine weitere Möglichkeit, um zu überprüfen, ob die Durchführung von Audits durch PowerShell aktiviert ist, liegt jedoch außerhalb des Umfangs dieses Kurses.
+1. Sobald Sie auf der Seite „Überwachung“ sind, warten Sie 1–2 Minuten.  Wenn Überwachung NICHT aktiviert ist, wird oben auf der Seite ein blauer Balken mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Sobald die Durchführung von Audits aktiviert ist, wird die blaue Leiste ausgeblendet.  Wird der blaue Balken nicht angezeigt, ist Überwachung bereits aktiviert, und keine weitere Aktion ist erforderlich.
 
-1. Kehren Sie zur Homepage des Microsoft Purview-Complianceportals zurück, indem Sie im linken Navigationsbereich **Start** auswählen und sich bei Microsoft 365 abmelden. Melden Sie sich ab, indem Sie das Symbol in der oberen rechten Ecke des Microsoft 365-Fensters auswählen, das als Kreis mit den Buchstaben MA (neben dem Fragezeichensymbol) angezeigt wird, und dann **Abmelden** auswählen. Schließen Sie dann den Browser.
+1. Wählen Sie im linken Navigationsbereich unter „System“ **Einstellungen** aus
+
+1. Wählen Sie auf der Seite „Einstellungen“ die Option **Cloud-Apps** aus.   Scrollen Sie nach unten, und wählen Sie unter „Information Protection die Option **Dateien** aus.
+
+1. Wenn noch nicht aktiviert, wählen Sie das Kontrollkästchen neben **Dateiüberwachung aktivieren** und dann **Speichern** aus.  
+
+1. Dies schließt die Lab-Einrichtung auf dem Microsoft 365-Mandanten ab.
 
 ### Überprüfung
 
-In diesem Setup haben Sie die Überwachungsprotokollfunktion in Microsoft 365 aktiviert.
+Bei dieser Einrichtung haben Sie die Audit-Protokoll- und Dateiüberwachungsfunktionen in Microsoft 365 aktiviert.

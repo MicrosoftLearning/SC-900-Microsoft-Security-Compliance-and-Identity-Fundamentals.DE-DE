@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Title: 'Microsoft Defender für Cloud-Apps' Module: 'Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen; Modul 4: Beschreiben der Bedrohungsschutzfunktionen von Microsoft 365; Lerneinheit 5: Beschreiben von Microsoft Defender für Cloud-Apps'
+Demo: Titel: Microsoft Defender für Cloud Apps ' Modul: 'Lernpfad: Beschreiben Sie die Funktionen von Microsoft-Sicherheitslösungen; Modul 4: Beschreiben Sie die Bedrohungsschutzfunktionen von Microsoft Defender XDR; Einheit 5: Beschreiben Sie Microsoft Defender for Cloud Apps'
 ---
 --->
 
@@ -9,7 +9,7 @@ Demo: Title: 'Microsoft Defender für Cloud-Apps' Module: 'Lernpfad: Beschreiben
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 
 - Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen
-- Modul: Beschreiben der Bedrohungsschutzfunktionen von Microsoft 365
+- Modul: Beschreiben Sie die Funktionen von Microsoft Defender XDR zum Bedrohungsschutz
 - Lerneinheit: Beschreiben von Microsoft Defender für Cloud-Apps
 
 ## Vorführungsszenario
@@ -22,9 +22,9 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Defender for Cloud-Apps. 
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
 
-1. Wählen Sie **Sicherheit** unter „Admin Center“ aus.  Die Startseite des Microsoft 365 Defender-Portals wird auf einer neuen Browserseite geöffnet.  
+1. Wählen Sie **Sicherheit** unter „Admin Center“ aus.  Eine neue Browserseite öffnet sich mit der Willkommensseite des Microsoft Defender-Portals.  
 
-1. Wenn Sie das Microsoft 365 Defender-Portal das erste Mal besuchen, wird möglicherweise ein Popupfenster für eine Schnelleinführung angezeigt.
+1. Wenn Sie das Microsoft Defender-Portal zum ersten Mal besuchen, wird möglicherweise ein Popup-Fenster angezeigt, in dem Sie eine kurze Führung erhalten.
 
 1. Wählen Sie im linken Navigationsbereich **Cloud-Apps** aus, um die Liste zu erweitern, und wählen Sie dann **Cloud Discovery** aus. Dadurch gelangen Sie zur Dashboardansicht.  Beachten Sie die im Dashboard verfügbaren Informationen. In der Dashboardansicht können Sie oben auf der Seite verschiedene Registerkarten auswählen.  Sehen Sie oben auf der Seite die einzelnen Registerkarten durch.
 
@@ -39,7 +39,7 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Defender for Cloud-Apps. 
     1. Wählen Sie zum Anzeigen der Option für fortlaufende Berichte **Aktionen** in der oberen rechten Ecke der Seite aus, und wählen Sie im Dropdown den Eintrag **Automatischen Upload konfigurieren** aus.  Es sind keine Datenquellen verbunden. Hier würden Sie jedoch eine Datenquelle hinzufügen. Wählen Sie **Datenquelle hinzufügen** und dann den Dropdownpfeil im Feld **Appliance auswählen** aus, um die Appliancetypen anzuzeigen, die Sie als Datenquelle verbinden können.  Wählen Sie **Abbrechen** aus, um zu beenden.
     1. Wählen Sie im linken Navigationsbereich **Cloud Discovery** aus, um zur Seite „Cloud Discovery“ zurückzukehren.
 
-1. Mit Microsoft 365 Defender for Cloud-Apps können Sie direkt eine Verbindung mit Apps herstellen, indem Sie App-Connectors festlegen, die Ihnen eine bessere Sichtbarkeit und Kontrolle über Ihre Cloud-Apps ermöglichen. Wählen Sie in der oberen rechten Ecke des Bildschirms **Aktionen** und dann **Cloud Discovery-Einstellungen** aus.  Beachten Sie die verfügbaren Einstellungen.
+1. Mit Microsoft Defender für Cloud-Apps können Sie eine direkte Verbindung zu Apps herstellen, indem Sie App-Konnektoren einrichten, die Ihnen eine bessere Sichtbarkeit und Kontrolle über Ihre Cloud-Apps ermöglichen. Wählen Sie in der oberen rechten Ecke des Bildschirms **Aktionen** und dann **Cloud Discovery-Einstellungen** aus.  Beachten Sie die verfügbaren Einstellungen.
     1. Wählen Sie im linken Navigationsbereich des Fensters Cloud-Apps-Einstellungen die Option **App-Connectors** aus (möglicherweise müssen Sie nach unten scrollen).
     1. Auf der Seite App-Connectors werden alle bereits eingerichteten App-Connectors angezeigt, und Sie können einen App-Connector hinzufügen.
     1. Microsoft 365 sollte aufgeführt werden. Wenn ein Verbindungsfehler angezeigt wird, wechseln Sie zu den vertikalen Auslassungspunkten auf der rechten Seite des Zeilenelements, und wählen Sie dann **Einstellungen bearbeiten** aus.  Um die Verbindung erneut herzustellen, wählen Sie am unteren Rand der Seite **Office 365 verbinden** aus. Auf der Seite sollte nun angezeigt werden, dass Office 365 verbunden ist. Wählen Sie **Fertig** aus.  Der Status wird nun mit einem gelben Warnzeichen angezeigt, das angibt, dass kein aktueller Status vorhanden ist.  Es dauert einige Zeit, bis der Status aktualisiert wird, da sich der Zeitraum für die rückwirkende Überprüfung je nach App unterscheidet und für Lab-Mandanten möglicherweise längere Verzögerungen als üblich auftreten.
@@ -48,7 +48,7 @@ In dieser Demo zeigen Sie die Funktionen von Microsoft Defender for Cloud-Apps. 
 
 1. Auf der Einstellungsseite für Cloud-Apps lohnt es sich, einige Minuten lang auch einige der anderen Cloud Discovery-Einstellungen zu erkunden.  
     1. Wählen Sie **Apps für die App-Steuerung für bedingten Zugriff** aus und beachten Sie die Beschreibung: „Die App-Steuerung für bedingten Zugriff fügt Echtzeit-Überwachungs- und Steuerungsfunktionen zu Ihren Apps hinzu.“
-    1. Wählen Sie Microsoft Information Protection aus, und sprechen Sie über die verfügbaren Einstellungen.
+    1. Wählen Sie **Microsoft Information Protection**, sprechen Sie die verfügbaren Einstellungen an.
     1. Erkunden Sie andere nach Wahl. Nennen Sie das Maß an Integration und Flexibilität.
 
 1. Kehren Sie zum Cloud Discovery-Dashboard zurück, indem Sie im Navigationsbereich ganz links **Cloud Discovery** auswählen.
@@ -67,15 +67,11 @@ In diesem Teil der Demo zeigen Sie die Funktionen des Cloud-App-Katalogs. Cloud 
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
-### Teil 3 der Demo: Erkunden des Aktivitätsprotokolls und der -dateien
+### Demo Teil 3 - Erkunden Sie das Aktivitätsprotokoll
 
-Erkunden Sie Möglichkeiten, die aufgezeichneten Aktivitäten mit dem Aktivitätsprotokoll und den -dateien zu untersuchen.
+Erkunden Sie die Möglichkeiten, wie Sie die aufgezeichneten Aktivitäten mit dem Aktivitätsprotokoll untersuchen können.
 
 1. Wählen Sie im linken Navigationsbereich **Aktivitätsprotokoll** aus. Hier können Sie alle Aktivitäten im Zusammenhang mit Ihren verbundenen Apps anzeigen. Möglicherweise werden keine Daten aufgelistet, da es mehrere Stunden dauern kann, rückwirkende Überprüfungen durchzuführen, nachdem Überwachung aktiviert wurde, und für Lab-Mandanten möglicherweise Verzögerungen auftreten, die länger als normal sind. Beachten Sie die verfügbaren Filteroptionen und die Option zum Erstellen einer neuen Richtlinie aus der Suche.
-
-1. Um den Datenschutz zu gewährleisten, erhalten Sie Einblick von Microsoft Defender for Cloud Apps in alle Dateien aus Ihren verbundenen Apps, z. B. alle in SharePoint und Salesforce gespeicherten Dateien. Wählen Sie im linken Navigationsbereich die Option **Dateien** aus, und erkunden Sie sie.
-    1. Die Möglichkeit zum Überprüfen von Dateien muss im Rahmen der Informationsschutzeinstellungen von Microsoft 365 Cloud-Apps aktiviert werden.  Wählen Sie **Dateiüberwachung aktivieren** aus, und wählen Sie das Kontrollkästchen neben **Dateiüberwachung aktivieren** aus, und wählen Sie dann **Speichern** aus.  
-    1. Kehren Sie zu den Dateien zurück, indem Sie im linken Navigationsbereich unter Cloud-Apps die Option **Dateien** auswählen. Möglicherweise wird nichts aufgeführt, da es einige Tage dauern kann, bis Sie Ihre Dateien sehen können, aber es lohnt sich, weil Sie die Liste der Dateidaten nach App, Besitzer, Zugriffsebene, Dateityp und übereinstimmender Richtlinie filtern können. Sie können außerdem eine neue Richtlinie aus der Suche und dem Export der Daten erstellen.
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
@@ -90,7 +86,7 @@ In diesem Teil zeigen Sie die Optionen, die für Richtlinien in Microsoft Defend
 
 1. Wählen Sie im linken Navigationsbereich **Richtlinienvorlagen** aus. Um eine Richtlinie aus einer der verfügbaren Vorlagen zu erstellen, wählen Sie **+** auf der linken Seite des Vorlagenzeilenelements aus.  Zeigen Sie die verschiedenen Konfigurationsoptionen für die Richtlinie an.  Wählen Sie **Abbrechen** aus, um die Seite zu schließen.
 
-1. Wählen Sie im linken Navigationsbereich **Start** aus, um auf die Startseite von Microsoft 365 Defender zurückzukehren.
+1. Wählen Sie im linken Navigationsbereich **Startseite** aus, um zur Startseite von Microsoft Defender zurückzukehren.
 
 1. Lassen Sie die Registerkarte Browser geöffnet, wenn Sie mit der nächsten Demo fortfahren möchten.
 

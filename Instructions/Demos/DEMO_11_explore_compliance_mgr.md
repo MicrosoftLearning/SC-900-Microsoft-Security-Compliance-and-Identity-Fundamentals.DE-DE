@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Title: 'Erkunden des Microsoft Purview-Complianceportals und des Compliance-Managers' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Microsoft-Complianceverwaltungsfunktionen; Modul 2: Beschreiben der Complianceverwaltungsfunktionen in Microsoft Purview; Lerneinheit 2: Beschreiben des Microsoft Purview-Complianceportals'
+Demo: Titel: 'Erkunden des Microsoft Purview Portals & Compliance Manager' Lernpfad/Modul/Einheit: 'Beschreiben der Fähigkeiten von Microsoft Priva und Microsoft Purview'; Modul 2: Beschreiben der Daten-Compliance-Lösungen von Microsoft Purview; Einheit 4: Beschreiben des Compliance-Managers'
 ---
 --->
 
@@ -8,70 +8,50 @@ Demo: Title: 'Erkunden des Microsoft Purview-Complianceportals und des Complianc
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 
-- Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen
-- Modul: Beschreiben der Complianceverwaltungsfunktionen in Microsoft Purview
-- Lerneinheit: Beschreiben des Microsoft Purview-Complianceportals
+- Lernpfad: Beschreiben der Funktionen von Microsoft Priva und Microsoft Purview
+- Modul: Beschreiben der Daten-Compliance-Lösungen von Microsoft Purview
+- Einheit: Beschreiben des Compliance-Managers
 
 ## Vorführungsszenario
 
-In dieser Demo zeigen Sie die Startseite des Microsoft Purview-Complianceportals an und erfahren, wie Organisationen ihre Compliancesituation mithilfe der Funktionen von Compliance-Manager verbessern können.
+In dieser Demo zeigen Sie die neue Startseite des Microsoft Purview Portals und erfahren, wie die Funktionen des Compliance-Managers Unternehmen dabei helfen können, ihre Compliance-Position zu verbessern.
 
 ### Teil 1 der Demo
 
-Anzeigen der Startseite des Microsoft Purview-Complianceportals und Erfahren, wie Sie die Kartenansicht und den Navigationsbereich anpassen können.
+Zeigen Sie die Microsoft Purview Portal-Startseite an.
 
-1. Öffnen Sie Microsoft Edge. Geben Sie in der Adressleiste **https://admin.microsoft.com** ein. Sie sollten bereits als Administrator angemeldet sein. Melden Sie sich andernfalls mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, die vom autorisierten Labhoster (ALH) bereitgestellt wurden. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
+1. Öffnen Sie Microsoft Edge. Geben Sie in der Adressleiste **https://purview.microsoft.com** ein. Sie sollten bereits als Administrator angemeldet sein. Melden Sie sich andernfalls mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, die vom autorisierten Labhoster (ALH) bereitgestellt wurden.
 
-1. Wählen Sie unter „Admin Center“ die Option **Compliance** aus.  Die Startseite des Microsoft Purview-Complianceportals wird auf einer neuen Browserseite geöffnet.  
+Die Startseite des Microsoft Purview-Portals wird auf einer neuen Browserseite geöffnet.  Um auf das neue Microsoft Purview-Portal zuzugreifen, wählen Sie das Kontrollkästchen neben **Ich stimme den Bedingungen der Datenflussoffenlegung und den Datenschutzbestimmungen zu**, und wählen Sie dann **Erste Schritte** aus.  
 
-1. Der Abschnitt „Karte“ auf der Homepage zeigt Ihnen auf einen Blick, wie es in Ihrer Organisation um den Compliancestatus bestellt ist, welche Lösungen für Ihre Organisation verfügbar sind und vieles mehr.
+1. Bevor Sie zum Compliance-Manager wechseln, nehmen Sie sich etwas Zeit, um das neue Portal zu erkunden.
 
-1. Scrollen Sie im Hauptfenster nach unten, um die verschiedenen Karten anzuzeigen. Die auf der Startseite verfügbaren Karten und die Position der Karten können geändert werden, um die Präferenz der einzelnen Administrator*innen zu berücksichtigen.  
+1. Wählen Sie die Kachel **Alle Lösungen anzeigen** aus, um die Gruppierung für die Microsoft Purview-Lösungen anzuzeigen.
 
-1. Wenn Sie den Mauszeiger über die Titelleiste einer beliebigen Karte platzieren, wird die Titelleiste grau dargestellt.  Wenn der Cursor in eine Kreuzform umgewandelt wird, können Sie die Karte an die gewünschte Position verschieben.
+1. Im linken Navigationsbereich sehen Sie Optionen für Lösungen, Learn, Einstellungen und kürzlich ausgewählte Lösungen.
+    1. **Lösungen** Dadurch wird ein neues Panel mit allen Lösungen und verwandten Portalen geöffnet.
+    1. Unter **Learn** erfahren Sie, wie Sie Links zu Dokumenten, Videos und Blogs anzeigen können.
+    1. **Einstellungen**. Erkunden Sie diese Optionen nach Belieben. Hier können Sie Rollen und Bereiche, Datenconnectoren und alle Lösungseinstellungen konfigurieren.
 
-1. In der Titelleiste jeder Karte sehen Sie außerdem Auslassungspunkte, mit denen Sie Aktionen durchführen können.  Klicken Sie auf die Auslassungspunkte im Lösungskatalog, und klicken Sie auf **Entfernen**.
-
-1. Sie können Karten hinzufügen, indem Sie auf **+ Karten hinzufügen** klicken.  Das Fenster „Ihrer Hompage Karten hinzufügen“ wird geöffnet.  Bewegen Sie den Mauszeiger über die in diesem Fenster angezeigte Lösungskatalog-Karte, und ziehen Sie sie an die Stelle auf Ihrem Startbildschirm, an der die Karte positioniert werden soll.
-
-1. Beachten Sie im linken Navigationsbereich der Startseite des Microsoft Purview-Complianceportals die unter „Lösungen“ aufgelisteten Elemente. 
-
-1. Als Complianceadministrator verwalten Sie für Ihre Organisation möglicherweise einen Satz von Lösungen, die immer im Navigationsbereich aufgeführt werden sollen.  Wählen Sie zum Anpassen an Ihre Präferenzen die Option **Navigation anpassen** aus.  
-
-1. Wählen Sie im Fenster „Navigationsbereich anpassen“ Elemente aus, die angezeigt werden sollen, und deaktivieren Sie die Elemente, die nicht angezeigt werden sollen.  Klicken Sie unten im Fenster auf **Speichern**.  Beachten Sie, wie der Abschnitt „Lösungen“ des Navigationsbereichs aktualisiert wurde.
-
-1. Lassen Sie diese Browserregisterkarte geöffnet.
+1. Wählen Sie im linken Navigationsbereich **Home** aus, um zur Homepage zurückzugelangen.
 
 ### Teil 2 der Demo
 
 Erfahren Sie mehr über den Compliancestatus Ihrer Organisation über den Compliance-Manager.
 
-1. Wählen Sie im linken Navigationsbereich des Microsoft Purview-Complianceportals **Compliance-Manager** aus.  Alternativ können Sie den Compliance-Manager über die Titelleiste der Karte „Compliance-Manager“ auswählen.
+1. Wählen Sie auf der Startseite des neuen Microsoft Purview-Portals die Kachel **Alle Lösungen anzeigen** und dann die Kachel **Compliance-Manager** aus. Alternativ wählen Sie im linken Navigationsbereich **Lösungen** und dann **Compliance-Manager** aus.
 
-1. Stellen Sie oben auf der Seite „Compliance-Manager“ sicher, dass  **Überblick** ausgewählt ist (unterstrichen). Scrollen Sie nach unten, um alle verfügbaren Informationen auf der Seite anzuzeigen.  Auf dieser Seite finden Sie Informationen zu Ihrer Compliancebewertung, den von Ihnen erreichten Punkten und den von Microsoft verwalteten Punkten, die Sie erreicht haben.   Es werden wichtige Verbesserungsaktionen, Lösungen, die sich auf Ihre Bewertung auswirken, und eine Aufschlüsselung der Compliancebewertung nach Kategorien oder Bewertungen angezeigt.
+1. Sie befinden sich jetzt auf der Überblicksseite für den Compliance-Manager. Scrollen Sie nach unten, um alle verfügbaren Informationen auf der Seite anzuzeigen.  Sie sehen die Gesamtbewertung der Compliance Ihres Unternehmens, die wichtigsten Verbesserungsmaßnahmen, Lösungen, die sich auf Ihre Bewertung auswirken, und die Aufschlüsselung der Compliance-Bewertung nach Kategorien oder Bewertungen. Erkunden Sie einige der Optionen im linken Navigationsbereich.
+    1. **Verbesserungsaktionen**  Diese Aktionen können die Compliancebewertung der Organisation verbessern. Beachten Sie, dass es bis zu 24 Stunden dauern kann, bis die Punkte aktualisiert wurden, wenn Verbesserungsaktionen durchgeführt werden.  Beachten Sie die verfügbaren Filter.
+    1. **Lösungen** Auf dieser Seite sehen Sie, wie Lösungen zu Ihrer Bewertung beitragen, sowie die entsprechenden verbleibenden Verbesserungsmöglichkeiten.
+    1. **Bewertungen** Auf dieser Seite sehen Sie die Datenschutzbaseline für Microsoft 365.  Dabei handelt es sich um eine Baselinestandardbewertung, die Microsoft im Compliance-Manager für Microsoft 365 zur Verfügung stellt.  Diese Baseline-Bewertung besteht aus einer Reihe von Kontrollen für wichtige Regeln, für den Datenschutz und allgemeine Data Governance. Je mehr eigene Bewertungen Sie hinzufügen, um die speziellen Anforderungen Ihrer Organisation zu erfüllen, desto hilfreicher wird Compliance-Manager.
+        1. **Datenschutz-Baseline**.  Beachten Sie die auf der Fortschrittsregisterkarte verfügbaren Informationen. Sie können auch Informationen zu den Steuerelementen, Ihren Verbesserungsaktionen und Microsoft-Aktionen anzeigen.  
+    1. **Bestimmungen**.  Auf dieser Seite sind die Vorschriften aufgeführt, die für Ihre Organisation verfügbar sind. Sie können auch Bewertungen aus den verfügbaren Vorlagen erstellen.  Wählen Sie eine der Premium-Vorlagen aus der Liste aus.  Sie sehen spezifische Informationen zu diesen Vorschriften, einschließlich Kontrollen, Ihren Verbesserungsaktionen und Microsoft-Aktionen.  In der oberen rechten Ecke des Fensters sehen Sie die Option **+ Bewertung erstellen**, mit der Sie eine Bewertung basierend auf der Vorlage erstellen können.
+1. **Richtlinien**: Sie können Richtlinien erstellen oder ändern, ihren Aktivierungsstatus ändern und die Häufigkeit und den Schweregrad von Warnungen steuern. 
+1. **Warnungen**: Hier können Sie Warnmeldungen zu Ereignissen anzeigen und verwalten, die sich auf die Konformitätsbewertung Ihrer Organisation auswirken können.  Wenn eine Warnung aufgeführt ist, wählen Sie sie aus, um die Informationen zur zugeordneten Warnungsrichtlinie anzuzeigen.
 
-1. Wählen Sie oben auf der Seite „Überblick“ die Option **Verbesserungmaßnahmen** aus.  Diese Aktionen können die Compliancebewertung der Organisation verbessern. Beachten Sie, dass es bis zu 24 Stunden dauern kann, bis die Punkte aktualisiert wurden, wenn Verbesserungsaktionen durchgeführt werden.  Beachten Sie die verfügbaren Filter.
-
-1. Wählen Sie in der Liste der Verbesserungsmaßnahmen die Option **Self-Service-Kennwortzurücksetzung aktivieren** aus.  Überprüfen Sie die verfügbaren Informationen für die Verbesserungsaktion.  Die linke Seite des Fensters bietet einen kurzen Überblick über den Implementierungsstatus, den Teststatus und vieles mehr. Rechts neben der Übersicht finden Sie eine Detailseite, auf der Sie die Implementierung, die Tests, die zugehörigen Normen und gesetzlichen Anforderungen sowie die Dokumente auswählen können. Jede dieser Registerkarten enthält ausführlichere Informationen zur Verbesserungsaktion.
-
-1. Schließen Sie diese Verbesserungsaktion, indem Sie oben links auf der Seite im Breadcrumb **Verbesserungsaktionen** auswählen.  Sie befinden sich jetzt wieder auf der Seite mit den Verbesserungsaktionen.
-
-1. Klicken Sie am oberen Rand der Seite auf **Lösungen**. Auf dieser Seite sehen Sie, wie Lösungen zu Ihrer Bewertung beitragen, sowie die entsprechenden verbleibenden Verbesserungsmöglichkeiten.
-
-1. Wählen Sie oben auf der Seite **Bewertungen** aus. Auf dieser Seite sehen Sie die Datenschutzbaseline für Microsoft 365.  Dabei handelt es sich um eine Baselinestandardbewertung, die Microsoft im Compliance-Manager für Microsoft 365 zur Verfügung stellt.  Diese Baseline-Bewertung besteht aus einer Reihe von Kontrollen für wichtige Regeln, für den Datenschutz und allgemeine Data Governance. Je mehr eigene Bewertungen Sie hinzufügen, um die speziellen Anforderungen Ihrer Organisation zu erfüllen, desto hilfreicher wird Compliance-Manager.
-
-1. Wählen Sie **Datenschutzgrundwerte** aus.  Beachten Sie die auf der Fortschrittsregisterkarte verfügbaren Informationen. Sie können auch Informationen zu den Steuerelementen, Ihren Verbesserungsaktionen und Microsoft-Aktionen anzeigen.  
-
-1. Wählen Sie oben links auf der Seite, wo Bewertungen steht (der Breadcrumb), die Option **Bewertung** aus, um zur Seite mit den Bewertungen zurückzukehren.  Bevor Sie die Registerkarte Bewertungen verlassen, beachten Sie, dass Sie Ihre eigenen Bewertungen hinzufügen können.
-
-1. Wählen Sie oben auf der Seite die Option **Vorschriften** aus.  Auf dieser Seite sind die Vorschriften aufgeführt, die für Ihre Organisation verfügbar sind. Sie können auch Bewertungen aus den verfügbaren Vorlagen erstellen.  Wählen Sie eine der Premium-Vorlagen aus der Liste aus.  Sie sehen spezifische Informationen zu diesen Vorschriften, einschließlich Kontrollen, Ihren Verbesserungsaktionen und Microsoft-Aktionen.  In der oberen rechten Ecke des Fensters sehen Sie die Option **+ Bewertung erstellen**, mit der Sie eine Bewertung basierend auf der Vorlage erstellen können.  Kehren Sie zur Vorschriften-Seite zurück, indem Sie im Breadcrumb oben auf der Seite **Vorschriften** auswählen.
-
-1. Wählen Sie oben auf der Seite die Option **Warnungen** aus.   Hier können Sie Warnungen für Ereignisse anzeigen und verwalten, die sich auf die Konformitätsbewertung Ihrer Organisation auswirken können.  Wenn eine Warnung aufgeführt ist, wählen Sie sie aus, um die Informationen zur zugeordneten Warnungsrichtlinie anzuzeigen.
-
-1. Wählen Sie im linken Navigationsbereich die **Startseite** aus, um zur Startseite des Microsoft Purview-Complianceportals zurückzukehren.
-
-1. Lassen Sie die Registerkarte Browser geöffnet, wenn Sie die nächste Demo anzeigen möchten.
+1. Wählen Sie im linken Navigationsbereich **Startseite**, um zur Landing Page des Microsoft Purview-Portals zurückzukehren. Sie werden in der nächsten Demo zur Landing Page des Microsoft Purview-Portals zurückkehren.
 
 ### Überprüfung
 
-In dieser Demo haben Sie die Startseite des Microsoft Purview-Complianceportals angezeigt und erfahren, wie Organisationen ihre Compliancesituation mithilfe der Funktionen von Compliance-Manager verbessern können.
+In dieser Demo haben Sie die Startseite des Microsoft Purview Portals vorgestellt und gezeigt, wie die Funktionen von Compliance Manager Organisationen dabei helfen können, ihre Compliance-Position zu verbessern.
