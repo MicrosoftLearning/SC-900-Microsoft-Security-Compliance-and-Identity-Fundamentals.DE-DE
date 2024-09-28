@@ -27,7 +27,7 @@ Als Abonnent von Microsoft 365 verwenden Sie bereits Microsoft Entra ID (zuvor a
     1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
-1. Wählen sie im Admin Center **Identität** aus (möglicherweise müssen Sie **Alle anzeigen** auswählen und dann nach unten scrollen).  Die Übersichtsseite des Microsoft Entra Admin Centers wird auf einer neuen Browserseite geöffnet. Hier sehen Sie grundlegende Informationen zu Ihrem Contoso-Mandanten. Wenn Sie im Hauptfenster nach unten scrollen, werden auch Informationen zu Warnungen, meinem Feed, Feature-Highlights und mehr angezeigt.
+1. Wählen sie im Admin Center **Identität** aus (möglicherweise müssen Sie **Alle anzeigen** auswählen und dann nach unten scrollen).  Die Übersichtsseite des Microsoft Entra Admin Centers wird auf einer neuen Browserseite geöffnet.
 
 1. Erweitern Sie im linken Navigationsbereich **Benutzer** und wählen Sie dann **Alle Benutzer** aus. Beachten Sie, dass für Ihren Mandanten bereits Benutzer*innen konfiguriert sind.
 
@@ -66,7 +66,7 @@ Als Abonnent von Microsoft 365 verwenden Sie bereits Microsoft Entra ID (zuvor a
 
     1. Beachten Sie die Liste aller verfügbaren Gruppen.  Wählen Sie aus der Liste **Vorgänge** aus.  Klicken Sie unten auf der Seite auf die Schaltfläche **Auswählen**.  Es kann einige Sekunden dauern, aber die Vorgangsgruppe sollte auf der Zuweisungsseite angezeigt werden.
 
-    1. Wählen Sie oben auf der Seite die Option **Rolle hinzufügen** aus.  Ein Fenster wird geöffnet, in dem alle verfügbaren Verzeichnisrollen angezeigt werden.  Zeigen Sie die verfügbaren Optionen an, fügen Sie jedoch keine neuen Rollen hinzu.  Schließen Sie dieses Fenster mithilfe des **X** oben rechts auf der Seite mit den Verzeichnisrollen.
+    1. Wählen Sie oben auf der Seite **+ Rolle hinzufügen**.  Ein Fenster wird geöffnet, in dem alle verfügbaren Verzeichnisrollen angezeigt werden.  Zeigen Sie die verfügbaren Optionen an, fügen Sie jedoch keine neuen Rollen hinzu.  Schließen Sie dieses Fenster mithilfe des **X** oben rechts auf der Seite mit den Verzeichnisrollen.
     1. Klicken Sie im unteren Seitenbereich auf **Überprüfen und erstellen**. Es wird eine Zusammenfassung der Einstellungen angezeigt.  Wählen Sie am unteren Rand der Seite **Erstellen** aus.
 
 1. Sie werden zur Seite „Benutzer“ zurückgeleitet.  Nach ein paar Sekunden wird Sara Perez aufgelistet.  Möglicherweise müssen Sie oben auf der Seite auf das Symbol **Aktualisieren** klicken.
@@ -75,23 +75,28 @@ Als Abonnent von Microsoft 365 verwenden Sie bereits Microsoft Entra ID (zuvor a
 
 1. Im linken Navigationsbereich werden die verschiedenen Optionen angezeigt, die für Benutzer*innen konfiguriert werden können. Zeigen Sie die verfügbaren Optionen an.
 
-1. Wählen Sie im linken Navigationsbereich **Lizenzen** aus.  Beachten Sie, dass für diese(n) Benutzer*in keine Lizenzzuweisungen gefunden wurden.  HINWEIS: Lizenzen können nur zugewiesen werden, wenn ein Nutzungsort konfiguriert wurde. Wenn Sie den Nutzungsort nicht festgelegt haben, gehen Sie zurück zu diesem Schritt in der vorherigen Aufgabe.
+1. Wählen Sie im linken Navigationsbereich **Lizenzen** aus.  Beachten Sie, dass für diesen Benutzer keine Lizenzzuweisungen gefunden wurden, und beachten Sie auch das Warnsymbol, das besagt: „Das Hinzufügen, Entfernen und erneute Verarbeiten von Lizenzzuweisungen ist nur im M365 Admin Center verfügbar.“  Das werden Sie in der nächsten Aufgabe tun.  HINWEIS: Lizenzen können nur zugewiesen werden, wenn ein Nutzungsort konfiguriert wurde. Wenn Sie den Verwendungsort nicht festgelegt haben, gehen Sie jetzt zu diesem Schritt zurück.
 
-    1. Wenn Sie eine Lizenz hinzufügen möchten, klicken Sie am oberen Rand des Hauptfensters auf **+ Zuweisungen**.
+### Aufgabe 2
 
-    1. Wählen Sie unter „Lizenzen auswählen“ **Microsoft Power Apps für Entwickler** und **Microsoft Power Automate-Gratislizenz** und klicken Sie dann auf die Schaltfläche **Speichern** am unteren Rand des Bildschirms. Es sollte nun eine Benachrichtigung in der oberen rechten Ecke des Bildschirms angezeigt werden, dass die Lizenzzuweisungen erfolgreich waren.
+In dieser Aufgabe weisen Sie dem soeben erstellten Benutzenden mithilfe des Microsoft 365 Admin Centers eine Lizenz zu.
 
-    1. Klicken Sie oben rechts auf dem Bildschirm auf das **X**, um das Fenster „Lizenzzuweisungen“ zu schließen.
+1. Öffnen Sie die Browser-Registerkarte **Home - Microsoft 365 Admin Center**.
 
-    1. Klicken Sie oben auf der Seite auf das **Symbol „Aktualisieren“**, um die Lizenzzuweisungen zu bestätigen.
+1. Wählen Sie in der linken Navigationsleiste unter Benutzende die Option **Aktive Benutzende**.  Wählen Sie in der Liste der Benutzenden **Sara Perez**.  Es öffnet sich ein Fenster mit Informationen über die Benutzerin.  
+
+    1. Wählen Sie die Registerkarte **Lizenzen und Apps**.
+    1. Für jede der aufgeführten Lizenzen wird die Anzahl der verfügbaren Lizenzen angezeigt.  Da keine Microsoft 365 E5-Lizenzen verfügbar sind (sie wurden bereits anderen Benutzenden zugewiesen), weisen Sie die Lizenzen **Microsoft Power Apps Developer** und **Microsoft Power Automate Free** zu, indem Sie das Kontrollkästchen neben ihnen aktivieren.
+    1. Klicken Sie auf **Save changes** (Änderungen speichern). Es sollte nun eine Benachrichtigung in der oberen rechten Ecke des Bildschirms angezeigt werden, dass die Lizenzzuweisungen erfolgreich waren.
+    1. Schließen Sie die Seite, indem Sie auf das **X** in der oberen rechten Ecke der Seite klicken.
 
 1. Kehren Sie zum Microsoft Entra Admin Center zurück, indem Sie **Start** aus dem linken Navigationsbereich bzw. auf der oberen linken Seite des Bildschirms (dem Breadcrumb) auswählen, oberhalb von „Sara Perez | Lizenzen“.
 
-1. Sie haben nun eine Benutzerin in Microsoft Entra ID erstellt und konfiguriert.
+1. Sie haben dem Benutzenden erfolgreich Lizenzen zugewiesen.
 
 1. Melden Sie sich von allen geöffneten Browserregisterkarten ab. Melden Sie sich ab. Klicken Sie dazu auf das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann auf **Abmelden**. Schließen Sie alle Browserfenster.
 
-### Aufgabe 2
+### Aufgabe 3
 
 Bei dieser Aufgabe melden Sie sich erstmals als Sara Perez an.
 

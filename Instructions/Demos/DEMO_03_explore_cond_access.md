@@ -20,7 +20,7 @@ In dieser Demo gehen Sie die verschiedenen Optionen durch, die für eine Richtli
 
 1. Erweitern Sie im linken Navigationsbereich **Schutz** und wählen Sie dann **Bedingter Zugriff** aus.
 
-1. Die Übersichtsseite für bedingten Zugriff wird angezeigt.  Hier sehen Sie Kacheln mit der Richtlinienzusammenfassung und allgemeinen Warnungen.  Wählen Sie im linken Navigationsbereich **Richtlinien** aus.
+1. Die Übersichtsseite für bedingten Zugriff wird angezeigt.  Hier sehen Sie Informationen zur Richtlinienzusammenfassung, Neuigkeiten und allgemeinen Warnungen.  Wählen Sie im linken Navigationsbereich des Fensters bedingter Zugriff die Option **Richtlinien** aus.
 
 1. Der Bildschirm „Richtlinien für bedingten Zugriff“ wird angezeigt. Alle vorhandenen Richtlinien für bedingten Zugriff werden hier aufgelistet. Um die Einstellungen anzuzeigen, die mit bedingtem Zugriff verknüpft sind, klicken Sie auf **+ Neue Richtlinie**.
 
@@ -32,9 +32,11 @@ In dieser Demo gehen Sie die verschiedenen Optionen durch, die für eine Richtli
         1. Wählen Sie **Cloud-Apps** aus, und wählen Sie dann auf der Registerkarte Einschließen die Option **Apps auswählen** aus, und wählen Sie dann darunter **Auswählen** und **Keine** aus. Ein Fenster wird geöffnet, um eine oder mehrere der Apps auszuwählen, für welche die Richtlinie gelten soll.
         1. Schließen Sie dieses Fenster, indem Sie in der oberen rechten Ecke des Fensters das **X** auswählen.
         1. Wenn die Zeit dies zulässt, können Sie die anderen Optionen (Benutzeraktionen und Authentifizierungskontext) durchlaufen, um die Konfigurationsoptionen für sie anzuzeigen.
+    1. **Netzwerk** - zeigen Sie mit der Maus über das Informationssymbol neben der Stelle, an der "Netzwerk" steht.  Weisen Sie darauf hin, dass die Netzstandorte anhand des IP-Adressbereichs oder der GPS-Koordinaten bestimmt werden, von denen aus sich der Benutzende anmeldet.  Wählen Sie **Nicht konfiguriert** aus, um die verfügbaren Optionen zu ändern.
     1. **Bedingungen**: Bewegen Sie den Mauszeiger über das Informationssymbol neben dem Text „Bedingungen“ und heben Sie hervor, dass dies festgelegt ist, wenn die Richtlinie angewendet wird. Beispiel: ‚Speicherort. Wählen Sie **0 Bedingungen ausgewählt**. Sprechen Sie die verschiedenen aufgeführten „Signale“ an.   Wählen Sie einige der Optionen aus, indem Sie zuerst das Informationssymbol anklicken, um zu definieren, was es ist, und wählen Sie dann **Nicht konfiguriert** für das jeweilige Element aus, um die verschiedenen Optionen anzuzeigen.
         1. **Benutzerrisiko**: Benutzerrisiko steht für die Wahrscheinlichkeit der Kompromittierung einer bestimmten Identität oder eines bestimmten Kontos. Diese Risiken werden mit den internen und externen Threat Intelligence-Quellen von Microsoft in Echtzeit oder offline berechnet.
         1. **Anmelderisiko**: Ein Anmelderisiko stellt die Wahrscheinlichkeit dar, dass eine bestimmte Authentifizierungsanforderung vom Identitätsbesitzer nicht autorisiert wurde. Beispiele können die Anmeldung von einer anonymen IP-Adresse oder ungewöhnliche Ortswechsel usw. sein.
+        1. **Insider-Risiko – Insider-Risiko** , das in adaptivem Schutz konfiguriert ist, bewertet das Risiko basierend auf den riskanten Datenaktivitäten eines Benutzenden.
         1. **Geräteplattform**: Plattform, über die sich der Benutzer anmeldet, Zum Beispiel: „iOS“.
         1. **Standort**: Standort (wird mithilfe des IP-Adressbereichs bestimmt), über den sich der Benutzer anmeldet.
         1. **Client-Apps**: Software, die der Benutzer verwendet, um auf die Cloud-App zuzugreifen, Beispiel: „Browser“

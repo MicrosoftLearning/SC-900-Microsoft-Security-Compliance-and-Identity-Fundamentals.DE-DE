@@ -14,9 +14,9 @@ Mandanten dürfen nicht in ein kostenpflichtiges Abonnement konvertiert werden. 
 
 ## Setup vor der Demo des Microsoft 365-Mandanten
 
-### Aktivieren des Microsoft 365-Überwachungsprotokolls
+### Aktivieren der Überwachung von Microsoft 365-Überwachungsprotokollen und -Dateien
 
-In dieser Einrichtungsaufgabe aktivieren Sie die Überwachungsprotokollfunktion in Microsoft 365.  Obwohl das Überwachungsprotokoll laut Dokumentation standardmäßig aktiviert ist, trifft dies für die meisten Lab-Mandanten nicht zu, und es kann mehrere Stunden dauern, bis die Änderung wirksam wird.  Es empfiehlt sich, diese Funktion zu aktivieren, da Microsoft 365 Überwachungsprotokolle für Benutzererkenntnisse und -aktivitäten in Richtlinien und Analyseerkenntnissen verwendet.
+In dieser Einrichtungsaufgabe aktivieren Sie die Überwachungsprotokoll- und Dateiüberwachungsfunktionen in Microsoft 365.
 
 1. Öffnen Sie Microsoft Edge. Geben Sie in der Adressleiste **https://admin.microsoft.com** ein.
 
@@ -24,31 +24,33 @@ In dieser Einrichtungsaufgabe aktivieren Sie die Überwachungsprotokollfunktion 
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
 
-1. Wählen Sie unter „Admin Center“ die Option **Compliance** aus.  Die Startseite des Microsoft Purview-Complianceportals wird auf einer neuen Browserseite geöffnet.  
+1. Wählen Sie **Sicherheit** unter „Admin Center“ aus.  Die Startseite von Microsoft Defender wird auf einer neuen Browserseite geöffnet.  
 
 1. Wählen Sie im linken Navigationsbereich des Microsoft Purview-Complianceportals **Alle anzeigen** aus.
 
-1. Wählen Sie im linken Navigationsbereich unter „Lösungen“ **Audit** aus.  Hinweis: Auf die Audit-Funktionalität kann auch über die Microsoft 365 Defender-Homepage zugegriffen werden.
+1. Scrollen Sie im linken Navigationsbereich nach unten, und erweitern Sie **System**.  Wählen Sie in der erweiterten Liste **Überwachung** aus.  Hinweis: Auf die Überwachungsfunktionalität kann auch über das Microsoft Purview-Portal zugegriffen werden.
 
-1. Vergewissern Sie sich, dass die Registerkarte **Suche** ausgewählt (unterstrichen) ist.
+1. Sobald Sie auf der Seite „Überwachung“ sind, warten Sie 1–2 Minuten.  Wenn Überwachung NICHT aktiviert ist, wird oben auf der Seite ein blauer Balken mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Sobald die Durchführung von Audits aktiviert ist, wird die blaue Leiste ausgeblendet.  Wird der blaue Balken nicht angezeigt, ist Überwachung bereits aktiviert, und keine weitere Aktion ist erforderlich.
 
-1. Sobald Sie auf der Seite „Audit“ landen, warten Sie 2–3 Minuten.  Wenn Überwachung NICHT aktiviert ist, wird oben auf der Seite ein blauer Balken mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Sobald die Durchführung von Audits aktiviert ist, wird die blaue Leiste ausgeblendet.  Wird der blaue Balken nicht angezeigt, ist Überwachung bereits aktiviert, und keine weitere Aktion ist erforderlich.
+1. Wählen Sie im linken Navigationsbereich unter „System“ **Einstellungen** aus
 
-1. Wählen Sie im linken Navigationsbereich die **Startseite** aus, um zur Startseite des Microsoft Purview-Complianceportals zurückzukehren.
+1. Wählen Sie auf der Seite „Einstellungen“ die Option **Cloud-Apps** aus.   Scrollen Sie nach unten, und wählen Sie unter „Information Protection die Option **Dateien** aus.
 
-### Dateiüberwachung von Microsoft Defender für Cloud Apps
+1. Wenn noch nicht aktiviert, wählen Sie das Kontrollkästchen neben **Dateiüberwachung aktivieren** und dann **Speichern** aus.  
 
-In dieser Setupaufgabe aktivieren Sie die Dateiüberwachung in Microsoft Defender für Cloud Apps.
+### Konfigurieren der Rolle „Complianceadministrator“
 
-1. Öffnen Sie die Browserregisterkarte für das Microsoft 365 Admin Center.  Wenn Sie sie geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **https://admin.microsoft.com** in der Adressleiste im linken Navigationsbereich des Microsoft 365 Admin Center ein und wählen Sie die Option **Alle anzeigen** aus.
+In dieser Einrichtungsaufgabe fügen Sie sich selbst als MOD-Admin zur Rollengruppe „Complianceadministrator“ hinzu.
 
-1. Wählen Sie **Sicherheit** unter „Admin Center“ aus.  Die Startseite des Microsoft 365 Defender-Portals wird auf einer neuen Browserseite geöffnet.  
-
-1. Wählen Sie im linken Navigationsbereich **Dateien** aus, die unter Cloud-Apps aufgeführt sind.
-
-1. Wenn sie nicht sowieso schon aktiviert ist, wählen Sie **Dateiüberwachung aktivieren** und das Kontrollkästchen neben **Dateiüberwachung aktivieren** aus, und klicken Sie dann auf **Speichern**.  
-
-1. Wählen Sie im linken Navigationsbereich unter Cloud-Apps die Option **Dateien** aus, um zur Dateien-Seite zurückzukehren.  Wenn Sie die Dateiüberwachung erfolgreich aktiviert haben, sollte die Filteroptionen oben auf der Seite angezeigt werden.  Es kann einige Zeit dauern, bis Dateien aus dem vorkonfigurierten Labmandanten angezeigt werden.
+1. Öffnen Sie eine neue Microsoft Edge-Browserregisterkarte, und geben Sie in der Adressleiste **https://purview.microsoft.com** ein. Um auf das neue Microsoft Purview-Portal zuzugreifen, wählen Sie das Kontrollkästchen neben **Ich stimme den Bedingungen der Datenflussoffenlegung und den Datenschutzbestimmungen zu** und wählen Sie dann **Erste Schritte** aus.  
+1. Wählen Sie im linken Navigationsbereich **Einstellungen** aus
+1. Wählen Sie im daraufhin geöffneten Navigationsbereich **Rollen und Bereich** aus, um die Option zu erweitern, und wählen Sie dann **Rollengruppen** aus.
+1. Suchen Sie im Suchfeld auf der rechten Seite des Bildschirms nach dem Begriff **Compliance**.  Wählen Sie **Complianceadministrator** aus.
+    1. Wählen Sie **Bearbeiten** aus.
+    1. Wählen Sie **Benutzer auswählen** aus.
+    1. Suchen Sie nach „MOD-Administrator“, wählen Sie das Feld neben **MOD-Administrator** aus, und wählen Sie dann unten auf der Seite die Schaltfläche **Auswählen** aus.
+    1. Wählen Sie **Weiter** und dann **Speichern** und schließlich **Fertig** aus.
+1. Damit ist das Setup für den Microsoft 365-Mandanten abgeschlossen, und Sie können die Browserregisterkarten schließen.
 
 ## Einrichtung des Azure Cloud Slice-Abonnements vor der Demo
 
@@ -66,6 +68,7 @@ Für diese Einrichtung verwenden Sie die Azure Cloud Slice-Umgebung, die von dem
     1. Ressourcengruppe: Wählen Sie **Neu erstellen** aus, geben Sie **LabsSC900** ein und klicken Sie dann **OK**.
     1. Name des virtuellen Computers: Geben Sie **SC900-WinVM** ein.
     1. Verfügbarkeitsoptionen: Wählen Sie **Keine Infrastrukturredundanz erforderlich** aus.
+    1. Sicherheitstyp: Wählen Sie in der Dropdownliste **Standard** aus.
     1. Abbildung: Wählen Sie in der Dropdownliste **Windows 11 Pro, Version 22H2 – x64 Gen2** (oder ein beliebiges Windows 10- oder Windows 11-Image aus).
     1. Größe: Wählen Sie **Alle Größen anzeigen** und dann **Standard_B1s** dann unten auf der Seite **Auswählen** aus.
     1. Benutzername: Geben Sie **SC900-VM-User** ein
@@ -115,7 +118,7 @@ Hier geht es einfach darum, zum ersten Mal auf Microsoft Defender Cloud zuzugrei
 
 ### Microsoft Sentinel
 
-Überprüfen Sie, ob bereits eine Instanz von Microsoft Sentinel erstellt wurde. Wenn nicht, richten Sie sie jetzt ein, da Sie sie im Rahmen der exemplarischen Demo in Microsoft Sentinel benötigen.
+Vergewissern Sie sich, dass bereits eine Instanz von Microsoft Sentinel erstellt worden ist. Wenn nicht, richten Sie sie jetzt ein, da Sie sie im Rahmen der exemplarischen Demo in Microsoft Sentinel benötigen.
 
 1. Öffnen Sie die Registerkarte Startseite-Microsoft Azure in Ihrem Browser.
 
