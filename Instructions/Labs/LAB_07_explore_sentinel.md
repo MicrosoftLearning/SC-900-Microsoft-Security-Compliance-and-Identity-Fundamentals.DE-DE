@@ -16,7 +16,7 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 In diesem Lab durchlaufen Sie den Prozess zur Erstellung einer Microsoft Sentinel-Instanz.  Zudem richten Sie Berechtigungen ein, um Zugriff auf die Ressourcen sicherzustellen, die zur Unterstützung von Microsoft Sentinel bereitgestellt werden.  Nachdem die grundlegende Einrichtung abgeschlossen ist, führen Sie die Schritte aus, die erforderlich sind, um Microsoft Sentinel mit Ihren Datenquellen zu verbinden und eine Arbeitsmappe einzurichten. Außerdem sehen Sie sich einige wichtigen Funktionen in Microsoft Sentinel an.
 
-**Geschätzte Dauer**: 45 bis 60 Minuten
+**Geschätzte Dauer**: 60 Minuten
 
 ### Aufgabe 1
 

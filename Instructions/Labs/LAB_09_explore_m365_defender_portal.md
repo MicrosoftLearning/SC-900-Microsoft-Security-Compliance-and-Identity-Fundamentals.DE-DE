@@ -16,7 +16,7 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 In diesem Lab erkunden Sie das Microsoft 365 Defender-Portal, indem Sie den auf der Landing Page angezeigten Inhalt durchgehen. Außerdem erkunden Sie die Optionen im Navigationsbereich, die einen schnellen Zugriff auf die Funktionen bieten, die Bestandteil der Lösung für Extended Detection and Response (XDR) von Microsoft sind: Microsoft Defender for Endpoint und Microsoft Defender für Office 365 (E-Mail und Zusammenarbeit).  Als Letztes erkunden Sie zudem, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.
 
-**Geschätzte Dauer**: 10 bis 15 Minuten
+**Geschätzte Dauer**: 30 Minuten
 
 ### Aufgabe 1
 

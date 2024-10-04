@@ -22,7 +22,7 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 In diesem Lab durchlaufen Sie als Administrator den Prozess des Hinzufügens eines Benutzers zur SSPR-Sicherheitsgruppe, die bereits in Ihrem Microsoft 365-Mandanten eingerichtet ist. Bei aktivierter SSPR übernehmen Sie anschließend die Rolle eines Benutzers und durchlaufen den Prozess der Registrierung für SSPR und auch zur Zurücksetzung Ihres Kennworts.  Schließlich können Sie als Administrator*in Auditprotokolle sowie Nutzungsdaten u. Erkenntnisse zu SSPR anzeigen.
 
-**Geschätzte Dauer**: 15 bis 20 Minuten
+**Geschätzte Dauer**: 30 Minuten
 
 ### Aufgabe 1
 
@@ -77,7 +77,7 @@ In dieser Aufgabe fügen Sie als Administrator den Benutzer, den Sie in der vorh
 
 ### Aufgabe 3
 
-Bei dieser Aufgabe durchlaufen Sie als der Benutzerin Sara Perez den Registrierungsprozess für die Self-Service-Kennwortzurücksetzung.  Diese Aufgabe setzt voraus, dass Sie Zugang zu einem mobilen Gerät haben, mit dem Sie SMS empfangen können.
+Bei dieser Aufgabe durchlaufen Sie als der Benutzerin Sara Perez den Registrierungsprozess für die Self-Service-Kennwortzurücksetzung.
 
 1. Öffnen Sie Microsoft Edge, und geben Sie in der Adressleiste **https://login.microsoft.com** ein.
 
@@ -85,10 +85,13 @@ Bei dieser Aufgabe durchlaufen Sie als der Benutzerin Sara Perez den Registrieru
 
 1. Ein Popup zeigt an, dass weitere Informationen erforderlich sind.  Denn als Mitglied der Gruppe „SSPRSecurityGroupUsers“ müssen sich die Gruppenmitglieder im Rahmen der Konfiguration registrieren, wenn sie sich anmelden.  Wählen Sie die Schaltfläche **Weiter** aus.  Hinweis: Eine Alternative dazu, dass Benutzer*innen die Registrierung selbst durchführen, ist, dass Administrator*innen die Authentifizierungsmethoden beim Hinzufügen von Benutzer*innen direkt konfigurieren. Dazu müssen Administratoren die Telefonnummern und E-Mail-Adressen der Benutzer kennen und festlegen, um die Self-Service-Kennwortzurücksetzung auszuführen und um das Kennwort eines Benutzers zurückzusetzen.
 
-1. Die Seite „Ihr Konto schützen“ wird geöffnet.  Das angezeigte Fenster ist für die Mobiltelefonmethode vorgesehen.
-    1. Sie werden aufgefordert, eine Telefonnummer einzugeben. Stellen Sie sicher, dass die Option **Empfang eines Codes** aktiviert ist.   Geben Sie die Telefonnummer ein, unter der Sie den Code erhalten können, und wählen Sie **Weiter** aus.  
-    1. Ein neues Fenster wird geöffnet, in dem angegeben wird, dass der Code an das von Ihnen eingegebene Telefon gesendet wurde.  Geben Sie den empfangenen Code ein, und klicken Sie auf **Weiter**. Ein Fenster wird geöffnet, das angibt, dass Ihr Mobiltelefon registriert wurde. Wählen Sie **Weiter** und dann **Fertig**.  
-    1. Wenn Sie stattdessen eine E-Mail verwenden möchten, wählen Sie **Ich möchte eine andere Methode einrichten** und folgen Sie den Schritten. 
+1. Die Seite „Ihr Konto schützen“ wird geöffnet.  Das angezeigte Fenster und die folgenden Schritte gelten für die Microsoft Authenticator-App-Methode. Wenn Sie stattdessen eine E-Mail verwenden möchten, wählen Sie **Ich möchte eine andere Methode einrichten** und folgen Sie den Schritten.
+    1. Wenn Sie die Microsoft Authenticator-App bereits auf Ihrem Mobilgerät installiert haben, wählen Sie **Weiter**. Andernfalls wählen Sie **Jetzt herunterladen** und folgen den Anweisungen.
+    1. Sie beginnen mit dem Einrichten Ihres Kontos.  Wählen Sie **Weiter** aus.
+    1. Wählen Sie auf Ihrem Mobilgerät in der Microsoft Authenticator-App die Option **+**, um ein Konto hinzuzufügen, und wählen Sie **Geschäfts- oder Schulkonto**.
+    1. Wählen Sie die Option zum **Scannen des QR-Codes** aus und scannen Sie dann mit Ihrem Mobilgerät den QR-Code auf Ihrem PC-Bildschirm.
+    1. Befolgen Sie die Schritte auf Ihrem PC und Mobilgerät und wählen Sie dann **Weiter**.
+    1. Nachdem Sie Ihre Sicherheitsinformationen eingerichtet haben, wird ein Erfolgsfenster angezeigt.  Wählen Sie **Fertig** aus.
 
 1. Sie können ihre Anmeldung jetzt abschließen. Wenn Sie feststellen, dass die Anmeldezeit abgelaufen ist, geben Sie das Kennwort einfach erneut ein.
 
@@ -100,7 +103,7 @@ Bei dieser Aufgabe durchlaufen Sie als die Benutzerin Sara Perez den Prozess zum
 
 1. Öffnen Sie Microsoft Edge.
 
-1. Geben Sie in der Adressleiste **https://login.microsoftonline.com** ein.
+1. Geben Sie in der Adressleiste **https://login.microsoft.com** ein.
 
 1. Melden Sie sich als Sara Perez an. Geben Sie dazu Ihre E-Mail-Adresse **sara@WWLxZZZZ.onmicrosoft.com** ein (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Labhostinganbieter bereitgestellt wurde) und wählen Sie die Schaltfläche **Weiter** aus. Es kann sein, dass stattdessen das Konto auswählen Fenster geöffnet wird. Wählen Sie in diesem Fall das Konto für Sara Perez aus.
 
@@ -110,9 +113,9 @@ Bei dieser Aufgabe durchlaufen Sie als die Benutzerin Sara Perez den Prozess zum
 
 1. Geben Sie in das leere Feld die im Bild angezeigten Zeichen oder die Wörter aus dem Audio ein. Wählen Sie nach der Eingabe **Weiter** aus.
 
-1. Auf dem Bildschirm wird „Konto wieder aktivieren“ und „Überprüfungsschritt 1 > Neues Kennwort auswählen“ angezeigt. Behalten Sie die Standardeinstellung **SMS an mein Mobiltelefon senden** bei.  Sie werden aufgefordert, Ihre Mobiltelefonnummer einzugeben.  Wählen Sie nach ihrer Eingabe die Schaltfläche **Textnachricht** aus. 
+1. Auf dem Bildschirm wird „Konto wieder aktivieren“ und „Überprüfungsschritt 1 > Neues Kennwort auswählen“ angezeigt. Wählen Sie die Option **Benachrichtigung auf meiner Authenticator-App genehmigen** und wählen Sie dann **Benachrichtigung senden**.
 
-1. Geben Sie den Prüfcode ein, und klicken Sie dann auf **Weiter**.
+1. Notieren Sie sich die Nummer auf Ihrem PC, und folgen Sie den Anweisungen, um die Anmeldung mithilfe der Microsoft Authenticator-App auf Ihrem mobilen Gerät zu genehmigen.
 
 1. Auf dem nächsten Bildschirm werden Sie aufgefordert, das neue Kennwort einzugeben und das neue Kennwort zu bestätigen.  Geben Sie diese jetzt ein, und klicken Sie auf die Schaltfläche **Fertigstellen**.
 

@@ -16,7 +16,7 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 In diesem Lab erkunden Sie die Funktion von Netzwerksicherheitsgruppen in Azure.  Dazu erstellen Sie eine Netzwerksicherheitsgruppe (NSG) und weisen die NSG der Schnittstelle einer bereits vorhandenen VM zu.  Nach der Konfiguration werden Sie die Standardeingangs- und -ausgangsregeln beobachten, neue Regeln erstellen und diese Regeln testen.  In diesem Lab wird die VM, die Sie mit der NSG verwenden, für Sie erstellt, sodass Sie zunächst einige der Informationen anzeigen, die dieser VM zugeordnet sind.
   
-**Geschätzte Dauer**: 30 bis 45 Minuten
+**Geschätzte Dauer**: 45 Minuten
 
 ### Aufgabe 1
 
@@ -64,7 +64,7 @@ In diesem Teil erstellen Sie eine Netzwerksicherheitsgruppe, weisen die Netzwerk
     1. Wählen Sie **Zuordnen** aus.
     2. Wählen Sie im Feld für Netzwerkschnittstellenzuordnungen den **Abwärtspfeil**, dann **sc900-winvmXXX** und schließlich unten im Fenster **OK** aus. Sobald die Schnittstelle dem NSG zugeordnet ist, wird sie in der Liste angezeigt.  Die NSG wird jetzt der Netzwerkschnittstelle Ihrer VM zugewiesen.
 
-1. Navigieren Sie im Browser zurück zur Registerkarte **SC900-WinWM – Microsoft Azure**.  Aktualisieren Sie die Seite. Neben „Netzwerksicherheitsgruppe“ sollte nun der Name der NSG angezeigt werden, die Sie gerade erstellt haben.  Wenn sie immer noch nicht angezeigt wird, warten Sie eine weitere Minute, und aktualisieren Sie die Seite dann erneut.
+1. Wechseln Sie im Browser zurück zur Registerkarte **SC900-WinWM – Microsoft Azure**.  Aktualisieren Sie die Seite. Neben „Netzwerksicherheitsgruppe“ sollte nun der Name der NSG angezeigt werden, die Sie gerade erstellt haben.  Wenn sie immer noch nicht angezeigt wird, warten Sie eine weitere Minute, und aktualisieren Sie die Seite dann erneut.
 
 1. Wählen Sie im linken Navigationsbereich **Verbinden** aus. Wählen Sie im Hauptfenster neben der Portnummer 3389 die Option **Zugriff überprüfen** aus. Die Zugriffsüberprüfungsfunktion sendet Signale (Datenverkehr) an den standardmäßigen RDP-Port 3389 der VM, um zu überprüfen, ob darauf zugegriffen werden kann. Es kann eine Minute dauern, aber dann sollte „Nicht zugänglich“ angezeigt werden.  Dies ist zu erwarten, da die NSG-Regel „DenyAllInBound“ den gesamten eingehenden Datenverkehr an die VM verweigert.
 
