@@ -1,10 +1,10 @@
 <!---
 ---
-Demo: Title: 'Erkunden des eDiscovery-Workflows' Lernpfad/Modul/Lerneinheit: 'Lernpfad: Beschreiben der Funktionen von Microsoft Priva und Microsoft Purview; Modul 3: Beschreiben der Daten-Compliance-Lösungen von Microsoft Purview; Einheit 2: Beschreiben von eDiscovery'
+Demo: Titel: „Erkunden des eDiscovery-Workflows“ Lernpfad/Modul/Lerneinheit: „Lernpfad: Beschreiben der Funktionen von Microsoft Priva und Microsoft Purview; Modul 3: Beschreiben der Daten-Compliance-Lösungen von Microsoft Purview; Einheit 2: Beschreiben von eDiscovery“
 ---
 --->
 
-# Demo: Erkunden des eDiscovery (Standard)-Workflows
+# Demo: Erkunden von eDiscovery (Standard)
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 

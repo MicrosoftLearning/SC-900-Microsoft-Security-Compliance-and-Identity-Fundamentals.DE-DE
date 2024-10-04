@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Titel: 'Service Trust Portal' Learning Path/Module/Unit: 'Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen; Modul 1: Beschreiben des Microsoft Service Trust-Portals und der Datenschutzfunktionen; Lerneinheit 2: Erkunden des Service Trust Portals
+Demo: Titel: „Service Trust Portal“ Lernpfad/Modul/Einheit: „Beschreiben der Funktionen von Microsoft Priva und Microsoft Purview; Modul 1: Beschreiben des Service Trust Portal von Microsoft und der Datenschutzfunktionen; Lerneinheit 2: Erkunden des Service Trust Portal“
 ---
 --->
 

@@ -1,16 +1,16 @@
 ---
 lab:
   title: "Erkunden des Insider-Risikomanagements in Microsoft\_Purview"
-  module: Describe the insider risk capabilities in Microsoft Purview
+  module: Describe the data security solutions of Microsoft Purview
 ---
 
 # Lab: Erkunden des Insider-Risikomanagements in Microsoft Purview
 
 Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
-- Lernpfad: Beschreiben der Funktionen der Microsoft-Compliancelösungen
-- Modul: Beschreiben der Microsoft Purview-Funktionen für den Umgang mit Insider-Risiken
-- Lerneinheit: Beschreiben des Insider-Risikomanagements
+- Lernpfad: Beschreiben der Funktionen von Microsoft Priva und Microsoft Purview
+- Modul: Beschreiben der Datensicherheitslösungen von Microsoft Purview
+- Lerneinheit: Beschreiben des Insider-Risikomanagements in Microsoft Purview
 
 ## Labszenario
 
@@ -26,9 +26,9 @@ Bei dieser Aufgabe aktivieren Sie als globale(r) Administrator*in Berechtigungen
 
 1. Wählen Sie im linken Navigationsbereich **Einstellungen**, erweitern Sie **Rollen & Bereiche** und wählen Sie dann **Rollengruppen**.
 
-1. Geben Sie in das Suchfeld oben rechts auf der Seite **Insider-Risiko** ein und drücken Sie die Eingabetaste auf Ihrer Tastatur.  Beachten Sie die zahlreichen Rollen, die angezeigt werden.  Jedes dieser Elemente weist unterschiedliche Zugriffsebenen auf.  Wählen Sie **Insider-Risikomanagement** aus, und überprüfen Sie die Beschreibung.  Scrollen Sie nach unten, bis Mitglieder angezeigt werden, und beachten Sie, dass „MOD Administrator“ und „Megan Bowen“ aufgeführt werden. Schließen Sie das Fenster, indem Sie in der oberen rechten Ecke des Bildschirms das **X** auswählen.
+1. Geben Sie in das Suchfeld oben rechts auf der Seite **Insiderrisiko** ein und fahren Sie mit der Eingabetaste auf Ihrer Tastatur fort.  Beachten Sie die zahlreichen Rollen, die angezeigt werden.  Jedes dieser Elemente weist unterschiedliche Zugriffsebenen auf.  Wählen Sie **Insider-Risikomanagement** aus, und überprüfen Sie die Beschreibung.  Scrollen Sie nach unten, bis Mitglieder angezeigt werden, und beachten Sie, dass „MOD Administrator“ und „Megan Bowen“ aufgeführt werden. Schließen Sie das Fenster, indem Sie in der oberen rechten Ecke des Bildschirms das **X** auswählen.
 
-1. Wählen Sie im linken Navigationsbereich **Startseite**, um zur Microsoft Purview-Portalseite zurückzukehren.
+1. Wählen Sie im linken Navigationsbereich **Startseite** aus, um zur Microsoft Purview-Portalseite zurückzukehren.
 
 1. Lassen Sie diese Browserregisterkarte geöffnet, da Sie in einer nachfolgenden Aufgabe zu ihr zurückkehren werden.
 
@@ -38,14 +38,14 @@ Bei dieser Aufgabe gehen Sie die Einstellungen der Insider-Risikomanagement-Lös
 
 1. Sie sollten sich auf der Startseite des Microsoft Purview-Portals befinden. Wenn nicht, wählen Sie die Browserregisterkarte  **Home – Microsoft 365 Compliance** aus.
 
-1. Bevor Sie mit dem Einrichten einer Richtlinie beginnen, gibt es einige Einstellungen, mit denen ein Admin vertraut sein sollte und die nach Bedarf für seine Organisation konfiguriert werden. Wählen Sie im linken Navigationsbereich **Einstellungen** und wählen Sie dann **Insider-Risikomanagement**.  Hier werden Sie einige der verfügbaren Einstellungen erkunden.
-    1. Wählen Sie **Datenschutz**: Für Benutzende, die Aktivitäten durchführen, die Ihren Richtlinien für Insider-Risiken entsprechen, legt diese Einstellung fest, ob ihre tatsächlichen Namen angezeigt werden oder ob anonymisierte Versionen verwendet werden, um ihre Identitäten zu verschleiern.  Für diese exemplarische Vorgehensweise können Sie die Standardeinstellung beibehalten.
-    1. Wählen Sie **Richtlinienindikatoren** aus. Sobald ein Ereignis eintritt, das eine Richtlinie auslöst, werden Aktivitäten, die den ausgewählten Indikatoren zugeordnet sind, zur Bestimmung der Risikobewertung für die Benutzenden verwendet. Die hier ausgewählten Richtlinienindikatoren sind in den Vorlagen für Richtlinien zum Insider-Risiko enthalten.  Scrollen Sie, um alle verfügbaren Indikatoren und alle zugehörigen Informationen anzuzeigen. 
-    1. Wählen Sie **Richtlinienzeitrahmen** aus. Die Zeitrahmen, die Sie hier auswählen, treten für Benutzende in Kraft, wenn sie einen Trigger für eine Insider-Risikorichtlinie auslösen.   Das Aktivierungsfenster bestimmt, wie lange Richtlinien Aktivitäten für Benutzer*innen aktiv erkennen und ausgelöst werden, wenn ein(e) Benutzer*in die erste Aktivität ausführt, die zu einer Richtlinie passt. Die Erkennung früherer Aktivitäten bestimmt, wie weit eine Richtlinie zurückgeht, um Benutzeraktivitäten zu erkennen und ausgelöst wird, wenn ein(e) Benutzer*in die erste Aktivität ausführt, die zu einer Richtlinie passt.  Lassen Sie die Standardwerte unverändert.
-    1. Wählen Sie **Intelligente Erkennungen**. Sehen Sie sich hier die Optionen an.  Beachten Sie die Domänen-Einstellungen und ihre Beziehung zu den Indikatoren.
+1. Bevor Sie mit dem Einrichten einer Richtlinie beginnen, sollten Sie sich mit einigen Einstellungen vertraut machen und diese nach Bedarf für Ihr Unternehmen konfigurieren. Wählen Sie im linken Navigationsbereich **Einstellungen** und dann **Insider-Risikomanagement**.  Hier werden Sie einige der verfügbaren Einstellungen kennenlernen.
+    1. Wählen Sie **Datenschutz**: Für Benutzende, die Aktivitäten ausführen, die Ihren Richtlinien für Insider-Risiken entsprechen, wird mit dieser Einstellung festgelegt, ob ihre tatsächlichen Namen angezeigt werden oder ob anonymisierte Versionen verwendet werden, um ihre Identitäten zu verschleiern.  Für diese exemplarische Vorgehensweise können Sie die Standardeinstellung beibehalten.
+    1. Wählen Sie **Richtlinienindikatoren aus**. Sobald ein Ereignis eintritt, das eine Richtlinie auslöst, werden die Aktivitäten, die mit den ausgewählten Indikatoren verknüpft sind, zur Ermittlung der Risikobewertung für den Benutzenden herangezogen. Die hier ausgewählten Richtlinienindikatoren sind in den Vorlagen für Richtlinien zum Insider-Risiko enthalten.  Scrollen Sie, um alle verfügbaren Indikatoren und alle zugehörigen Informationen anzuzeigen. 
+    1. Wählen Sie **Richtlinien-Zeitrahmen**. Die hier gewählten Zeiträume treten für einen Benutzenden in Kraft, wenn er eine Übereinstimmung mit einer Richtlinie über Insiderrisiken auslöst.   Das Aktivierungsfenster bestimmt, wie lange Richtlinien Aktivitäten für Benutzer*innen aktiv erkennen und ausgelöst werden, wenn ein(e) Benutzer*in die erste Aktivität ausführt, die zu einer Richtlinie passt. Die Erkennung früherer Aktivitäten bestimmt, wie weit eine Richtlinie zurückgeht, um Benutzeraktivitäten zu erkennen und ausgelöst wird, wenn ein(e) Benutzer*in die erste Aktivität ausführt, die zu einer Richtlinie passt.  Lassen Sie die Standardwerte unverändert.
+    1. Wählen Sie **Intelligente Erkennungen**. Überprüfen Sie die Optionen hier.  Beachten Sie die Domänen-Einstellungen und ihre Beziehung zu den Indikatoren.
     1. Erkunden Sie die anderen Elemente, die in den Einstellungen aufgeführt sind, und beachten Sie, dass sich viele in der Vorschau befinden.
 
-1. Wählen Sie im linken Navigationsbereich **Lösungen** und dann **Insider-Risikomanagement** aus.
+1. Wählen Sie im linken Navigationsbereich **Lösungen** und dann **Insider Risk Management**.
 
 1. Lassen Sie diese Browserregisterkarte geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
@@ -53,14 +53,14 @@ Bei dieser Aufgabe gehen Sie die Einstellungen der Insider-Risikomanagement-Lös
 
 In dieser Aufgabe gehen Sie die Einstellungen zum Erstellen einer Richtlinie durch.  Das Ziel besteht einfach darin, ein Gefühl für die verschiedenen Optionen und die Flexibilität zu erhalten, die mit der Erstellung einer Richtlinie verbunden sind.
 
-1. Sie sollten sich auf der Übersichtsseite für Insider-Risikomanagement befinden.  Falls noch nicht vorhanden, wählen Sie im linken Navigationsbereich **Lösungen** und dann **Insider-Risikomanagement**.
+1. Sie sollten sich auf der Übersichtsseite für das Insider-Risikomanagement befinden.  Falls noch nicht vorhanden, wählen Sie im linken Navigationsbereich **Lösungen** und dann **Insider Risk Management** .
 
 1. Wählen Sie auf der Übersichtsseite für das Insider-Risikomanagement die Registerkarte **Richtlinien** und dann **+ Erstellen** aus.  Konfigurieren Sie jede der folgenden Richtlinienregisterkarten.
 
     1. Richtlinienvorlage: Wählen Sie unter der Kategorie „Datenlecks“ die Option **Datenlecks** aus.  Lesen Sie die Details für diese Vorlage. Unter Voraussetzungen wird die DLP-Richtlinie mit einem Häkchen in einem grünen Kreis angezeigt, um anzugeben, dass die Voraussetzung erfüllt ist.  Es gibt eine DLP-Richtlinie, die für diesen Lab-Mandanten vorkonfiguriert wurde. Wählen Sie **Weiter** aus. 
     1. Name und Beschreibung: Geben Sie den Namen **SC900-InsiderRiskPolicy** ein, und wählen Sie dann **Weiter** aus.
     1. Benutzer*innen und Gruppen: Lesen Sie das Informationsfeld.  Behalten Sie die Standardeinstellung **Alle Benutzer*innen und Gruppen einschließen** bei.  Wählen Sie **Weiter** aus.
-    1. Benutzende und Gruppen ausschließen (optional) (Vorschau): Hier können Sie auszuschließende Benutzende und Gruppen auflisten. Nehmen Sie keine Änderungen vor. Wählen Sie **Weiter** aus.
+    1. Benutzende und Gruppen ausschließen (optional) (Vorschau): Hier können Sie Benutzende und Gruppen auflisten, die Sie ausschließen möchten. Nehmen Sie keine Änderungen vor. Wählen Sie **Weiter** aus.
     1. Zu priorisierende Inhalte: Laut Beschreibung werden die Risikobewertungen für jede Aktivität erhöht, die Prioritätsinhalte enthält, was wiederum die Wahrscheinlichkeit erhöht, eine Warnung mit hohem Schweregrad zu generieren. Der Einfachheit halber wählen Sie **Ich möchte Inhalte jetzt nicht priorisieren** aus, und wählen Sie dann **Weiter** aus.
     1. Trigger: Das auslösende Ereignis bestimmt, wann eine Richtlinie beginnt, der Aktivität eines Benutzers Risikobewertungen zuzuweisen.  Sie können eine vorhandene DLP-Richtlinie auswählen oder ob der Benutzer eine Exfiltrationsaktivität ausführen soll. Wählen Sie **Benutzer entspricht einer DLP-Richtlinie** aus, und wählen Sie dann in der Dropdownliste **U.S. Financial Data** aus. Wählen Sie **Weiter** aus.
     1. Indikatoren: Beachten Sie die ausgewählten Indikatoren. Nehmen Sie keine Änderungen vor. Wählen Sie **Weiter** aus.
