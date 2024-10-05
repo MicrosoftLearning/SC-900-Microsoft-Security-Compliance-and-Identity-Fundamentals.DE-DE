@@ -16,7 +16,7 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 In diesem Lab erkunden Sie einige der grundlegenden Funktionen von Privileged Identity Management (PIM). PIM erfordert Microsoft Entra-ID P2-Lizenzierung.  In diesem Lab konfigurieren Sie als Administrator durch Privileged Identity Management (PIM) einen Ihrer Benutzer, Diego Siciliani, mit einer Microsoft Entra-Benutzeradministratorrolle.   Mit Benutzeradministratorrechten kann Diego Lizenzen zum Verwalten von Benutzern und Gruppen erstellen und vieles mehr.  Sowohl der Administrator als auch der Benutzer Diego müssen für die Microsoft Entra ID Premium P2-Lizenzierung konfiguriert sein.
 
-**Geschätzte Dauer**: 45 bis 60 Minuten
+**Geschätzte Dauer**: 60 Minuten
 
 ### Aufgabe 1
 
@@ -49,7 +49,7 @@ Bei dieser Aufgabe weisen Sie als Admin in Privileged Identity Management Diego 
 
 1. Erweitern Sie im linken Navigationsbereich unter „Identität“ den Eintrag **Identitätsgovernance**, und wählen Sie dann **Privileged Identity Management** aus.
 
-1. Sie befinden sich nun im Fenster für den Schnellstart in Privileged Identity Management. Schauen Sie sich die Informationen auf der Seite Erste Schritte erneut an. Wählen Sie **Verwalten** aus.
+1. Sie befinden sich nun im Fenster für den Schnellstart in Privileged Identity Management. Schauen Sie sich die Informationen auf der Seite Erste Schritte erneut an. Wählen Sie im Hauptfenster unter dem Punkt „Zugriff verwalten“ die Option **Verwalten**.
 
 1. Sie befinden sich nun auf der Seite für die Contoso-Rollen.  Geben Sie oben auf der Seite in der Suchleiste **Benutzer** ein.  Wählen Sie in den Suchergebnissen **iBenutzeradministrator*in** aus.
 
@@ -83,7 +83,7 @@ Bei dieser Aufgabe weisen Sie als Admin in Privileged Identity Management Diego 
 
 ### Aufgabe 3
 
-Bei dieser Aufgabe melden Sie sich als Diego Siciliani im Microsoft Entra Admin Center an, um auf die Privileged Identity Management-Funktion von Microsoft Entra zuzugreifen, um Ihre Zuweisung als Benutzeradministrator zu aktivieren.  Sobald sie aktiviert ist, nehmen Sie einige Konfigurationsänderungen an einem vorhandenen Benutzer vor. Hinweis: Bei dieser Aufgabe benötigen Sie Sofortzugriff auf ein Mobilgerät, das SMS empfangen kann.
+Bei dieser Aufgabe melden Sie sich als Diego Siciliani im Microsoft Entra Admin Center an, um auf die Privileged Identity Management-Funktion von Microsoft Entra zuzugreifen, um Ihre Zuweisung als Benutzeradministrator zu aktivieren.  Sobald sie aktiviert ist, nehmen Sie einige Konfigurationsänderungen an einem vorhandenen Benutzer vor. Hinweis: Für diese Aufgabe benötigen Sie Zugriff auf ein mobiles Gerät, das mit der Microsoft Authenticator-App verwendet werden kann.
 
 1. Öffnen Sie Microsoft Edge.  Geben Sie **Entra.microsoft.com** in die Adressleiste des Browsers ein.
 
@@ -98,28 +98,30 @@ Bei dieser Aufgabe melden Sie sich als Diego Siciliani im Microsoft Entra Admin 
 1. Wählen Sie im linken Navigationsbereich **Meine Rollen** aus.  Jetzt werden Informationen zu Ihren berechtigten Zuweisungen angezeigt.  Sie sehen, dass Ihnen, Diego, die Rolle „Benutzeradministrator“ zugewiesen ist.  
 1. Wählen Sie in der letzten Spalte der Tabelle **Aktivieren** aus.
 1. Ein angezeigtes Warnsymbol gibt an, dass eine zusätzliche Überprüfung erforderlich ist.  Klicken Sie auf **Klicken, um fortzufahren**.  Beachten Sie, dass für die PIM-Einstellungen der Rolle „Benutzeradministrator“ Multi-Faktor-Authentifizierung erforderlich ist.  Da Diegos Kontaktinformationen für die Verwendung mit MFA (Authentifizierungsmethoden) noch nicht konfiguriert wurden, muss er seine Informationen registrieren, um MFA verwenden zu können.  Obwohl er jedes Mal, wenn er sich als Benutzeradministrator anmeldet, eine MFA durchführen muss, ist der MFA-Registrierungsprozess innerhalb des Zuweisungszeitraums nur einmal erforderlich.
-1. Sie werden benachrichtigt, dass weitere Informationen erforderlich sind. Wählen Sie **Weiter** aus.
-1. Geben Sie Ihr Kennwort ein.
-1. Wählen Sie unten links im Microsoft Authenticator-Fenster **Ich möchte eine andere Methode festlegen** aus.
-1. Sie werden aufgefordert, eine andere Methode auszuwählen.  Klicken Sie neben der Stelle, an der die Authenticator-App angezeigt wird, auf den Abwärtspfeil.   Klicken Sie auf **Telefon** und dann auf **Bestätigen**.
-1. Sie werden aufgefordert, die gewünschte Telefonnummer einzugeben. Vergewissern Sie sich, dass das Land für die Landesvorwahl Ihrer Telefonnummer korrekt ist.  Geben Sie Ihre Telefonnummer ein, stellen Sie sicher, dass **Senden Sie mir einen Code** ausgewählt ist, und klicken Sie dann auf **Weiter**.
-1. Geben Sie den 6-stelligen Code ein, den Sie auf Ihrem Smartphone erhalten haben, und klicken Sie auf **Weiter**.
-1. Es wird eine Benachrichtigung angezeigt, dass Ihr Telefon erfolgreich registriert wurde. Klicken Sie auf **Weiter** und anschließend auf **Fertig**.
-1. Sie werden gefragt, ob Sie angemeldet bleiben möchten.  Wählen Sie **Ja** aus.
+1. Das angezeigte Fenster und die folgenden Schritte gelten für die Microsoft Authenticator-App-Methode. .
+    1. Wenn Sie die Microsoft Authenticator-App bereits auf Ihrem Mobilgerät installiert haben, wählen Sie **Weiter**. Andernfalls wählen Sie **Jetzt herunterladen** und folgen den Anweisungen.
+    1. Sie beginnen mit dem Einrichten Ihres Kontos.  Wählen Sie **Weiter** aus.
+    1. Wählen Sie auf Ihrem Mobilgerät in der Microsoft Authenticator-App die Option **+**, um ein Konto hinzuzufügen, und wählen Sie **Geschäfts- oder Schulkonto**.
+    1. Wählen Sie die Option zum **Scannen des QR-Codes** aus und scannen Sie dann mit Ihrem Mobilgerät den QR-Code auf Ihrem PC-Bildschirm.
+    1. Scannen Sie den QR-Code mit der Microsoft Authenticator-App auf Ihrem Mobilgerät.
+    1. Befolgen Sie die Schritte auf Ihrem PC und Mobilgerät und wählen Sie dann **Weiter**.
+    1. Nachdem Sie Ihre Sicherheitsinformationen eingerichtet haben, wird ein Erfolgsfenster angezeigt.  Wählen Sie **Fertig** aus.
+
+1. Sobald Sie den MFA-Registrierungsprozess abgeschlossen haben, kehren Sie zur PIM-Seite „Aktiver Benutzer-Administrator“ zurück.
 1. Das Fenster „Benutzeradministrator aktivieren“ wird angezeigt.  Sie werden aufgefordert, einen Grund für die Aktivierung einzugeben.  Geben Sie in das angezeigte Feld einen beliebigen Grund ein (max. 500 Zeichen), und klicken Sie dann auf **Aktivieren**.
 1. Sie sehen den Status (drei Fortschrittsphasen), während die Aktivierung verarbeitet wird.
 1. Nach Abschluss der Aktivierung gelangen Sie zur Seite „Meine Rollen | Microsoft Entra ID“ zurück. Dort wird in einer Benachrichtigung angegeben, dass Sie eine Rolle aktiviert haben.  Klicken Sie auf **Hier klicken**, um Ihre aktiven Rollen anzuzeigen.  Wenn Sie feststellen, dass die Endzeit anders ist als die ursprünglich konfigurierte, klicken Sie oben auf der Seite auf das Aktualisierungssymbol (es kann einige Minuten dauern, bis die Aktualisierung erfolgt).
 1. Wählen Sie im linken Navigationsbereich **Start** aus, um zur Homepage des Microsoft Entra Admin Center zurück zu gelangen. 
-1. Als Microsoft Entra ID-Benutzeradmin können Sie Benutzerkonten und Gruppen erstellen, Lizenzen verwalten und mehr. Erweitern Sie im linken Navigationsbereich **Identität**, erweitern Sie **Benutzer** und wählen Sie dann **Alle Benutzer** aus.
+1. Als Microsoft Entra ID-Benutzeradmin können Sie Benutzerkonten und Gruppen erstellen, Lizenzen verwalten und mehr. Erweitern Sie in der linken Navigationsleiste **Identität** und wählen Sie **Benutzer**.
 1. Wählen Sie in der Benutzerliste **Bianca Pisani** aus.
-1. Wählen Sie im linken Navigationsbereich **Lizenzen** aus.
-1. Beachten Sie, dass Bianca keine Lizenzen zugewiesen wurden.  Klicken Sie oben auf der Seite auf **+ Zuweisungen**.
-1. Wählen Sie in der Liste der ausgewählten Lizenzen **Microsoft Power Apps für Entwickler** und **Microsoft Power Automate-Gratislizenz** aus.
-1. Klicken Sie unten auf der Seite auf **Speichern**.  Sie werden im oberen rechten Bereich der Seite kurz benachrichtigt, dass die Lizenzen erfolgreich zugewiesen wurden.
-1. Verlassen Sie die Seite mit den aktualisierten Lizenzzuweisungen, indem Sie oben rechts auf der Seite auf das **X** klicken.
+1. Wählen Sie im linken Navigationsbereich **Gruppen** aus.
+1. Beachten Sie die Gruppen, denen Bianca bereits zugewiesen ist. Wählen Sie oben auf der Seite **+ Mitgliedschaften**.
+1. Wählen Sie aus der Liste der Gruppen **Mark 8-Projektteam**.
+1. Wählen Sie unten auf der Seite **Auswählen**.
+1. Auf der Seite „Gruppen“ stellen Sie fest, dass die Gruppe „Mark 8-Projektteam“ zur Liste hinzugefügt wurde (wenn Sie sie nicht sofort sehen, klicken Sie auf die Schaltfläche **Aktualisieren**).
 1. Melden Sie sich ab. Wählen Sie dazu das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann **Abmelden** aus. Schließen Sie dann alle Browserfenster.
 1. Die Zuweisungsdauer der Rolle Benutzeradministrator ist auf die konfigurierte Zeit beschränkt.
 
 ### Überprüfung
 
-In diesem Lab haben Sie PIM erkundet.  Als Administrator*in haben Sie Diego für eine bestimmte Zeitdauer mit Benutzeradministratorrechten konfiguriert.  Dann haben Sie als Diego den Prozess der Aktivierung der Benutzeradministratorrechte und das Konfigurieren von Benutzereinstellungen durchlaufen.  Beachten Sie, dass für PIM die Microsoft Entra ID Premium P2-Lizenzierung erforderlich ist.
+In diesem Lab haben Sie PIM erkundet.  Als Administrator*in haben Sie Diego für eine bestimmte Zeitdauer mit Benutzeradministratorrechten konfiguriert.  Dann haben Sie als Diego den Prozess der Aktivierung der Benutzer-Administratorrechte und eines Benutzers bzw. einer Benutzerin für eine Gruppe durchlaufen.  Beachten Sie, dass für PIM die Microsoft Entra ID Premium P2-Lizenzierung erforderlich ist.

@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Titel: 'Das Microsoft Defender Portal' Modul: 'Lernpfad: Beschreiben Sie die Funktionen von Microsoft-Sicherheitslösungen; Modul 4: Beschreiben Sie die Bedrohungsschutzfunktionen von Microsoft 365; Einheit 7: Beschreiben Sie das Microsoft Defender-Portal'
+Demo: Titel: 'Das Microsoft Defender Portal' Modul: 'Lernpfad: Beschreiben Sie die Funktionen von Microsoft-Sicherheitslösungen; Modul 4: Beschreiben Sie die Bedrohungsschutzfunktionen von Microsoft Defender XDR; Lerneinheit 7: Beschreiben Sie das Microsoft Defender-Portal'
 ---
 --->
 
@@ -9,7 +9,7 @@ Demo: Titel: 'Das Microsoft Defender Portal' Modul: 'Lernpfad: Beschreiben Sie d
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 
 - Lernpfad: Beschreiben der Funktionen von Microsoft-Sicherheitslösungen
-- Modul: Beschreiben der Bedrohungsschutzfunktionen von Microsoft 365
+- Modul: Beschreiben Sie die Funktionen von Microsoft Defender XDR zum Bedrohungsschutz
 - Einheit: Beschreiben Sie das Microsoft Defender Portal
 
 ## Vorführungsszenario
@@ -20,7 +20,7 @@ In dieser Demo zeigen Sie das Microsoft Defender-Portal, indem Sie durch den Inh
 
 Erkunden Sie die Microsoft Defender Landing Page.
 
-1. Öffnen Sie die Registerkarte Browser für die Microsoft 365-Sicherheitsstartseite.  Wenn Sie den Browser zuvor geschlossen haben, öffnen Sie Microsoft Edge. Geben Sie **https://admin.microsoft.com** in der Adressleiste ein und melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, die von Ihrem autorisierten Labhoster (ALH) bereitgestellt wurden, um auf das Microsoft 365 Admin Center zuzugreifen. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** und dann **Security** aus.  Eine neue Browserseite öffnet sich mit der Willkommensseite des Microsoft Defender-Portals.  
+1. Öffnen Sie die Registerkarte für die Microsoft Defender-Homepage im Browser.  Wenn Sie den Browser zuvor geschlossen haben, öffnen Sie Microsoft Edge. Geben Sie **https://admin.microsoft.com** in der Adressleiste ein und melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, die von Ihrem autorisierten Labhoster (ALH) bereitgestellt wurden, um auf das Microsoft 365 Admin Center zuzugreifen. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** und dann **Security** aus.  Eine neue Browserseite öffnet sich mit der Willkommensseite des Microsoft Defender-Portals.  
 
 1. Die Startseite des Microsoft Defender-Portals zeigt viele der gängigen Karten, die Sicherheitsteams benötigen. Die Zusammenstellung von Karten und Daten hängt von der Rolle des/der Benutzer*in ab. Scrollen Sie durch die Seite, um den Standardsatz von Karten für Ihre Rolle als globale(r) Administrator*in anzuzeigen.
 
@@ -50,7 +50,7 @@ In diesem Teil der Demo erkunden Sie einige der Optionen, die im linken Navigati
     1. **Hunting** - Hier können Sie benutzerdefinierte Erkennungsregeln erstellen und nach bestimmten Bedrohungen in Ihrer Umgebung suchen.
     1. **Aktionen und Übermittlungen** - Das vereinheitlichte Aktionscenter führt Abhilfemaßnahmen in Microsoft Defender for Endpoint und Microsoft Defender für Office 365 zusammen. Es listet ausstehende und abgeschlossene Wartungsaktionen für Ihre Geräte, E-Mails und Zusammenarbeitsinhalte und Identitäten an einem Ort auf. In Microsoft 365-Organisationen mit Exchange Online-Postfächern können Administratoren die Seite "Übermittlungen" im Microsoft Defender-Portal verwenden, um Nachrichten, URLs und Anlagen zur Analyse an Microsoft zu senden.
     1. **Partnerkatalog** - Der Partnerkatalog listet unterstützte Technologiepartner und professionelle Dienstleistungen auf, die Ihrem Unternehmen dabei helfen können, die Erkennungs-, Untersuchungs- und Threat Intelligence-Funktionen der Plattform zu verbessern.
-1. **Threat Intelligence** - Über die Registerkarte Threat Intelligence haben Benutzer Zugriff auf Microsoft Defender Threat Intelligence und die unterstützten Funktionen, einschließlich Threat Analytics, Intel-Profile, Intel-Explorer und Intel-Projekte.
+1. **Threat Intelligence** - Über die Registerkarte Threat Intelligence greifen die Benutzenden auf Microsoft Defender Threat Intelligence und die von der Lösung unterstützten Funktionen zu, einschließlich Threat-Analysen, Intel-Profile, Intel-Explorer und Intel-Projekte.
 1. **Assets** - Auf der Registerkarte Assets können Sie das Inventar geschützter und ermittelter Assets (Geräte und Identitäten) Ihres Unternehmens anzeigen und verwalten.
 1. **Microsoft Sentinel** - Einige Microsoft Sentinel-Funktionen sind im Abschnitt Microsoft Sentinel des Defender-Portals verfügbar.  Dazu muss die Integration über die Seite Einstellungen eingerichtet werden.
 1. **Identitäten** - Der Knoten Identitäten ordnet die mit Microsoft Defender for Identity verbundenen Funktionen zu. Das Dashboard bietet wichtige Einblicke und Echtzeitdaten zur Erkennung von und Reaktion auf Identitätsbedrohungen (ITDR). Auf der Seite „Integritätsprobleme“ werden alle aktuellen Integritätsprobleme für Ihre Defender for Identity-Bereitstellung und -Sensoren aufgelistet, die Sie auf Probleme in Ihrer Defender for Identity-Bereitstellung aufmerksam machen. Auf der Seite „Tools“ werden zusätzliche Informationen aufgeführt, die Ihnen bei der Verwaltung Ihrer Microsoft Defender for Identity-Umgebung helfen.
@@ -68,17 +68,15 @@ In diesem Teil der Demo erkunden Sie einige der Optionen, die im linken Navigati
     1. Einstellungen - Hier konfigurieren Sie Einstellungen für das Defender-Portal, Defender XDR, Lösungen, die Teil von Microsoft Defender XDR sind, und Microsoft Sentinel.  Erkunden Sie die Optionen, die Sie interessieren.
 1. **Anpassen der Navigation** – Hier können Sie auswählen, dass Elemente im Navigationsbereich angezeigt oder ausgeblendet werden sollen. Andere Administrierende sehen Ihre Änderungen nicht.
 
-1. Der linke Navigationsbereich enthält Links zu bzw. bietet Zugriff auf Informationen, die Teil der Extended Detection and Response-Lösung von Microsoft (XDR-Lösung) sind. Dazu zählen Incidents und Warnungen, Hunting, Action Center, Bedrohungsanalysen, sicherer Speicher und vieles mehr.  Zudem ermöglicht er den Schnellzugriff auf Microsoft Defender for Endpoint (die unter „Endpunkte“ aufgelisteten Links), Defender für Office 365 (die unter „E-Mail und Zusammenarbeit“ aufgelisteten Links) und Microsoft Defender for Cloud-Apps (Links unter Cloud-Apps) und mehr.  Erkunden Sie diese Optionen, indem Sie auf einige der Links klicken.   Um zur Startseite des Microsoft Defender-Portals zurückzukehren, wählen Sie **Startseite** im linken Navigationsbereich aus.
-
 ### Teil 3 der Demo
 
 Bei diesem Teil der Demo zeigen Sie, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.
 
-1. Wählen Sie im linken Navigationsbereich **Microsoft Secure Score** aus.
+1. Erweitern Sie im linken Navigationsbereich **Gefährdungsmanagement** und wählen Sie dann **Sicherheitsbewertung** aus.
 
 1. Die Seite „Microsoft-Sicherheitsbewertung“ wird auf der Registerkarte „Übersicht“ geöffnet. Die Microsoft-Sicherheitsbewertung ist eine Messung des Sicherheitsstatus einer Organisation. Der Sicherheitsstatus Ihrer Organisation wird als Prozentsatz zusammen mit der Anzahl der Punkte angezeigt, die Sie von den insgesamt möglichen Punkten erreicht haben, und nach Kategorie aufgeschlüsselt. Wählen Sie **Einschließen** neben „Ihre Sicherheitsbewertung“ aus. Sie können auswählen, dass die erreichbare Bewertung, geplante Bewertung und die Bewertung der aktuellen Lizenzen in Ihrer Bewertung angezeigt werden.
 
-1. Zudem enthält die Übersichtsseite die wichtigsten Verbesserungsaktionen, die Vergleichsbewertung, den Verlauf und zusätzliche Ressourcen.
+1. Die Übersichtsseite enthält außerdem die empfohlenen Maßnahmen, die Vergleichsbewertung, den Verlauf und die Ressourcen.
 
 1. Wählen Sie oben auf der Seite **Verbesserungsaktionen** aus.  Beachten Sie die in der Tabelle für jedes Element verfügbaren Informationen.  
 
@@ -94,4 +92,4 @@ Bei diesem Teil der Demo zeigen Sie, wie Organisationen mithilfe der Microsoft-S
 
 ### Überprüfung
 
-In dieser Demo haben Sie das Microsoft Defender-Portal erkundet, indem Sie durch die auf der Landing Page angezeigten Inhalte gegangen sind. Sie haben die Optionen im Navigationsbereich erkundet, der einen schnellen Zugriff auf Funktionen bietet, die Teil der XDR-Lösung (Extended Detection and Response) von Microsoft, Microsoft Defender for Endoints und Microsoft Defender for Office 365 (E-Mail und Zusammenarbeit) sind.  Als Letztes zeigen Sie zudem, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihren Sicherheitsstatus verbessern können.
+In dieser Demo haben Sie das Microsoft Defender-Portal erkundet, indem Sie durch den auf der Landing Page angezeigten Inhalt gegangen sind. Sie haben die Optionen auf dem Bedienfeld erkundet, das einen schnellen Zugriff auf die Funktionalitäten bereitstellt, die Teil von Microsoft Defender XDR sind.  Als Letztes zeigen Sie zudem, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihren Sicherheitsstatus verbessern können.

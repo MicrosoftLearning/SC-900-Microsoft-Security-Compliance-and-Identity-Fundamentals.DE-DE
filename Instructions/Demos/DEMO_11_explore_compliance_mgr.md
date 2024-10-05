@@ -4,7 +4,7 @@ Demo: Titel: 'Erkunden des Microsoft Purview Portals & Compliance Manager' Lernp
 ---
 --->
 
-# Demo: Erkunden des Microsoft Purview-Compliance-Portals und des Compliance-Managers
+# Demo: Erkunden des Microsoft Purview-Portals und des Compliance-Managers
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 

@@ -16,7 +16,7 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 In diesem Lab greifen Sie auf Microsoft Entra ID (zuvor als Azure Active Directory bezeichnet) zu.  Außerdem erstellen Sie einen Benutzer, konfigurieren die verschiedenen Einstellungen und fügen dabei auch Lizenzen hinzu.  
 
-**Geschätzte Dauer**: 10 bis 15 Minuten
+**Geschätzte Dauer**: 30 Minuten
 
 ### Aufgabe 1
 

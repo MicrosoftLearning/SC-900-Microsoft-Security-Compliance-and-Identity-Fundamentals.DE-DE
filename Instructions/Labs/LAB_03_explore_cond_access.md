@@ -1,7 +1,7 @@
 ---
 lab:
   title: Bedingter Microsoft Entra-Zugriff
-  module: Describe the access management capabilities of Microsoft Entra ID
+  module: Describe the access management capabilities of Microsoft Entra
 ---
 
 # Lab: Bedingter Zugriff mit Microsoft Entra
@@ -9,7 +9,7 @@ lab:
 Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 - Lernpfad: Beschreiben der Funktionen von Microsoft Entra
-- Modul: Beschreiben der Funktionen für die Zugriffsverwaltung in Microsoft Entra ID
+- Modul: Beschreiben der Access Management-Funktionen von Microsoft Entra ID
 - Lerneinheit: Beschreiben des bedingten Zugriffs
 
 ## Labszenario
@@ -69,6 +69,8 @@ Bei dieser Aufgabe durchlaufen Sie den Prozess zum Erstellen einer Richtlinie f�
 
 1. Wählen Sie **Microsoft Admin Portals**, und drücken Sie dann auf **Auswählen** unten auf der Seite.  Beachten Sie die Warnung.  
 
+1. Wählen Sie unter „Netzwerk“ die Option **Beliebiges Netzwerk oder Standort**" aus.  Überprüfen Sie die Optionen, wählen Sie jedoch keine Optionen aus.
+
 1. Wählen Sie **0 Bedingungen ausgewählt** unter „Bedingungen“ aus.  Beachten Sie die unterschiedlichen Optionen, die von Ihnen konfiguriert werden können.  Durch die Richtlinie können Sie den Benutzerzugriff auf Basis von Signalen von Bedingungen steuern, unter anderem: Benutzerrisiko, Anmelderisiko, Geräteplattform, Speicherort, Client-Apps oder Filtern nach Geräten.  Erkunden Sie diese konfigurierbaren Optionen, aber legen Sie keine Bedingungen fest.
 
 1. Sie legen nun die Zugriffssteuerungen fest.  Wählen Sie **0 Steuerelemente ausgewählt** unter „Erteilen“ fest.
@@ -97,11 +99,18 @@ Bei dieser Aufgabe sehen Sie aus Perspektive des Benutzers Debra Berger, wie sic
 
 1. Im Fenster „Schützen Sie Ihr Konto“ können Sie die für die MFA zu verwendende Methode auswählen.  „Microsoft Authenticator“ ist eine Option davon. Der Zweckmäßigkeit halber wählen Sie in dieser Lab-Übung eine andere Methode aus.  Wählen Sie **Ich möchte eine andere Methode einrichten** aus.  Wählen Sie im Popupfenster „Andere Methode auswählen“ den **Dropdownpfeil** aus. Wählen Sie **Telefon** und dann **Bestätigen** aus.
 
-1. Stellen Sie im Fenster, das geöffnet wird, sicher, dass Ihr Land ausgewählt ist. Geben Sie dann die gewünschte Mobiltelefonnummer ein.  Stellen Sie sicher, dass **Code per SMS an mich senden** ausgewählt ist. Klicken Sie dann auf **Weiter**.  Sie erhalten eine SMS auf Ihrem Telefon mit einem Code, den Sie eingeben müssen, wenn die Aufforderung zum Eingeben von Code angezeigt wird.  Geben Sie den erhaltenen Code ein, und klicken Sie dann auf **Weiter**.  Nach der Bestätigung wird Folgendes auf dem Bildschirm angezeigt: „Die SMS wurde verifiziert. Ihr Telefon wurde erfolgreich registriert.“  Klicken Sie auf **Weiter**. Klicken Sie danach auf **Fertig**.  Dadurch wird der einmalige Registrierungsprozess abgeschlossen.
+1. Das angezeigte Fenster und die folgenden Schritte gelten für die Microsoft Authenticator-App-Methode .
+    1. Wenn Sie die Microsoft Authenticator-App bereits auf Ihrem Mobilgerät installiert haben, wählen Sie **Weiter** aus. Wählen Sie andernfalls **Jetzt herunterladen** aus, und führen Sie die Schritte aus.
+    1. Sie beginnen mit dem Einrichten Ihres Kontos.  Wählen Sie **Weiter** aus.
+    1. Verwenden Sie die Microsoft Authenticator-App auf Ihrem Mobilgerät, wählen Sie **+** aus, um ein Konto hinzuzufügen, und wählen Sie **Geschäfts-, Schul- oder Unikonto** aus.
+    1. Wählen Sie die Option zum **Scannen des QR-Codes** aus, und scannen Sie dann mit Ihrem mobilen Gerät den QR-Code auf Ihrem PC-Bildschirm.
+    1. Öffnen Sie die Microsoft Authenticator-App auf Ihrem mobilen Gerät, scannen Sie den QR-Code.
+    1. Führen Sie die Schritte auf Ihrem PC und mobilen Gerät aus, und wählen Sie dann **Weiter** aus.
+    1. Nachdem Sie Ihre Sicherheitsinformationen eingerichtet haben, wird ein Erfolgsfenster angezeigt.  Wählen Sie **Fertig** aus.
 
 1. Sie sollten nun auf das Azure-Portal zugreifen können.  Das Azure-Portal ist ein Microsoft Admin-Portal und erfordert entsprechend der erstellten Richtlinie für bedingten Zugriff die Multi-Faktor-Authentifizierung.  
     1. Wenn in einer Meldung angezeigt wird, dass bei Ihrer Anmeldung eine Zeitüberschreitung aufgetreten ist, geben Sie das Kennwort ein und wählen dann **Anmelden** aus.
-    1. Es wird ein Fenster angezeigt, in dem Sie Ihre Identität verifizieren müssen.  Wählen Sie =X XXXXXXX aus, um einen Code auf Ihrem Mobiltelefon zu erhalten. Geben Sie den Code ein, und wählen Sie **Überprüfen** aus.
+    1. Es wird ein Fenster angezeigt, in dem Sie die Anmeldeanforderung genehmigen müssen.  Notieren Sie sich die Nummer auf Ihrem PC, und befolgen Sie die Anweisungen in der Microsoft Authenticator-App.
     1. Wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten, wählen Sie **Nein** aus.
 
 1. Melden Sie sich ab. Wählen Sie dazu das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann „Abmelden“ aus. Schließen Sie dann alle Browserfenster.
