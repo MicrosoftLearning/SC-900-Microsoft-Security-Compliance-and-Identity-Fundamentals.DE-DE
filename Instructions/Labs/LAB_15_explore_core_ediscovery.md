@@ -4,7 +4,7 @@ lab:
   module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# Übung: Erkunden von eDiscovery
+# Lab: Erkunden von eDiscovery
 
 Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
@@ -22,16 +22,18 @@ In diesem Lab gehen Sie die Schritte durch, die zum Festlegen von eDiscovery erf
 
 Für den Zugriff auf eDiscovery (Standard) oder das Hinzufügen als Mitglied eines eDiscovery-Falls müssen einem Benutzer die entsprechenden Berechtigungen zugewiesen werden. In dieser Aufgabe fügen Sie als globale(r) Administrator*in bestimmte Benutzer*innen als Mitglieder der Rollengruppe „eDiscovery-Manager“ hinzu.
 
-1. Öffnen Sie die Browserregisterkarte für die Startseite von Microsoft Purview.  Wenn Sie die Registerkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **https://admin.microsoft.com** ein. Melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, der vom autorisierten Labhoster (ALH) bereitgestellt wird. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** und dann **Compliance** aus.  Die Startseite des Microsoft Purview-Portals wird auf einer neuen Browserseite geöffnet.  
+1. Öffnen Sie die Browserregisterkarte für die Startseite von Microsoft Purview.  Wenn Sie die Registerkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **https://admin.microsoft.com** ein. Melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, der vom autorisierten Labhoster (ALH) bereitgestellt wird. Wenn Sie sich zuvor als Admin angemeldet haben, werden Sie aufgefordert, eine sekundäre Authentifizierung als Teil der MFA abzuschließen. Wenn Sie sich zuvor noch nicht als Admin angemeldet haben, werden Sie aufgefordert, den MFA-Registrierungsprozess abzuschließen. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
+
+1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** und dann **Compliance** aus.  Die Startseite des Microsoft Purview-Portals wird auf einer neuen Browserseite geöffnet.  
 
 1. Wählen Sie im linken Navigationsbereich **Einstellungen**, erweitern Sie **Rollen und Bereiche** und wählen Sie dann **Rollengruppen**.
 
-1. Geben Sie in das Suchfeld oben rechts auf der Seite **eDiscovery** ein und fahren Sie mit der EINGABETASTE auf Ihrer Tastatur fort.  Wählen Sie **eDiscovery-Manager** aus.
+1. Geben Sie in das Suchfeld oben rechts auf der Seite **eDiscovery** ein und drücken Sie die Eingabetaste auf Ihrer Tastatur.  Wählen Sie **eDiscovery-Manager** aus.
 
-1. Wählen Sie **Bearbeiten** aus. Für diese Übung legen Sie sich als MOD-Administrator, eDiscovery Manager und Administrator fest.  In der Praxis würden Sie bestimmte Benutzende für bestimmte Rollen benennen.
+1. Wählen Sie **Bearbeiten** aus. Für diese Übung legen Sie sich als MOD-Admin als eDiscovery-Manager und -Admin fest.  In der Praxis würden Sie bestimmte Benutzende für bestimmte Rollen benennen.
     1. Auf der Seite „eDiscovery-Manager verwalten“ können Sie Benutzer*innen der Rolle „eDiscovery-Manager“ hinzufügen.
-    1. Wählen Sie **Benutzer auswählen** aus. Suchen Sie nach **MOD Administrator** und drücken Sie **Auswählen** am unteren Ende der Seite, dann wählen Sie **Weiter**.
-    1. Wählen Sie auf der Seite „eDiscovery-Administrator verwalten“ die Option **Benutzer auswählen** aus. Suchen Sie nach **MOD Administrator** und drücken Sie **Auswählen** am unteren Ende der Seite, wählen Sie dann **Weiter** und anschließend **Speichern**.
+    1. Wählen Sie **Benutzer auswählen** aus. Suchen Sie nach und wählen Sie **MOD-Administrator**. Drücken Sie dann **Auswählen** am unteren Ende der Seite und wählen Sie **Weiter**.
+    1. Wählen Sie auf der Seite „eDiscovery-Administrator verwalten“ die Option **Benutzer auswählen** aus. Suchen Sie nach **MOD-Administrator** und wählen Sie **Auswählen** unten auf der Seite. Wählen Sie dann **Weiter** und anschließend **Speichern**.
     1. Wählen Sie auf der Seite „Sie haben die Rollengruppe erfolgreich aktualisiert“ die Option **Fertig** aus.
 
 1. Lassen Sie diese Browserregisterkarte geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
@@ -40,7 +42,7 @@ Für den Zugriff auf eDiscovery (Standard) oder das Hinzufügen als Mitglied ein
 
 Bei dieser Aufgabe erstellen Sie als ein eDiscovery-Administrator (der MOD-Administrator ist ein eDiscovery-Administrator) einen Fall, um mit der Verwendung von eDiscovery (Standard) zu beginnen.
 
-1. Sie sollten sich immer noch auf der Seite „Rollen“ im Complianceportal befinden. Wenn Sie die Registerkarte der vorherigen Aufgabe geschlossen haben, öffnen Sie eine neue Registerkarte und geben Sie **compliance.microsoft.com** ein, um zum Microsoft Purview-Portal zu gelangen.
+1. Sie sollten sich immer noch auf der Seite „Rollen“ im Complianceportal befinden. Wenn Sie die Registerkarte des Browsers aus der vorherigen Aufgabe geschlossen haben, öffnen Sie eine neue Registerkarte und geben Sie **compliance.microsoft.com** ein, um zum Microsoft Purview-Portal zu gelangen.
 
 1. Erweitern Sie im linken Bedienfeld unter Lösungen **eDiscovery** und wählen Sie dann **Standardfälle**.
 

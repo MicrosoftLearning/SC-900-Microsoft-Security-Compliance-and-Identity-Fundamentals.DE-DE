@@ -27,6 +27,7 @@ Bei dieser Aufgabe setzen Sie als Administrator*in das Kennwort für den Benutze
 1. Melden Sie sich mit den Microsoft 365-Administratoranmeldeinformationen an, die von Ihrer ALH bereitgestellt werden.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
+    1. Wenn Sie sich zuvor als Admin angemeldet haben, werden Sie möglicherweise aufgefordert, eine sekundäre Authentifizierung als Teil der MFA abzuschließen. Wenn Sie sich zuvor noch nicht als Admin angemeldet haben, werden Sie möglicherweise aufgefordert, den MFA-Registrierungsprozess abzuschließen. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
 1. Erweitern Sie im linken Navigationsbereich **Identität**, erweitern Sie **Benutzer**, und wählen Sie dann **Alle Benutzer** aus.
@@ -91,6 +92,7 @@ Bei dieser Aufgabe melden Sie sich als Diego Siciliani im Microsoft Entra Admin 
     1. Geben Sie **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das temporäre Kennwort ein, das Sie bei der vorherigen Aufgabe notiert haben, und wählen Sie **Anmelden** aus.  Wählen Sie **anmelden** aus.
     1. Da das von Ihnen eingegebene Kennwort nur ein temporäres Kennwort war, müssen Sie es jetzt aktualisieren. Geben Sie das aktuelle Kennwort ein, geben Sie ein neues Kennwort ein, und bestätigen Sie dann das neue Kennwort.  Notieren Sie sich dieses neue Kennwort, da Sie die Aufgabe abschließen müssen.
+    1. Da Sie sich zum ersten Mal als Diego anmelden, werden Sie möglicherweise aufgefordert, MFA einzurichten. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
 1. Sie sollten erfolgreich im Microsoft Entra Admin Center angemeldet sein.
@@ -99,12 +101,12 @@ Bei dieser Aufgabe melden Sie sich als Diego Siciliani im Microsoft Entra Admin 
 1. Wählen Sie in der letzten Spalte der Tabelle **Aktivieren** aus.
 1. Ein angezeigtes Warnsymbol gibt an, dass eine zusätzliche Überprüfung erforderlich ist.  Klicken Sie auf **Klicken, um fortzufahren**.  Beachten Sie, dass für die PIM-Einstellungen der Rolle „Benutzeradministrator“ Multi-Faktor-Authentifizierung erforderlich ist.  Da Diegos Kontaktinformationen für die Verwendung mit MFA (Authentifizierungsmethoden) noch nicht konfiguriert wurden, muss er seine Informationen registrieren, um MFA verwenden zu können.  Obwohl er jedes Mal, wenn er sich als Benutzeradministrator anmeldet, eine MFA durchführen muss, ist der MFA-Registrierungsprozess innerhalb des Zuweisungszeitraums nur einmal erforderlich.
 1. Das angezeigte Fenster und die folgenden Schritte gelten für die Microsoft Authenticator-App-Methode. .
-    1. Wenn Sie die Microsoft Authenticator-App bereits auf Ihrem Mobilgerät installiert haben, wählen Sie **Weiter**. Andernfalls wählen Sie **Jetzt herunterladen** und folgen den Anweisungen.
+    1. Wenn Sie die Microsoft Authenticator-App bereits auf Ihrem mobilen Gerät installiert haben, wählen Sie **Weiter**. Andernfalls wählen Sie **Jetzt herunterladen** und folgen Sie den Schritten.
     1. Sie beginnen mit dem Einrichten Ihres Kontos.  Wählen Sie **Weiter** aus.
     1. Wählen Sie auf Ihrem Mobilgerät in der Microsoft Authenticator-App die Option **+**, um ein Konto hinzuzufügen, und wählen Sie **Geschäfts- oder Schulkonto**.
-    1. Wählen Sie die Option zum **Scannen des QR-Codes** aus und scannen Sie dann mit Ihrem Mobilgerät den QR-Code auf Ihrem PC-Bildschirm.
-    1. Scannen Sie den QR-Code mit der Microsoft Authenticator-App auf Ihrem Mobilgerät.
-    1. Befolgen Sie die Schritte auf Ihrem PC und Mobilgerät und wählen Sie dann **Weiter**.
+    1. Wählen Sie die Option **QR-Code scannen**, und scannen Sie dann mit Ihrem mobilen Gerät den QR-Code auf dem Bildschirm Ihres PCs.
+    1. Öffnen Sie die Microsoft Authenticator-App auf Ihrem mobilen Gerät und scannen Sie den QR-Code.
+    1. Führen Sie die Schritte auf Ihrem PC und mobilen Gerät aus, und wählen Sie dann **Weiter** aus.
     1. Nachdem Sie Ihre Sicherheitsinformationen eingerichtet haben, wird ein Erfolgsfenster angezeigt.  Wählen Sie **Fertig** aus.
 
 1. Sobald Sie den MFA-Registrierungsprozess abgeschlossen haben, kehren Sie zur PIM-Seite „Aktiver Benutzer-Administrator“ zurück.
@@ -115,7 +117,7 @@ Bei dieser Aufgabe melden Sie sich als Diego Siciliani im Microsoft Entra Admin 
 1. Als Microsoft Entra ID-Benutzeradmin können Sie Benutzerkonten und Gruppen erstellen, Lizenzen verwalten und mehr. Erweitern Sie in der linken Navigationsleiste **Identität** und wählen Sie **Benutzer**.
 1. Wählen Sie in der Benutzerliste **Bianca Pisani** aus.
 1. Wählen Sie im linken Navigationsbereich **Gruppen** aus.
-1. Beachten Sie die Gruppen, denen Bianca bereits zugewiesen ist. Wählen Sie oben auf der Seite **+ Mitgliedschaften**.
+1. Beachten Sie die Gruppen, denen Bianca bereits zugewiesen ist. Wählen Sie oben auf der Seite die Option **+ Mitgliedschaften** aus.
 1. Wählen Sie aus der Liste der Gruppen **Mark 8-Projektteam**.
 1. Wählen Sie unten auf der Seite **Auswählen**.
 1. Auf der Seite „Gruppen“ stellen Sie fest, dass die Gruppe „Mark 8-Projektteam“ zur Liste hinzugefügt wurde (wenn Sie sie nicht sofort sehen, klicken Sie auf die Schaltfläche **Aktualisieren**).
@@ -124,4 +126,4 @@ Bei dieser Aufgabe melden Sie sich als Diego Siciliani im Microsoft Entra Admin 
 
 ### Überprüfung
 
-In diesem Lab haben Sie PIM erkundet.  Als Administrator*in haben Sie Diego für eine bestimmte Zeitdauer mit Benutzeradministratorrechten konfiguriert.  Dann haben Sie als Diego den Prozess der Aktivierung der Benutzer-Administratorrechte und eines Benutzers bzw. einer Benutzerin für eine Gruppe durchlaufen.  Beachten Sie, dass für PIM die Microsoft Entra ID Premium P2-Lizenzierung erforderlich ist.
+In diesem Lab haben Sie PIM erkundet.  Als Administrator*in haben Sie Diego für eine bestimmte Zeitdauer mit Benutzeradministratorrechten konfiguriert.  Dann haben Sie als Diego den Prozess der Aktivierung der Admin-Rechte für Benutzende und die Aufnahme eines Benutzers bzw. einer Benutzerin für eine Gruppe durchlaufen.  Beachten Sie, dass für PIM die Microsoft Entra ID Premium P2-Lizenzierung erforderlich ist.

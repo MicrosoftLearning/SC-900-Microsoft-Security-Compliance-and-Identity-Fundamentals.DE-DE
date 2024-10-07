@@ -1,10 +1,10 @@
 ---
 lab:
-  title: Erkunden des Microsoft Defender-Portals
+  title: Erkunden Sie das Microsoft Defender-Portal
   module: Describe the threat protection capabilities of Microsoft XDR
 ---
 
-# Übung: Erkunden des Microsoft Defender-Portals
+# Lab: Erkunden des Microsoft Defender-Portals
 
 Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
@@ -14,7 +14,7 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 ## Labszenario
 
-In dieser Übung lernen Sie das Microsoft Defender-Portal kennen, indem Sie die Inhalte durchgehen, die auf der Landing Page angezeigt werden. Außerdem erkunden Sie die Optionen im Navigationsbereich, die einen schnellen Zugriff auf die Funktionen bieten, die Bestandteil der Lösung für Extended Detection and Response (XDR) von Microsoft sind: Microsoft Defender for Endpoint und Microsoft Defender für Office 365 (E-Mail und Zusammenarbeit).  Als Letztes erkunden Sie zudem, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.
+In diesem Lab erkunden Sie das Microsoft Defender-Portal, indem Sie die auf der Startseite angezeigten Inhalte durchgehen. Außerdem erkunden Sie die Optionen im Navigationsbereich, die einen schnellen Zugriff auf die Funktionen bieten, die Bestandteil der Lösung für Extended Detection and Response (XDR) von Microsoft sind: Microsoft Defender for Endpoint und Microsoft Defender für Office 365 (E-Mail und Zusammenarbeit).  Als Letztes erkunden Sie zudem, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.
 
 **Geschätzte Dauer**: 30 Minuten
 
@@ -26,8 +26,8 @@ Erkunden Sie die Microsoft Defender Landing Page.
 
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
-
     1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt wird. Wählen Sie **Anmelden**.
+    1. Wenn Sie sich zuvor als Admin angemeldet haben, werden Sie aufgefordert, eine sekundäre Authentifizierung als Teil der MFA abzuschließen. Wenn Sie sich zuvor noch nicht als Admin angemeldet haben, werden Sie aufgefordert, den MFA-Registrierungsprozess abzuschließen. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten. Dadurch gelangen Sie zur Seite „Microsoft 365 Admin Center“.
 
 1. Wählen Sie im linken Navigationsbereich des Microsoft 365 Admin Centers **Sicherheit** aus.  Wenn die Option „Sicherheit“ nicht aufgeführt ist, wählen Sie **Alle anzeigen** und dann **Sicherheit** aus.  Eine neue Browserseite öffnet sich mit der Willkommensseite des Microsoft Defender-Portals.  
@@ -42,13 +42,13 @@ Erkunden Sie die Microsoft Defender Landing Page.
 
 1. Sie können die Karten auch verschieben. Bewegen Sie den Mauszeiger über die Titelleiste einer beliebigen Karte. Sobald ein kreuzförmiger Cursor angezeigt wird, wählen Sie die Karte aus, und verschieben Sie sie an die gewünschte Position.  
 
-1. Einige Karten verfügen über Schaltflächen unten auf der Karte, die auswählbar sind. Der Titel einiger Karten dient als Link zur Seite für dieses Thema.  Wenn Sie beispielsweise den Titel der Microsoft Secure Score-Karte auswählen, werden Sie zur Microsoft Secure Score-Seite weitergeleitet.  Weitere Informationen zu Microsoft Secure Score finden Sie in einem späteren Abschnitt dieser Übung.
+1. Einige Karten verfügen über Schaltflächen unten auf der Karte, die auswählbar sind. Der Titel einiger Karten dient als Link zur Seite für dieses Thema.  Wenn Sie beispielsweise den Titel der Microsoft Secure Score-Karte auswählen, werden Sie zur Microsoft Secure Score-Seite weitergeleitet.  In einem späteren Abschnitt dieses Labs erfahren Sie mehr über den Microsoft Secure Score.
 
 1. Schließen Sie dieses Browserfenster nicht.
 
 ### Aufgabe 2
 
-In diesem Teil der Übung werden Sie einige der Optionen erkunden, die im linken Bedienfeld des Defender-Portals zur Verfügung stehen.  Mit dem Microsoft Defender-Portal löst Microsoft die Zusage einer einheitlichen Security Operations Plattform ein. Das Microsoft Defender-Portal kombiniert Schutz, Erkennung, Untersuchung und Reaktion auf Bedrohungen in Ihrer gesamten Organisation und alle zugehörigen Komponenten an einem zentralen Ort.  
+In diesem Teil des Labs werden einige der Optionen vorgestellt, die über das linke Navigationsfeld des Defender-Portals verfügbar sind.  Mit dem Microsoft Defender-Portal löst Microsoft die Zusage einer einheitlichen Security Operations Plattform ein. Das Microsoft Defender-Portal kombiniert Schutz, Erkennung, Untersuchung und Reaktion auf Bedrohungen in Ihrer gesamten Organisation und alle zugehörigen Komponenten an einem zentralen Ort.  
 
 1. Erkunden Sie den linken Navigationsbereich nach Belieben.
 
@@ -70,10 +70,10 @@ Bei dieser Aufgabe erkunden Sie, wie Organisationen mithilfe der Microsoft-Siche
 
 1. Wählen Sie oben auf der Seite die Registerkarte **Verlauf** aus.  Für jede aufgeführte Aktivität gibt es eine kurze Anweisung, die Kontext bereitstellt.  Wählen Sie ein Element aus der Verlaufstabelle aus.  Wählen Sie oben rechts auf der Detailseite unter „Verlauf“ ** X Ereignisse** aus (wobei X eine Zahl ist).  Das Fenster „Aktionsverlauf“ wird geöffnet und bietet weitere Informationen.  Klicken Sie auf **Schließen** unten auf der Seite und dann auf  **X** oben rechts auf der Detailseite, um zur Seite „Verlauf“ zurückzukehren.
 
-1. Wählen Sie oben auf der Seite **Metriken und Trends** aus.  Beachten Sie die verfügbaren Informationen.  Klicken Sie rechts oben auf der Seite auf das **Kalendersymbol**.  Sie können die Ansicht auf einen benutzerdefinierten Datumsbereich einschränken.  Durch die Auswahl des **Filtersymbols** können Sie die Ansicht nach Identität und/oder Apps filtern.  Schließen Sie das Fenster und wählen Sie **Home** aus dem linken Navigationsbereich, um zur Startseite von Microsoft Defender zurückzukehren.
+1. Wählen Sie oben auf der Seite **Metriken und Trends** aus.  Beachten Sie die verfügbaren Informationen.  Klicken Sie rechts oben auf der Seite auf das **Kalendersymbol**.  Sie können die Ansicht auf einen benutzerdefinierten Datumsbereich einschränken.  Durch die Auswahl des **Filtersymbols** können Sie die Ansicht nach Identität und/oder Apps filtern.  Schließen Sie das Fenster und wählen Sie **Startseite** in der linken Navigationsleiste, um zur Startseite von Microsoft Defender zurückzukehren.
 
 1. Schließen Sie alle geöffneten Browserregisterkarten.
 
 ### Überprüfung
 
-In dieser Übung haben Sie das Microsoft Defender-Portal erkundet, indem Sie die auf der Landing Page angezeigten Inhalte durchgelesen haben. Sie haben die Optionen im Navigationsbereich erkundet, die einen schnellen Zugriff auf die Funktionalitäten bereitstellen, die Teil der XDR-Lösung (Extended Detection and Response) von Microsoft, Microsoft Defender für Endpunkte und Microsoft Defender für Office 365 (E-Mail und Zusammenarbeit) sind.  Als Letztes erkunden Sie zudem, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihren Sicherheitsstatus verbessern können.
+In diesem Lab haben Sie das Microsoft Defender-Portal erkundet, indem Sie die auf der Landing Page angezeigten Inhalte durchgelesen haben. Sie haben die Optionen im Navigationsbereich erkundet, die einen schnellen Zugriff auf die Funktionalitäten bereitstellen, die Teil der XDR-Lösung (Extended Detection and Response) von Microsoft, Microsoft Defender für Endpunkte und Microsoft Defender für Office 365 (E-Mail und Zusammenarbeit) sind.  Als Letztes erkunden Sie zudem, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihren Sicherheitsstatus verbessern können.

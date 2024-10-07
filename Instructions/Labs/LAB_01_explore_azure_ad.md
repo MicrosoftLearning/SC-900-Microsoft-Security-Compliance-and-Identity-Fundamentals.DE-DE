@@ -25,6 +25,7 @@ Als Abonnent von Microsoft 365 verwenden Sie bereits Microsoft Entra ID (zuvor a
 1. Schließen Sie den Microsoft Edge-Browser. Geben Sie in der Adressleiste **[admin.microsoft.com](https://admin.microsoft.com)** ein und melden Sie sich mit den Anmeldeinformationen für Microsoft 365 an, die von Ihrem autorisierten Lab-Hoster (ALH) bereitgestellt wurden.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
+    1. Da Sie sich zum ersten Mal anmelden, werden Sie möglicherweise aufgefordert, MFA einzurichten. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
 1. Wählen sie im Admin Center **Identität** aus (möglicherweise müssen Sie **Alle anzeigen** auswählen und dann nach unten scrollen).  Die Übersichtsseite des Microsoft Entra Admin Centers wird auf einer neuen Browserseite geöffnet.
@@ -102,18 +103,20 @@ Bei dieser Aufgabe melden Sie sich erstmals als Sara Perez an.
 
 1. Öffnen Sie Microsoft Edge.
 
-2. Geben Sie in der Adressleiste **https://login.microsoft.com** ein.
+1. Geben Sie in der Adressleiste **https://login.microsoft.com** ein.
 
-3. Melden Sie sich als **sara@WWLxZZZZZ.onmicrosoft.com** an (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem ALH (Authorized Lab Hoster) bereitgestellt wurde).
-4. Geben Sie das temporäre Kennwort ein, das Sie bei der vorherigen Aufgabe festgelegt haben.
+1. Melden Sie sich als **sara@WWLxZZZZZ.onmicrosoft.com** an (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem ALH (Authorized Lab Hoster) bereitgestellt wurde).
+1. Geben Sie das temporäre Kennwort ein, das Sie bei der vorherigen Aufgabe festgelegt haben.
 
-5. Sie werden nun aufgefordert, Ihr Kennwort zu ändern. Geben Sie im Feld „Aktuelles Kennwort“ das temporäre Kennwort aus der vorherigen Aufgabe ein.
+1. Sie werden nun aufgefordert, Ihr Kennwort zu ändern. Geben Sie im Feld „Aktuelles Kennwort“ das temporäre Kennwort aus der vorherigen Aufgabe ein.
 
-6. Geben Sie im Feld „Neues Kennwort“ ein neues Kennwort ein, bestätigen Sie es, und klicken Sie dann auf **Anmelden**.  Notieren Sie sich Ihr neues Kennwort – Sie benötigen es für die nachfolgende Lab-Übung zu SSPR.
+1. Geben Sie im Feld „Neues Kennwort“ ein neues Kennwort ein, bestätigen Sie es, und klicken Sie dann auf **Anmelden**.  Notieren Sie sich Ihr neues Kennwort – Sie benötigen es für die nachfolgende Lab-Übung zu SSPR.
 
-7. Sie sollten nun erfolgreich bei Saras Microsoft-Konto angemeldet sein.  Beachten Sie, dass die Lizenzierung von Sara, die Sie in der vorherigen Aufgabe zugewiesen haben, nur auf der Microsoft Power Automate-Gratislizenz und Power Apps für Entwickler beschränkt war und keine E5-Lizenzierung umfasste.
+1. Da Sie sich zum ersten Mal als Sara Perez anmelden, werden Sie möglicherweise aufgefordert, MFA einzurichten. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
 
-8. Melden Sie sich ab, indem Sie das Symbol in der oberen rechten Ecke des Microsoft 365-Fensters auswählen, das als Kreis mit den Buchstaben SP (neben dem Fragezeichensymbol) angezeigt wird, und dann **Abmelden** auswählen. Schließen Sie dann den Browser.
+1. Sie sollten nun erfolgreich bei Saras Microsoft-Konto angemeldet sein.  Beachten Sie, dass die Lizenzierung von Sara, die Sie in der vorherigen Aufgabe zugewiesen haben, nur auf der Microsoft Power Automate-Gratislizenz und Power Apps für Entwickler beschränkt war und keine E5-Lizenzierung umfasste.
+
+1. Melden Sie sich ab, indem Sie das Symbol in der oberen rechten Ecke des Microsoft 365-Fensters auswählen, das als Kreis mit den Buchstaben SP (neben dem Fragezeichensymbol) angezeigt wird, und dann **Abmelden** auswählen. Schließen Sie dann den Browser.
 
 ### Überprüfung
 

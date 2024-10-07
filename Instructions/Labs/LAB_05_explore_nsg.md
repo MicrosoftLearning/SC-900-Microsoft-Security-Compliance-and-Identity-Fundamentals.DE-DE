@@ -27,6 +27,7 @@ In dieser Aufgabe zeigen Sie einige der Parameter an, die der VM zugeordnet sind
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie im Anmeldefenster den Benutzernamen ein, der von Ihrem Lab-Hostingnbieter bereitgestellt wird, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
+    1. Wenn Sie sich zuvor angemeldet haben, werden Sie möglicherweise aufgefordert, eine sekundäre Authentifizierung als Teil der MFA abzuschließen. WENN Sie sich noch nicht angemeldet haben, werden Sie möglicherweise aufgefordert, den MFA-Registrierungsprozess abzuschließen. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
 1. Wählen Sie oben auf der Seite unterhalb von „Azure-Dienste“ die Option **Virtual Machines** aus.  Wenn diese Option nicht aufgeführt wird, geben Sie in das Suchfeld, das sich auf dem blauen Balken oben auf der Seite neben dem Text „Microsoft Azure“ befindet, den Text **Virtual Machines** ein, und wählen Sie dann **Virtual Machines** aus den Suchergebnissen aus.
@@ -35,7 +36,7 @@ In dieser Aufgabe zeigen Sie einige der Parameter an, die der VM zugeordnet sind
 
 1. Sie befinden sich nun auf der Seite „SC900-WinVM“.  Beachten Sie einige der grundlegenden Informationen zur VM.
 
-1. Wählen Sie im linken Navigationsbereich **Netzwerkeinstellungen** aus.  In den Abschnitten „Grundlagen“ des Hauptfensters wird die Netzwerkschnittstelle für die VM angezeigt.  Beachten Sie, dass neben der Netzwerksicherheitsgruppe nichts aufgeführt ist, da der Schnittstelle keine NSG zugewiesen ist.
+1. Erweitern Sie in der linken Navigationsleiste **Netzwerke** und wählen Sie dann **Netzwerkeinstellungen**.  In den Abschnitten „Grundlagen“ des Hauptfensters wird die Netzwerkschnittstelle für die VM angezeigt.  Beachten Sie, dass neben der Netzwerksicherheitsgruppe nichts aufgeführt ist, da der Schnittstelle keine NSG zugewiesen ist.
 
 1. Lassen Sie diese Registerkarte geöffnet.
 
@@ -60,11 +61,11 @@ In diesem Teil erstellen Sie eine Netzwerksicherheitsgruppe, weisen die Netzwerk
 
 1. Die Übersichtsseite für die neu erstellte NSG sollte angezeigt werden.  Wählen Sie andernfalls im linken Navigationsbereich die Option **Übersicht** aus. Oben auf der darunterliegenden Seite unter „Zusammenfassung“ werden einige grundlegende Informationen zur von Ihnen erstellten NSG angezeigt.  Zwei Punkte sind zu beachten: Es gibt keine benutzerdefinierten Sicherheitsregeln und keine Subnetze oder Netzwerkschnittstellen, die dieser NSG zugeordnet sind.  Obwohl es keine benutzerdefinierten Sicherheitsregeln gibt, gibt es Standardregeln für eingehenden und ausgehenden Datenverkehr, die in jeder NSG enthalten sind, wie auf der Seite gezeigt.  Überprüfen Sie die Eingangs- und Ausgangsregeln. Die Standardregeln für eingehenden Datenverkehr verweigern den gesamten eingehenden Datenverkehr, der nicht aus einem virtuellen Netzwerk oder einem Azure-Lastenausgleich stammt.  Die Ausgangsregeln verweigern den gesamten ausgehenden Datenverkehr mit Ausnahme des Datenverkehrs zwischen virtuellen Netzwerken und des ausgehenden Datenverkehrs in das Internet.
 
-1. Wählen Sie im linken Navigationsbereich auf der Seite „NSG-SC900“ unter „Einstellungen“ die Option **Netzwerkschnittstellen** aus.
+1. Erweitern Sie im linken Navigationsbereich auf der Seite NSG-SC900 **Einstellungen** und wählen Sie dann **Netzwerkschnittstellen**.
     1. Wählen Sie **Zuordnen** aus.
     2. Wählen Sie im Feld für Netzwerkschnittstellenzuordnungen den **Abwärtspfeil**, dann **sc900-winvmXXX** und schließlich unten im Fenster **OK** aus. Sobald die Schnittstelle dem NSG zugeordnet ist, wird sie in der Liste angezeigt.  Die NSG wird jetzt der Netzwerkschnittstelle Ihrer VM zugewiesen.
 
-1. Wechseln Sie im Browser zurück zur Registerkarte **SC900-WinWM – Microsoft Azure**.  Aktualisieren Sie die Seite. Neben „Netzwerksicherheitsgruppe“ sollte nun der Name der NSG angezeigt werden, die Sie gerade erstellt haben.  Wenn sie immer noch nicht angezeigt wird, warten Sie eine weitere Minute, und aktualisieren Sie die Seite dann erneut.
+1. Navigieren Sie im Browser zurück zur Registerkarte **SC900-WinWM – Microsoft Azure**.  Aktualisieren Sie die Seite. Neben „Netzwerksicherheitsgruppe“ sollte nun der Name der NSG angezeigt werden, die Sie gerade erstellt haben.  Wenn sie immer noch nicht angezeigt wird, warten Sie eine weitere Minute, und aktualisieren Sie die Seite dann erneut.
 
 1. Wählen Sie im linken Navigationsbereich **Verbinden** aus. Wählen Sie im Hauptfenster neben der Portnummer 3389 die Option **Zugriff überprüfen** aus. Die Zugriffsüberprüfungsfunktion sendet Signale (Datenverkehr) an den standardmäßigen RDP-Port 3389 der VM, um zu überprüfen, ob darauf zugegriffen werden kann. Es kann eine Minute dauern, aber dann sollte „Nicht zugänglich“ angezeigt werden.  Dies ist zu erwarten, da die NSG-Regel „DenyAllInBound“ den gesamten eingehenden Datenverkehr an die VM verweigert.
 
@@ -95,7 +96,7 @@ In dieser Aufgabe testen Sie die neu erstellte NSG-Eingangsregel, um sicherzuste
 
 1. Klicken Sie im linken Navigationsbereich auf **Verbinden**.
 
-1. Wählen Sie **Zugriff überprüfen** aus. (Überprüfen Sie, ob der Port auf 3389 festgelegt ist.)  Der Status sollte als „Zugänglich“ angezeigt werden.
+1. Wählen Sie **Zugriff überprüfen** aus. (Überprüfen Sie, ob der Port auf 3389 festgelegt ist.)  Der Status sollte als „Zugänglich“ angezeigt werden.  Wenn Sie immer noch „Nicht zugänglich“ sehen, aktualisieren Sie die Seite und versuchen Sie es erneut. Es kann einige Minuten dauern, bis die neue Eingangsregel von der Option „Zugriff prüfen“ erkannt wird.
 
 1. Stellen Sie nun eine direkte Verbindung mit der VM her, indem Sie im Feld „Native RDP“ auf **Auswählen** klicken.
    
@@ -108,7 +109,10 @@ In dieser Aufgabe testen Sie die neu erstellte NSG-Eingangsregel, um sicherzuste
 1. Sie sind nun mit der VM verbunden. In diesem Fall konnten Sie eine Verbindung mit der VM herstellen, da die von Ihnen erstellte Regel für eingehenden Datenverkehr den eingehenden Datenverkehr zur VM über RDP zulässt.  Nach einigen Sekunden wird auf dem Willkommensbildschirm möglicherweise ein Fenster angezeigt, in dem Sie Datenschutzeinstellungen für Ihr Gerät auswählen können. Wählen Sie **Akzeptieren** aus.  Wenn das Fenster „Netzwerke“ angezeigt wird, wählen Sie **Nein** aus.
 
 1. Testen Sie die ausgehende Konnektivität mit dem Internet über die in der RDP-Sitzung ausgeführten VM.
-    1. Wählen Sie in der geöffneten VM **Microsoft Edge** aus, um den Browser zu öffnen.  Da Sie Microsoft Edge zum ersten Mal öffnen, wird möglicherweise ein Popupfenster angezeigt. Wählen Sie **Ohne Ihre Daten starten**, **Weiter ohne diese Daten** und dann **Bestätigen und Browsing starten** aus.
+    1. Wählen Sie in der geöffneten VM **Microsoft Edge** aus, um den Browser zu öffnen. Da Sie die VM und den Browser zum ersten Mal öffnen, werden Sie möglicherweise aufgefordert, einige Grundeinstellungen vorzunehmen.  
+    1. Möglicherweise werden Sie aufgefordert, Datenschutzeinstellungen für Ihr Gerät auszuwählen. Behalten Sie die Standardeinstellung bei und wählen Sie **Akzeptieren**.  
+    1. Möglicherweise wird ein Seitenbereich für Netzwerke angezeigt.  Wählen Sie **Nein** aus.
+    1. Möglicherweise erscheint ein Fenster mit der Aufschrift „Mit dem leistungsstärksten Browser unter Windows im Internet surfen“. Wählen Sie **Fortfahren**, wählen Sie **Ohne eigene Daten starten**, wählen Sie **Bestätigen und fortfahren**, wählen Sie **Ohne diese Daten fortfahren** und schließlich wählen Sie **Bestätigen und mit dem Surfen beginnen**.
     1. Geben Sie **www.bing.com** in die Adressleiste des Browsers ein, und bestätigen Sie, dass Sie eine Verbindung mit der Suchmaschine herstellen können.
     1. Nachdem Sie bestätigt haben, dass Sie auf www.bing.com zugreifen können, schließen Sie das Browserfenster auf der VM, lassen Sie die VM jedoch aktiviert.
 

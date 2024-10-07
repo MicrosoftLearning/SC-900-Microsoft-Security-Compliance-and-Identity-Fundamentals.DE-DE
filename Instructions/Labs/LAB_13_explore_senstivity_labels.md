@@ -22,7 +22,9 @@ In diesem Lab erkunden Sie die Funktionen von Vertraulichkeitsbezeichnungen.  Si
 
 In dieser Aufgabe erfahren Sie, wozu Vertraulichkeitsbezeichnungen dienen, indem Sie eine neue Bezeichnung erstellen und eine Richtlinie zur Veröffentlichung der Bezeichnung erstellen.
 
-1. Öffnen Sie die Browserregisterkarte für die Startseite von Microsoft Purview.  Wenn Sie die Registerkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **https://admin.microsoft.com** ein. Melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, der vom autorisierten Labhoster (ALH) bereitgestellt wird. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** und dann **Compliance** aus.  Die Startseite des Microsoft Purview-Portals wird auf einer neuen Browserseite geöffnet.
+1. Öffnen Sie die Browserregisterkarte für die Startseite von Microsoft Purview.  Wenn Sie die Registerkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **https://admin.microsoft.com** ein. Melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, der vom autorisierten Labhoster (ALH) bereitgestellt wird. Wenn Sie sich zuvor als Admin angemeldet haben, werden Sie aufgefordert, eine sekundäre Authentifizierung als Teil der MFA abzuschließen. Wenn Sie sich zuvor noch nicht als Admin angemeldet haben, werden Sie aufgefordert, den MFA-Registrierungsprozess abzuschließen. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
+
+1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** und dann **Compliance** aus.  Die Startseite des Microsoft Purview-Portals wird auf einer neuen Browserseite geöffnet.
 
 1. Wählen Sie im linken Navigationsbereich **Lösungen** und dann **Information Protection** aus.  Sie befinden sich auf der Überblicksseite. Scrollen Sie nach unten, um die verfügbaren Informationen anzuzeigen.
 

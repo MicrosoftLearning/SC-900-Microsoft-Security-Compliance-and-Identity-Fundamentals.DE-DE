@@ -31,6 +31,7 @@ In dieser Aufgabe durchlaufen Sie als Administrator einige der verfügbaren Konf
 1. Schließen Sie den Microsoft Edge-Browser. Geben Sie **https://entra.microsoft.com** in der Adressleiste ein und melden Sie sich mit den Administratoranmeldeinformationen für Microsoft 365 an, die von Ihrem autorisierten Labhoster (ALH) bereitgestellt wurden.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
+    1. Wenn Sie sich zuvor als Admin angemeldet haben, werden Sie aufgefordert, eine sekundäre Authentifizierung als Teil der MFA abzuschließen. Wenn Sie sich zuvor noch nicht als Admin angemeldet haben, werden Sie aufgefordert, den MFA-Registrierungsprozess abzuschließen. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
 1. Erweitern Sie im linken Navigationsbereich die Option für **Schutz**, und wählen Sie dann **Kennwortzurücksetzung** aus.  
@@ -81,16 +82,16 @@ Bei dieser Aufgabe durchlaufen Sie als der Benutzerin Sara Perez den Registrieru
 
 1. Öffnen Sie Microsoft Edge, und geben Sie in der Adressleiste **https://login.microsoft.com** ein.
 
-1. Melden Sie sich als Sara Perez an.
+1. Melden Sie sich als Sara Perez an. Für den Anmeldevorgang ist möglicherweise MFA erforderlich.
 
 1. Ein Popup zeigt an, dass weitere Informationen erforderlich sind.  Denn als Mitglied der Gruppe „SSPRSecurityGroupUsers“ müssen sich die Gruppenmitglieder im Rahmen der Konfiguration registrieren, wenn sie sich anmelden.  Wählen Sie die Schaltfläche **Weiter** aus.  Hinweis: Eine Alternative dazu, dass Benutzer*innen die Registrierung selbst durchführen, ist, dass Administrator*innen die Authentifizierungsmethoden beim Hinzufügen von Benutzer*innen direkt konfigurieren. Dazu müssen Administratoren die Telefonnummern und E-Mail-Adressen der Benutzer kennen und festlegen, um die Self-Service-Kennwortzurücksetzung auszuführen und um das Kennwort eines Benutzers zurückzusetzen.
 
 1. Die Seite „Ihr Konto schützen“ wird geöffnet.  Das angezeigte Fenster und die folgenden Schritte gelten für die Microsoft Authenticator-App-Methode. Wenn Sie stattdessen eine E-Mail verwenden möchten, wählen Sie **Ich möchte eine andere Methode einrichten** und folgen Sie den Schritten.
-    1. Wenn Sie die Microsoft Authenticator-App bereits auf Ihrem Mobilgerät installiert haben, wählen Sie **Weiter**. Andernfalls wählen Sie **Jetzt herunterladen** und folgen den Anweisungen.
+    1. Wenn Sie die Microsoft Authenticator-App bereits auf Ihrem mobilen Gerät installiert haben, wählen Sie **Weiter**. Andernfalls wählen Sie **Jetzt herunterladen** und folgen Sie den Schritten.
     1. Sie beginnen mit dem Einrichten Ihres Kontos.  Wählen Sie **Weiter** aus.
     1. Wählen Sie auf Ihrem Mobilgerät in der Microsoft Authenticator-App die Option **+**, um ein Konto hinzuzufügen, und wählen Sie **Geschäfts- oder Schulkonto**.
-    1. Wählen Sie die Option zum **Scannen des QR-Codes** aus und scannen Sie dann mit Ihrem Mobilgerät den QR-Code auf Ihrem PC-Bildschirm.
-    1. Befolgen Sie die Schritte auf Ihrem PC und Mobilgerät und wählen Sie dann **Weiter**.
+    1. Wählen Sie die Option **QR-Code scannen**, und scannen Sie dann mit Ihrem mobilen Gerät den QR-Code auf dem Bildschirm Ihres PCs.
+    1. Führen Sie die Schritte auf Ihrem PC und mobilen Gerät aus, und wählen Sie dann **Weiter** aus.
     1. Nachdem Sie Ihre Sicherheitsinformationen eingerichtet haben, wird ein Erfolgsfenster angezeigt.  Wählen Sie **Fertig** aus.
 
 1. Sie können ihre Anmeldung jetzt abschließen. Wenn Sie feststellen, dass die Anmeldezeit abgelaufen ist, geben Sie das Kennwort einfach erneut ein.
