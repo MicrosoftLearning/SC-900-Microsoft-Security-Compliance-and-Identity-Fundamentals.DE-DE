@@ -22,7 +22,7 @@ In diesem Lab durchlaufen Sie den Prozess zur Erstellung einer Microsoft Sentine
 
 Erstellen einer Microsoft Sentinel-Instanz
 
-1. Sie sollten sich auf der Startseite für Azure-Dienste befinden.  Wenn Sie den Browser zuvor geschlossen haben, öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein, und melden Sie sich mit Ihren Administratoranmeldeinformationen an.
+1. Sie sollten sich auf der Startseite für Azure-Dienste befinden.  Wenn Sie den Browser zuvor geschlossen haben, öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein, und melden Sie sich mit Ihren Administratoranmeldeinformationen an. Wenn Sie sich bereits angemeldet haben, werden Sie möglicherweise im Rahmen der MFA zu einer zweiten Authentifizierung aufgefordert.  Wenn Sie sich noch nicht angemeldet haben, werden Sie möglicherweise aufgefordert, MFA einzurichten.  Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
 
 1. Geben Sie in das blaue Suchfeld oben auf der Seite **Microsoft Sentinel** ein, und wählen Sie dann **Microsoft Sentinel** in den Suchergebnissen aus.
 

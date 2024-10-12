@@ -22,7 +22,7 @@ In diesem Lab erkunden Sie Microsoft Defender for Cloud.  HINWEIS: Das Azure-Abo
 
 In dieser Aufgabe durchlaufen Sie auf hoher Ebene einige der Funktionen von Microsoft Defender for Cloud.
 
-1. Sie sollten sich auf der Startseite für Azure-Dienste befinden.  Wenn Sie den Browser zuvor geschlossen haben, öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein, und melden Sie sich mit Ihren Administratoranmeldeinformationen an.
+1. Sie sollten sich auf der Startseite für Azure-Dienste befinden.  Wenn Sie den Browser zuvor geschlossen haben, öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein, und melden Sie sich mit Ihren Administratoranmeldeinformationen an. Wenn Sie sich bereits angemeldet haben, werden Sie möglicherweise im Rahmen der MFA zu einer zweiten Authentifizierung aufgefordert.  Wenn Sie sich noch nicht angemeldet haben, werden Sie möglicherweise aufgefordert, MFA einzurichten.  Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
 
 1. Geben Sie **Microsoft Defender for Cloud** in die blaue Suchleiste ein, und wählen Sie dann in der Ergebnisliste **Microsoft Defender for Cloud** aus.
 
@@ -31,7 +31,7 @@ In dieser Aufgabe durchlaufen Sie auf hoher Ebene einige der Funktionen von Micr
 1. Beachten Sie auf der Seite „Übersicht“ von Microsoft Defender for Cloud die auf der Seite verfügbaren Informationen (wenn Sie 0 bewertete Ressourcen und aktive Empfehlungen sehen, aktualisieren Sie die Browserseite, dies kann einige Minuten dauern).  Oben auf der Seite finden Sie Informationen wie die Anzahl der Azure-Abonnements, die Anzahl der bewerteten Ressourcen, die Anzahl der aktiven Empfehlungen und alle Sicherheitswarnungen.  In der Mitte der Seite befinden sich Karten für den Sicherheitsstatus, die Einhaltung gesetzlicher Bestimmungen, Insights und mehr.  Hinweis: Die Microsoft Defender for Cloud-Standardrichtlinieninitiative, die normalerweise vom Administrator zugewiesen werden müsste, wurde bereits im Rahmen der Einrichtung des Azure-Abonnements zugewiesen. Die Sicherheitsbewertung wird jedoch als 0 % angezeigt, da Azure eine Verzögerung von bis zu 24 Stunden aufweisen kann, bis eine anfängliche Bewertung angezeigt wird.
 
 1. Wählen Sie oben auf der Seite die Option **Bewertete Ressourcen** aus. 
-    1. Dadurch gelangen Sie zur Seite **Bestand**, auf der die aktuellen Ressourcen aufgeführt werden. Wählen Sie die VM-Ressource **sc900-winwm** aus. Diese Ressource ist der VM zugeordnet, die Sie im vorherigen Lab verwendet haben.
+    1. Dadurch gelangen Sie zur Seite **Bestand**, auf der die aktuellen Ressourcen aufgeführt werden. Wählen Sie die Ressource des virtuellen Computers, **sc900-winvm**, aus. Diese Ressource ist der VM zugeordnet, die Sie im vorherigen Lab verwendet haben.
     1. Auf der Seite „Ressourcenintegrität“ finden Sie eine Liste mit Empfehlungen.  Wählen Sie in der verfügbaren Liste Elemente aus, die den Status **fehlerhaft** aufweisen.
     1. Beachten Sie die ausführliche Beschreibung.  Wählen Sie den Dropdownpfeil neben den Wartungsschritten aus. Beachten Sie, wie Wartungsanweisungen (oder Links zu Anweisungen) zusammen mit der Option zum Ergreifen von Maßnahmen bereitgestellt werden.  Beenden Sie das Fenster, ohne Maßnahmen zu ergreifen.
     1. Kehren Sie zur Übersichtsseite für Microsoft Defender for Cloud zurück, indem Sie **Microsoft Defender for Cloud | Übersicht** oben auf der Seite über „Ressourcenintegrität“ auswählen.
@@ -52,7 +52,7 @@ In dieser Aufgabe durchlaufen Sie auf hoher Ebene einige der Funktionen von Micr
 
 Denken Sie daran, dass Microsoft Defender for Cloud in zwei Modi angeboten wird: ohne erweiterte Sicherheitsfeatures (kostenlos) und mit erweiterten Sicherheitsfeatures, die über die Microsoft Defender for Cloud-Pläne verfügbar sind. In dieser Aufgabe erfahren Sie, wie Sie die verschiedenen Microsoft Defender for Cloud-Pläne aktivieren/deaktivieren.
 
-1. Wählen Sie auf der Übersichtsseite von Microsoft Defender für Cloud im linken Navigationsbereich **Umgebungseinstellungen** aus.
+1. Erweitern Sie auf der Übersichtsseite von Microsoft Defender for Cloud den Eintrag **Verwaltung** und wählen Sie im linken Navigationsbereich die Option **Umgebungseinstellungen** aus.
 1. Wählen Sie das Feld **Alle erweitern** aus, und wählen Sie dann das Abonnement **MOC-Abonnement - lodXXXXXXXXXX** aus, das neben dem gelben Schlüsselsymbol aufgeführt wird.
 1. Beachten Sie auf der Seite mit den Defender-Plänen, wie Sie alle Pläne aktivieren oder einzelne Defender-Pläne auswählen können. 
     1. Vergewissern Sie sich, dass der CSPM-Status auf **Ein** festgelegt ist. Wenn dies nicht der Fall ist, legen Sie ihn jetzt fest.  
