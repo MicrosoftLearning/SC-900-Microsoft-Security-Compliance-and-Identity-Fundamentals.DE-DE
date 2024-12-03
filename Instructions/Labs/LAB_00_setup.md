@@ -23,15 +23,13 @@ Dieses Setup-Lab besteht aus der Aktivierung der Microsoft-Überwachungsprotokol
 
 In dieser Einrichtungsaufgabe aktivieren Sie die Audit-Protokoll- und Dateiüberwachungsfunktionen in Microsoft 365.  
 
-1. Öffnen Sie Microsoft Edge. Geben Sie in der Adressleiste **https://admin.microsoft.com** ein.
+1. Öffnen Sie Microsoft Edge. Geben Sie in der Adressleiste **`https://admin.microsoft.com`** ein.
 
 1. Melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, die von Ihrem autorisierten Labhoster (ALH) bereitgestellt werden.
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
 
-1. Wählen Sie **Sicherheit** unter „Admin Center“ aus.  Die Startseite von Microsoft Defender wird auf einer neuen Browserseite geöffnet.  
-
-1. Wählen Sie im linken Navigationsbereich des Microsoft Purview-Complianceportals **Alle anzeigen** aus.
+1. Wählen Sie **Sicherheit** unter „Admin Center“ aus.  Die Startseite von Microsoft Defender wird auf einer neuen Browserseite geöffnet.
 
 1. Scrollen Sie im linken Navigationsbereich nach unten, und erweitern Sie **System**.  Wählen Sie in der erweiterten Liste **Überwachung** aus.  Hinweis: Auf die Überwachungsfunktionalität kann auch über das Microsoft Purview-Portal zugegriffen werden.
 
@@ -39,7 +37,7 @@ In dieser Einrichtungsaufgabe aktivieren Sie die Audit-Protokoll- und Dateiüber
 
 1. Wählen Sie im linken Navigationsbereich unter „System“ **Einstellungen** aus
 
-1. Wählen Sie auf der Seite „Einstellungen“ die Option **Cloud-Apps** aus.   Scrollen Sie nach unten, und wählen Sie unter „Information Protection die Option **Dateien** aus.
+1. Wählen Sie auf der Seite „Einstellungen“ die Option **Cloud-Apps** aus.   Scrollen Sie nach unten und wählen Sie dann unter **Information Protection** die Option **Files** aus.
 
 1. Wenn noch nicht aktiviert, wählen Sie das Kontrollkästchen neben **Dateiüberwachung aktivieren** und dann **Speichern** aus.  
 

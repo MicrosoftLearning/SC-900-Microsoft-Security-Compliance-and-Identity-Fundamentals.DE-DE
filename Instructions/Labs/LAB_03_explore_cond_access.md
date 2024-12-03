@@ -25,8 +25,8 @@ Bei dieser Aufgabe setzen Sie als Administrator das Kennwort für den Benutzer D
 1. Öffnen Sie Microsoft Edge.  Geben Sie **https://entra.microsoft.com** in die Adressleiste ein und melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
-    1. Wenn Sie sich zuvor als Admin angemeldet haben, werden Sie möglicherweise aufgefordert, eine sekundäre Authentifizierung als Teil der MFA abzuschließen. Wenn Sie sich zuvor noch nicht als Admin angemeldet haben, werden Sie möglicherweise aufgefordert, den MFA-Registrierungsprozess abzuschließen. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
-    1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
+    1. Je nach Ihrem Lab-Hoster und abhängig davon, ob Sie sich zum ersten Mal beim Mandanten anmelden, werden Sie möglicherweise aufgefordert, den MFA-Registrierungsprozess abzuschließen. Wenn ja, befolgen Sie die Anweisungen auf dem Bildschirm, um MFA einzurichten.
+    1. Sobald Sie angemeldet sind, werden Sie zur Seite „Microsoft 365 Admin Center“ weitergeleitet.
 
 1. Erweitern Sie im linken Navigationsbereich **Identität**, erweitern Sie **Benutzer**, und wählen Sie dann **Alle Benutzer** aus.
 
@@ -46,11 +46,11 @@ Bei dieser Aufgabe setzen Sie als Administrator das Kennwort für den Benutzer D
 
 Bei dieser Aufgabe durchlaufen Sie den Prozess zum Erstellen einer Richtlinie für bedingten Zugriff in Microsoft Entra ID.
 
-1. Öffnen Sie die Browserregisterkarte zur Startseite des Microsoft Entra Admin Centers.   Wenn Sie diese Browserregisterkarte zuvor geschlossen haben, öffnen Sie Microsoft Edge, und geben Sie **https://entra.microsoft.com** in die Adressleiste ein. Melden Sie sich dann mit Ihren Microsoft 365 Administratoranmeldeinformationen, die Sie von Ihrem ALH erhalten haben, an.
+1. Öffnen Sie die Browserregisterkarte zur Startseite des Microsoft Entra Admin Centers.   Wenn Sie diese Browserregisterkarte zuvor geschlossen haben, öffnen Sie Microsoft Edge, und geben Sie **`https://entra.microsoft.com`** in die Adressleiste ein. Melden Sie sich dann mit Ihren Microsoft 365 Administratoranmeldeinformationen, die Sie von Ihrem ALH erhalten haben, an.
 
 1. Erweitern Sie im linken Navigationsbereich **Schutz** und wählen Sie dann **Bedingter Zugriff** aus.
 
-1. Die Übersichtsseite für bedingten Zugriff wird angezeigt.  Hier sehen Sie Kacheln mit der Richtlinienzusammenfassung und allgemeinen Warnungen.  Wählen Sie im linken Navigationsbereich **Richtlinien** aus.
+1. Die Übersichtsseite für bedingten Zugriff wird angezeigt. Wenn Sie auf der Überblickseite landen, ist die Registerkarte **Erste Schritte** ausgewählt (unterstrichen). Wählen Sie die Registerkarte **Übersicht** aus. Hier sehen Sie Kacheln mit der Richtlinienzusammenfassung und allgemeinen Warnmeldungen.  Wählen Sie im linken Navigationsbereich **Richtlinien** aus.
 
 1. Wählen Sie im linken Navigationsbereich **Richtlinien** aus. Alle vorhandenen Richtlinien für bedingten Zugriff werden hier aufgelistet. Wählen Sie **+ Neue Richtlinie** aus.
 
@@ -80,7 +80,7 @@ Bei dieser Aufgabe durchlaufen Sie den Prozess zum Erstellen einer Richtlinie f�
 
 1. Wählen Sie unten auf der Seite unter „Richtlinie aktivieren“ die Option **Ein** aus, und klicken Sie dann auf die Schaltfläche **Erstellen**.
 
-1. Wählen Sie im linken Navigationsbereich **Richtlinien** aus. Die Richtlinie für den MFA-Pilotversuch sollte in der Liste der Richtlinien für bedingten Zugriff angezeigt werden (wählen Sie bei Bedarf oben auf der Seite **Aktualisieren** aus).
+1. Wählen Sie im linken Navigationsbereich **Richtlinien** aus. Die Richtlinie **Admin-Portale blockieren**, die Sie gerade erstellt haben, sollte in der Liste der Richtlinien für den bedingten Zugriff angezeigt werden (wählen Sie bei Bedarf das **Aktualisieren-Symbol** in der Befehlsleiste oben auf der Seite aus).
 
 1. Melden Sie sich ab. Klicken Sie dazu auf das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann auf **Abmelden**. Schließen Sie dann alle Browserfenster.
 

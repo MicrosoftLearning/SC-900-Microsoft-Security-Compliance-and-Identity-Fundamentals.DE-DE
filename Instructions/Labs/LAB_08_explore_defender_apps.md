@@ -22,25 +22,25 @@ In diesem Lab erkunden Sie die Funktionen von Microsoft Defender for Cloud-Apps.
 
 Erkunden Sie Cloud Discovery.
 
-1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.
+1. Öffnen Sie Microsoft Edge. Geben Sie in der Adressleiste **`https://admin.microsoft.com`** ein.
 
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen für den Microsoft 365-Mandanten an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
-    1. Wenn Sie sich zuvor als Admin angemeldet haben, werden Sie aufgefordert, eine sekundäre Authentifizierung als Teil der MFA abzuschließen. Wenn Sie sich zuvor noch nicht als Admin angemeldet haben, werden Sie aufgefordert, den MFA-Registrierungsprozess abzuschließen. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
-    1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten. Dadurch gelangen Sie zur Seite „Microsoft 365 Admin Center“.
+    1. Je nach Ihrem Lab-Hoster und abhängig davon, ob Sie sich zum ersten Mal beim Mandanten anmelden, werden Sie möglicherweise aufgefordert, den MFA-Registrierungsprozess abzuschließen. Wenn ja, befolgen Sie die Anweisungen auf dem Bildschirm, um MFA einzurichten.
+    1. Sobald Sie angemeldet sind, werden Sie zur Seite „Microsoft 365 Admin Center“ weitergeleitet.
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
 
 1. Wählen Sie **Sicherheit** unter „Admin Center“ aus.  Die Startseite des Microsoft 365 Defender-Portals wird auf einer neuen Browserseite geöffnet.  
 
-1. Wenn Sie das Microsoft 365 Defender-Portal das erste Mal besuchen, wird möglicherweise ein Popupfenster für eine Schnelleinführung angezeigt.  Schließen Sie es.
+1. Wenn Sie das Microsoft 365 Defender-Portal das erste Mal besuchen, wird möglicherweise ein Popupfenster für eine Schnelleinführung angezeigt.  Sie können die kurze Tour machen oder das Fenster schließen.
 
 1. Wählen Sie im linken Navigationsbereich **Cloud-Apps** aus, um die Liste zu erweitern, und wählen Sie dann **Cloud Discovery** aus. Dadurch gelangen Sie zur Dashboardansicht.  Beachten Sie die im Dashboard verfügbaren Informationen. In der Dashboardansicht können Sie oben auf der Seite verschiedene Registerkarten auswählen.  
 
 1. Wählen Sie **Ermittelte Apps** aus. Das Fenster „Ermittelte Apps“ enthält eine ausführliche Ansicht der ermittelten Apps, einschließlich der Risikobewertung, des Datenverkehrs, der Anzahl der Benutzer und mehr.
     1. Wählen Sie für ein beliebiges Element in der Liste die **Auslassungspunkte** (...) in der Tabellenspalte der Aktion aus.  Beachten Sie die verschiedenen Optionen, die verfügbar sind, einschließlich der Funktion, mit der eine Apps als sanktioniert oder nicht sanktioniert markiert werden kann.  Wählen Sie die **Auslassungspunkte** (...) erneut aus, um das Aktionsfeld zu schließen.
-    1. Durch die Auswahl eines bestimmten Zeilenelements wird für die bestimmte App eine Detailseite geöffnet.  Wählen Sie ein Element aus der Liste aus, und überprüfen Sie die Informationen, die auf der Übersichtsseite verfügbar sind.  Wählen Sie für das ausgewählte Element die Registerkarte **Cloud-App-Nutzung** aus, um ausführlichere Informationen wie **Nutzung**, **Benutzer**, **IP-Adressen** und **Warnungen** anzuzeigen. Wenn Sie mit dem Untersuchen der Detailseite fertig sind, kehren Sie zur Seite „Ermittelte Apps“ zurück, indem Sie oben auf der Seite **Cloud Discovery** auswählen.  Wenn Sie „Cloud Discovery“ im linken Navigationsbereich auswählen, gelangen Sie zurück zur Dashboardansicht.
+    1. Durch die Auswahl eines bestimmten Zeilenelements wird für die bestimmte App eine Detailseite geöffnet.  Wählen Sie ein Element aus der Liste aus, und überprüfen Sie die Informationen, die auf der Übersichtsseite verfügbar sind.  Wählen Sie für das ausgewählte Element die Registerkarte **Cloud-App-Nutzung** aus, um detailliertere Informationen anzuzeigen, darunter **Nutzung**, **Benutzende, IP**, **Adressen** und **Vorfälle**. Wenn Sie mit dem Untersuchen der Detailseite fertig sind, kehren Sie zur Seite „Ermittelte Apps“ zurück, indem Sie oben auf der Seite **Cloud Discovery** auswählen.  Wenn Sie „Cloud Discovery“ im linken Navigationsbereich auswählen, gelangen Sie zurück zur Dashboardansicht.
     1. Wählen Sie oben auf der Seite die Registerkarte **IP-Adressen** aus. Dort finden Sie Daten wie die Anzahl der Transaktionen, das Datenverkehrsvolumen und die Uploadvolumen nach IP-Adresse.  Beachten Sie, dass Sie auch nach einer bestimmten IP-Adresse filtern oder die Daten zur weitergehenden Analyse exportieren können.
     1. Wählen Sie oben auf der Seite die Option **Benutzer** aus.  Dies ist derselbe Informationstyp, der bei der Auswahl von IP-Adressen bereitgestellt wird. Diese Angaben werden jedoch für einzelne Benutzer aufgelistet.  Auch hier filtern Sie nach einem bestimmten Benutzer und exportieren die Daten zur weitergehenden Analyse.
 

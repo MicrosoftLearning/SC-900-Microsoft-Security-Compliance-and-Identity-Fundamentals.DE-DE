@@ -22,7 +22,7 @@ In diesem Lab durchlaufen Sie den Prozess zur Erstellung einer Microsoft Sentine
 
 Erstellen einer Microsoft Sentinel-Instanz
 
-1. Sie sollten sich auf der Startseite für Azure-Dienste befinden.  Wenn Sie den Browser zuvor geschlossen haben, öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein, und melden Sie sich mit Ihren Administratoranmeldeinformationen an. Wenn Sie sich bereits angemeldet haben, werden Sie möglicherweise im Rahmen der MFA zu einer zweiten Authentifizierung aufgefordert.  Wenn Sie sich noch nicht angemeldet haben, werden Sie möglicherweise aufgefordert, MFA einzurichten.  Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
+1. Sie sollten sich auf der Startseite für Azure-Dienste befinden.  Wenn Sie den Browser zuvor geschlossen haben, öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein, und melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
 1. Geben Sie in das blaue Suchfeld oben auf der Seite **Microsoft Sentinel** ein, und wählen Sie dann **Microsoft Sentinel** in den Suchergebnissen aus.
 
@@ -39,7 +39,7 @@ Erstellen einer Microsoft Sentinel-Instanz
     1. Vergewissern Sie sich, dass Sie die richtigen Informationen eingegeben haben, und klicken Sie dann auf **Erstellen**.
     1. Es kann eine oder zwei Minuten dauern, bis der Arbeitsbereich aufgelistet wird. Wenn er dann immer noch nicht angezeigt wird, klicken Sie auf **Aktualisieren** und dann auf **Hinzufügen**.
 
-1. Nachdem der neue Arbeitsbereich hinzugefügt wurde, wird die Seite „Microsoft Sentinel | News und Leitfäden“ angezeigt, die angibt, dass die kostenlose Microsoft Sentinel-Testversion aktiviert ist.  Klickan Sie auf **OK**.  Beachten Sie die drei Schritte, die auf der Seite „Erste Schritte“ aufgeführt sind.
+1. Nachdem der neue Arbeitsbereich hinzugefügt wurde, wird die Seite „Microsoft Sentinel | News und Leitfäden“ angezeigt, die angibt, dass die kostenlose Microsoft Sentinel-Testversion aktiviert ist.  Wählen Sie **OK** aus.
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
@@ -72,7 +72,7 @@ Der Zweck dieser Aufgabe besteht darin, Sie durch die Schritte zu führen, die b
 
 1. Wählen Sie auf der Startseite der Azure-Dienste die Option Microsoft Sentinel und dann die von Ihnen erstellte Instanz **SC900-LogAnalytics-Workspace** aus.
 
-1. Wählen Sie im linken Navigationsbereich **Content-Hub** aus.
+1. Erweitern Sie im linken Navigationsbereich **Content Management** und wählen Sie dann **Content Hub** aus.
 
 1. Nehmen Sie sich einen Moment Zeit, um nach unten zu scrollen, um die lange Liste der verfügbaren Lösungen und die Optionen zum Filtern der Liste anzuzeigen.  Für diese Aufgabe suchen Sie nach **Microsoft Defender für Cloud**.  Wählen Sie ihn in der Liste aus.  Lesen Sie im daraufhin geöffneten Seitenfenster die Beschreibung, und wählen Sie dann **Installieren** aus.  Nach Abschluss der Installation wird in der Statusspalte im Hauptfenster „installiert“ angezeigt.
 
@@ -95,21 +95,23 @@ Der Zweck dieser Aufgabe besteht darin, Sie durch die Schritte zu führen, die b
 
 In dieser Aufgabe sehen Sie sich einige der in Sentinel verfügbaren Optionen an.
 
-1. Wählen Sie im linken Navigationsbereich **Hunting** aus.  Wählen Sie oben auf der Seite die Registerkarte **Abfragen** aus. Lesen Sie die Beschreibung, was eine Huntingabfrage ist. Hunting-Abfragen können über den Content-Hub hinzugefügt werden. Alle zuvor installierten Abfragen werden hier aufgeführt. Wählen Sie **Zum Content-Hub wechseln** aus.  Der Content-Hub listet Inhalte auf, die Abfragen entweder als Teil einer Lösung oder als eigenständige Abfrage enthalten.  Führen Sie einen Bildlauf durch, um die verfügbaren Abschnitte anzuzeigen. Schließen Sie den Content-Hub. Wählen Sie dazu in der oberen rechten Ecke des Fensters das **X** aus.
+1. Erweitern Sie im linken Navigationsbereich den Eintrag **Bedrohungsmanagement** und erkunden Sie die im Bedrohungsmanagement aufgeführten Optionen.
+    1. Wählen Sie **Vorfälle** aus.  Auch wenn keine Vorfälle gefunden werden, überprüfen Sie den Abschnitt **Was ist das?**.
+    1. Wählen Sie **Jagd** aus und überprüfen Sie dann die Informationen auf der Registerkarte **Jagden (Vorschau)**.
+    1. Wählen Sie **Notebooks** aus und lesen Sie den Abschnitt **Was ist das?**.
+    1. Wählen Sie **Bedrohungsinformationen** aus und überprüfen Sie die Informationen auf der Seite.
+    1. Wählen Sie **MITRE ATT&CK**.  MITRE ATT&CK ist eine öffentlich zugängliche Wissensdatenbank mit Taktiken und Techniken, die häufig von Angreifern verwendet werden. Mit Microsoft Sentinel können Sie die Erkennungen anzeigen, die bereits in Ihrem Arbeitsbereich aktiv sind, sowie diejenigen, die Ihnen zur Konfiguration zur Verfügung stehen. So erhalten Sie einen Überblick über die Sicherheitsmaßnahmen in Ihrer Organisation, basierend auf den Taktiken und Techniken des MITRE ATT&CK®-Frameworks.  Wählen Sie eine beliebige Zelle aus der Matrix aus, und beachten Sie die Informationen auf der rechten Seite des Bildschirms. **Hinweis**: Möglicherweise müssen Sie auf der rechten Seite des Fensters " **<<** " auswählen, um den Informationsbereich anzuzeigen.
 
-1. Wählen Sie im linken Navigationsbereich **MITRE ATT&CK** aus.  MITRE ATT&CK ist eine öffentlich zugängliche Wissensdatenbank mit Taktiken und Techniken, die häufig von Angreifern verwendet werden. Mit Microsoft Sentinel können Sie die Erkennungen anzeigen, die bereits in Ihrem Arbeitsbereich aktiv sind, sowie diejenigen, die Ihnen zur Konfiguration zur Verfügung stehen. So erhalten Sie einen Überblick über die Sicherheitsmaßnahmen in Ihrer Organisation, basierend auf den Taktiken und Techniken des MITRE ATT&CK®-Frameworks.  Wählen Sie eine beliebige Zelle aus der Matrix aus, und beachten Sie die Informationen auf der rechten Seite des Bildschirms. **Hinweis**: Möglicherweise müssen Sie auf der rechten Seite des Fensters " **<<** " auswählen, um den Informationsbereich anzuzeigen.
+1. Erweitern Sie im linken Navigationsbereich **Content Management** und wählen Sie dann **Community** aus. Die Seite „Community“ enthält Erkenntnisse zur Cybersicherheit und Updates von Microsoft Research, einen Link zu einer Liste von Microsoft Sentinel-Blogbeiträgen, einen Link zu Microsoft Sentinel-Foren, Links zu den neuesten Editionen des Microsoft Sentinel-Hubs u. v. m. Erkunden Sie die Optionen, die Sie interessieren.
 
-1. Wählen Sie im linken Navigationsbereich **Community** aus. Die Seite „Community“ enthält Erkenntnisse zur Cybersicherheit und Updates von Microsoft Research, einen Link zu einer Liste von Microsoft Sentinel-Blogbeiträgen, einen Link zu Microsoft Sentinel-Foren, Links zu den neuesten Editionen des Microsoft Sentinel-Hubs u. v. m. Erkunden Sie die Optionen, die Sie interessieren.
 
-1. Wählen Sie im linken Navigationsbereich **Analysen** aus.  Es sollten zwei aktive Regeln vorhanden sein - eine, die standardmäßig verfügbar ist, und die Regel, die Sie in der vorherigen Aufgabe erstellt haben. Wählen Sie die Standardregel **Erweiterte mehrstufige Angriffserkennung** aus.  Lesen Sie die ausführlichen Informationen.  Microsoft Sentinel verwendet Fusion, eine Korrelations-Engine, die auf skalierbaren Algorithmen des maschinellen Lernens basiert, um automatisch mehrstufige Angriffe (auch als erweiterte persistente Bedrohungen bezeichnet) zu erkennen, indem Kombinationen aus anomalem Verhalten und verdächtigen Aktivitäten identifiziert werden, die in verschiedenen Phasen der Kill Chain beobachtet werden. Auf der Grundlage dieser Entdeckungen generiert Microsoft Sentinel Incidents, die auf andere Weise nur schwer abgefangen werden können. **Hinweis**: Möglicherweise müssen Sie auf der rechten Seite des Fensters " **<<** " auswählen, um den Informationsbereich anzuzeigen.
-
-1. Wählen Sie im linken Navigationsbereich **Automation** aus.  Hier können Sie einfache Automatisierungsregeln erstellen und in vorhandene Playbooks integrieren oder neue Playbooks erstellen.  Wählen Sie **+Erstellen** und dann **Automatisierungsregel** aus.  Beachten Sie das Fenster, das auf der rechten Seite des Bildschirms geöffnet wird, und die dort verfügbaren Optionen zum Erstellen von Bedingungen und Aktionen.  Wählen Sie unten auf der Bildschirm **Abbrechen** aus.
-
-1. Wählen Sie im linken Navigationsbereich **Arbeitsmappen** aus. Lesen Sie die Beschreibung der Microsoft Sentinel-Arbeitsmappe.  Workbooks können über den Content-Hub hinzugefügt werden. Alle zuvor installierten Workbooks werden hier aufgeführt. Wählen Sie **Zum Content-Hub wechseln** aus.  Der Content-Hub listet Inhalte auf, die Arbeitsmappen entweder als Teil einer Lösung oder als eigenständige Arbeitsmappe enthalten. Führen Sie einen Bildlauf durch, um die verfügbaren Abschnitte anzuzeigen.
+1. Erweitern Sie im linken Navigationsbereich **Konfiguration** und erkunden Sie die aufgeführten Optionen:
+    1. Wählen Sie **Analysen** aus.  Es sollten zwei aktive Regeln vorhanden sein - eine, die standardmäßig verfügbar ist, und die Regel, die Sie in der vorherigen Aufgabe erstellt haben. Wählen Sie die Standardregel **Erweiterte mehrstufige Angriffserkennung** aus.  Sehen Sie sich die detaillierten Informationen an. **Hinweis**: Möglicherweise müssen Sie auf der rechten Seite des Fensters " **<<** " auswählen, um den Informationsbereich anzuzeigen.
+    1. Wählen Sie im linken Navigationsbereich **Automation** aus.  Hier können Sie einfache Automatisierungsregeln erstellen und in vorhandene Playbooks integrieren oder neue Playbooks erstellen.  Wählen Sie **+Erstellen** und dann **Automatisierungsregel** aus.  Beachten Sie das Fenster, das auf der rechten Seite des Bildschirms geöffnet wird, und die dort verfügbaren Optionen zum Erstellen von Bedingungen und Aktionen.  Wählen Sie unten auf der Bildschirm **Abbrechen** aus.
 
 1. Schließen Sie das Fenster. Wählen Sie dazu in der oberen rechten Ecke des Fensters das **X** aus.
 
-1. Wählen Sie in der oberen linken Ecke des Fensters direkt unterhalb der blauen Leiste die Option **Startseite** aus, um zur Startseite des Azure-Portals zurückzukehren.
+1. Wählen Sie in der linken oberen Ecke des Fensters im blauen Banner **Microsoft Azure** aus, um zur Startseite des Azure-Portals zurückzukehren.
 
 1. Schließen Sie alle geöffneten Browserregisterkarten.
 
