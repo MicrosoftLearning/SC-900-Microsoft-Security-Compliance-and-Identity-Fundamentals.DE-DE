@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Erkunden Sie das Microsoft Defender-Portal
+  title: Erkunden des Microsoft Defender-Portals
   module: Describe the threat protection capabilities of Microsoft XDR
 ---
 
@@ -27,12 +27,12 @@ Erkunden Sie die Microsoft Defender Landing Page.
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt wird. Wählen Sie **Anmelden**.
-    1. Wenn Sie sich zuvor als Admin angemeldet haben, werden Sie aufgefordert, eine sekundäre Authentifizierung als Teil der MFA abzuschließen. Wenn Sie sich zuvor noch nicht als Admin angemeldet haben, werden Sie aufgefordert, den MFA-Registrierungsprozess abzuschließen. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
-    1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten. Dadurch gelangen Sie zur Seite „Microsoft 365 Admin Center“.
+    1. Je nach Ihrem Lab-Hoster und abhängig davon, ob Sie sich zum ersten Mal beim Mandanten anmelden, werden Sie möglicherweise aufgefordert, den MFA-Registrierungsprozess abzuschließen. Wenn ja, befolgen Sie die Anweisungen auf dem Bildschirm, um MFA einzurichten.
+    1. Sobald Sie angemeldet sind, werden Sie zur Seite „Microsoft 365 Admin Center“ weitergeleitet.
 
 1. Wählen Sie im linken Navigationsbereich des Microsoft 365 Admin Centers **Sicherheit** aus.  Wenn die Option „Sicherheit“ nicht aufgeführt ist, wählen Sie **Alle anzeigen** und dann **Sicherheit** aus.  Eine neue Browserseite öffnet sich mit der Willkommensseite des Microsoft Defender-Portals.  
 
-1. Wenn Sie das Microsoft Defender-Portal zum ersten Mal besuchen, wird möglicherweise ein Popup-Fenster angezeigt, in dem Sie eine kurze Führung erhalten.  Es wird empfohlen, die Tour abzuschließen.  Klicken Sie auf **Einen Überblick verschaffen**.  Lesen Sie die Beschreibung, die in jedem Popup-Fenster bereitgestellt wird, und klicken Sie dann auf **Weiter**. Fahren Sie mit der Tour fort, bis Sie zum Ende gelangen, und klicken Sie dann auf **Fertig**.
+1. Wenn Sie das Microsoft 365 Defender-Portal das erste Mal besuchen, wird möglicherweise ein Popupfenster für eine Schnelleinführung angezeigt.  Sie können die kurze Tour machen oder das Fenster schließen.
 
 1. Die Startseite des Microsoft Defender-Portals zeigt viele der gängigen Karten, die Sicherheitsteams benötigen. Die Zusammenstellung von Karten und Daten hängt von der Rolle des/der Benutzer*in ab. Scrollen Sie durch die Seite, um den Standardsatz von Karten für Ihre Rolle als globale(r) Administrator*in anzuzeigen.
 
@@ -58,7 +58,7 @@ In diesem Teil des Labs werden einige der Optionen vorgestellt, die über das li
 
 Bei dieser Aufgabe erkunden Sie, wie Organisationen mithilfe der Microsoft-Sicherheitsbewertung ihre Sicherheitsstatus verbessern können.
 
-1. Wählen Sie auf der Willkommensseite des Microsoft Defender-Portals **Microsoft Secure Score** in der Titelleiste der Karte aus (der Text wird blau).  Alternativ können Sie im linken Navigationsbereich **Sicherheitsbewertung** auswählen.
+1. Sie sollten sich immer noch im Microsoft Defender-Portal befinden. Erweitern Sie im linken Navigationsbereich **Exposure Management** und wählen Sie dann **Secure Score** aus.  Wenn „Exposure Management“ in Ihrem Mandanten nicht angezeigt wird, scrollen Sie auf der Startseite des Microsoft Defender-Portals nach unten, bis Sie die Karte für **Microsoft Secure Score** sehen. Wählen Sie den Titel der Karte aus (der Text wird blau, wenn Sie den Mauszeiger über den Titel der Karte bewegen).
 
 1. Die Seite „Microsoft-Sicherheitsbewertung“ wird auf der Registerkarte „Übersicht“ geöffnet. Die Microsoft-Sicherheitsbewertung ist eine Messung des Sicherheitsstatus einer Organisation. Der Sicherheitsstatus Ihrer Organisation wird als Prozentsatz zusammen mit der Anzahl der Punkte angezeigt, die Sie von den insgesamt möglichen Punkten erreicht haben, und nach Kategorie aufgeschlüsselt. Wählen Sie **Einschließen** neben „Ihre Sicherheitsbewertung“ aus.  Ein kleines Fenster wird geöffnet, in dem Sie die erreichbare Bewertung, die geplante Bewertung und die aktuelle Lizenzbewertung in die Aufschlüsselung der Sicherheitsbewertung Ihrer Organisation einfügen können.  Wählen Sie erneut **Einschließen** aus, um das Fenster zu schließen.
 
@@ -66,7 +66,7 @@ Bei dieser Aufgabe erkunden Sie, wie Organisationen mithilfe der Microsoft-Siche
 
 1. Wählen Sie oben auf der Seite **Verbesserungsaktionen** aus.  Beachten Sie die in der Tabelle verfügbaren Informationen.  
 
-1. Wählen Sie die ersten Elemente aus der Liste aus, und überprüfen Sie die verfügbaren Informationen. Beachten Sie im Fenster, das geöffnet wird, die verfügbaren Statusoptionen. Wählen Sie die Registerkarte **Implementierung** aus, um Informationen zur Implementierung anzuzeigen. Klicken Sie oben rechts auf das **X**, um dieses Fenster zu schließen.
+1. Wählen Sie den ersten Punkt aus der Liste aus und überprüfen Sie die verfügbaren Informationen. Beachten Sie im Fenster, das geöffnet wird, die verfügbaren Statusoptionen. Wählen Sie die Registerkarte **Implementierung** aus, um Informationen zur Implementierung anzuzeigen. Klicken Sie oben rechts auf das **X**, um dieses Fenster zu schließen.
 
 1. Wählen Sie oben auf der Seite die Registerkarte **Verlauf** aus.  Für jede aufgeführte Aktivität gibt es eine kurze Anweisung, die Kontext bereitstellt.  Wählen Sie ein Element aus der Verlaufstabelle aus.  Wählen Sie oben rechts auf der Detailseite unter „Verlauf“ ** X Ereignisse** aus (wobei X eine Zahl ist).  Das Fenster „Aktionsverlauf“ wird geöffnet und bietet weitere Informationen.  Klicken Sie auf **Schließen** unten auf der Seite und dann auf  **X** oben rechts auf der Detailseite, um zur Seite „Verlauf“ zurückzukehren.
 

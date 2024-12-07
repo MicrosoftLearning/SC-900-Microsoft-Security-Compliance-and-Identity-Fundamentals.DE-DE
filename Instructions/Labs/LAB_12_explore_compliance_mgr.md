@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Erkunden Sie das Microsoft Purview-Portal und den Compliance-Manager
+  title: Erkunden des Microsoft Purview-Portals und den Compliance Managers
   module: Describe the data compliance solutions of Microsoft Purview
 ---
 
@@ -20,14 +20,14 @@ In diesem Lab erkunden Sie die Startseite des Microsoft Purview-Portals und erfa
 
 ### Aufgabe 1
 
-Erkunden Sie die Startseite des Microsoft Purview-Complianceportals, und erfahren Sie, wie Sie die Kartenansicht und den Navigationsbereich anpassen können.
+Besuchen Sie die Startseite des Microsoft Purview-Portals.
 
 1. Öffnen Sie Microsoft Edge. Geben Sie **admin.microsoft.com** in die Adressleiste ein.
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Fenster „Anmelden“ ein, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
-    1. Wenn Sie sich zuvor als Admin angemeldet haben, werden Sie aufgefordert, eine sekundäre Authentifizierung als Teil der MFA abzuschließen. Wenn Sie sich zuvor noch nicht als Admin angemeldet haben, werden Sie aufgefordert, den MFA-Registrierungsprozess abzuschließen. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
-    1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten. Dadurch gelangen Sie zur Seite „Microsoft 365 Admin Center“.
+    1. Je nach Ihrem Lab-Hoster und abhängig davon, ob Sie sich zum ersten Mal beim Mandanten anmelden, werden Sie möglicherweise aufgefordert, den MFA-Registrierungsprozess abzuschließen. Wenn ja, befolgen Sie die Anweisungen auf dem Bildschirm, um MFA einzurichten.
+    1. Sobald Sie angemeldet sind, werden Sie zur Seite „Microsoft 365 Admin Center“ weitergeleitet.
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** aus.
 
@@ -73,4 +73,4 @@ Erfahren Sie mehr über den Compliancestatus Ihrer Organisation über den Compli
 
 ### Überprüfung
 
-In diesem Lab haben Sie die Startseite des Microsoft Purview-Complianceportals erkundet und erfahren, wie Organisationen ihre Compliancesituation mithilfe der Funktionen von Compliance-Manager verbessern können.
+In diesem Lab haben Sie die Startseite des Microsoft Purview-Portals erkundet und erfahren, wie Organisationen mithilfe der Funktionen von Compliance Manager ihre Compliance-Strategie verbessern können.

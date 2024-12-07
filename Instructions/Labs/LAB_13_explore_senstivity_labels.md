@@ -22,13 +22,14 @@ In diesem Lab erkunden Sie die Funktionen von Vertraulichkeitsbezeichnungen.  Si
 
 In dieser Aufgabe erfahren Sie, wozu Vertraulichkeitsbezeichnungen dienen, indem Sie eine neue Bezeichnung erstellen und eine Richtlinie zur Veröffentlichung der Bezeichnung erstellen.
 
-1. Öffnen Sie die Browserregisterkarte für die Startseite von Microsoft Purview.  Wenn Sie die Registerkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **https://admin.microsoft.com** ein. Melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, der vom autorisierten Labhoster (ALH) bereitgestellt wird. Wenn Sie sich zuvor als Admin angemeldet haben, werden Sie aufgefordert, eine sekundäre Authentifizierung als Teil der MFA abzuschließen. Wenn Sie sich zuvor noch nicht als Admin angemeldet haben, werden Sie aufgefordert, den MFA-Registrierungsprozess abzuschließen. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
+1. Öffnen Sie die Browserregisterkarte für die Startseite von Microsoft Purview.  Wenn Sie die Registerkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **`https://admin.microsoft.com`** ein. Melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, der vom autorisierten Labhoster (ALH) bereitgestellt wird.
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** und dann **Compliance** aus.  Die Startseite des Microsoft Purview-Portals wird auf einer neuen Browserseite geöffnet.
 
 1. Wählen Sie im linken Navigationsbereich **Lösungen** und dann **Information Protection** aus.  Sie befinden sich auf der Überblicksseite. Scrollen Sie nach unten, um die verfügbaren Informationen anzuzeigen.
 
 1. Wählen Sie im linken Navigationsbereich **Vertraulichkeitsbezeichnungen** aus.
+1. Sie sehen ein gelbes Banner, das darauf hinweist, dass Ihre Organisation die Funktion zur Verarbeitung von Inhalten in Office-Online-Dateien, die mit verschlüsselten Vertraulichkeitsbezeichnungen versehen und in OneDrive und SharePoint gespeichert sind, nicht aktiviert hat.  Wählen Sie **Jetzt aktivieren** aus.
 
 1. Einige Bezeichnungen wurden in Ihrem Microsoft 365-Labmandanten vorkonfiguriert. Wählen Sie die Bezeichnung namens **Vertraulich-Finanzen** aus.  Ein Fenster wird geöffnet, das Informationen über diese Bezeichnung bereitstellt.  Beachten Sie die Einstellungen für diese Bezeichnung.  Wählen Sie **Bezeichnung bearbeiten** aus. Wenn diese Option nicht angezeigt wird, wählen Sie die Auslassungspunkte aus.
     1. Die Konfiguration beginnt mit der Bereitstellung grundlegender Details für die Bezeichnung.  Nehmen Sie keine Änderungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
@@ -65,7 +66,7 @@ In dieser Aufgabe erfahren Sie, wozu Vertraulichkeitsbezeichnungen dienen, indem
     1. Sie können die Richtlinie jetzt oder später testen.  Wählen Sie **Richtlinie deaktiviert lassen** und dann **Weiter** aus.
     1. Überprüfen Sie die Einstellungen, und wählen Sie **Richtlinie erstellen** und dann **Fertig** aus.
 
-1. Wählen Sie im linken Navigationsbereich die **Startseite** aus, um zur Startseite des Microsoft Purview-Complianceportals zurückzukehren.
+1. Wählen Sie im linken Navigationsbereich **Startseite** aus, um zum Microsoft Purview-Portal zurückzukehren.
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
@@ -73,9 +74,10 @@ In dieser Aufgabe erfahren Sie, wozu Vertraulichkeitsbezeichnungen dienen, indem
 
 In dieser Aufgabe durchlaufen Sie den Prozess zum Anwenden einer Vertraulichkeitsbezeichnung auf ein Microsoft Word-Dokument und zeigen dann die Inhaltsmarkierung (Wasserzeichen) an, die von der Bezeichnung generiert wird. HINWEIS: Wenn Sie Microsoft Word online verwenden, kann es zu einer Verzögerung kommen, bevor die Option zum Auswählen von Vertraulichkeitsbezeichnungen im oberen Menüband angezeigt wird.  Es wird empfohlen, alle verbleibenden Labs abzuschließen und dann wieder zu dieser Aufgabe zurückzukehren.
 
-1. Wählen Sie auf der Startseite des Microsoft Purview-Complianceportals das **App-Startfeld-Symbol** aus, das sich neben dem Text „Contoso Electronics“ befindet. Wählen Sie das **Word-Symbol** aus.  
+1. Sie sollten sich immer noch auf der Startseite des Microsoft Purview Portals befinden. 
+1. Wählen Sie im Microsoft Purview-Portal das Symbol **für den App Launcher** neben der Angabe „Microsoft Purview“ aus. Wählen Sie das **Word-Symbol** aus.  
 
-1. Wählen Sie unter „Neu erstellen“ die Option **Leeres Dokument** aus, und geben Sie dann auf der Seite etwas Text ein.  Wählen Sie oben auf der Seite den Abwärtspfeil aus, der sich neben „DokumentXX – gespeichert“ befindet, und geben Sie in das Feld „Dateiname“ den Text **Testbezeichnung** ein. Drücken Sie dann die **EINGABETASTE** auf Ihrer Tastatur.
+1. Wählen Sie unter „Neu erstellen“ die Option **Leeres Dokument** aus, und geben Sie dann auf der Seite etwas Text ein.  Wählen Sie oben auf der Seite neben dem Word-Symbol die Option **Dokument** aus und benennen Sie die Datei in **Test-Label** um. Drücken Sie dann auf Ihrer Tastatur die **Eingabetaste**.
 
 1. Ganz rechts auf der oberen Menüleiste (auch als Menüband bezeichnet) befindet sich ein Pfeil nach unten. Wählen Sie ihn aus, und wählen Sie dann **Klassisches Menüband** aus.  Dies vereinfacht das Erkennen des Vertraulichkeitssymbols. Wählen Sie neben dem Mikrofonsymbol die Option **Vertraulichkeit** aus. Wählen Sie im Dropdownmenü den Eintrag **Confidential-Finance** (Vertraulich – Finanzen) aus.  
 

@@ -48,8 +48,6 @@ In dieser Demo greifen Sie auf Microsoft Entra ID zu und gehen die verschiedenen
     1. Diese Registerkarte ist nicht identisch mit der für zugewiesene Rollen, die zuvor gezeigt wurde, da die zuvor gezeigte Registerkarte für die rollenbasierte Zugriffssteuerung in Microsoft Entra gedacht ist.
     1. Obwohl hier nichts aufgeführt ist, ist dies die Registerkarte, auf der Sie Rollenzuweisungen für Azure-Ressourcen anzeigen können, die Adele zugewiesen sind. Wenn Sie beispielsweise eine Azure-Ressourcengruppe erstellen und Adele eine bestimmte Rolle zuweisen, z. B. Besitzerin oder Mitwirkende für die Ressourcengruppe, würden Sie diese Rolle hier sehen. Dies ist Teil der rollenbasierten Zugriffssteuerung in Azure (Azure RBAC). Diese Rollenzuweisung wird im Rahmen dieser konkreten Ressource verwaltet.
 
-1. Wählen Sie im linken Navigationsbereich **Authentifizierungsmethoden** aus.  Rufen Sie die Beschreibung auf, die besagt: „Hier können Sie die Telefonnummern und E-Mail-Adressen festlegen, die Benutzer*innen verwenden, um Multi-Faktor-Authentifizierung und Self-Service-Kennwortzurücksetzung durchzuführen und ihr Kennwort zurückzusetzen.“ Wenn für einen Benutzer SSPR konfiguriert ist oder dieser MFA verwenden muss und Sie als Administrator dieses Feld ausfüllen, ist der Benutzer bereits registriert und muss für SSPR oder MFA keine Registrierungsschritte mehr durchführen.  Normalerweise registrieren sich Benutzer selbst. Es kommt eher selten vor, dass der Administrator dies ausführen muss.
-
 1. Klicken sie auf das **X** oben rechts auf der Seite. Dadurch kehren Sie zur Benutzerliste zurück.
 
 1. Klicken sie auf das **X** oben rechts auf der Seite. Dadurch kehren Sie zur Hauptseite für das Microsoft Entra Admin Center zurück.

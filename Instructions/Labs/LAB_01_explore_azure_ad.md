@@ -18,15 +18,15 @@ In diesem Lab greifen Sie auf Microsoft Entra ID (zuvor als Azure Active Directo
 
 **Geschätzte Dauer**: 30 Minuten
 
-### Aufgabe 1
+### Aufgabe 1
 
-Als Abonnent von Microsoft 365 verwenden Sie bereits Microsoft Entra ID (zuvor als Azure AD bezeichnet).  In dieser Aufgabe erfahren Sie, wie Sie einen neuen Benutzer in Microsoft Entra ID erstellen und einige Dienste erkunden, die auf Benutzerebene verwaltet werden können.
+Mit einem Abonnement von Microsoft 365 verwenden Sie bereits die Microsoft Entra ID.  In dieser Aufgabe erfahren Sie, wie Sie einen neuen Benutzer in Microsoft Entra ID erstellen und einige Dienste erkunden, die auf Benutzerebene verwaltet werden können.
 
-1. Schließen Sie den Microsoft Edge-Browser. Geben Sie in der Adressleiste **[admin.microsoft.com](https://admin.microsoft.com)** ein und melden Sie sich mit den Anmeldeinformationen für Microsoft 365 an, die von Ihrem autorisierten Lab-Hoster (ALH) bereitgestellt wurden.
+1. Schließen Sie den Microsoft Edge-Browser. Geben Sie in der Adressleiste **`https://admin.microsoft.com`** ein und melden Sie sich mit den Microsoft 365-Anmeldedaten an, die Sie von Ihrem autorisierten Lab-Hoster (ALH) erhalten haben.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
-    1. Da Sie sich zum ersten Mal anmelden, werden Sie möglicherweise aufgefordert, MFA einzurichten. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
-    1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
+    1. Je nach Ihrem Lab-Hoster und abhängig davon, ob Sie sich zum ersten Mal beim Mandanten anmelden, werden Sie möglicherweise aufgefordert, den MFA-Registrierungsprozess abzuschließen. Wenn ja, befolgen Sie die Anweisungen auf dem Bildschirm, um MFA einzurichten.
+    1. Sobald Sie angemeldet sind, werden Sie zur Seite „Microsoft 365 Admin Center“ weitergeleitet.
 
 1. Wählen sie im Admin Center **Identität** aus (möglicherweise müssen Sie **Alle anzeigen** auswählen und dann nach unten scrollen).  Die Übersichtsseite des Microsoft Entra Admin Centers wird auf einer neuen Browserseite geöffnet.
 

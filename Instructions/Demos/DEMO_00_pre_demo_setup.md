@@ -43,7 +43,7 @@ In dieser Einrichtungsaufgabe aktivieren Sie die Überwachungsprotokoll- und Dat
 In dieser Einrichtungsaufgabe fügen Sie sich selbst als MOD-Admin zur Rollengruppe „Complianceadministrator“ hinzu.
 
 1. Öffnen Sie eine neue Microsoft Edge-Browserregisterkarte, und geben Sie in der Adressleiste **https://purview.microsoft.com** ein. Um auf das neue Microsoft Purview-Portal zuzugreifen, wählen Sie das Kontrollkästchen neben **Ich stimme den Bedingungen der Datenflussoffenlegung und den Datenschutzbestimmungen zu** und wählen Sie dann **Erste Schritte** aus.  
-1. Wählen Sie im linken Navigationsbereich **Einstellungen** aus
+1. Wählen Sie im linken Navigationsbereich **Einstellungen** aus.
 1. Wählen Sie im daraufhin geöffneten Navigationsbereich **Rollen und Bereich** aus, um die Option zu erweitern, und wählen Sie dann **Rollengruppen** aus.
 1. Suchen Sie im Suchfeld auf der rechten Seite des Bildschirms nach dem Begriff **Compliance**.  Wählen Sie **Complianceadministrator** aus.
     1. Wählen Sie **Bearbeiten** aus.

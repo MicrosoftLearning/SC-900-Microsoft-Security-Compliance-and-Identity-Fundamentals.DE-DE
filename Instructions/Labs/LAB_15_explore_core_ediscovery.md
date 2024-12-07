@@ -22,7 +22,7 @@ In diesem Lab gehen Sie die Schritte durch, die zum Festlegen von eDiscovery erf
 
 Für den Zugriff auf eDiscovery (Standard) oder das Hinzufügen als Mitglied eines eDiscovery-Falls müssen einem Benutzer die entsprechenden Berechtigungen zugewiesen werden. In dieser Aufgabe fügen Sie als globale(r) Administrator*in bestimmte Benutzer*innen als Mitglieder der Rollengruppe „eDiscovery-Manager“ hinzu.
 
-1. Öffnen Sie die Browserregisterkarte für die Startseite von Microsoft Purview.  Wenn Sie die Registerkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **https://admin.microsoft.com** ein. Melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, der vom autorisierten Labhoster (ALH) bereitgestellt wird. Wenn Sie sich zuvor als Admin angemeldet haben, werden Sie aufgefordert, eine sekundäre Authentifizierung als Teil der MFA abzuschließen. Wenn Sie sich zuvor noch nicht als Admin angemeldet haben, werden Sie aufgefordert, den MFA-Registrierungsprozess abzuschließen. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
+1. Öffnen Sie die Browserregisterkarte für die Startseite von Microsoft Purview.  Wenn Sie die Registerkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **https://admin.microsoft.com** ein. Melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, der vom autorisierten Labhoster (ALH) bereitgestellt wird.
 
 1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** und dann **Compliance** aus.  Die Startseite des Microsoft Purview-Portals wird auf einer neuen Browserseite geöffnet.  
 
@@ -74,7 +74,7 @@ Nun können Sie den von Ihnen erstellten eDiscovery-Fall (Standardfall) bearbeit
 
 1. Wählen Sie auf der Seite „Speicherorte auswählen **Weiter** aus.  Aus Zweckmäßigkeitsgründen für dieses Lab werden keine weiteren Speicherorte in diese Aufbewahrung eingeschlossen.
 
-1. Auf der Seite „Abfragebedingungen“ können Sie eine Aufbewahrung erstellen, die auf bestimmten erfüllten Schlüsselwörtern oder Bedingungen basiert. Wählen Sie **+ Bedingung hinzufügen** aus, um die verfügbaren Optionen anzuzeigen.  Wählen Sie **Weiter** aus. Ohne Bedingungen behält die Aufbewahrung alle Inhalte am angegebenen Speicherort bei.
+1. Auf der Seite „Abfragebedingungen“ können Sie eine Sperre für Elemente basierend auf einer Abfrage erstellen, die Sie erstellen können.  Sie können den Abfrage-Builder verwenden, um eine Abfrage zu erstellen, oder für fortgeschrittene Benutzende können Sie den KQL-Editor verwenden. Für diese Übung soll der Speicherort alle Inhalte am angegebenen Speicherort für den angegebenen Benutzenden aufbewahren, sodass Sie keine Abfrage erstellen.
 
 1. Überprüfen Sie Ihre Einstellungen, und klicken Sie auf **Absenden** – es kann eine Minute dauern – und dann auf **Fertig**.  Die Test-Aufbewahrung sollte in der Liste angezeigt werden.  Klicken Sie auf **Aktualisieren**, falls sie nicht sofort angezeigt wird.
 
@@ -82,7 +82,7 @@ Nun können Sie den von Ihnen erstellten eDiscovery-Fall (Standardfall) bearbeit
 
 ### Aufgabe 4
 
-Erstellen Sie bei vorhandener Aufbewahrung eine Suchabfrage.  Sobald Ihre Suche abgeschlossen ist, unterstützt der eDiscovery-Vorgang Aktionen, z. B. das Exportieren und Herunterladen der Ergebnisse für zukünftige Untersuchungen.   Hinweis: Die einem eDiscovery (Standard)-Fall zugeordneten Suchen werden auf der Seite „Inhaltssuche“ im Microsoft Purview-Compliance-Portal nicht aufgelistet. Diese Suchen werden lediglich auf der Seite „Suchen“ des zugeordneten eDiscovery (Standard)-Falls aufgelistet.
+Erstellen Sie bei vorhandener Aufbewahrung eine Suchabfrage.  Sobald Ihre Suche abgeschlossen ist, unterstützt der eDiscovery-Vorgang Aktionen, z. B. das Exportieren und Herunterladen der Ergebnisse für zukünftige Untersuchungen.   Hinweis: Suchvorgänge im Zusammenhang mit einem eDiscovery-Fall (Standard) werden nicht auf der Seite „Inhaltssuche“ im Microsoft Purview-Portal aufgeführt. Diese Suchen werden lediglich auf der Seite „Suchen“ des zugeordneten eDiscovery (Standard)-Falls aufgelistet.
 
 1. Öffnen Sie in Ihrem Browser die Registerkarte „SC900-Testfall“.
 

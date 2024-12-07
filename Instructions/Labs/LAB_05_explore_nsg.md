@@ -27,8 +27,7 @@ In dieser Aufgabe zeigen Sie einige der Parameter an, die der VM zugeordnet sind
 1. Melden Sie sich mit Ihren Administratoranmeldeinformationen an.
     1. Geben Sie im Anmeldefenster den Benutzernamen ein, der von Ihrem Lab-Hostingnbieter bereitgestellt wird, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
-    1. Wenn Sie sich zuvor angemeldet haben, werden Sie möglicherweise aufgefordert, eine sekundäre Authentifizierung als Teil der MFA abzuschließen. WENN Sie sich noch nicht angemeldet haben, werden Sie möglicherweise aufgefordert, den MFA-Registrierungsprozess abzuschließen. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
-    1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
+    1. Je nach Ihrem Lab-Hoster und abhängig davon, ob Sie sich zum ersten Mal beim Mandanten anmelden, werden Sie möglicherweise aufgefordert, den MFA-Registrierungsprozess abzuschließen. Wenn ja, befolgen Sie die Anweisungen auf dem Bildschirm, um MFA einzurichten.
 
 1. Wählen Sie oben auf der Seite unterhalb von „Azure-Dienste“ die Option **Virtual Machines** aus.  Wenn diese Option nicht aufgeführt wird, geben Sie in das Suchfeld, das sich auf dem blauen Balken oben auf der Seite neben dem Text „Microsoft Azure“ befindet, den Text **Virtual Machines** ein, und wählen Sie dann **Virtual Machines** aus den Suchergebnissen aus.
 
@@ -65,7 +64,7 @@ In diesem Teil erstellen Sie eine Netzwerksicherheitsgruppe, weisen die Netzwerk
     1. Wählen Sie **Zuordnen** aus.
     2. Wählen Sie im Feld für Netzwerkschnittstellenzuordnungen den **Abwärtspfeil**, dann **sc900-winvmXXX** und schließlich unten im Fenster **OK** aus. Sobald die Schnittstelle dem NSG zugeordnet ist, wird sie in der Liste angezeigt.  Die NSG wird jetzt der Netzwerkschnittstelle Ihrer VM zugewiesen.
 
-1. Navigieren Sie im Browser zurück zur Registerkarte **SC900-WinWM – Microsoft Azure**.  Aktualisieren Sie die Seite. Neben „Netzwerksicherheitsgruppe“ sollte nun der Name der NSG angezeigt werden, die Sie gerade erstellt haben.  Wenn sie immer noch nicht angezeigt wird, warten Sie eine weitere Minute, und aktualisieren Sie die Seite dann erneut.
+1. Wechseln Sie im Browser zurück zur Registerkarte **SC900-WinWM – Microsoft Azure**.  Aktualisieren Sie die Seite. Neben „Netzwerksicherheitsgruppe“ sollte nun der Name der NSG angezeigt werden, die Sie gerade erstellt haben.  Wenn sie immer noch nicht angezeigt wird, warten Sie eine weitere Minute, und aktualisieren Sie die Seite dann erneut.
 
 1. Wählen Sie im linken Navigationsbereich **Verbinden** aus. Wählen Sie im Hauptfenster neben der Portnummer 3389 die Option **Zugriff überprüfen** aus. Die Zugriffsüberprüfungsfunktion sendet Signale (Datenverkehr) an den standardmäßigen RDP-Port 3389 der VM, um zu überprüfen, ob darauf zugegriffen werden kann. Es kann eine Minute dauern, aber dann sollte „Nicht zugänglich“ angezeigt werden.  Dies ist zu erwarten, da die NSG-Regel „DenyAllInBound“ den gesamten eingehenden Datenverkehr an die VM verweigert.
 
@@ -126,7 +125,7 @@ In der vorherigen Aufgabe haben Sie bestätigt, dass Sie eine RDP-Verbindung mit
 
 1. Sie sollten sich auf der Seite „SC900-WinVM \| Verbinden“ befinden. Wählen Sie im linken Navigationsbereich **Netzwerk** aus. Wenn Sie die Browserregisterkarte zuvor geschlossen haben, wählen Sie oben auf der Seite die blaue Suchleiste aus, und wählen Sie „Virtuelle Computer“ und dann die VM **SC900-WinVM** aus. Wählen Sie anschließend **Netzwerk** aus.
 
-1. Wählen Sie die Registerkarte **Regeln für ausgehende Ports** aus. Die Standardausgangsregeln werden angezeigt.  Beachten Sie die Standardregel „AllowInternetOutBound“. Diese Regel lässt sämtlichen ausgehenden Internetdatenverkehr zu. Sie können die Standardregeln nicht entfernen, aber Sie können sie außer Kraft setzen, indem Sie Regeln mit höheren Prioritäten erstellen. Wählen Sie rechts auf der Seite **Regel für ausgehenden Port hinzufügen** aus.
+1. Wählen Sie die Registerkarte **Regeln für ausgehende Ports** aus. Die Standardausgangsregeln werden angezeigt.  Beachten Sie die Standardregel „AllowInternetOutBound“. Diese Regel lässt sämtlichen ausgehenden Internetdatenverkehr zu. Sie können die Standardregeln nicht entfernen, aber Sie können sie außer Kraft setzen, indem Sie Regeln mit höheren Prioritäten erstellen. Wählen Sie auf der rechten Seite der Seite die Option **+Portregel erstellen** und dann in der Dropdown-Liste **Portausgangsregel** aus.
 
 1. Geben Sie auf der Seite „Sicherheitsregel für ausgehenden Datenverkehr hinzufügen“ die folgenden Einstellungen an:
     1. Quelle:  **Beliebig**
