@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 # SC-900: Microsoft Security, Compliance, and Identity Fundamentals
 
 Dieses Repository enthält Demoskripts und Labanweisungen für **SC-900T00: Microsoft Security, Compliance und Identity Fundamentals**.  Sowohl die Demoskripts als auch die Labs setzen den Zugriff auf den vorkonfigurierten WWL M365 Enterprise 2019 SPE_E5-Mandanten voraus, der über einen autorisierten Lab-Hoster (ALH) verfügbar ist, sowie die Verwendung eines Azure-Abonnements, das vom ALH zur Verfügung gestellt wird. Demoskripts und Lab-Anleitungen können möglicherweise mit dem eigenen Microsoft 365-Mandanten und Azure-Abonnement der Benutzer*innen ausgeführt werden. Dies kann jedoch nicht garantiert werden, da einige Features in persönlichen Abonnements möglicherweise nicht aktiviert sind.
