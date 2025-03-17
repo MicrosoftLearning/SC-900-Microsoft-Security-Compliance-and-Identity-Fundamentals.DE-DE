@@ -49,7 +49,7 @@ Wie bei allen Azure-Ressourcen sollten Sie sicherstellen, dass Benutzer über di
 
 1. Wählen Sie auf der SC900-Sentinel-RG Seite **Zugriffssteuerung (IAM)** aus dem linken Navigationsbereich.
 
-1. Wählen Sie auf der Seite Zugriffssteuerung **Mein Zugriff anzeigen**.  Wenn Sie das Skillable Cloud Slice-Abonnement verwenden, wird die Rollenzuweisung auf LOD-Besitzer festgelegt. Dies ist eine benutzerdefinierte Rollenzuweisung, die für dieses Cloud Slice-Abonnement konfiguriert ist und Ihnen die erforderlichen Berechtigungen gewährt. Für Demozwecke ist es jedoch gut, die Sentinel-spezifischen Rollen anzuzeigen.  Schließen Sie das Zuweisungsfenster, indem Sie in der oberen rechten Ecke des Fensters das **X** auswählen.
+1. Wählen Sie auf der Seite Zugriffssteuerung **Mein Zugriff anzeigen**.  Wahrscheinlich sehen Sie bereits eine benutzerdefinierte Rollenzuweisung, die für dieses Abonnement konfiguriert wurde und Ihnen die erforderlichen Berechtigungen erteilt.  Diese benutzerdefinierte Rolle wäre vom autorisierten Lab-Hoster (ALH) eingerichtet worden, der die Lab-Umgebung bereitstellt. Für Demozwecke ist es jedoch gut, die Sentinel-spezifischen Rollen anzuzeigen.  Schließen Sie das Zuweisungsfenster, indem Sie in der oberen rechten Ecke des Fensters das **X** auswählen.
 
     1. Wählen Sie auf der Seite „Zugriffssteuerung“ **+Hinzufügen** und dann **Rollenzuweisung hinzufügen** aus.
 
