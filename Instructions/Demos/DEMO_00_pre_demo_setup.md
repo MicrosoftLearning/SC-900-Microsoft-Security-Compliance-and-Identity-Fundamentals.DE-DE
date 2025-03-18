@@ -30,7 +30,14 @@ In dieser Einrichtungsaufgabe aktivieren Sie die Überwachungsprotokoll- und Dat
 
 1. Scrollen Sie im linken Navigationsbereich nach unten, und erweitern Sie **System**.  Wählen Sie in der erweiterten Liste **Überwachung** aus.  Hinweis: Auf die Überwachungsfunktionalität kann auch über das Microsoft Purview-Portal zugegriffen werden.
 
-1. Sobald Sie auf der Seite „Überwachung“ sind, warten Sie 1–2 Minuten.  Wenn Überwachung NICHT aktiviert ist, wird oben auf der Seite ein blauer Balken mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Sobald die Durchführung von Audits aktiviert ist, wird die blaue Leiste ausgeblendet.  Wird der blaue Balken nicht angezeigt, ist Überwachung bereits aktiviert, und keine weitere Aktion ist erforderlich.
+1. Sobald Sie auf der Seite „Überwachung“ sind, warten Sie 1–2 Minuten.  Wenn Überwachung NICHT aktiviert ist, wird oben auf der Seite ein blauer Balken mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Sobald die Durchführung von Audits aktiviert ist, wird die blaue Leiste ausgeblendet.  Wird der blaue Balken nicht angezeigt, ist Überwachung bereits aktiviert, und keine weitere Aktion ist erforderlich.  Wenn Sie die Meldung „Leider können wir nicht feststellen, ob die Aktivität aufgezeichnet wird“ sehen. Wenn Sie versuchen, die Seite zu aktualisieren, und sich nach dem Aktualisieren der Seite nichts ändert, müssen Sie die Prüfung über PowerShell aktivieren.
+    1. Wählen Sie das blaue Windows PowerShell-Symbol in der Taskleiste mit der rechten Maustaste aus und wählen Sie **Als Administrator ausführen**.
+    1. Um zu bestätigen, dass das Exchange Online PowerShell-Modul auf dem Computer installiert ist, geben Sie **`Get-InstalledModule ExchangeOnlineManagement | Format-List Name,Version,InstalledLocation`** ein.  Der Name, die Version und der installierte Speicherort von Exchange OnlineManagement werden angezeigt.
+    1. Laden Sie nun das Modul, indem Sie **`Import-Module ExchangeOnlineManagement`** eingeben.
+    1. Um eine Verbindung herzustellen, geben Sie **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`** ein.  Geben Sie für UPN den Benutzernamen des Admins ein, den Sie auf der Registerkarte „Ressourcen“ Ihres Labs finden.
+    1. Sie werden aufgefordert, sich anzumelden.  Geben Sie den Benutzernamen und das Kennwort für die Verwaltung ein, die Sie auf der Registerkarte „Ressourcen“ Ihres Labs finden.
+    1. Um die Überwachung zu aktivieren, geben Sie **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`** ein. Es wird eine Meldung angezeigt, dass es bis zu 60 Minuten dauern kann, bis die Änderung wirksam wird.
+    1. Obwohl es bis zu 60 Minuten dauern kann, bis der Befehl wirksam wird, können Sie überprüfen, ob der Befehl empfangen wurde, indem Sie **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`** eingeben.  Wenn die Überwachung aktiviert ist, zeigt die Eigenschaft „UnifiedAuditLogIngestionEnabled“ den Wert „true“ an.
 
 1. Wählen Sie im linken Navigationsbereich unter „System“ **Einstellungen** aus
 
@@ -52,9 +59,9 @@ In dieser Einrichtungsaufgabe fügen Sie sich selbst als MOD-Admin zur Rollengru
     1. Wählen Sie **Weiter** und dann **Speichern** und schließlich **Fertig** aus.
 1. Damit ist das Setup für den Microsoft 365-Mandanten abgeschlossen, und Sie können die Browserregisterkarten schließen.
 
-## Einrichtung des Azure Cloud Slice-Abonnements vor der Demo
+## Einrichtung des Azure-Abonnements vor der Demo
 
-Für diese Einrichtung verwenden Sie die Azure Cloud Slice-Umgebung, die von dem bereitgestellten Microsoft 365-Mandanten getrennt ist. Melden Sie sich beim Microsoft 365-Mandanten ab und melden Sie sich mit den Azure Cloud Slice-Anmeldeinformationen an.
+Für diese Einrichtung verwenden Sie die Azure-Umgebung, die getrennt vom bereitgestellten Microsoft 365-Mandanten ist. Melden Sie sich vom Microsoft 365-Mandanten ab und melden Sie sich mit den Azure-Anmeldeinformationen an.
 
 ### Virtueller Azure-Computer
 
@@ -141,4 +148,4 @@ Vergewissern Sie sich, dass bereits eine Instanz von Microsoft Sentinel erstellt
 
 ### Überprüfung
 
-In diesem Setup haben Sie die Überwachungsprotokollfunktion in Ihrem Microsoft 365-Mandanten aktiviert und außerdem überprüft, ob eine VM in Ihrer Azure Cloud Slice-Umgebung vorkonfiguriert war. Außerdem haben Sie Ihre Defender für Cloud- und Microsoft Sentinel-Umgebung vorbereitet.
+In dieser Konfiguration haben Sie die Funktion für das Überwachungsprotokoll in Ihrem Microsoft 365-Mandanten aktiviert und außerdem überprüft, ob eine VM in Ihrer Azure-Umgebung vorkonfiguriert wurde. Außerdem haben Sie Ihre Defender für Cloud- und Microsoft Sentinel-Umgebung vorbereitet.
