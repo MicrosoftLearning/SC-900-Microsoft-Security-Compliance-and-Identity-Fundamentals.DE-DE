@@ -18,13 +18,13 @@ In diesem Lab erkunden Sie die Funktionen von Vertraulichkeitsbezeichnungen.  Si
 
 **Geschätzte Dauer**: 45 Minuten
 
-### Aufgabe 1
+### Aufgabe 1
 
 In dieser Aufgabe erfahren Sie, wozu Vertraulichkeitsbezeichnungen dienen, indem Sie eine neue Bezeichnung erstellen und eine Richtlinie zur Veröffentlichung der Bezeichnung erstellen.
 
 1. Öffnen Sie die Browserregisterkarte für die Startseite von Microsoft Purview.  Wenn Sie die Registerkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **`https://admin.microsoft.com`** ein. Melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, der vom autorisierten Labhoster (ALH) bereitgestellt wird.
 
-1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** und dann **Compliance** aus.  Die Startseite des Microsoft Purview-Portals wird auf einer neuen Browserseite geöffnet.
+1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** und dann **Microsoft Purview** aus.  Die Startseite des Microsoft Purview-Portals wird auf einer neuen Browserseite geöffnet.
 
 1. Wählen Sie im linken Navigationsbereich **Lösungen** und dann **Information Protection** aus.  Sie befinden sich auf der Überblicksseite. Scrollen Sie nach unten, um die verfügbaren Informationen anzuzeigen.
 
@@ -38,9 +38,9 @@ In dieser Aufgabe erfahren Sie, wozu Vertraulichkeitsbezeichnungen dienen, indem
         1. Beachten Sie auf der Seite „Inhaltsmarkierung“ das oben auf der Seite befindliche Informationsfeld.  Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
     1. Sie befinden sich nun im Fenster „Automatisches Anwenden von Bezeichnungen für Dateien und E-Mails“.  Lesen Sie oben auf der Seite die Beschreibung zum Anwenden der automatischen Bezeichnung und das darunter befindliche Informationsfeld.  Beachten Sie außerdem, dass diese Bezeichnung für das automatische Anwenden von Bezeichnungen für bestimmte Bedingungen festgelegt ist. Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
     1. In diesem Fenster werden Schutzeinstellungen für Gruppen und Sites festgelegt, für die diese Bezeichnung angewendet wird. Wenn sie nicht aktiviert ist, wählen Sie unten auf der Seite die Option **Weiter** aus.
-    1. Dieses Fenster ist eine Previewfunktion zum automatischen Anwenden dieser Bezeichnung auf schematisierte Datenobjekte in Microsoft Purview Data Map (wie etwa SQL, Synapse und mehr), die Arten vertraulicher Informationen enthalten, die von Ihnen ausgewählt wurden.  Dieses Feature ist nicht aktiviert. Wählen Sie unten auf der Seite die Option **Abbrechen** aus, um den Assistenten für die Bezeichnungskonfiguration zu schließen und um zur Seite „Information Protection“ zurückzukehren.
+    1. In diesen letzten Fenstern können Sie Ihre Einstellungen überprüfen und den Vorgang abschließen. Wählen Sie unten auf der Seite die Option **Abbrechen** aus, um den Assistenten für die Bezeichnungskonfiguration zu schließen und um zur Seite „Information Protection“ zurückzukehren.
 
-1. Wählen Sie im linken Navigationsbereich **Richtlinien** und dann **Veröffentlichungsrichtlinien** aus.  Vertraulichkeitsbezeichnungen können aufgrund von Bezeichnungsrichtlinien veröffentlicht werden.  Der Microsoft 365-Mandant wurde zur Vereinfachung mit einigen Bezeichnungsrichtlinien konfiguriert.
+1. Erweitern Sie im linken Navigationsbereich **Richtlinien**, und wählen Sie dann **Veröffentlichungsrichtlinien bezeichnen** aus.  Vertraulichkeitsbezeichnungen können aufgrund von Bezeichnungsrichtlinien veröffentlicht werden.  Der Microsoft 365-Mandant wurde zur Vereinfachung mit einigen Bezeichnungsrichtlinien konfiguriert.
 
 1. Wählen Sie **Richtlinie zu vertraulichen Finanzen** aus.  Ein Fenster wird geöffnet, das Informationen über die Richtlinie bereitstellt. Wählen Sie oben im Fenster die **Richtlinie bearbeiten** aus.  Hier werden Sie durch die Einstellungen geführt, ohne etwas zu ändern.
     1. Lesen Sie die Beschreibung unter „Zu veröffentlichende Vertraulichkeitsbezeichnungen auswählen“.  Beachten Sie die aufgelistete Bezeichnung.  Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
@@ -50,21 +50,21 @@ In dieser Aufgabe erfahren Sie, wozu Vertraulichkeitsbezeichnungen dienen, indem
     1. Lesen Sie die Beschreibung unter „Standardbezeichnung auf Dokumente anwenden“. Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
     1. Lesen Sie die Beschreibungen für „Anwenden einer Standardbezeichnung auf E-Mails“ und „Bezeichnung von Anlagen erben“. Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
     1. Lesen Sie die Beschreibung für „Anwenden einer Standardbezeichnung auf Besprechungen und Kalenderereignisse“. Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
-    1. Lesen Sie die Beschreibung unter „Standardbezeichnung auf Power BI-Inhalte anwenden“. Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
+    1. Lesen Sie die Beschreibung unter „Standardbezeichnung auf Fabric- und Power BI-Inhalte anwenden“. Nehmen Sie keine Änderungen an den Einstellungen vor.  Wählen Sie unten auf der Seite die Option **Weiter** aus.
     1. Über die letzte Konfigurationsoption wird der Name Ihrer Richtlinie festgelegt.  Da Sie die Richtlinie bearbeiten, ist das Feld „Name“ abgeblendet. Wählen Sie unten auf der Seite **Weiter** aus.
     1. Überprüfen Sie die Richtlinieneinstellungen. Wählen Sie **Abbrechen** aus, um alle Änderungen zu verwerfen und zur Seite Bezeichnungsrichtlinien zurückzukehren.
 
-1. Wählen Sie im linken Navigationsbereich unter „Information Protection“ die Option „Automatische Bezeichnung“ aus. Schauen Sie sich die Beschreibung an. Achten Sie darauf, dass Sie Richtlinien für die automatische Anwendung von Bezeichnungen, um automatisch Vertraulichkeitsbezeichnungen auf E-Mail-Nachrichten oder OneDrive- und SharePoint-Dateien anzuwenden, die vertrauliche Informationen enthalten, erstellen. In unserem Mandanten wurden keine Richtlinien für automatische Bezeichnungen vorkonfiguriert. Um eine neue Richtlinie für automatische Bezeichnungen zu erstellen, wählen Sie **Richtlinie für automatische Bezeichnungen erstellen** aus.  Hier werden die Schritte zum Erstellen einer neuen Richtlinie beschrieben.
-    1. Wählen Sie zunächst die Informationen aus, auf die diese Bezeichnung angewendet werden soll.  Beachten Sie die verfügbaren Optionen.  Wählen Sie **Medizin und Gesundheit** aus, und wählen Sie dann eine der verfügbaren Vorlagen aus.  Wählen Sie **Weiter** aus.
+1. Wählen Sie im linken Navigationsbereich unter „Information Protection“ die Option **Richtlinien für die automatische Bezeichnung** aus. Schauen Sie sich die Beschreibung an. Achten Sie darauf, dass Sie Richtlinien für die automatische Anwendung von Bezeichnungen, um automatisch Vertraulichkeitsbezeichnungen auf E-Mail-Nachrichten oder OneDrive- und SharePoint-Dateien anzuwenden, die vertrauliche Informationen enthalten, erstellen. In unserem Mandanten wurden keine Richtlinien für automatische Bezeichnungen vorkonfiguriert. Um eine neue Richtlinie für automatische Bezeichnungen zu erstellen, wählen Sie **Richtlinie für automatische Bezeichnungen erstellen** aus.  Hier werden die Schritte zum Erstellen einer neuen Richtlinie beschrieben.
+    1. Wählen Sie zunächst die Informationen aus, auf die diese Bezeichnung angewendet werden soll.  Beachten Sie die verfügbaren Optionen.  Wählen Sie **Medizin und Gesundheitswesen** und dann eine der verfügbaren Verordnungen aus, die als Vorlage dienen soll.  Wählen Sie **Weiter** aus.
     1. Sie können Ihre Richtlinie für die automatische Bezeichnung benennen oder den Standardnamen verwenden.  Wählen Sie **Weiter** aus.
+    1. Als Nächstes wählen Sie eine Bezeichnung aus, die automatisch angewendet werden soll.  Wählen Sie **+ Bezeichnung auswählen**aus.  Wählen Sie eine Bezeichnung aus der Liste und dann **Hinzufügen** aus.
     1. Sie können die Administratoreinheiten zuweisen, für die diese Richtlinie gilt.  Lassen Sie die Standardeinstellung auf vollständiges Verzeichnis, und wählen Sie **Weiter** aus.
-    1. Notieren Sie sich die verfügbaren Speicherorte, an denen Sie die Bezeichnung anwenden möchten.  Übernehmen Sie die Standardwerte, und klicken Sie auf **Weiter**.
+    1. Notieren Sie sich die verfügbaren Speicherorte, an denen Sie die Bezeichnung anwenden möchten. Aktivieren Sie das Feld neben **Exchange-E-Mail**, und wählen Sie dann **Weiter** aus.
     1. Sie können allgemeine oder erweiterte Regeln einrichten, die definieren, auf welchen Inhalt die Bezeichnung angewendet wird.  Lassen Sie die Standardeinstellung auf Allgemeine Regeln, und wählen Sie **Weiter** aus.
     1. Sie können Regeln für Inhalte an allen Speicherorten definieren.  Die Bezeichnung wird auf Inhalte angewendet, die den auf dieser Seite definierten Regeln entsprechen.  Für die ausgewählte Vorlage sollte eine Position angezeigt werden. Erweitern Sie sie, um die geltenden Bedingungen anzuzeigen.  Übernehmen Sie die Standardeinstellungen, und klicken Sie auf **Weiter**.
-    1. Wählen Sie eine Bezeichnung aus, die automatisch angewendet werden soll, indem Sie auf **Bezeichnung auswählen** klicken.  Wählen Sie eine Bezeichnung und klicken Sie dann **Hinzufügen**. Wählen Sie **Weiter** aus.
     1. Für E-Mails können zusätzliche Einstellungen konfiguriert werden. Übernehmen Sie die Standardwerte, und klicken Sie auf **Weiter**.
     1. Sie können die Richtlinie jetzt oder später testen.  Wählen Sie **Richtlinie deaktiviert lassen** und dann **Weiter** aus.
-    1. Überprüfen Sie die Einstellungen, und wählen Sie **Richtlinie erstellen** und dann **Fertig** aus.
+    1. Überprüfen Sie die Einstellungen. Im Rahmen dieser Übung können Sie die Erstellung der Richtlinie abbrechen. Wählen Sie **Abbrechen** aus.
 
 1. Wählen Sie im linken Navigationsbereich **Startseite** aus, um zum Microsoft Purview-Portal zurückzukehren.
 

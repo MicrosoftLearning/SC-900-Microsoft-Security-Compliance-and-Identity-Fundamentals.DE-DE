@@ -34,15 +34,15 @@ In dieser Aufgabe durchlaufen Sie als Administrator einige der verfügbaren Konf
     1. Je nach Ihrem Lab-Hoster und abhängig davon, ob Sie sich zum ersten Mal beim Mandanten anmelden, werden Sie möglicherweise aufgefordert, den MFA-Registrierungsprozess abzuschließen. Wenn ja, befolgen Sie die Anweisungen auf dem Bildschirm, um MFA einzurichten.
     1. Sobald Sie angemeldet sind, werden Sie zur Seite „Microsoft 365 Admin Center“ weitergeleitet.
 
-1. Erweitern Sie im linken Navigationsbereich die Option für **Schutz**, und wählen Sie dann **Kennwortzurücksetzung** aus.  
+1. Stellen Sie im linken Navigationsbereich sicher, dass **Entra ID** erweitert ist, scrollen Sie dann nach unten, und wählen Sie **Kennwortzurücksetzung** aus.  
 
 1. Es werden die Eigenschaften für die Self-Service-Kennwortzurücksetzung angezeigt. Wählen Sie das Informationssymbol neben dem Symbol aus, in dem die **Self-Services-Kennwortzurücksetzung aktiviert** ist, um die Beschreibung anzuzeigen. Stellen Sie sicher, dass **Ausgewählt** blau hervorgehoben ist. Bewegen Sie den Mauszeiger über das Informationssymbol neben dem Text **Gruppe auswählen** und beachten Sie die angezeigte Meldung „Definiert die Gruppe von Benutzern, die ihre eigenen Kennwörter zurücksetzen können“. Sie müssen Benutzer*innen in die Gruppe einschließen, sie können keine einzelnen Benutzer auswählen. Beachten Sie, dass bereits eine Gruppe aufgeführt ist: SSPRSecurityGroupUsers (diese Gruppe war als Teil Ihres Microsoft 365-Mandanten vorkonfiguriert). Beachten Sie schließlich das blaue Informationsfeld: „Diese Einstellungen gelten nur für Endbenutzer*innen in Ihrer Organisation. Administrator*innen können die Self-Service-Kennwortzurücksetzung immer durchführen. Sie müssen zum Zurücksetzen ihres Kennworts zwei Authentifizierungsmethoden anwenden.“
 
 1. Wählen Sie im linken Navigationsbereich für die Kennwortzurücksetzung **Authentifizierungsmethoden** aus.
 
-1. Wählen Sie für „Anzahl von erforderlichen Methoden zum Zurücksetzen“ **1** aus. Beachten Sie das Informationsfeld auf dem Bildschirm.
-
-1. Beachten Sie die verschiedenen Methoden, die Benutzer*innen zur Verfügung stehen.  **E-Mail** und **Mobiltelefon** sollten bereits markiert sein. Wenn nicht, wählen Sie sie aus.
+1. Wählen Sie **1** in „Anzahl von Methoden, die zurückgesetzt werden müssen“ aus. Es ist nur eine Methode (Sicherheitsfragen) aufgeführt, aber unter dieser Option ist die Option zum **Authentifizierungsmethodenrichtlinie zum Verwalten anderer Authentifizierungsmethoden verwenden** angegeben.  
+    1. Wählen Sie **Authentifizierungsmethodenrichtlinie** zum Anzeigen der verfügbaren Authentifizierungsmethodenrichtlinien aus.
+    1. Wählen Sie oben rechts auf der Seite **X** aus, um zur vorherigen Seite zurückzukehren.
 
 1. Wählen Sie im linken Navigationsbereich der Kennwortzurücksetzung die Option **Registrierung** aus.  
 

@@ -16,21 +16,23 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 In diesem Lab greifen Sie auf Microsoft Entra ID (zuvor als Azure Active Directory bezeichnet) zu.  Außerdem erstellen Sie einen Benutzer, konfigurieren die verschiedenen Einstellungen und fügen dabei auch Lizenzen hinzu.  
 
-**Geschätzte Dauer**: 30 Minuten
+**Geschätzte Dauer**: 45 Minuten
 
-### Aufgabe 1
+### Aufgabe 1
 
 Mit einem Abonnement von Microsoft 365 verwenden Sie bereits die Microsoft Entra ID.  In dieser Aufgabe erfahren Sie, wie Sie einen neuen Benutzer in Microsoft Entra ID erstellen und einige Dienste erkunden, die auf Benutzerebene verwaltet werden können.
 
-1. Schließen Sie den Microsoft Edge-Browser. Geben Sie in der Adressleiste **`https://admin.microsoft.com`** ein und melden Sie sich mit den Microsoft 365-Anmeldedaten an, die Sie von Ihrem autorisierten Lab-Hoster (ALH) erhalten haben.
+1. Wenn die Registerkarte „Microsoft 365 Admin Center“ von der vorherigen Übung geöffnet ist, wählen Sie in unter „Admin Center“ die Option **Identität** aus.
+1. Wenn das Microsoft 365 Admin Center bereits von der vorherigen Übung in Ihrem Browser geöffnet ist, fahren Sie mit dem nächsten Schritt fort. Greifen Sie andernfalls wie folgt auf das Microsoft Admin Center zu:
+    1. Geben Sie in der Adressleiste **`https://admin.microsoft.com`** ein und melden Sie sich mit den Microsoft 365-Anmeldedaten an, die Sie von Ihrem autorisierten Lab-Hoster (ALH) erhalten haben.
     1. Geben Sie **admin@WWLxZZZZZZ.onmicrosoft.com** (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem Lab-Hostinganbieter bereitgestellt wurde) in das Anmeldefenster ein, und wählen Sie dann **Weiter** aus.
     1. Geben Sie das Administratorkennwort ein, das von Ihrem Lab-Hostinganbieter bereitgestellt werden sollte. Wählen Sie **Anmelden**.
     1. Je nach Ihrem Lab-Hoster und abhängig davon, ob Sie sich zum ersten Mal beim Mandanten anmelden, werden Sie möglicherweise aufgefordert, den MFA-Registrierungsprozess abzuschließen. Wenn ja, befolgen Sie die Anweisungen auf dem Bildschirm, um MFA einzurichten.
     1. Sobald Sie angemeldet sind, werden Sie zur Seite „Microsoft 365 Admin Center“ weitergeleitet.
 
-1. Wählen sie im Admin Center **Identität** aus (möglicherweise müssen Sie **Alle anzeigen** auswählen und dann nach unten scrollen).  Die Übersichtsseite des Microsoft Entra Admin Centers wird auf einer neuen Browserseite geöffnet.
+1. Wählen sie im Admin Center **Identität** aus (möglicherweise müssen Sie **Alle anzeigen** auswählen und dann nach unten scrollen).  Die Übersichtsseite des Microsoft Entra Admin Centers wird auf einer neuen Browserseite geöffnet.  Wenn Sie zum Einrichten der MFA aufgefordert werden, führen Sie die Schritte auf dem Bildschirm aus.
 
-1. Erweitern Sie im linken Navigationsbereich **Benutzer** und wählen Sie dann **Alle Benutzer** aus. Beachten Sie, dass für Ihren Mandanten bereits Benutzer*innen konfiguriert sind.
+1. Wählen Sie im linken Navigationsbereich **Benutzer** aus.  Dadurch gelangen Sie auf die Benutzerseite. **Alle Benutzer** sollte bereits ausgewählt sein. Beachten Sie, dass für Ihren Mandanten bereits Benutzer*innen konfiguriert sind.
 
 1. Wählen Sie oben auf der Seite **+ Neuer Benutzer** aus, und wählen Sie dann im Dropdownfeld **Neuen Benutzer erstellen** aus.
 
@@ -87,13 +89,11 @@ In dieser Aufgabe weisen Sie dem soeben erstellten Benutzenden mithilfe des Micr
 1. Wählen Sie in der linken Navigationsleiste unter Benutzende die Option **Aktive Benutzende**.  Wählen Sie in der Liste der Benutzenden **Sara Perez**.  Es öffnet sich ein Fenster mit Informationen über die Benutzerin.  
 
     1. Wählen Sie die Registerkarte **Lizenzen und Apps**.
-    1. Für jede der aufgeführten Lizenzen wird die Anzahl der verfügbaren Lizenzen angezeigt.  Da keine Microsoft 365 E5-Lizenzen verfügbar sind (sie wurden bereits anderen Benutzenden zugewiesen), weisen Sie die Lizenzen **Microsoft Power Apps Developer** und **Microsoft Power Automate Free** zu, indem Sie das Kontrollkästchen neben ihnen aktivieren.
+    1. Für jede der aufgeführten Lizenzen wird die Anzahl der verfügbaren Lizenzen angezeigt.  Da keine Microsoft 365 E5-Lizenzen verfügbar sind (sie wurden bereits anderen Benutzenden zugewiesen), weisen Sie die Lizenz **Microsoft Power Apps Developer** zu, indem Sie das Kontrollkästchen daneben aktivieren.
     1. Klicken Sie auf **Save changes** (Änderungen speichern). Es sollte nun eine Benachrichtigung in der oberen rechten Ecke des Bildschirms angezeigt werden, dass die Lizenzzuweisungen erfolgreich waren.
     1. Schließen Sie die Seite, indem Sie auf das **X** in der oberen rechten Ecke der Seite klicken.
 
-1. Kehren Sie zum Microsoft Entra Admin Center zurück, indem Sie **Start** aus dem linken Navigationsbereich bzw. auf der oberen linken Seite des Bildschirms (dem Breadcrumb) auswählen, oberhalb von „Sara Perez | Lizenzen“.
-
-1. Sie haben dem Benutzenden erfolgreich Lizenzen zugewiesen.
+1. Sie haben Benutzenden erfolgreich Lizenzen zugewiesen.
 
 1. Melden Sie sich von allen geöffneten Browserregisterkarten ab. Melden Sie sich ab. Klicken Sie dazu auf das in der oberen rechten Ecke des Bildschirms neben der E-Mail-Adresse befindliche Benutzersymbol und dann auf **Abmelden**. Schließen Sie alle Browserfenster.
 
@@ -103,7 +103,7 @@ Bei dieser Aufgabe melden Sie sich erstmals als Sara Perez an.
 
 1. Öffnen Sie Microsoft Edge.
 
-1. Geben Sie in der Adressleiste **https://login.microsoft.com** ein.
+1. Geben Sie in der Adressleiste **`https://login.microsoft.com`** ein.
 
 1. Melden Sie sich als **sara@WWLxZZZZZ.onmicrosoft.com** an (ZZZZZZ ist hierbei die eindeutige Mandanten-ID, die von Ihrem ALH (Authorized Lab Hoster) bereitgestellt wurde).
 1. Geben Sie das temporäre Kennwort ein, das Sie bei der vorherigen Aufgabe festgelegt haben.
@@ -114,9 +114,9 @@ Bei dieser Aufgabe melden Sie sich erstmals als Sara Perez an.
 
 1. Da Sie sich zum ersten Mal als Sara Perez anmelden, werden Sie möglicherweise aufgefordert, MFA einzurichten. Folgen Sie den Anweisungen auf dem Bildschirm, um MFA einzurichten.
 
-1. Sie sollten nun erfolgreich bei Saras Microsoft-Konto angemeldet sein.  Beachten Sie, dass die Lizenzierung von Sara, die Sie in der vorherigen Aufgabe zugewiesen haben, nur auf der Microsoft Power Automate-Gratislizenz und Power Apps für Entwickler beschränkt war und keine E5-Lizenzierung umfasste.
+1. Sie sollten nun erfolgreich bei Saras Microsoft-Konto angemeldet sein.  Beachten Sie, dass die Lizenzierung von Sara, die Sie in der vorherigen Aufgabe zugewiesen haben, nur auf Power Apps für Developer beschränkt war und keine E5-Lizenzierung umfasste.
 
-1. Melden Sie sich ab, indem Sie das Symbol in der oberen rechten Ecke des Microsoft 365-Fensters auswählen, das als Kreis mit den Buchstaben SP (neben dem Fragezeichensymbol) angezeigt wird, und dann **Abmelden** auswählen. Schließen Sie dann den Browser.
+1. Um sich abzumelden, wählen Sie die E-Mail von Sara unten im linken Navigationsbereich und dann **Abmelden** aus, und schließen Sie dann den Browser.
 
 ### Überprüfung
 
