@@ -14,17 +14,15 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 ## Labszenario
 
-In diesem Lab gehen Sie die Schritte durch, die zum Festlegen von eDiscovery erforderlich sind, darunter Einrichten von Rollenberechtigungen, Erstellen eines eDiscovery-Falls, Erstellen einer eDiscovery-Aufbewahrung und Erstellen einer Suchabfrage.  Hinweis: Die Lizenzierung für eDiscovery (Standard) erfordert das entsprechende Organisationsabonnement und die Lizenzierung pro Benutzer. Wenn Sie nicht sicher sind, welche Lizenzen eDiscovery (Standard) unterstützen, besuchen Sie [Erste Schritte mit eDiscovery (Standard) in Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
+In diesem Lab gehen Sie die Schritte durch, die zum Festlegen von eDiscovery erforderlich sind, darunter Einrichten von Rollenberechtigungen, Erstellen eines eDiscovery-Falls, Erstellen einer eDiscovery-Aufbewahrung und Erstellen einer Suchabfrage.  Hinweis:  Für die Lizenzierung von eDiscovery sind das entsprechende Organisationsabonnement und die Lizenzierung pro benutzende Person erforderlich. Wenn Sie nicht sicher sind, welche Lizenzen eDiscovery unterstützen, lesen Sie [Erste Schritte mit eDiscovery in Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
 **Geschätzte Dauer**: 45 Minuten
 
 ### Aufgabe 1
 
-Für den Zugriff auf eDiscovery (Standard) oder das Hinzufügen als Mitglied eines eDiscovery-Falls müssen einem Benutzer die entsprechenden Berechtigungen zugewiesen werden. In dieser Aufgabe fügen Sie als globale(r) Administrator*in bestimmte Benutzer*innen als Mitglieder der Rollengruppe „eDiscovery-Manager“ hinzu.
+Um auf eDiscovery zuzugreifen oder als Mitglied eines eDiscovery-Falls hinzugefügt zu werden, müssen benutzenden Personen die entsprechenden Berechtigungen zugewiesen werden. In dieser Aufgabe fügen Sie als globale(r) Administrator*in bestimmte Benutzer*innen als Mitglieder der Rollengruppe „eDiscovery-Manager“ hinzu.
 
-1. Öffnen Sie die Browserregisterkarte für die Startseite von Microsoft Purview.  Wenn Sie die Registerkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **https://admin.microsoft.com** ein. Melden Sie sich mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, der vom autorisierten Labhoster (ALH) bereitgestellt wird.
-
-1. Wählen Sie im linken Navigationsbereich von Microsoft 365 Admin Center **Alle anzeigen** und dann **Compliance** aus.  Die Startseite des Microsoft Purview-Portals wird auf einer neuen Browserseite geöffnet.  
+1. Sie sollten sich auf der Startseite des Microsoft Purview-Portals befinden.  Wenn Sie die Registerkarte zuvor geschlossen haben, öffnen Sie eine neue Browserregisterkarte, und geben Sie **https://purivew.microsoft.com** ein.
 
 1. Wählen Sie im linken Navigationsbereich **Einstellungen**, erweitern Sie **Rollen und Bereiche** und wählen Sie dann **Rollengruppen**.
 
@@ -36,19 +34,21 @@ Für den Zugriff auf eDiscovery (Standard) oder das Hinzufügen als Mitglied ein
     1. Wählen Sie auf der Seite „eDiscovery-Administrator verwalten“ die Option **Benutzer auswählen** aus. Suchen Sie nach **MOD-Administrator** und wählen Sie **Auswählen** unten auf der Seite. Wählen Sie dann **Weiter** und anschließend **Speichern**.
     1. Wählen Sie auf der Seite „Sie haben die Rollengruppe erfolgreich aktualisiert“ die Option **Fertig** aus.
 
+1. Kehren Sie zur Startseite von Microsoft Purview zurück, indem Sie im linken Navigationsbereich **Startseite** auswählen.
+
 1. Lassen Sie diese Browserregisterkarte geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
 ### Aufgabe 2
 
-Bei dieser Aufgabe erstellen Sie als ein eDiscovery-Administrator (der MOD-Administrator ist ein eDiscovery-Administrator) einen Fall, um mit der Verwendung von eDiscovery (Standard) zu beginnen.
+In dieser Aufgabe erstellen Sie als für eDiscovery-Administration zuständige Person (die für MOD-Administration zuständige Person ist eine für eDiscovery-Administration zuständige Person) einen Fall, um mit der Verwendung von eDiscovery zu beginnen.
 
-1. Sie sollten sich immer noch auf der Seite „Rollen“ im Complianceportal befinden. Wenn Sie die Registerkarte des Browsers aus der vorherigen Aufgabe geschlossen haben, öffnen Sie eine neue Registerkarte und geben Sie **compliance.microsoft.com** ein, um zum Microsoft Purview-Portal zu gelangen.
+1. Sie sollten sich auf der Startseite des Microsoft Purview-Portals befinden.
 
-1. Erweitern Sie im linken Bedienfeld unter Lösungen **eDiscovery** und wählen Sie dann **Standardfälle**.
+1. Erweitern Sie im linken Navigationsbereich unter „Lösungen“ die Option **eDiscovery**, und wählen Sie dann **Fälle** aus.
 
-1. Wählen Sie oben auf der Seite „eDiscovery (Standard)“ die Option **+ Fall erstellen** aus.
+1. Wählen Sie auf der Seite „Fälle“ die Option **Fall erstellen** aus.
 
-1. Geben Sie im Fenster „Neuer Fall“ einen Fallnamen ein, **SC900 Testfall**, und klicken Sie dann unten auf der Seite auf **Speichern**.
+1. Geben Sie im Fenster „Neuer Fall“ den Fallnamen **SC900 Test Case** ein, und wählen Sie dann **Erstellen** aus.
 
 1. Der Fall sollte jetzt in der Liste angezeigt werden.
 
@@ -58,52 +58,24 @@ Bei dieser Aufgabe erstellen Sie als ein eDiscovery-Administrator (der MOD-Admin
 
 ### Aufgabe 3
 
-Nun können Sie den von Ihnen erstellten eDiscovery-Fall (Standardfall) bearbeiten.  Bei dieser Aufgabe erstellen Sie eine eDiscovery-Aufbewahrung für den von Ihnen erstellten Fall.  Insbesondere erstellen Sie dabei eine Aufbewahrung für das Exchange-Postfach von Adele Vance.
-
-1. Öffnen Sie in Ihrem Browser die Registerkarte „eDiscovery (Standard)“.
-
-1. Wählen Sie auf der Seite „eDiscovery (Standard)“ den Fall **SC900-Testfall** aus, den Sie auf der vorherigen Registerkarte erstellt haben.
-
-1. Wählen Sie auf der Startseite des Falls die Registerkarte **Halten** und dann **+Erstellen** aus.
-
-1. Geben Sie im Feld „Name“ den Text **Testaufbewahrung** ein, und wählen Sie dann **Weiter** aus.
-
-1. Wählen Sie auf der Seite „Speicherorte auswählen“ die Umschaltfläche neben **Exchange-Postfächer** aus, um den Status auf **Ein** festzulegen.  
-
-1. Wählen Sie nun **Benutzer, Gruppen oder Teams auswählen** aus.  Geben Sie in das Suchfeld **Adele** ein, und drücken Sie dann die Eingabetaste auf der Tastatur. Wählen Sie in den Suchergebnissen **Adele Vance** und dann **Fertig** aus.
-
-1. Wählen Sie auf der Seite „Speicherorte auswählen **Weiter** aus.  Aus Zweckmäßigkeitsgründen für dieses Lab werden keine weiteren Speicherorte in diese Aufbewahrung eingeschlossen.
-
-1. Auf der Seite „Abfragebedingungen“ können Sie eine Sperre für Elemente basierend auf einer Abfrage erstellen, die Sie erstellen können.  Sie können den Abfrage-Builder verwenden, um eine Abfrage zu erstellen, oder für fortgeschrittene Benutzende können Sie den KQL-Editor verwenden. Für diese Übung soll der Speicherort alle Inhalte am angegebenen Speicherort für den angegebenen Benutzenden aufbewahren, sodass Sie keine Abfrage erstellen.
-
-1. Überprüfen Sie Ihre Einstellungen, und klicken Sie auf **Absenden** – es kann eine Minute dauern – und dann auf **Fertig**.  Die Test-Aufbewahrung sollte in der Liste angezeigt werden.  Klicken Sie auf **Aktualisieren**, falls sie nicht sofort angezeigt wird.
-
-1. Lassen Sie diese Browserregisterkarte geöffnet, da Sie sie in der nachfolgenden Aufgabe verwenden werden.
-
-### Aufgabe 4
-
-Erstellen Sie bei vorhandener Aufbewahrung eine Suchabfrage.  Sobald Ihre Suche abgeschlossen ist, unterstützt der eDiscovery-Vorgang Aktionen, z. B. das Exportieren und Herunterladen der Ergebnisse für zukünftige Untersuchungen.   Hinweis: Suchvorgänge im Zusammenhang mit einem eDiscovery-Fall (Standard) werden nicht auf der Seite „Inhaltssuche“ im Microsoft Purview-Portal aufgeführt. Diese Suchen werden lediglich auf der Seite „Suchen“ des zugeordneten eDiscovery (Standard)-Falls aufgelistet.
+Sobald ein Fall erstellt wurde, können Sie damit arbeiten.  Zu den verfügbaren Optionen zählen das Erstellen einer Suchabfrage, um nach Daten und Inhalten zu suchen, die für Ihren Fall relevant sind, das Anwenden einer Aufbewahrungsrichtlinie, das Erstellen eines Prüfdateisatzes und das Exportieren von Daten. In dieser Aufgabe werden Sie einige dieser Optionen erkunden.
 
 1. Öffnen Sie in Ihrem Browser die Registerkarte „SC900-Testfall“.
 
-1. Wählen Sie auf der Seite „SC900-Testfall“ die Option **Suchen** aus.
+1. Wählen Sie auf der Seite „SC900 Test Case“ die Option **Suche erstellen** aus.
 
-1. Klicken Sie auf der Seite „Suchen“ auf **+ Neue Suche**.
+1. Geben Sie im Feld „Name“ **SC900 case search** ein, und wählen Sie dann **Erstellen** aus.
 
-1. Geben Sie im Feld „Name“ **Testaufbewahrung – Suche in Verkäufen** ein, und klicken Sie dann unten auf der Seite auf **Weiter**.
+1. Wählen Sie **Quellen hinzufügen** aus. Beachten Sie die Filteroptionen und Standardeinstellungen. Geben Sie **Pradeep** in das Suchfeld ein, und drücken Sie dann die EINGABETASTE auf Ihrer Tastatur. Wählen Sie in den Suchergebnissen **Pradeep Gupta** und dann **Speichern und schließen** aus. Mit dem Bedingungsgenerator können Sie eine Suchabfrage basierend auf bestimmten Schlüsselwörtern oder erfüllten Bedingungen erstellen. Geben Sie **Sales** in das Schlüsselwortfeld ein. Hier können Sie die Option **Abfrage ausführen** auswählen.  Dieser Vorgang kann einige Minuten in Anspruch nehmen.
 
-1. Wählen Sie auf der Seite „Speicherorte auswählen“ die Option **Speicherorte unter Aufbewahrung** aus, und deaktivieren Sie **App-Inhalt für lokale Benutzer hinzufügen**, da keine lokalen Benutzer in Ihrer Laborumgebung vorhanden sind. Wählen Sie dann **Weiter** aus.
+1. Wenn Abfrageergebnisse in Form von Statistiken zurückgegeben werden, können Sie die Ergebnisse exportieren.  Wählen Sie **Exportieren** aus, um die verfügbaren Optionen anzuzeigen, und wählen Sie dann **Abbrechen** aus (die Exportoptionen können innerhalb der Labplattform, die vom autorisierten Lab-Hoster bereitgestellt wird, nicht ausgewählt werden, sind aber in einer Produktionsumgebung verfügbar und gelten als Teil des Workflows).
 
-1. Auf der Seite „Abfragebedingungen“ können Sie eine Suche basierend auf bestimmten Schlüsselwörtern oder Bedingungen erstellen, die erfüllt sind. Geben Sie im Feld Schlüsselwort **Vertrieb** ein und klicken Sie auf **Weiter**.
+1. Sie können einem Prüfdateisatz Elemente hinzufügen, um ihn weiter zu bearbeiten.  Wählen Sie **Zu Prüfdateisatz hinzufügen** aus. Geben Sie einen Namen für den neuen Prüfdateisatz ein (**`SC900-review-set`**), übernehmen Sie die Standardeinstellungen, und wählen Sie dann **Zu Prüfdateisatz hinzufügen** aus.  Dies kann einige Minuten dauern.  Jetzt können Sie den Prüfdateisatz überprüfen und Aktionen ausführen, z. B. Elemente taggen, den Prüfdateisatz abfragen, Analysen ausführen usw.  Erkunden Sie die verschiedenen Optionen.
 
-1. Überprüfen Sie Ihre Einstellungen, und klicken Sie auf **Absenden** – es kann eine Minute dauern – und dann auf **Fertig**.  Die Suche sollte in der Liste angezeigt werden.  Klicken Sie auf **Aktualisieren**, falls sie nicht sofort angezeigt wird.
-
-1. Wählen Sie im Fenster „Suchen“ die von Ihnen soeben erstellte Suche **Testaufbewahrung – Vertriebssuche** aus.  Ein Fenster, das mit ausgewählter Registerkarte „Zusammenfassung“ geöffnet wird.  Nach Abschluss der Suche gibt der Status an, dass sie beendet ist.  Es wird die Registerkarte „Suchstatistik“ angezeigt (wenn die Registerkarte „Suchstatistik“ nicht angezeigt wird, kann es sein, dass die Suche noch ausgeführt wird und ihr Abschluss möglicherweise noch einige Minuten dauert).  Wählen Sie die Registerkarte **Suchstatistik** aus und klicken Sie auf den Dropdownpfeil neben „Inhalt suchen“.  Sie können auch weitere Informationen für den Bericht „Bedingung“ und „Top“-Speicherorte anzeigen.  
-
-1. Wählen Sie am unteren Rand der Seite **Aktionen** aus.  Beachten Sie die verfügbaren Optionen, die Exportoptionen enthalten (die Exportoptionen können nicht innerhalb der Lab-Plattform ausgewählt werden, die vom autorisierten Lab-Hoster bereitgestellt wird, sind aber in einer Produktionsumgebung verfügbar und gelten als Teil des Standardworkflows). Wählen Sie **Schließen** aus.
+1. Sie können auch Aufbewahrungsrichtlinien erstellen, um Inhalte beizubehalten, die für Ihren Fall relevant sind. Wählen Sie **Richtlinien zur Aufbewahrung** und dann **Neue Richtlinie** aus.  Geben Sie einen Namen für die Richtlinie ein (**`SC900-hold`**), und wählen Sie **Erstellen** aus.  Wie bei der Suche müssen Sie Datenquellen für die Aufbewahrung hinzufügen, und Sie können Schlüsselwörter und Bedingungen hinzufügen, die in der Aufbewahrungsrichtlinie verwendet werden sollen. Wählen Sie anschließend **Aufbewahrungspflicht anwenden** an.  Zu den Aktionen, die Sie für Aufbewahrungsrichtlinien ausführen können, zählen das Wiederholen, Deaktivieren und Löschen einer Aufbewahrungsrichtlinie.
 
 1. Melden Sie sich ab, und schließen Sie alle geöffneten Browserfenster.
 
 ### Überprüfung
 
-In diesem Lab haben Sie die ersten Schritte für eDiscovery (Standard) ausgeführt, darunter das Einrichten von Rollenberechtigungen für eDiscovery und das Erstellen eines eDiscovery-Falls.  Mit dem erstellten Fall haben Sie Elemente des eDiscovery Workflows (Standardworkflow) durchlaufen, indem Sie eine eDiscovery-Aufbewahrung und eine Suchanfrage erstellt haben.
+In diesem Lab haben Sie die ersten Schritte für die Verwendung von eDiscovery durchgeführt, darunter das Einrichten der Rollenberechtigungen für eDiscovery und das Erstellen eines eDiscovery-Falls.  Mithilfe des Falls haben Sie Optionen erkundet, die als Teil des eDiscovery-Workflows verfügbar sind, einschließlich eDiscovery-Suche, Aufbewahrungsrichtlinie, Hinzufügen von Suchergebnissen zu einem Prüfdateisatz und Exportieren von Ergebnissen.

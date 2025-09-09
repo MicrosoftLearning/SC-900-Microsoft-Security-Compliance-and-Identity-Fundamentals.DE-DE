@@ -17,7 +17,7 @@ Mandanten dürfen nicht in ein kostenpflichtiges Abonnement konvertiert werden. 
 
 Dieses Setup-Lab besteht aus der Aktivierung der Microsoft-Überwachungsprotokoll- und Dateiüberwachungsfunktionen im Microsoft 365-Mandanten.
 
-**Geschätzte Dauer**: 5–10 Minuten
+**Geschätzte Dauer**: 10 bis 15 Minuten
 
 ### Einrichtung - Aktivieren Sie die Überwachung von Microsoft 365-Auditprotokollen und Dateien
 
@@ -33,14 +33,7 @@ In dieser Einrichtungsaufgabe aktivieren Sie die Audit-Protokoll- und Dateiüber
 
 1. Scrollen Sie im linken Navigationsbereich nach unten, und erweitern Sie **System**.  Wählen Sie in der erweiterten Liste **Überwachung** aus.  Hinweis: Auf die Überwachungsfunktionalität kann auch über das Microsoft Purview-Portal zugegriffen werden.
 
-1. Sobald Sie auf der Seite „Überwachung“ sind, warten Sie 1–2 Minuten.  Wenn Überwachung NICHT aktiviert ist, wird oben auf der Seite ein blauer Balken mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Sobald die Durchführung von Audits aktiviert ist, wird die blaue Leiste ausgeblendet.  Wird der blaue Balken nicht angezeigt, ist Überwachung bereits aktiviert, und keine weitere Aktion ist erforderlich.  Wenn Sie die Meldung „Leider können wir nicht feststellen, ob die Aktivität aufgezeichnet wird“ sehen. Wenn Sie versuchen, die Seite zu aktualisieren, und sich nach dem Aktualisieren der Seite nichts ändert, müssen Sie die Prüfung über PowerShell aktivieren.
-    1. Wählen Sie das blaue Windows PowerShell-Symbol in der Taskleiste mit der rechten Maustaste aus und wählen Sie **Als Administrator ausführen**.
-    1. Um zu bestätigen, dass das Exchange Online PowerShell-Modul auf dem Computer installiert ist, geben Sie **`Get-InstalledModule ExchangeOnlineManagement | Format-List Name,Version,InstalledLocation`** ein.  Der Name, die Version und der installierte Speicherort von Exchange OnlineManagement werden angezeigt.
-    1. Laden Sie nun das Modul, indem Sie **`Import-Module ExchangeOnlineManagement`** eingeben.
-    1. Um eine Verbindung herzustellen, geben Sie **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`** ein.  Geben Sie für UPN den Benutzernamen des Admins ein, den Sie auf der Registerkarte „Ressourcen“ Ihres Labs finden.
-    1. Sie werden aufgefordert, sich anzumelden.  Geben Sie den Benutzernamen und das Kennwort für die Verwaltung ein, die Sie auf der Registerkarte „Ressourcen“ Ihres Labs finden.
-    1. Um die Überwachung zu aktivieren, geben Sie **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`** ein. Es wird eine Meldung angezeigt, dass es bis zu 60 Minuten dauern kann, bis die Änderung wirksam wird.
-    1. Obwohl es bis zu 60 Minuten dauern kann, bis der Befehl wirksam wird, können Sie überprüfen, ob der Befehl empfangen wurde, indem Sie **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`** eingeben.  Wenn die Überwachung aktiviert ist, zeigt die Eigenschaft „UnifiedAuditLogIngestionEnabled“ den Wert „true“ an.
+1. Sobald Sie auf der Seite „Überwachung“ sind, warten Sie 1–2 Minuten.  Wenn Überwachung NICHT aktiviert ist, wird oben auf der Seite ein blauer Balken mit der Meldung „Aufzeichnung von Benutzer- und Administratoraktivitäten starten“ angezeigt.  Wählen Sie **Aufzeichnung von Benutzer- und Administratoraktivitäten starten** aus.  Sobald die Durchführung von Audits aktiviert ist, wird die blaue Leiste ausgeblendet.
 
 1. Wählen Sie im linken Navigationsbereich unter „System“ **Einstellungen** aus
 
@@ -49,6 +42,7 @@ In dieser Einrichtungsaufgabe aktivieren Sie die Audit-Protokoll- und Dateiüber
 1. Wenn noch nicht aktiviert, wählen Sie das Kontrollkästchen neben **Dateiüberwachung aktivieren** und dann **Speichern** aus.  
 
 1. Dies schließt die Lab-Einrichtung auf dem Microsoft 365-Mandanten ab.
+1. Sie können die Browserregisterkarte „Cloud Apps-Microsoft Defender“ schließen, lassen Sie jedoch die Registerkarte „Microsoft 365 Admin Center“ für die nächste Übung geöffnet.
 
 ### Überprüfung
 

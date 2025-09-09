@@ -16,7 +16,7 @@ Dieses Lab ist den folgenden Learn-Inhalten zugeordnet:
 
 In diesem Lab erkunden Sie MFA beim bedingten Zugriff aus Perspektive eines Administrators und eines Benutzers.  Als Administrator*in erstellen Sie eine Richtlinie, die Benutzer*innen beim Zugriff auf ein Microsoft Admin-Portal zwingt, Multi-Faktor-Authentifizierung zu durchlaufen.  Aus Benutzerperspektive sehen Sie, wie sich die Richtlinie für bedingten Zugriff auswirkt, einschließlich des Prozesses zum Registrieren für MFA.
 
-**Geschätzte Dauer**: 30 Minuten
+**Geschätzte Dauer**: 45 Minuten
 
 ### Aufgabe 1
 
@@ -48,11 +48,11 @@ Bei dieser Aufgabe durchlaufen Sie den Prozess zum Erstellen einer Richtlinie f�
 
 1. Öffnen Sie die Browserregisterkarte zur Startseite des Microsoft Entra Admin Centers.   Wenn Sie diese Browserregisterkarte zuvor geschlossen haben, öffnen Sie Microsoft Edge, und geben Sie **`https://entra.microsoft.com`** in die Adressleiste ein. Melden Sie sich dann mit Ihren Microsoft 365 Administratoranmeldeinformationen, die Sie von Ihrem ALH erhalten haben, an.
 
-1. Erweitern Sie im linken Navigationsbereich **Schutz** und wählen Sie dann **Bedingter Zugriff** aus.
+1. Stellen Sie im linken Navigationsbereich sicher, dass **Entra ID** erweitert ist, scrollen Sie nach unten, und wählen Sie **Bedingter Zugriff** aus.
 
-1. Die Übersichtsseite für bedingten Zugriff wird angezeigt. Wenn Sie auf der Überblickseite landen, ist die Registerkarte **Erste Schritte** ausgewählt (unterstrichen). Wählen Sie die Registerkarte **Übersicht** aus. Hier sehen Sie Kacheln mit der Richtlinienzusammenfassung und allgemeinen Warnmeldungen.  Wählen Sie im linken Navigationsbereich **Richtlinien** aus.
+1. Die Übersichtsseite für bedingten Zugriff wird angezeigt. Wenn Sie auf der Überblickseite landen, ist die Registerkarte **Erste Schritte** ausgewählt (unterstrichen). Wählen Sie die Registerkarte **Übersicht** aus. Hier sehen Sie Kacheln mit der Richtlinienzusammenfassung und allgemeinen Warnmeldungen.
 
-1. Wählen Sie im linken Navigationsbereich **Richtlinien** aus. Alle vorhandenen Richtlinien für bedingten Zugriff werden hier aufgelistet. Wählen Sie **+ Neue Richtlinie** aus.
+1. Wählen Sie im linken Navigationsbereich **Richtlinien** und dann **+ Neue Richtlinie** aus.
 
 1. Geben Sie in das Feld Name **Admin-Portale blockieren** ein.
 
@@ -62,11 +62,11 @@ Bei dieser Aufgabe durchlaufen Sie den Prozess zum Erstellen einer Richtlinie f�
 
 1. Wählen Sie die Option **Benutzer und Gruppen auswählen** und **Benutzer und Gruppen** aus.  Das Fenster „Benutzer und Gruppen auswählen“ wird geöffnet.  
 
-1. Geben Sie **Debra** in die Suchleiste ein.  Wählen Sie unterhalb der Suchleiste den Eintrag **Debra Berger** aus, und klicken Sie dann unten auf der Seite auf die Schaltfläche **Auswählen**.  Beachten Sie, dass eine gängige Methode darin besteht, Benutzern in einer Gruppe die Richtlinie zuzuweisen.  Der Einfachheit halber weisen wir in diesem Lab einem bestimmten Benutzer die Richtlinie zu.
+1. Geben Sie **Debra** in die Suchleiste ein.  Wählen Sie unterhalb der Suchleiste den Eintrag **Debra Berger** aus, und klicken Sie dann unten auf der Seite auf die Schaltfläche **Auswählen**.  Beachten Sie, dass eine gängige Methode darin besteht, Benutzern in einer Gruppe die Richtlinie zuzuweisen.  Der Einfachheit halber weisen wir in diesem Lab einer bestimmten benutzenden Person die Richtlinie zu.
 
 1. Wählen Sie unter Zielressourcen die Option **Keine Zielressourcen ausgewählt** aus.
 
-1. Wählen Sie im Feld darunter **Auswählen, wofür diese Richtlinie gilt** den Pfeil nach unten aus, und notieren Sie sich die verfügbaren Optionen.  Behalten Sie die Standardeinstellung **Cloud-Apps** bei.  Stellen Sie sicher, dass die Registerkarte **Einschließen** unterstrichen ist.  Wählen Sie erst **Apps auswählen** aus und dann unterhalb, wo **Auswählen** steht, **Keine**.  Das Fenster zum Auswählen von Cloud-Apps wird geöffnet.
+1. Wählen Sie im Feld darunter **Auswählen, wofür diese Richtlinie gilt** den Pfeil nach unten aus, und notieren Sie sich die verfügbaren Optionen.  Behalten Sie die Standardeinstellung **Ressourcen (ehemals Cloud-Apps)** bei.  Stellen Sie sicher, dass die Registerkarte **Einschließen** unterstrichen ist.  Wählen Sie **Ressourcen auswählen** und dann unterhalb, wo **Auswählen** steht, die Option **Keine** aus.  Das Fenster zum Auswählen von Cloud-Apps wird geöffnet.
 
 1. Wählen Sie **Microsoft Admin Portals**, und drücken Sie dann auf **Auswählen** unten auf der Seite.  Beachten Sie die Warnung.  
 

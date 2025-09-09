@@ -48,7 +48,7 @@ Bei dieser Aufgabe weisen Sie als Admin in Privileged Identity Management Diego 
 
 1. Öffnen Sie die Registerkarte Browser für die Startseite des Microsoft Entra Admin Centers.
 
-1. Erweitern Sie im linken Navigationsbereich unter „Identität“ den Eintrag **Identitätsgovernance**, und wählen Sie dann **Privileged Identity Management** aus.
+1. Erweitern Sie im linken Navigationsbereich den Eintrag **ID Governance**, und wählen Sie dann **Privileged Identity Management** aus.
 
 1. Sie befinden sich nun im Fenster für den Schnellstart in Privileged Identity Management. Schauen Sie sich die Informationen auf der Seite Erste Schritte erneut an. Wählen Sie im Hauptfenster unter dem Punkt „Zugriff verwalten“ die Option **Verwalten**.
 
@@ -96,7 +96,7 @@ Bei dieser Aufgabe melden Sie sich als Diego Siciliani im Microsoft Entra Admin 
     1. Wählen Sie **Ja** aus, wenn Sie gefragt werden, ob Sie angemeldet bleiben möchten.
 
 1. Sie sollten erfolgreich im Microsoft Entra Admin Center angemeldet sein.
-1. Erweitern Sie im linken Navigationsbereich den Eintrag **Identitätsgovernance**, und wählen Sie dann **Privileged Identity Management** aus.
+1. Erweitern Sie im linken Navigationsbereich den Eintrag **ID Governance**, und wählen Sie dann **Privileged Identity Management** aus.
 1. Wählen Sie im linken Navigationsbereich **Meine Rollen** aus.  Jetzt werden Informationen zu Ihren berechtigten Zuweisungen angezeigt.  Sie sehen, dass Ihnen, Diego, die Rolle „Benutzeradministrator“ zugewiesen ist.  
 1. Wählen Sie in der letzten Spalte der Tabelle **Aktivieren** aus.
 1. Ein angezeigtes Warnsymbol gibt an, dass eine zusätzliche Überprüfung erforderlich ist.  Klicken Sie auf **Klicken, um fortzufahren**.  Beachten Sie, dass für die PIM-Einstellungen der Rolle „Benutzeradministrator“ Multi-Faktor-Authentifizierung erforderlich ist.  Da Diegos Kontaktinformationen für die Verwendung mit MFA (Authentifizierungsmethoden) noch nicht konfiguriert wurden, muss er seine Informationen registrieren, um MFA verwenden zu können.  Obwohl er jedes Mal, wenn er sich als Benutzeradministrator anmeldet, eine MFA durchführen muss, ist der MFA-Registrierungsprozess innerhalb des Zuweisungszeitraums nur einmal erforderlich.
