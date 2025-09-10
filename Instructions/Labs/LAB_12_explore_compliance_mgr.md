@@ -61,11 +61,11 @@ Erfahren Sie mehr über den Compliancestatus Ihrer Organisation über den Compli
 
 1. Wählen Sie **Datenschutzbaseline für Microsoft 365** aus.  Beachten Sie die auf der Fortschrittsregisterkarte verfügbaren Informationen. Sie können auch Informationen zu den Steuerelementen, Ihren Verbesserungsaktionen und Microsoft-Aktionen anzeigen.  
 
-1. Wählen Sie im linken Navigationsbereich **Bestimmungen**.  Auf dieser Seite sind die Vorschriften aufgeführt, die für Ihre Organisation verfügbar sind. Sie sehen spezifische Informationen zu dieser Verordnung, einschließlich Kontrollen, Verbesserungsaktionen und Microsoft-Aktionen. Auf dieser Seite haben Sie in der oberen rechten Ecke der Seite die Möglichkeit, eine Bewertung basierend auf der Vorlage zu erstellen.
+1. Wählen Sie im linken Navigationsbereich **Bestimmungen**.  Auf dieser Seite sind die Vorschriften aufgeführt, die für Ihre Organisation verfügbar sind. Wählen Sie eine der aufgeführten Verordnungen aus. Sie sehen spezifische Informationen zu dieser Verordnung, einschließlich Kontrollen, Verbesserungsaktionen und Microsoft-Aktionen.
 
 1. 1. Wählen Sie im linken Navigationsbereich **Richtlinien**. Hier sehen Sie die Liste der Richtlinien, mit denen Sie Ereignisse im Compliance-Manager überwachen und benachrichtigt werden können, die für Sie von Bedeutung sind. Sie können Richtlinien erstellen oder ändern, ihren Aktivierungsstatus ändern und die Häufigkeit und den Schweregrad von Warnungen steuern. Wählen Sie die **Compliance-Manager-Standardwarnungsrichtlinie** aus, um Details zur Richtlinie anzuzeigen.  Wählen Sie **Aktionen**, um die verfügbaren Optionen anzuzeigen (erkunden Sie sie nach Belieben).
 
-1. Wählen Sie im linken Bereich der Navigation die Option **Warnungen**.   Hier können Sie Warnungen für Ereignisse anzeigen und verwalten, die sich auf die Konformitätsbewertung Ihrer Organisation auswirken können.
+1. Wählen Sie im linken Bereich der Navigation die Option **Warnungen**.   Hier können Sie Warnungen für Ereignisse anzeigen und verwalten, die sich auf die Konformitätsbewertung Ihrer Organisation auswirken können. Da es sich um einen neu erstellten Labmandanten handelt, sollten keine Warnungen angezeigt werden.
 
 1. Wählen Sie im linken Navigationsbereich **Startseite**, um zur Startseite des Microsoft Purview Portals zurückzukehren.
 

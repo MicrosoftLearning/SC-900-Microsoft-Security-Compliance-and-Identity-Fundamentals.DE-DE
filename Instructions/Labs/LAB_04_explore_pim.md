@@ -48,7 +48,7 @@ Bei dieser Aufgabe weisen Sie als Admin in Privileged Identity Management Diego 
 
 1. Öffnen Sie die Registerkarte Browser für die Startseite des Microsoft Entra Admin Centers.
 
-1. Erweitern Sie im linken Navigationsbereich den Eintrag **ID Governance**, und wählen Sie dann **Privileged Identity Management** aus.
+1. Erweitern Sie im linken Navigationspanel den Eintrag **ID Governance**, und wählen Sie dann **Privileged Identity Management** aus.
 
 1. Sie befinden sich nun im Fenster für den Schnellstart in Privileged Identity Management. Schauen Sie sich die Informationen auf der Seite Erste Schritte erneut an. Wählen Sie im Hauptfenster unter dem Punkt „Zugriff verwalten“ die Option **Verwalten**.
 
