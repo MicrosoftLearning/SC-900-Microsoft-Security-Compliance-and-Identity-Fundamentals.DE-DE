@@ -1,10 +1,10 @@
 <!---
 ---
-Demo: Titel: 'Erkunden des Microsoft Purview Portals & Compliance Manager' Lernpfad/Modul/Einheit: 'Beschreiben der Fähigkeiten von Microsoft Priva und Microsoft Purview'; Modul 2: Beschreiben der Daten-Compliance-Lösungen von Microsoft Purview; Einheit 4: Beschreiben des Compliance-Managers'
+Demo: Titel: Lernpfad/Modul/Lerneinheit „Microsoft Purview Compliance Manager erkunden“: „Beschreiben der Funktionen von Microsoft Priva und Microsoft Purview; Modul 2: Beschreiben der Datencompliancelösungen von Microsoft Purview; Lerneinheit 4: Beschreiben von Compliance-Manager“
 ---
 --->
 
-# Demo: Erkunden des Microsoft Purview-Portals und des Compliance-Managers
+# Demo: Erkunden von Compliance-Manager für Microsoft Purview
 
 Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 
@@ -22,7 +22,7 @@ Zeigen Sie die Microsoft Purview Portal-Startseite an.
 
 1. Öffnen Sie Microsoft Edge. Geben Sie in der Adressleiste **https://purview.microsoft.com** ein. Sie sollten bereits als Administrator angemeldet sein. Melden Sie sich andernfalls mit den Administratoranmeldeinformationen für den Microsoft 365-Mandanten an, die vom autorisierten Labhoster (ALH) bereitgestellt wurden.
 
-Die Startseite des Microsoft Purview-Portals wird auf einer neuen Browserseite geöffnet.  Um auf das neue Microsoft Purview-Portal zuzugreifen, wählen Sie das Kontrollkästchen neben **Ich stimme den Bedingungen der Datenflussoffenlegung und den Datenschutzbestimmungen zu**, und wählen Sie dann **Erste Schritte** aus.  
+Wenn eine Browserseite auf der Willkommensseite des Microsoft Purview-Portals geöffnet wird, wählen Sie **Erste Schritte** aus.  
 
 1. Bevor Sie zum Compliance-Manager wechseln, nehmen Sie sich etwas Zeit, um das neue Portal zu erkunden.
 

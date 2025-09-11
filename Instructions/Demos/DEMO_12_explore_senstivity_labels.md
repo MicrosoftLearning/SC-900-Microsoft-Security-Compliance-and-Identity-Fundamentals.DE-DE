@@ -14,13 +14,32 @@ Diese Demo ist den folgenden Learn-Inhalten zugeordnet:
 
 ## Vorführungsszenario
 
-In dieser Demo zeigen Sie die Funktionen der Vertraulichkeitsbezeichnungen.  Sie durchlaufen die Einstellungen für vorhandene, bereits erstellte Vertraulichkeitsbezeichnungen und für die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung.   Anschließend erfahren Sie, wie eine Bezeichnung angewendet wird, und welche Auswirkung diese Bezeichnung aus der Perspektive eines Benutzers hat.  **HINWEIS**: Wenn Sie Word zum ersten Mal online mit Ihrem Microsoft 365-Mandanten verwenden, kann es bis zu 15 Minuten dauern, bis die Option „Vertraulichkeit“ im Menüband angezeigt wird.  Referent*innen sollten den Demoteil 2 noch vor Kursbeginn ausführen, damit noch genügend Zeit bleibt, bis die Option angezeigt wird.
+In dieser Demo zeigen Sie die Funktionen von Vertraulichkeitsbezeichnungen.  Sie durchlaufen die Einstellungen für vorhandene, bereits erstellte Vertraulichkeitsbezeichnungen und für die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung.   Anschließend erfahren Sie, wie eine Bezeichnung angewendet wird, und welche Auswirkung diese Bezeichnung aus der Perspektive eines Benutzers hat.
 
-### Teil 1 der Demo
+**HINWEIS:** Wenn Sie Word mit Ihrem Microsoft 365-Mandanten online verwenden, kann es bis zu 15 Minuten dauern, bis das Symbol „Vertraulichkeit“ im Menüband angezeigt wird. Es wird empfohlen, dass referierende Personen Word online öffnen (wie in Demoteil 3 dargestellt), bevor Sie die vollständige Demo starten, damit genügend Zeit für die Anzeige der Option verfügbar ist.
+
+### Teil 1 der Demo (optional)
+
+Wenn das die erste Instanz ist, in der Sie eine Microsoft Purview-Lösung demonstrieren, empfiehlt es sich, ein paar Minuten lang eine Einführung in das Microsoft Purview-Portal zu geben, bevor Sie Vertraulichkeitsbezeichnungen vorstellen.
+
+1. Öffnen Sie Microsoft Edge, und geben Sie in der Adressleiste **https://purview.microsoft.com** ein. Melden Sie sich mit den Anmeldeinformationen an, die vom autorisierten Labhoster bereitgestellt werden, und wählen Sie dann **Erste Schritte** aus.  
+
+1. Bevor Sie sich mit Vertraulichkeitsbezeichnungen befassen, nehmen Sie sich ein paar Minuten Zeit, um das Microsoft Purview-Portal zu erkunden.
+
+1. Wählen Sie die Kachel **Alle Lösungen anzeigen** aus, um die Gruppierung für die Microsoft Purview-Lösungen anzuzeigen.
+
+1. Im linken Navigationsbereich sehen Sie Optionen für Lösungen, Learn, Einstellungen und kürzlich ausgewählte Lösungen.
+    1. **Lösungen** Dadurch wird ein neues Panel mit allen Lösungen und verwandten Portalen geöffnet.
+    1. Unter **Learn** erfahren Sie, wie Sie Links zu Dokumenten, Videos und Blogs anzeigen können.
+    1. **Einstellungen**. Erkunden Sie diese Optionen nach Belieben. Hier können Sie Rollen und Bereiche, Datenconnectoren und alle Lösungseinstellungen konfigurieren.
+
+1. Wählen Sie im linken Navigationsbereich **Home** aus, um zur Homepage zurückzugelangen.
+
+### Teil 2 der Demo
 
 In dieser Demo zeigen Sie die Einstellungen für eine vorhandene Vertraulichkeitsbezeichnung und die entsprechende Richtlinie zum Veröffentlichen der Bezeichnung.
 
-1. Sie sollten sich immer noch auf der Startseite des Microsoft Purview-Portals befinden. Wenn dies nicht der Fall ist, öffnen Sie eine neue Registerkarte im Microsoft Edge-Browser. Geben Sie in der Adressleiste **https://purview.microsoft.com** ein und wählen Sie dann **Erste Schritte** aus.  
+1. Sie sollten sich auf der Startseite des Microsoft Purview-Portals befinden.  Öffnen Sie andernfalls eine Browserregisterkarte in Microsoft Edge, geben Sie **`https://puriview.microsoft.com`** ein, und melden Sie sich mit den Anmeldeinformationen an, die vom autorisierten Labhoster bereitgestellt werden.
 
 1. Wählen Sie auf der Startseite des neuen Microsoft Purview-Portals die Kachel **Alle Lösungen anzeigen** und dann die Kachel **Informationsschutz** aus. Wählen Sie alternativ im linken Navigationsbereich **Lösungen** und dann **Information Protection** aus.
 
@@ -54,7 +73,7 @@ In dieser Demo zeigen Sie die Einstellungen für eine vorhandene Vertraulichkeit
 
 1. Halten Sie diese Browser-Registerkarte offen.
 
-### Teil 2 der Demo
+### Teil 3 der Demo
 
 In diesem Schritt durchlaufen Sie den Prozess zum Anwenden einer Vertraulichkeitsbezeichnung auf ein Microsoft Word-Dokument und zeigen dann die Inhaltskennzeichnung (Fußzeile) an, die von der Bezeichnung generiert wird. HINWEIS: Wenn Sie Microsoft Word online verwenden, kann es zu einer Verzögerung kommen, bevor die Option zum Auswählen von Vertraulichkeitsbezeichnungen im oberen Menüband angezeigt wird.  Es wird empfohlen, alle verbleibenden Labs abzuschließen und dann wieder zu dieser Aufgabe zurückzukehren.
 
