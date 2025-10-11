@@ -24,18 +24,23 @@ Eine Instanz von Microsoft Sentinel sollte bereits im Rahmen der Vordemo-Einrich
 
 1. Geben Sie in das Suchfeld, das sich auf dem blauen Balken oben auf der Seite neben dem Text „Microsoft Azure“ befindet, den Text **Microsoft Sentinel** ein, und wählen Sie dann **Microsoft Sentinel** in den Suchergebnissen aus.  
 
-1. Auf der Microsoft Sentinel-Seite sollte Ihre Instanz von Sentinel aufgeführt sein. Wählen Sie sie aus.  Wenn sie nicht aufgeführt ist, erstellen Sie sie jetzt.
-    1. Wählen Sie auf der Seite „Microsoft Sentinel“ die Option **Microsoft Sentinel erstellen** aus.
+1. Auf der Seite von Microsoft Sentinel sollte ein Log Analytics-Arbeitsbereich aufgelistet sein.  Dies gibt an, dass eine Instanz von Microsoft Sentinel erstellt und ein Log Analytics-Arbeitsbereich hinzugefügt wurde. Wenn dies nicht der Fall ist, führen Sie die folgenden Schritte aus.
+    1. Geben Sie im blauen Suchfeld oben auf der Seite **Log Analytics** ein und wählen Sie es aus den Suchergebnissen aus.
+1. Wählen Sie **+ Erstellen** aus.
+1. Geben Sie auf der Registerkarte „Grundlagen“ des Arbeitsbereichs „Log Analytics erstellen“ Folgendes ein:
+    1. Abonnement: Behalten Sie den Standardwert bei. Dies ist das Azure-Abonnement, das vom autorisierten Lab-Hoster (ALH) bereitgestellt wird.
+    1. Ressourcengruppe: Wählen Sie **SC900-Sentinel-RG** aus. Wenn diese Ressourcengruppe nicht aufgeführt ist, erstellen Sie sie, indem Sie **Neu erstellen** auswählen, **SC900-Sentinel-RG** eingeben und dann **OK** auswählen.
+    1. Name: **SC900-Sentinel-Workspace**.
+    1. Region: **USA, Osten** (Sie können eine andere Standardregion basierend auf Ihrem Standort auswählen)
+    1. Wählen Sie **Überprüfen und erstellen** aus (es werden keine Tags konfiguriert).
+    1. Vergewissern Sie sich, dass Sie die richtigen Informationen eingegeben haben, und klicken Sie dann auf **Erstellen**.
+    1. Es kann eine oder zwei Minuten dauern, bis der neue Arbeitsbereich erstellt wird.
+    1. Nachdem er erstellt wurde, wählen Sie **Zur Ressource wechseln** aus, um Informationen zum Arbeitsbereich anzuzeigen.
+1. Zu diesem Zeitpunkt wurde die Instanz von Microsoft Sentinel noch nicht erstellt. Um eine Instanz von Sentinel zu erstellen, müssen Sie zur Seite von Microsoft Sentinel wechseln. Verwenden Sie die blaue Suchleiste oben auf der Seite, um nach **Microsoft Sentinel** zu suchen und es aus dem Suchergebnis auszuwählen.
+1. Um den Arbeitsbereich zu Microsoft Sentinel hinzuzufügen, müssen Sie zur Seite von Microsoft Sentinel wechseln. Verwenden Sie die blaue Suchleiste oben auf der Seite, um nach **Microsoft Sentinel** zu suchen.
+    1. Wählen Sie auf der Seite von Microsoft Sentinel **+Erstellen** aus.
+    1. Jetzt können Sie den soeben erstellten Arbeitsbereich hinzufügen. Wählen Sie **SC900-Sentinel-Workspace** und dann **Hinzufügen** aus.  Es kann einige Minuten dauern bis die kostenlose Testversion von Microsoft Sentinel aktiviert wird.  Nachdem sie aktiviert wurde, wählen Sie **OK** aus.
 
-    1. Wählen Sie auf der Seite zum Hinzufügen von Microsoft Sentinel zu einem Arbeitsbereich die Option **Neuen Arbeitsbereich erstellen** aus. Geben Sie auf der Registerkarte „Grundlagen“ des Arbeitsbereichs „Log Analytics erstellen“ Folgendes ein:
-        1. Abonnement: Übernehmen Sie die Standardeinstellung.
-        1. Ressourcengruppe: Wählen Sie **Neu erstellen** aus. Geben Sie dann **SC900-Sentinel RG** ein, und klicken Sie auf **OK**.
-        1. Name: **SC900-LogAnalytics-workspace**.
-        1. Region: **USA, Osten** (Sie können eine andere Standardregion basierend auf Ihrem Standort auswählen)
-        1. Wählen Sie **Überprüfen und erstellen** aus (es werden keine Tags konfiguriert).
-        1. Vergewissern Sie sich, dass Sie die richtigen Informationen eingegeben haben, und klicken Sie dann auf **Erstellen**.
-        1. Es kann eine oder zwei Minuten dauern, bis der Arbeitsbereich aufgelistet wird. Wenn er dann immer noch nicht angezeigt wird, klicken Sie auf **Aktualisieren** und dann auf **Hinzufügen**.
-        1. Nachdem der neue Arbeitsbereich hinzugefügt wurde, wird die Seite „Microsoft Sentinel | News und Leitfäden“ angezeigt, die angibt, dass die kostenlose Microsoft Sentinel-Testversion aktiviert ist.  Klickan Sie auf **OK**.
 
 1. Lassen Sie diese Seite geöffnet, da Sie sie in einer nachfolgenden Aufgabe verwenden.
 
@@ -60,13 +65,17 @@ Wie bei allen Azure-Ressourcen sollten Sie sicherstellen, dass Benutzer über di
 
 1. Schließen Sie auf der Zugriffssteuerungsseite das Fenster, indem Sie in der oberen rechten Ecke des Fensters das **X** auswählen.
 
+1. Wählen Sie in der oberen linken Ecke des Fensters direkt unterhalb der blauen Leiste, wo „Microsoft Azure“ angezeigt wird, die Option **Startseite** aus, um zur Startseite der Azure-Dienste zurückzukehren.
+
+1. Lassen Sie die Azure-Registerkarte in Ihrem Browser geöffnet.
+
 ### Teil 3 der Demo
 
 In diesem Teil der Demo zeigen Sie die Schritte zum Herstellen einer Verbindung mit einer Datenquelle. Viele Datenconnectors können im Rahmen einer Microsoft Sentinel-Lösung bereitgestellt werden – zusammen mit zugehörigen Inhalten wie Analyseregeln, Workbooks und Playbooks. Der Microsoft Sentinel Content-Hub ist ein zentraler Ort zum Entdecken und Verwalten sofort einsatzbereiter (integrierter) Inhalte. In diesem Schritt verwenden Sie den Content-Hub, um die Microsoft Defender für Cloud-Lösung für Microsoft Sentinel bereitzustellen.  Mit dieser Lösung können Sie Sicherheitswarnungen erfassen, die in Microsoft Defender für Cloud gemeldet werden.
 
-1. Öffnen Sie die Browserregisterkarte für Microsoft Sentinel.
+1. Wählen Sie auf der Startseite der Azure-Dienste „Microsoft Sentinel“ und dann die Instanz aus, die Sie erstellt haben: **SC900-Sentinel-Workspace**.
 
-1. Wählen Sie im linken Navigationsbereich **Content-Hub** aus.
+1. Erweitern Sie im linken Navigationsbereich **Content Management** und wählen Sie dann **Content Hub** aus.
 
 1. Nehmen Sie sich einen Moment Zeit, um nach unten zu scrollen, um die lange Liste der verfügbaren Lösungen und die Optionen zum Filtern der Liste anzuzeigen.  Für diese Aufgabe suchen Sie nach **Microsoft Defender für Cloud**.  Wählen Sie ihn in der Liste aus.  Lesen Sie im daraufhin geöffneten Seitenfenster die Beschreibung, und wählen Sie dann **Installieren** aus.  Nach Abschluss der Installation wird in der Statusspalte im Hauptfenster „installiert“ angezeigt.
 

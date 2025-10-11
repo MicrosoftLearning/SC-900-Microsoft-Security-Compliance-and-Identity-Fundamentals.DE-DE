@@ -18,34 +18,32 @@ In diesem Lab durchlaufen Sie den Prozess zur Erstellung einer Microsoft Sentine
 
 **Geschätzte Dauer**: 60 Minuten
 
-### Aufgabe 1
+### Aufgabe 1
 
-Erstellen einer Microsoft Sentinel-Instanz
+Um eine Instanz von Microsoft Sentinel zu erstellen, müssen Sie zuerst einen Log Analytics-Arbeitsbereich erstellen, der zum Speichern von Daten aus Microsoft Sentinel verwendet wird.  Sobald Sie über einen Log Analytics-Arbeitsbereich verfügen, können Sie eine Instanz von Microsoft Sentinel erstellen und den Log Analytics-Arbeitsbereich hinzufügen.  In dieser Aufgabe führen Sie die einzelnen Schritte durch.
 
-1. Sie sollten sich auf der Startseite für Azure-Dienste befinden.  Wenn Sie den Browser zuvor geschlossen haben, öffnen Sie Microsoft Edge. Geben Sie **portal.azure.com** in die Adressleiste ein, und melden Sie sich mit Ihren Administratoranmeldeinformationen an.
+1. Sie sollten sich auf der Startseite für Azure-Dienste befinden.  Öffnen Sie andernfalls Microsoft Edge, geben Sie **portal.azure.com** in der Adressleiste ein und melden Sie sich mit Ihren Azure Portal-Admin-Anmeldeinformationen an.
 
-1. Geben Sie in das blaue Suchfeld oben auf der Seite **Microsoft Sentinel** ein, und wählen Sie dann **Microsoft Sentinel** in den Suchergebnissen aus.
-
-1. Wählen Sie auf der Seite „Microsoft Sentinel“ die Option **Microsoft Sentinel erstellen** aus.
-
-1. Wählen Sie auf der Seite zum Hinzufügen von Microsoft Sentinel zu einem Arbeitsbereich die Option **Neuen Arbeitsbereich erstellen** aus.
-
+1. Geben Sie im blauen Suchfeld oben auf der Seite **Log Analytics** ein und wählen Sie es aus den Suchergebnissen aus.
+1. Wählen Sie **+ Erstellen** aus.
 1. Geben Sie auf der Registerkarte „Grundlagen“ des Arbeitsbereichs „Log Analytics erstellen“ Folgendes ein:
     1. Abonnement: Behalten Sie den Standardwert bei. Dies ist das Azure-Abonnement, das vom autorisierten Lab-Hoster (ALH) bereitgestellt wird.
     1. Ressourcengruppe: Wählen Sie **SC900-Sentinel-RG** aus. Wenn diese Ressourcengruppe nicht aufgeführt ist, erstellen Sie sie, indem Sie **Neu erstellen** auswählen, **SC900-Sentinel-RG** eingeben und dann **OK** auswählen.
-    1. Name: **SC900-LogAnalytics-workspace**.
+    1. Name: **SC900-Sentinel-Workspace**.
     1. Region: **USA, Osten** (Sie können eine andere Standardregion basierend auf Ihrem Standort auswählen)
     1. Wählen Sie **Überprüfen und erstellen** aus (es werden keine Tags konfiguriert).
     1. Vergewissern Sie sich, dass Sie die richtigen Informationen eingegeben haben, und klicken Sie dann auf **Erstellen**.
-    1. Es kann eine oder zwei Minuten dauern, bis der Arbeitsbereich aufgelistet wird. Wenn er dann immer noch nicht angezeigt wird, klicken Sie auf **Aktualisieren** und dann auf **Hinzufügen**.
-
-1. Nachdem der neue Arbeitsbereich hinzugefügt wurde, wird die Seite „Microsoft Sentinel | News und Leitfäden“ angezeigt, die angibt, dass die kostenlose Microsoft Sentinel-Testversion aktiviert ist.  Wählen Sie **OK** aus.
-
+    1. Es kann eine oder zwei Minuten dauern, bis der neue Arbeitsbereich erstellt wird.
+    1. Nachdem er erstellt wurde, wählen Sie **Zur Ressource wechseln** aus, um Informationen zum Arbeitsbereich anzuzeigen.
+1. Zu diesem Zeitpunkt wurde die Instanz von Microsoft Sentinel noch nicht erstellt. Um eine Instanz von Sentinel zu erstellen, müssen Sie zur Seite von Microsoft Sentinel wechseln. Verwenden Sie die blaue Suchleiste oben auf der Seite, um nach **Microsoft Sentinel** zu suchen und es aus dem Suchergebnis auszuwählen.
+1. Um den Arbeitsbereich zu Microsoft Sentinel hinzuzufügen, müssen Sie zur Seite von Microsoft Sentinel wechseln. Verwenden Sie die blaue Suchleiste oben auf der Seite, um nach **Microsoft Sentinel** zu suchen.
+    1. Wählen Sie auf der Seite von Microsoft Sentinel **+Erstellen** aus.
+    1. Jetzt können Sie den soeben erstellten Arbeitsbereich hinzufügen. Wählen Sie **SC900-Sentinel-Workspace** und dann **Hinzufügen** aus.  Es kann einige Minuten dauern bis die kostenlose Testversion von Microsoft Sentinel aktiviert wird.  Nachdem sie aktiviert wurde, wählen Sie **OK** aus.
 1. Lassen Sie diese Seite geöffnet, da Sie sie in der nächsten Aufgabe verwenden werden.
 
 ### Aufgabe 2
 
-Nachdem die Microsoft Sentinel-Instanz erstellt wurde, ist es wichtig, dass Benutzer, die für die Unterstützung Microsoft Sentinel verantwortlich sind, über die erforderlichen Berechtigungen verfügen.  Dies geschieht, indem dem angegebenen Benutzer die erforderlichen Rollenberechtigungen zugewiesen werden.  In dieser Aufgabe zeigen Sie die verfügbaren integrierten Microsoft Sentinel-Rollen an.
+Nachdem die Microsoft Sentinel-Instanz erstellt und der Log Analytics-Arbeitsbereich zugewiesen wurde, ist es wichtig, dass Benutzende, die für die Unterstützung von Microsoft Sentinel verantwortlich sind, über die erforderlichen Berechtigungen verfügen.  Dies geschieht, indem dem angegebenen Benutzer die erforderlichen Rollenberechtigungen zugewiesen werden.  In dieser Aufgabe zeigen Sie die verfügbaren integrierten Microsoft Sentinel-Rollen an.
 
 1. Geben Sie in das blaue Suchfeld **Ressourcengruppen** ein, und wählen Sie dann **Ressourcengruppen** aus den Suchergebnissen aus. 
 
@@ -70,7 +68,7 @@ Nachdem die Microsoft Sentinel-Instanz erstellt wurde, ist es wichtig, dass Benu
 
 Der Zweck dieser Aufgabe besteht darin, Sie durch die Schritte zu führen, die beim Herstellen einer Verbindung mit einer Datenquelle erforderlich sind. Viele Datenconnectors können im Rahmen einer Microsoft Sentinel-Lösung bereitgestellt werden – zusammen mit zugehörigen Inhalten wie Analyseregeln, Workbooks und Playbooks. Der Microsoft Sentinel Content-Hub ist ein zentraler Ort zum Entdecken und Verwalten sofort einsatzbereiter (integrierter) Inhalte. In diesem Schritt verwenden Sie den Content-Hub, um die Microsoft Defender für Cloud-Lösung für Microsoft Sentinel bereitzustellen.  Mit dieser Lösung können Sie Sicherheitswarnungen erfassen, die in Microsoft Defender für Cloud gemeldet werden.
 
-1. Wählen Sie auf der Startseite der Azure-Dienste die Option Microsoft Sentinel und dann die von Ihnen erstellte Instanz **SC900-LogAnalytics-Workspace** aus.
+1. Wählen Sie auf der Startseite der Azure-Dienste „Microsoft Sentinel“ und dann die Instanz aus, die Sie erstellt haben: **SC900-Sentinel-Workspace**.
 
 1. Erweitern Sie im linken Navigationsbereich **Content Management** und wählen Sie dann **Content Hub** aus.
 
@@ -117,4 +115,4 @@ In dieser Aufgabe sehen Sie sich einige der in Sentinel verfügbaren Optionen an
 
 ### Überprüfung
 
-In dieser Demo haben Sie die Schritte zum Verbinden von Microsoft Sentinel mit Datenquellen ausgeführt, eine Arbeitsmappe eingerichtet und sich verschiedene in Microsoft Sentinel verfügbare Optionen angesehen.
+In diesem Lab haben Sie die Schritte zum Verbinden von Microsoft Sentinel mit Datenquellen, das Einrichten einer Arbeitsmappe und die verfügbaren Optionen in Microsoft Sentinel kennengelernt.
